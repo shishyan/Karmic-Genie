@@ -30,7 +30,7 @@ FILM_MP4 = REPO_DIR / "renders" / "Karmic_Genie_Show_S01E01_v3_Interactive_16x9.
 EP_DIR = REPO_DIR / "episodes" / "S01E01_Employees_vs_Tech_CEO"
 THUMB_JPG = EP_DIR / "s01e01_v3_thumbnail_16x9.jpg"
 MANIFEST_JSON = EP_DIR / "published_manifest.json"
-SRC_STAGE_JPG = REPO_DIR / "assets" / "studio_v5_masters" / "v6_7d_saintly_genie_16x9.jpg"
+SRC_STAGE_JPG = REPO_DIR / "assets" / "studio_v5_masters" / "v7_wide_wall_genie_16x9.jpg"
 CRED_DIR = Path("/home/shishyan/GitHub/Shishyan/GuruKulaDesam/data/credentials")
 
 TITLE = "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise | Karmic Genie Show (S1 E1)"
@@ -107,53 +107,33 @@ def build_v3_thumbnail(out_jpg: Path = THUMB_JPG) -> Path:
     overlay = Image.new("RGBA", (1920, 1080), (0, 0, 0, 0))
     d_ov = ImageDraw.Draw(overlay)
 
-    for y in range(740, 1080):
-        prog = (y - 740) / 340.0
-        alpha = int(232 * (prog ** 1.15))
+    for y in range(820, 1080):
+        prog = (y - 820) / 260.0
+        alpha = int(218 * (prog ** 1.15))
         d_ov.line([(0, y), (1920, y)], fill=(6, 8, 16, alpha))
-
-    d_ov.rounded_rectangle(
-        [48, 38, 610, 100],
-        radius=14,
-        fill=(8, 10, 18, 226),
-        outline=(242, 206, 122, 235),
-        width=3,
-    )
-
-    d_ov.rounded_rectangle(
-        [110, 812, 1810, 1048],
-        radius=22,
-        fill=(8, 10, 16, 224),
-        outline=(242, 204, 118, 215),
-        width=3,
-    )
 
     comp = Image.alpha_composite(im, overlay).convert("RGB")
     draw = ImageDraw.Draw(comp)
 
-    f_badge = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 27)
-    f_line1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 72)
-    f_line2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 84)
+    f_line1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 68)
+    f_line2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 82)
 
-    badge_txt = "KARMIC GENIE SHOW  •  S1 E1"
     line1_txt = "200,000 CUTS • 60,000 BUYOUTS"
     line2_txt = "BLESSING IN DISGUISE?"
 
-    for t in (badge_txt, line1_txt, line2_txt):
+    for t in (line1_txt, line2_txt):
         assert_editorial_purity(t, "thumbnail")
-
-    draw.text((74, 53), badge_txt, font=f_badge, fill=(246, 212, 128))
 
     w1 = draw.textbbox((0, 0), line1_txt, font=f_line1)[2]
     w2 = draw.textbbox((0, 0), line2_txt, font=f_line2)[2]
     x1 = (1920 - w1) // 2
     x2 = (1920 - w2) // 2
 
-    draw.text((x1 + 3, 835 + 3), line1_txt, font=f_line1, fill=(0, 0, 0))
-    draw.text((x1, 835), line1_txt, font=f_line1, fill=(255, 255, 255))
+    draw.text((x1 + 3, 868 + 3), line1_txt, font=f_line1, fill=(0, 0, 0))
+    draw.text((x1, 868), line1_txt, font=f_line1, fill=(255, 255, 255))
 
-    draw.text((x2 + 3, 930 + 3), line2_txt, font=f_line2, fill=(0, 0, 0))
-    draw.text((x2, 930), line2_txt, font=f_line2, fill=(255, 216, 112))
+    draw.text((x2 + 3, 954 + 3), line2_txt, font=f_line2, fill=(0, 0, 0))
+    draw.text((x2, 954), line2_txt, font=f_line2, fill=(255, 216, 112))
 
     out_jpg.parent.mkdir(parents=True, exist_ok=True)
     comp.save(out_jpg, format="JPEG", quality=88, optimize=True)
@@ -165,52 +145,51 @@ def build_v3_thumbnail(out_jpg: Path = THUMB_JPG) -> Path:
 
 def build_interactive_description(handle: str) -> str:
     desc = (
-        "Karmic Genie Show — Season 1, Episode 1 (Interactive Broadcast)\n"
+        "Karmic Genie Show — Season 1, Episode 1 (v4.0 Interactive Broadcast)\n"
         "\"200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise\"\n"
         "Signature Question: \"What does Genie say — the 7D way?\"\n\n"
         "💬 JOIN OUR VIEWER CIRCLE IN THE COMMENTS:\n"
         "1) Share your industry or city below if someone in your circle experienced a career shift "
-        "or Voluntary Buyout bridge this year.\n"
-        "2) Tell us tonight: what overdue family reunion, quiet dream, or deeper life duty has been "
-        "waiting behind those golden handcuffs?\n\n"
-        "Every industry, every company, every city, and every employee serves a vital purpose in "
-        "Earth's Grand Design—like critical organs, vessels, and renewing cells in a living body. "
-        "Yet just as a human body exists not merely to function mechanically, but to serve mind, "
-        "soul, and para-soul, corporate restructurings and 60,000-person Voluntary Buyout bridges "
-        "are ultimately minor career hiccups that relieve decades of deeper human pressure points: "
-        "bringing overseas sons and daughters home to aging parents, returning missed bedtimes to "
-        "working parents, and freeing seasoned veterans and young builders to fulfill their higher purpose.\n\n"
-        "Tonight we open with an honest executive dialogue on AI-era renewal, hear real stories "
-        "across global cities inside our studio circle, and welcome a crisp reflection from the "
-        "Karmic Genie—inspired by the ancient two-minute parable of the 'Single Thunderclap' (worth "
-        "reading quietly at home tonight)—before connecting every dot along The 7D Way.\n\n"
-        "✨ Live & Reflect by The 7D Way:\n"
-        "• Respect Your DUTY First.\n"
-        "• Earn with DIGNITY Always.\n"
-        "• Practice Life DISCIPLINE.\n"
-        "• Uphold Karmic DHARMA.\n"
-        "• Raise Family with DEVOTION.\n"
-        "• Be Grateful to Your DIVINE.\n"
-        "• Purposeful Life Is Your DESTINY.\n\n"
-        f"📺 Subscribe to {handle} and share your reflection below!\n\n"
+        "or Voluntary Buyout bridge since early 2025.\n"
+        "2) Measure your current path against all Seven D's—does your life tick at least 4 of 7D "
+        "(Stay the Course), or is it time to Change Your Route?\n\n"
+        "Every industry, every company, and every city serves a vital purpose in Earth's Grand Design—"
+        "like critical organs in a living body, and like highways built as pathways for travelers rather "
+        "than final destinations. Spending fifty years merely earning to survive is like an overgrown "
+        "forest yielding no fruit. Technology exists for connectedness; when workers disconnect from "
+        "real home and family, this buyout wave acts like a natural market correction—unlocking golden "
+        "handcuffs and bringing overdue family reunions and deeper life duties back within reach.\n\n"
+        "Tonight we examine the 2025→2026 global shift metrics on our curved studio glass displays, "
+        "open with a candid 3-part executive dialogue on both the breakthroughs and cautions of the AI "
+        "era, hear three combined human stories from around the world, welcome a crisp one-phrase "
+        "blessing from the Karmic Genie, and connect every dot along The 7D Way.\n\n"
+        "✨ Live & Measure Every Question by The 7D Scorecard (Tick ≥ 4 of 7D):\n"
+        "• 1. Respect Your DUTY First.\n"
+        "• 2. Earn with DIGNITY Always.\n"
+        "• 3. Practice Life DISCIPLINE.\n"
+        "• 4. Uphold Karmic DHARMA.\n"
+        "• 5. Raise Family with DEVOTION.\n"
+        "• 6. Be Grateful to Your DIVINE.\n"
+        "• 7. Purposeful Life Is Your DESTINY.\n\n"
+        f"📺 Subscribe to {handle} and share your 7D reflection below!\n\n"
         "#KarmicGenieShow #The7DWay #BlessingInDisguise #GrandDesign #FutureOfWork "
-        "#SingleThunderclap #FamilyDuty #Duty #Dignity #Destiny"
+        "#7DScorecard #FamilyDuty #Duty #Dignity #Destiny"
     )
     assert_editorial_purity(desc, "description")
     return desc
 
 
-def upload_unlisted(channel_key: str) -> dict:
+def upload_unlisted(channel_key: str, force: bool = False) -> dict:
     """
     Uploads `Karmic_Genie_Show_S01E01_v3_Interactive_16x9.mp4` strictly as `unlisted`
-    to the specified channel (`karmicgenie` or `influenzian`) and sets the custom v3 thumbnail.
+    to the specified channel (`karmicgenie` or `influenzian`) and sets the custom v4 thumbnail.
     """
     norm_key = channel_key.lstrip("@").strip().lower()
     if norm_key not in CHANNELS:
         raise ValueError(f"Unknown channel_key '{channel_key}'. Expected one of: {list(CHANNELS.keys())}")
 
     if not FILM_MP4.exists():
-        raise FileNotFoundError(f"Missing rendered v3 master MP4: {FILM_MP4}")
+        raise FileNotFoundError(f"Missing rendered master MP4: {FILM_MP4}")
 
     if not THUMB_JPG.exists():
         build_v3_thumbnail(THUMB_JPG)
@@ -232,18 +211,20 @@ def upload_unlisted(channel_key: str) -> dict:
             raw_manifest = {}
 
     fname = FILM_MP4.name
-    entry = raw_manifest.get(fname, {
+    manifest_key = "Karmic_Genie_Show_S01E01_v4_Interactive_16x9.mp4"
+    entry = raw_manifest.get(manifest_key, {
         "season": 1,
         "episode": 1,
-        "version": "v3.1_interactive_grand_design_unlisted",
-        "format": "16:9 Brisk Interactive Broadcast",
+        "version": "v4.0_seamless_wide_wall_curved_glass_unlisted",
+        "source_file": fname,
+        "format": "16:9 Seamless Wide-Wall Interactive Broadcast",
         "title": TITLE,
         "privacy": "unlisted",
         "channels": {},
     })
 
-    if handle in entry["channels"] and entry["channels"][handle].get("video_id"):
-        print(f"✅ Already uploaded (unlisted) on {handle}: {entry['channels'][handle]['watch_url']}", flush=True)
+    if not force and handle in entry["channels"] and entry["channels"][handle].get("video_id"):
+        print(f"✅ Already uploaded v4.0 (unlisted) on {handle}: {entry['channels'][handle]['watch_url']}", flush=True)
         return entry["channels"][handle]
 
     for tpath in ch_cfg["token_candidates"]:
@@ -313,7 +294,7 @@ def upload_unlisted(channel_key: str) -> dict:
                 "token": str(tpath.relative_to(CRED_DIR)),
             }
             entry["channels"][handle] = rec
-            raw_manifest[fname] = entry
+            raw_manifest[manifest_key] = entry
             MANIFEST_JSON.write_text(json.dumps(raw_manifest, indent=2, ensure_ascii=False), encoding="utf-8")
             return rec
 
@@ -326,11 +307,22 @@ def upload_unlisted(channel_key: str) -> dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Render v3 custom thumbnail and publish S01E01 v3 strictly as UNLISTED.")
+    parser = argparse.ArgumentParser(description="Render v4 custom thumbnail and publish S01E01 v4 strictly as UNLISTED.")
     parser.add_argument(
         "--thumbnail-only",
         action="store_true",
         help="Only render & verify `s01e01_v3_thumbnail_16x9.jpg` without uploading to YouTube.",
+    )
+    parser.add_argument(
+        "--privacy",
+        default="unlisted",
+        choices=["unlisted"],
+        help="Hard-locked to 'unlisted' (NEVER public).",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force a fresh unlisted upload even if already present in manifest.",
     )
     parser.add_argument(
         "--channel",
@@ -339,6 +331,7 @@ def main():
         help="Target channel key for unlisted upload (default: all).",
     )
     args = parser.parse_args()
+    assert args.privacy == "unlisted", "CRITICAL: privacy MUST be 'unlisted'!"
 
     build_v3_thumbnail(THUMB_JPG)
     if args.thumbnail_only:
@@ -346,7 +339,7 @@ def main():
 
     targets = ["karmicgenie", "influenzian"] if args.channel == "all" else [args.channel]
     for ch in targets:
-        upload_unlisted(ch)
+        upload_unlisted(ch, force=args.force)
 
 
 if __name__ == "__main__":

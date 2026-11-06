@@ -27,14 +27,26 @@ This skill is the single source of truth for **all agents and subagents** workin
    - Never name specific corporations (`Amazon`, `Microsoft`, `Google`, `Meta`, `Oracle`, `Dell`, `Cisco`, `Intel`, `UPS`, `Barclays`, `Uber`, `TCS`, `Infosys`, etc.).
    - Never use real or fictional character names (`Marcus`, `Arjun`, `Elena`, `Mateo`, `Kenji`, `Heinrich`, `Kavitha`, etc.).
    - Refer strictly to authentic **real-world roles and archetypes** (*Chief Executive*, *Overseas Visa Engineer*, *Seasoned 50s Enterprise Architect*, *Flattened Middle-Manager Mum*, *Midnight Operations Survivor*, *Young Graduate Builder*, *Hometown Tech Lead*).
-3. **Interactive, Welcoming Broadcast Show Format (Interviews FIRST → Stories on Demand → Crisp Genie → Host Expansion):**
-   - **Warm Audience & Home-Viewer Welcome (`00:00–00:35`):** Open by welcoming both the live studio circle and viewers watching from their living rooms (e.g., show-of-hands + comment check-in + `2025 → Today` macro stage-setter).
-   - **Act I — Live Executive Interview FIRST (`~45s`):** Real studio dialogue between **Host (`@Me`)** and the **Chief Executive** seated across the dormant gold Genie lamp—explaining the macro circulation shift (e.g., `$50B/qtr` AI infrastructure, `60,000` voluntary buyouts offering `9–12` months' runway) respectfully and candidly.
-   - **Act II — Stories on Demand in Mixed Formats (`~90s`, using `75%` Clip / `25%` Studio Visible Layout):** Mix studio floor questions, home call-ins, and location dispatches voiced as raw, relatable human questions (*"Why did opening this buyout feel like relief?"*, *"Without my corporate title, who am I at home?"*, *"How easily three years abroad became twelve while my father grew old beside the phone"*).
-   - **Act III — Short, Crisp `~20-Second` Cross-Legged Karmic Genie:**
-     - **NO long Genie lectures!** The Karmic Genie awakens from the gold lamp (`~3s`), floats **strictly seated in cross-legged lotus posture (`padmasana`)**, nods briefly to a timeless 2-minute contemplation story viewers can read at home (e.g., the Upanishad *Single Thunderclap* parable: `Da — Damyata, Datta, Dayadhvam`), delivers the crisp core truth (**"...every single one is a blessing in disguise!"**), and bows/dissolves back into the lamp (`~2.5s`).
-   - **Act IV — Host (`@Me`) Energetic 7D Expansion & Interactive Sign-Off (`~45s`):**
-     - **The Host (`@Me`) expands the details**—connecting the Grand Design (`Body, Mind, Soul, Para-Soul`) to *why* every buyout, flattened layer, or hub reset is a blessing in disguise across the **7D Way**, ending with the signature punchline:
+3. **Interactive, Welcoming Broadcast Show Format (`3-Section Structure`: Interview FIRST → 3 Combined Issues → 1-Phrase Genie → Host 7D Expansion):**
+   - **Warm Audience Welcome + Visual `2025 → 2026` Glass Metrics Montage (`00:00–00:30`):**
+     - Open by welcoming the live studio circle and home viewers (`show of hands` + comments).
+     - **CRITICAL VISUAL RULE:** When the narrator (`@Me`) explains what happened from `2025` to today, **do NOT just show the narrator talking on camera!** Cut immediately to **visual clips of curved circular glass holographic displays & global data metrics** while `@Me`'s voiceover narrates the numbers (`2025: 154,000 shifts` → `2026: 200,000+ shifts`, `60,000 voluntary buyouts`, `$720B AI infrastructure`).
+   - **Section 1 (Act I) — Real 3-Part Executive Interview FIRST (`~55s`, Eyelines Matched!):**
+     - **Camera Angle & Eyeline Law:** On the studio stage, the **Guest/Tech CEO sits in the LEFT dark chair facing RIGHT (`→`)**, and **Host `@Me` sits in the RIGHT white chair facing LEFT (`←`)** across the dormant gold Genie lamp. Always match eyelines (`hflip` any mismatched single shot so CEO faces RIGHT and Host faces LEFT during their dialogue!).
+     - **3-Part Interview Arc:**
+       1. **All the Good Things First (AI Breakthroughs):** The Tech CEO first explains the positive breakthroughs of the AI revolution (accelerating medical cures, removing repetitive drudgery, empowering human creativity, and how every industry acts as a vital organ in Earth's living body).
+       2. **The Honest Issues & Circulation Shift:** The `$50B/qtr` GPU/infrastructure shift and why non-AI corporate/support layers are being streamlined.
+       3. **Cautions & Preparation for Better Change:** Why routine middle layers are shrinking and how employees can use `9–12` month voluntary buyout bridges to prepare, upskill, and own AI tools now—followed by Host `@Me` introducing the **`>= 4 of 7D` Scorecard Rule**.
+   - **Section 2 (Act II) — Only 3 Combined Core Human Issues (`~40s`, `75%` Clip Window / `25%` Studio Visible + Metrics on Curved Circular Glass):**
+     - Never drag out 7 separate repetitive character videos! Combine human stories into **3 tight, universal issues** (`~12–14s` each):
+       1. **Issue #1 — Connectedness to Home & Aging Parents (`Duty`):** 12-Year Overseas Visa Engineer (aging father beside the phone in India) + Hometown Courtyard Return (`7D Glass Score: 2/7 → 6/7 D`).
+       2. **Issue #2 — Family Devotion vs. Status Titles & Burnout (`Devotion` & `Discipline`):** Flattened Middle-Manager Mum (`7` years of missed bedtimes restored) + Midnight 5-Pager Survivor (`7D Glass Score: 2/7 → 5/7 D`).
+       3. **Issue #3 — Seasoned `50s` Mastery & Young `20s` AI Builders (`Dignity` & `Destiny`):** Age-58 Veteran Architect (`35` years of mastery turning to mentoring) + Young Graduate Builder (`7D Glass Score: 3/7 → 6/7 D`).
+   - **Section 3 (Act III & IV) — Ultra-Crisp `1-Phrase` Cross-Legged Karmic Genie (`~12s`) → Host (`@Me`) Connects the Dots (`~45s`):**
+     - **NO long Genie lectures!** The Cross-Legged Karmic Genie awakens from the gold lamp, smiles serenely in `padmasana`, and speaks **ONLY the single core phrase**:
+       > ***"Rest easy, dear friends—all that is happening now, and for the next couple of years, is a blessing in disguise!"***
+       before dissolving gracefully back into the gold lamp!
+     - **The Host (`@Me`) expands the details**—connecting the Grand Design (`Body, Mind, Soul, Para-Soul`), the **Overgrown Forest Without Fruit Analogy**, the **Highways as Pathways Analogy**, and the **IT Connectedness / Stock-Market Correction Law**, ending with:
        > ***"What does Genie say — the 7D way?"***
 
 ---
@@ -42,10 +54,11 @@ This skill is the single source of truth for **all agents and subagents** workin
 ## 2. Official Studio Architecture (`v6` Symmetrical Padded-Logo 7D Wall)
 
 ### 2.1 Master Reference Plates (`/home/shishyan/GitHub/Karmic-Genie-Show/assets/studio_v5_masters/`)
-- **Act I/II/IV Dormant Lamp Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg`
-- **Act III Awakened Cross-Legged Genie Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg`
+- **Act I/II/IV Wide-Wall Dormant Lamp Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v7_wide_wall_dormant_16x9.jpg` (Seamless ultra-wide pure-white architectural back wall occupying the former steps area so there is generous white space on both sides of the logo and ZERO paint-patch seams!)
+- **Act III Wide-Wall Awakened Cross-Legged Genie Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v7_wide_wall_genie_16x9.jpg`
 - **Official Show Logo (`Pure White`):** `assets/logo/official_karmic_genie_show_logo.jpg`
 - **Official 7D Theme Song (`WAV`):** `assets/theme/official_karmic_genie_7d_theme_song.wav`
+- **STRICT BAN ON FAKE DARK TOP OVERLAY BOXES:** Never render dark-backgrounded rectangular PIL boxes at the top of the screen (`y=0..150`)! All metrics and 7D Scorecards MUST be integrated **directly onto the studio's curved circular glass displays** (using glowing glass-projection typography along the lower left/right curved glass barriers, or shown inside the `2025 → 2026` holographic glass metrics clips!).
 
 ### 2.2 Exact `v6` 7D Wall Inscription Layout (Always Include Verbatim in Studio Prompts)
 Never summarize this as `"7D maxims"` in prompts (summarizing causes video models to write literal `"7D maxims"` on the wall!). Always include the exact verbatim strings:
@@ -73,6 +86,16 @@ Never summarize this as `"7D maxims"` in prompts (summarizing causes video model
 3. **Mandatory Host Face Identity QA (`ZERO Stranger Mix-Ups`):**
    - **Rule:** Every single clip where the Host (`@Me`) appears on camera MUST be visually verified via a contact sheet (`ffmpeg` frame extraction + `read_file`) to confirm it shows the **true clean-shaven `@Me` Avatar (Nagarajan in his ivory-white bandhgala suit)**—NEVER a bearded generic actor!
    - If a newly generated Flow clip has clean `@Me` audio but Flow dropped the `Me` Likeness chip and rendered a generic bearded face, **NEVER use that clip's video stream**: either regenerate with the `Me` Avatar chip verified, OR pair its audio stream with a verified `@Me` studio video plate (`v3_gd_01.mp4`, `v3_b1_welcome_02.mp4`, `v3_b1_welcome_03.mp4`, `batch_05_03.mp4`, `s7b_host_01.mp4`) + `pip75` B-roll window!
+4. **Theatrical Movie Cinematography (`v4.1` Multi-Cam Close-Ups, Revolving Orbits & 180-Degree Rule):**
+   - **Never Leave Any Shot Static (`Zero Flat TV Framing`):** Every episode must feel like an A-list theatrical motion picture with continuous orbital camera movement, emotional close-ups, and multi-angle editing:
+     - **Two-Camera Movie Cut on Every Studio Shot (`Medium Orbital Drift` → `1.26x Emotional Close-Up`):** Split every full-screen studio talking clip (`~7.5s`) at `~48%` of its duration into two distinct camera angles:
+       - **Camera A (`0..48%`):** Moving/revolving medium-wide orbital dolly across the studio (`scale=2208:1242` with smooth horizontal + sinusoidal vertical animated `crop` across `t`).
+       - **Camera B (`48%..100%`):** Instant Hollywood Multi-Cam Cut to an **Intimate Cinema Close-Up (`1.25x–1.42x` animated `crop` calibrated per shot `(cu_fx, cu_fy)` on the speaker's eyes/face)** with gentle lateral dolly push and subtle anamorphic edge vignette (`vignette=PI/6.5`).
+       - **FFmpeg Live-Video Law:** On live `30fps` talking video, always use oversampled `scale` + time-animated `crop=1920:1080:x='...t...':y='...t...'` (never `zoompan=d>1`, which freezes live video lips onto frame 0!); reserve `zoompan` for high-resolution `2752×1536` still master plates (`v7_wide_wall_*.jpg`).
+     - **Strict 180-Degree Interview Eyeline Rule:** On the circular stage, the **Guest / Tech CEO sits on the LEFT chair and MUST face RIGHT (`→`)**, while **Host `@Me` sits on the RIGHT chair and faces LEFT (`←`)**. Apply `hflip` (with clean crop) whenever an archival guest clip faces left so conversational eyelines lock across the golden lamp.
+     - **Multi-Angle Cuts & Revolving Studio Background on `pip75` Human Stories:** Behind the `75%` (`1440×810`) story window, keep the `25%` `v7_wide_wall_dormant_16x9.jpg` studio background continuously revolving/gliding so the left and right curved circular glass displays stay alive. Inside the `75%` window itself, cut mid-story from an establishing shot to an emotional Close-Up (`1.22x`) or complementary B-roll angle!
+     - **360-Degree Revolving Lamp Awakening & Multi-Angle Genie Climax:** Pair the Host's summons with the 3D revolving rainbow-gold lamp awakening clip (`batch_05_02.mp4`), followed by a two-angle crane-to-close-up sequence on the cross-legged Karmic Genie (`v7_wide_wall_genie_16x9.jpg`).
+     - **Seamless Ultra-Wide Back Wall (`v7`) & Curved-Glass Metrics Only:** Always use `v7_wide_wall_dormant_16x9.jpg` and `v7_wide_wall_genie_16x9.jpg` (where the pure-white back wall spans seamlessly across the former side staircases with generous whitespace around the logo). **NEVER draw fake dark-backgrounded overlay boxes at the top of the screen**—all metrics and 7D Scorecards (`>= 4 of 7D`) must live on the studio's curved circular glass displays (`y=660..840`) or inside dedicated curved-glass holographic B-roll clips (`v4_ig_02.mp4`).
 
 ---
 

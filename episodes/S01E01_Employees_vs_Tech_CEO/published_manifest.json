@@ -45,5 +45,44 @@
         "token": "token_influenzian.json"
       }
     }
+  },
+  "Karmic_Genie_Show_S01E01_v3_Interactive_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "version": "v3.1_interactive_grand_design_unlisted",
+    "format": "16:9 Brisk Interactive Broadcast",
+    "title": "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise | Karmic Genie Show (S1 E1)",
+    "privacy": "unlisted",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "pVj2jJrg_gk",
+        "watch_url": "https://www.youtube.com/watch?v=pVj2jJrg_gk",
+        "privacyStatus": "unlisted",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  },
+  "Karmic_Genie_Show_S01E01_v4_Interactive_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "version": "v4.0_seamless_wide_wall_curved_glass_unlisted",
+    "source_file": "Karmic_Genie_Show_S01E01_v3_Interactive_16x9.mp4",
+    "format": "16:9 Seamless Wide-Wall Interactive Broadcast",
+    "title": "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise | Karmic Genie Show (S1 E1)",
+    "privacy": "unlisted",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "e8PDB76WvOY",
+        "watch_url": "https://www.youtube.com/watch?v=e8PDB76WvOY",
+        "privacyStatus": "unlisted",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
   }
 }
