@@ -2,30 +2,26 @@
 # -*- coding: utf-8 -*-
 """
 Master Widescreen (16:9, 1920x1080, 30fps, -14 LUFS) Interactive Broadcast Assembler for:
-  Karmic Genie Show — Season 1, Episode 1 (v3.1 Interactive Grand-Design Master)
+  Karmic Genie Show — Season 1, Episode 1 (v3.2 Interactive Grand-Design + 7D Scorecard Master)
   "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise"
 
 Mandatory Editorial, Philosophical & Broadcast Guarantees:
-  1. Grand Design Philosophy (ZERO Blame / ZERO Portraying Anyone in a Bad Spot):
-     - Every company, industry, employee, city, and country serves a purpose—akin to critical
-       organs, vessels, and renewing cells in Earth's living body serving mind, soul, and para-soul.
-     - Corporate restructurings and 60,000-person Voluntary Buyout bridges are framed as minor
-       career hiccups that relieve deeper pressure points of overdue family reunions and duties.
+  1. Grand Design, 7D Scorecard (`>= 4 of 7D` Rule) & Cosmic Market Correction:
+     - Every company, industry, employee, city, and country serves a purpose—akin to vital organs
+       and highways/pathways serving travelers toward mind, soul, and para-soul.
+     - Earning 50 years merely to survive is an overgrown forest yielding no fruit; IT exists for
+       connectedness, so when workers disconnect from home and family, this buyout wave acts like a
+       stock market correction reconnecting them to overdue reunions and duties!
      - Strictly ZERO "record profits", ZERO "corporate greed", ZERO company names, and ZERO
        real/fictional person names anywhere in audio, badges, or subtitles!
-  2. Brisk 1.0x Natural Broadcast Pacing:
+  2. Dual-HUD Broadcast Graphics (`overlays_v3/*.png`):
+     - Top-Left Header Card + Top-Right Live 7D Scorecard & Sector Breakdown HUD (`>= 4/7` Tick Rule)
+       sitting cleanly above `y=158` of the `pip75` gold frame without covering faces!
+  3. Brisk 1.0x Natural Broadcast Pacing + 100% Verified `@Me` Host Face Identity:
      - ZERO rubberband slow-down, ZERO tpad freeze-frames!
-     - Whisper (`tiny.en` on 16kHz mono WAV numpy array) verifies `(sp_st, sp_en)` on every spoken
-       clip (filtering out non-speech crowd tokens like `APPLAUSE`) and trims cleanly to
+     - Whisper (`tiny.en` on 16kHz mono WAV numpy array) trims every spoken clip cleanly to
        `[max(0.0, sp_st - 0.16), min(dur, sp_en + 0.22)]`.
-  3. Picture-in-Studio 75% Clip / 25% Studio Visible (`pip75`) Compositing:
-     - All external/story clips play inside a `1480x832` foreground window with a crisp `4px`
-       brushed-gold border (`#EBC670`) at `(216, 158)` over `v6_7d_dormant_stage_16x9.jpg`
-       (`eq=brightness=-0.06:saturation=0.95` + subtle slow pan) so ~25% of the live studio
-       (vaulted ceiling, left/right blue stadium audience, and white marble floor) stays visible!
-  4. 100% Readable Dark-Shaded Subtitles (`BorderStyle=3`):
-     - `OutlineColour=&H38080A10`, `BackColour=&H38080A10`, `Outline=11.0`, `Shadow=0.0`,
-       single-line sequential events so boxes never overlap or collide!
+  4. Picture-in-Studio 75% Clip / 25% Studio Visible (`pip75`) + Dark-Shaded `BorderStyle=3` Subtitles.
 """
 
 import json
@@ -64,9 +60,9 @@ FORBIDDEN_BLAME_PHRASES = (
 
 NON_SPEECH_HALLUCINATIONS = {"applause", "[applause]", "(applause)", "music", "[music]"}
 
-# Canonical 31-shot Grand-Design Interactive Broadcast Ledger:
+# Canonical 34-shot Grand-Design + 7D Scorecard Interactive Broadcast Ledger:
 V3_SHOT_LEDGER = [
-    # --- INTERACTIVE WELCOME & GRAND-DESIGN STAGE-SETTER (STUDIO FULL) ---
+    # --- INTERACTIVE WELCOME & 2025->2026 MARKET CORRECTION METRICS (STUDIO FULL) ---
     {
         "sid": "01_Welcome_Home",
         "src": V3_CLIPS_ROOT / "v3_b1_welcome" / "v3_b1_welcome_03.mp4",
@@ -97,7 +93,7 @@ V3_SHOT_LEDGER = [
         "hint_sp": (0.75, 7.31),
         "layout": "full",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_poll.png",
         "lines": [
             "Before anyone speaks tonight, let's take sixty quiet seconds",
             "to see what happened since early 2025.",
@@ -109,7 +105,7 @@ V3_SHOT_LEDGER = [
         "hint_sp": (1.06, 7.72),
         "layout": "full",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_poll.png",
         "lines": [
             "Over 200,000 roles shifted this year",
             "across tech, banking, shipping, auto, and support.",
@@ -128,9 +124,8 @@ V3_SHOT_LEDGER = [
         ],
     },
 
-    # --- ACT I: LIVE EXECUTIVE DIALOGUE FIRST — INDUSTRIES AS VITAL ORGANS (STUDIO FULL) ---
+    # --- ACT I: LIVE EXECUTIVE DIALOGUE + THE >=4 OF 7D SCORECARD RULE (STUDIO FULL) ---
     {
-        # Verified via Whisper: `v3_gd_02.mp4` speaks "Every industry, company and city is a vital organ..."
         "sid": "06_Host_Grand_Design_Organ",
         "src": V3_CLIPS_ROOT / "v3_grand_design" / "v3_gd_02.mp4",
         "hint_sp": (0.37, 7.69),
@@ -148,7 +143,7 @@ V3_SHOT_LEDGER = [
         "hint_sp": (0.00, 7.78),
         "layout": "full",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_ceo.png",
         "lines": [
             "$50 billion a quarter on GPUs flipped free cash flow negative.",
             "Cloud and AI demand every dollar right now.",
@@ -166,10 +161,23 @@ V3_SHOT_LEDGER = [
             "in four years 90,000 jobs vanish instead of 30,000.",
         ],
     },
-
-    # --- ACT II: STORIES ON DEMAND (75% CLIP WINDOW / 25% STUDIO VISIBLE + INLINE CUTS) ---
     {
-        "sid": "09_Expat_Father_Phone_PiP",
+        # NEW `@Me` clip: Sets up the >= 4 of 7D Scorecard Rule right before Act II stories!
+        "sid": "09_Host_7D_Scorecard_Rule",
+        "src": V3_CLIPS_ROOT / "v3_7d_philosophy_me" / "v3_phil_03.mp4",
+        "hint_sp": (0.00, 7.76),
+        "layout": "full",
+        "voice": "human",
+        "overlay": "v3_ov_ceo.png",
+        "lines": [
+            "Measure every question against all Seven D's—if your life ticks at least four,",
+            "stay the course; otherwise, change your route!",
+        ],
+    },
+
+    # --- ACT II: STORIES ON DEMAND + LIVE 7D SCORECARD METRICS (75% CLIP / 25% STUDIO) ---
+    {
+        "sid": "10_Expat_Father_Phone_PiP",
         "src": V1_CLIPS_ROOT / "batch_02_scene1_sf_mysuru" / "batch_02_scene1_sf_mysuru_03.mp4",
         "hint_sp": (0.92, 7.60),
         "layout": "pip75",
@@ -181,7 +189,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "10_Expat_Ghost_At_Home_Split",
+        "sid": "11_Expat_Ghost_At_Home_Split",
         "src": V1_CLIPS_ROOT / "batch_02_scene1_sf_mysuru" / "batch_02_scene1_sf_mysuru_01.mp4",
         "hint_sp": (0.53, 7.85),
         "layout": "split_full_to_pip75",
@@ -191,14 +199,14 @@ V3_SHOT_LEDGER = [
         "v2_pip_mp4": V1_CLIPS_ROOT / "batch_02_scene1_sf_mysuru" / "batch_02_scene1_sf_mysuru_03.mp4",
         "v2_pip_ss": 2.10,
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_expat.png",
         "lines": [
             "I wasn't in AI—I built consumer devices for twelve years.",
             "Chasing dollars and visas, I became a ghost at home.",
         ],
     },
     {
-        "sid": "11_Mum_Missed_Bedtimes_PiP",
+        "sid": "12_Mum_Missed_Bedtimes_PiP",
         "src": V1_CLIPS_ROOT / "topup_clean" / "rec_s2_02_elena.mp4",
         "hint_sp": (0.00, 7.40),
         "layout": "pip75",
@@ -210,7 +218,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "12_Munich_Veteran_58_PiP",
+        "sid": "13_Munich_Veteran_58_PiP",
         "src": V1_CLIPS_ROOT / "topup_clean" / "tu2_munich_coimbatore_02.mp4",
         "hint_sp": (1.00, 7.42),
         "layout": "pip75",
@@ -222,7 +230,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "13_Tokyo_Hiring_Freeze_PiP",
+        "sid": "14_Tokyo_Hiring_Freeze_PiP",
         "src": V1_CLIPS_ROOT / "batch_04_scene3_tokyo_munich_coimbatore" / "batch_04_scene3_tokyo_munich_coimbatore_05.mp4",
         "hint_sp": (0.00, 7.30),
         "layout": "pip75",
@@ -234,31 +242,31 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "14_Tokyo_Five_Pagers_PiP",
+        "sid": "15_Tokyo_Five_Pagers_PiP",
         "src": V1_CLIPS_ROOT / "batch_04_scene3_tokyo_munich_coimbatore" / "batch_04_scene3_tokyo_munich_coimbatore_02.mp4",
         "hint_sp": (0.92, 7.44),
         "layout": "pip75",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_dispatch.png",
         "lines": [
             "Four teammates left with zero replacements approved.",
             "My wife eats alone every night while I carry five pagers.",
         ],
     },
     {
-        "sid": "15_SaoPaulo_First_Rung_PiP",
+        "sid": "16_SaoPaulo_First_Rung_PiP",
         "src": V1_CLIPS_ROOT / "batch_03_scene2_london_saopaulo" / "batch_03_scene2_london_saopaulo_02.mp4",
         "hint_sp": (1.50, 7.48),
         "layout": "pip75",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_dispatch.png",
         "lines": [
             "In São Paulo, nobody laid me off—",
             "the first rung simply vanished before I could step on it.",
         ],
     },
     {
-        "sid": "16_SaoPaulo_7Pct_Grads_PiP",
+        "sid": "17_SaoPaulo_7Pct_Grads_PiP",
         "src": V1_CLIPS_ROOT / "batch_03_scene2_london_saopaulo" / "batch_03_scene2_london_saopaulo_01.mp4",
         "hint_sp": (0.00, 7.36),
         "layout": "pip75",
@@ -270,24 +278,24 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "17_Bengaluru_Courtyard_PiP",
+        "sid": "18_Bengaluru_Courtyard_PiP",
         "src": V1_CLIPS_ROOT / "batch_04_scene3_tokyo_munich_coimbatore" / "batch_04_scene3_tokyo_munich_coimbatore_01.mp4",
         "hint_sp": (0.00, 6.86),
         "layout": "pip75",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_dispatch.png",
         "lines": [
             "I led internal talent tools in Bengaluru—",
             "one of the first non-AI teams automated earlier this year.",
         ],
     },
     {
-        "sid": "18_Coimbatore_Peace_PiP",
+        "sid": "19_Coimbatore_Peace_PiP",
         "src": V1_CLIPS_ROOT / "topup_clean" / "tu2_munich_coimbatore_01.mp4",
         "hint_sp": (1.38, 6.44),
         "layout": "pip75",
         "voice": "human",
-        "overlay": None,
+        "overlay": "v3_ov_dispatch.png",
         "lines": [
             "Coimbatore cut my pay, erased rent, and brought peace—",
             "did I arrive early?",
@@ -296,7 +304,7 @@ V3_SHOT_LEDGER = [
 
     # --- HOST BRIDGES & SUMMONS THE KARMIC GENIE (STUDIO FULL) ---
     {
-        "sid": "19_Host_Bridge_Seven_Chairs",
+        "sid": "20_Host_Bridge_Seven_Chairs",
         "src": V1_CLIPS_ROOT / "batch_05_scene4_punchline_and_awakening" / "batch_05_scene4_punchline_and_awakening_03.mp4",
         "hint_sp": (0.00, 7.68),
         "layout": "full",
@@ -308,7 +316,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "20_Host_Summon_Genie",
+        "sid": "21_Host_Summon_Genie",
         "src": V1_CLIPS_ROOT / "topup_clean" / "plate_s4_03_punchline.mp4",
         "hint_sp": (0.96, 6.90),
         "layout": "full",
@@ -322,7 +330,7 @@ V3_SHOT_LEDGER = [
 
     # --- ACT III: SHORT, CRISP CROSS-LEGGED KARMIC GENIE (~22s TOTAL, ZERO LONG LECTURE!) ---
     {
-        "sid": "21_Genie_Lamp_Awaken",
+        "sid": "22_Genie_Lamp_Awaken",
         "src": V1_CLIPS_ROOT / "batch_05_scene4_punchline_and_awakening" / "batch_05_scene4_punchline_and_awakening_02.mp4",
         "layout": "visual_full",
         "visual_dur": 3.20,
@@ -332,19 +340,19 @@ V3_SHOT_LEDGER = [
         "lines": [],
     },
     {
-        "sid": "22_Genie_Single_Thunderclap",
+        "sid": "23_Genie_Single_Thunderclap",
         "src": V1_CLIPS_ROOT / "batch_06_scene5_wise_saint_mirror" / "batch_06_scene5_wise_saint_mirror_03.mp4",
         "hint_sp": (0.00, 7.60),
         "layout": "full",
         "voice": "genie",
-        "overlay": None,
+        "overlay": "v3_ov_genie.png",
         "lines": [
             "Like the ancient Upanishad parable of the Single Thunderclap—",
             "a two-minute story you might enjoy reading quietly at home tonight...",
         ],
     },
     {
-        "sid": "23_Genie_Golden_Handcuffs",
+        "sid": "24_Genie_Golden_Handcuffs",
         "src": V1_CLIPS_ROOT / "topup_clean" / "rec_s6_05_genie_handcuffs.mp4",
         "hint_sp": (1.04, 6.84),
         "layout": "full",
@@ -356,19 +364,19 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "24_Genie_Blessing_In_Disguise",
+        "sid": "25_Genie_Blessing_In_Disguise",
         "src": V1_CLIPS_ROOT / "topup_clean" / "plate_s6_05b_blessing.mp4",
         "layout": "visual_full",
         "visual_dur": 2.40,
         "pts_mul": 0.55,
         "voice": "genie",
-        "overlay": None,
+        "overlay": "v3_ov_genie.png",
         "lines": [
             "...every single one is a blessing in disguise!",
         ],
     },
     {
-        "sid": "25_Genie_Lotus_Dissolve",
+        "sid": "26_Genie_Lotus_Dissolve",
         "src": V1_CLIPS_ROOT / "topup_clean" / "plate_s7_03_lotus_dissolve.mp4",
         "layout": "visual_full",
         "visual_dur": 2.50,
@@ -378,10 +386,9 @@ V3_SHOT_LEDGER = [
         "lines": [],
     },
 
-    # --- ACT IV: CONNECTING THE DOTS — BODY, MIND, SOUL & OVERDUE FAMILY REUNIONS ---
+    # --- ACT IV: CONNECTING ALL DOTS (100% VERIFIED `@Me` NAGARAJAN FACE!) ---
     {
-        # Verified via Whisper: `v3_gd_01.mp4` speaks "Just as human cells renew to serve mind, soul and para-soul..."
-        "sid": "26_Host_Body_Mind_Soul",
+        "sid": "27_Host_Body_Mind_Soul",
         "src": V3_CLIPS_ROOT / "v3_grand_design" / "v3_gd_01.mp4",
         "hint_sp": (0.18, 7.70),
         "layout": "full",
@@ -389,13 +396,40 @@ V3_SHOT_LEDGER = [
         "overlay": None,
         "lines": [
             "Just as human cells renew to serve mind, soul, and para-soul—",
-            "this minor hiccup serves a grander design of overdue reunions!",
+            "every company and career shift serves a grander design!",
         ],
     },
     {
-        "sid": "27_Host_Why_Handcuffs",
-        "src": V3_CLIPS_ROOT / "v3_host_expansion" / "v3_host_exp_02.mp4",
-        "hint_sp": (0.05, 6.95),
+        # NEW `@Me` clip: Overgrown Forest Yielding No Fruit & Industries as Highways/Pathways!
+        "sid": "28_Host_Forest_And_Roadways",
+        "src": V3_CLIPS_ROOT / "v3_7d_philosophy_me" / "v3_phil_02.mp4",
+        "hint_sp": (0.00, 7.54),
+        "layout": "full",
+        "voice": "human",
+        "overlay": "v3_ov_ceo.png",
+        "lines": [
+            "Earning fifty years just to survive is an overgrown forest yielding no fruit—",
+            "industries, like highways, are pathways, never your destination!",
+        ],
+    },
+    {
+        # NEW `@Me` clip: IT Connectedness & Stock-Market Correction Reconnecting Families!
+        "sid": "29_Host_IT_Connectedness_Correction",
+        "src": V3_CLIPS_ROOT / "v3_7d_philosophy_me" / "v3_phil_01.mp4",
+        "hint_sp": (0.11, 8.01),
+        "layout": "full",
+        "voice": "human",
+        "overlay": "v3_ov_layers.png",
+        "lines": [
+            "Tech exists for connectedness! When workers disconnect from home and family,",
+            "this buyout wave acts like a stock market correction—reconnecting you!",
+        ],
+    },
+    {
+        # Verified `@Me` clip (`v3_host_expansion_me/v3_me_exp_03.mp4`)
+        "sid": "30_Host_Why_Handcuffs",
+        "src": V3_CLIPS_ROOT / "v3_host_expansion_me" / "v3_me_exp_03.mp4",
+        "hint_sp": (0.00, 7.26),
         "layout": "full",
         "voice": "human",
         "overlay": None,
@@ -405,10 +439,10 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        # Cuts inline for the last 2.5s to the 75% Studio Window of the sunlit South Indian reunion courtyard!
-        "sid": "28_Host_Overdue_Reunion_Split",
-        "src": V3_CLIPS_ROOT / "v3_host_expansion" / "v3_host_exp_04.mp4",
-        "hint_sp": (0.00, 7.58),
+        # Verified `@Me` clip (`v3_host_expansion_me/v3_me_exp_01.mp4`) + inline 2.5s `pip75` reunion courtyard!
+        "sid": "31_Host_Overdue_Reunion_Split",
+        "src": V3_CLIPS_ROOT / "v3_host_expansion_me" / "v3_me_exp_01.mp4",
+        "hint_sp": (0.92, 7.84),
         "layout": "split_tail_pip75",
         "v2_pip_mp4": V1_CLIPS_ROOT / "batch_04_scene3_tokyo_munich_coimbatore" / "batch_04_scene3_tokyo_munich_coimbatore_01.mp4",
         "v2_pip_ss": 2.20,
@@ -421,9 +455,10 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "29_Host_50s_Dignity",
-        "src": V3_CLIPS_ROOT / "v3_host_expansion" / "v3_host_exp_03.mp4",
-        "hint_sp": (1.14, 6.92),
+        # Verified `@Me` clip (`v3_host_expansion_me/v3_me_exp_02.mp4`)
+        "sid": "32_Host_50s_Dignity",
+        "src": V3_CLIPS_ROOT / "v3_host_expansion_me" / "v3_me_exp_02.mp4",
+        "hint_sp": (0.00, 6.92),
         "layout": "full",
         "voice": "human",
         "overlay": None,
@@ -433,7 +468,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "30_Host_No_Single_Answer",
+        "sid": "33_Host_No_Single_Answer",
         "src": V1_CLIPS_ROOT / "batch_08_scene7_finale" / "s7b_host_01.mp4",
         "hint_sp": (0.72, 7.56),
         "layout": "full",
@@ -445,7 +480,7 @@ V3_SHOT_LEDGER = [
         ],
     },
     {
-        "sid": "31_Host_Interactive_Signoff",
+        "sid": "34_Host_Interactive_Signoff",
         "src": V1_CLIPS_ROOT / "topup_clean" / "plate_s7_05_signoff.mp4",
         "hint_sp": (0.00, 6.26),
         "layout": "full",
@@ -605,16 +640,12 @@ def render_v3_shot(
 ) -> tuple[float, float, float]:
     """
     Renders a single 1.0x broadcast shot (ZERO rubberband, ZERO tpad freeze-frames!):
-      - `visual_full`: brisk `setpts` visual plate + stereo silence (+ optional badge).
+      - `visual_full`: brisk `setpts` visual plate + stereo silence (+ optional dual-HUD overlay).
       - `full`: trimmed `[max(0.0, sp_st - 0.16), min(raw_dur, sp_en + 0.22)]` full-screen studio shot.
       - `pip75`: 75% foreground clip (`1480x832` + 4px `#EBC670` gold border = `1488x840` at `x=216, y=158`)
         over `1920x1080` `v6_7d_dormant_stage_16x9.jpg` (`eq=brightness=-0.06:saturation=0.95` + subtle slow pan)
         so ~25% of the live studio remains visible around the window!
-      - `split_full_to_pip75`: Audio from `src`, Video = `v1_full_mp4` Full Studio (`v1_head_dur`)
-        cutting inline to `pip75` (`v2_pip_mp4`) for remaining duration!
-      - `split_tail_pip75`: Audio + Head Video from `src` Full Studio, cutting inline for the last
-        `tail_pip_dur` seconds to `pip75` (`v2_pip_mp4`) while `src` voiceover finishes seamlessly!
-    Returns `(rendered_dur, rel_sp_st, rel_sp_en)`.
+      - `split_full_to_pip75` / `split_tail_pip75`: inline Studio Full -> `pip75` B-roll cut (+ optional dual-HUD).
     """
     src_mp4 = Path(entry["src"])
     layout = entry["layout"]
@@ -637,7 +668,7 @@ def render_v3_shot(
                 "-f", "lavfi", "-t", f"{target_dur:.3f}", "-i", "anullsrc=channel_layout=stereo:sample_rate=48000",
                 "-filter_complex", (
                     f"[0:v]{v_base}[vb];"
-                    f"[1:v]fade=t=in:st=0.15:d=0.35:alpha=1,fade=t=out:st={max(0.8, target_dur-0.45):.2f}:d=0.35:alpha=1[ov];"
+                    f"[1:v]fade=t=in:st=0.12:d=0.30:alpha=1,fade=t=out:st={max(0.8, target_dur-0.40):.2f}:d=0.32:alpha=1[ov];"
                     "[vb][ov]overlay=0:0:format=auto,format=yuv420p[vout]"
                 ),
                 "-map", "[vout]", "-map", "2:a:0",
@@ -657,7 +688,6 @@ def render_v3_shot(
         d = probe_duration(out_mp4)
         return (d, 0.14, max(0.80, d - 0.14))
 
-    # Spoken shot: trim cleanly to [max(0.0, sp_st - 0.16), min(raw_dur, sp_en + 0.22)]
     trim_st = max(0.0, sp_st - 0.16)
     trim_en = min(raw_dur, sp_en + 0.22)
     if trim_en - trim_st < 1.50:
@@ -667,7 +697,6 @@ def render_v3_shot(
     rel_sp_st = max(0.04, sp_st - trim_st)
     rel_sp_en = min(clip_dur - 0.04, sp_en - trim_st)
 
-    # 1.0x natural speech speed EQ (ZERO rubberband!)
     if voice == "genie":
         a_eq = (
             "highpass=f=85,"
@@ -695,8 +724,8 @@ def render_v3_shot(
         if ov_path:
             cmd += ["-loop", "1", "-t", f"{clip_dur:.3f}", "-i", str(ov_path)]
             fc.append(
-                f"[1:v]fade=t=in:st=0.18:d=0.35:alpha=1,"
-                f"fade=t=out:st={max(1.10, clip_dur - 0.50):.2f}:d=0.38:alpha=1[ov]"
+                f"[1:v]fade=t=in:st=0.14:d=0.30:alpha=1,"
+                f"fade=t=out:st={max(1.10, clip_dur - 0.45):.2f}:d=0.34:alpha=1[ov]"
             )
             fc.append("[vb][ov]overlay=0:0:format=auto,format=yuv420p[vout]")
         else:
@@ -734,8 +763,8 @@ def render_v3_shot(
         if ov_path:
             cmd += ["-loop", "1", "-t", f"{clip_dur:.3f}", "-i", str(ov_path)]
             fc.append(
-                f"[2:v]fade=t=in:st=0.18:d=0.35:alpha=1,"
-                f"fade=t=out:st={max(1.10, clip_dur - 0.50):.2f}:d=0.38:alpha=1[ov]"
+                f"[2:v]fade=t=in:st=0.14:d=0.30:alpha=1,"
+                f"fade=t=out:st={max(1.10, clip_dur - 0.45):.2f}:d=0.34:alpha=1[ov]"
             )
             fc.append("[vb][ov]overlay=0:0:format=auto,format=yuv420p[vout]")
         else:
@@ -763,7 +792,6 @@ def render_v3_shot(
             seg1_dur = min(float(entry["v1_head_dur"]), max(1.50, clip_dur - 1.50))
             seg2_dur = clip_dur - seg1_dur
         else:
-            # `split_tail_pip75`: use `src_mp4` itself for segment 1!
             v1_mp4 = src_mp4
             v1_ss = trim_st
             seg2_dur = min(float(entry["tail_pip_dur"]), max(1.40, clip_dur - 1.80))
@@ -793,9 +821,19 @@ def render_v3_shot(
             "fps=30,scale=1480:832:force_original_aspect_ratio=increase,crop=1480:832,"
             "pad=w=iw+8:h=ih+8:x=4:y=4:color=#EBC670,setsar=1,format=yuv420p[fg2]",
             "[bg2][fg2]overlay=216:158:shortest=1,format=yuv420p[v_seg2]",
-            "[v_seg1][v_seg2]concat=n=2:v=1:a=0,format=yuv420p[vout]",
-            f"[0:a]{a_chain}[aout]",
+            "[v_seg1][v_seg2]concat=n=2:v=1:a=0,format=yuv420p[vb]",
         ]
+        if ov_path:
+            cmd += ["-loop", "1", "-t", f"{clip_dur:.3f}", "-i", str(ov_path)]
+            fc.append(
+                f"[4:v]fade=t=in:st=0.14:d=0.30:alpha=1,"
+                f"fade=t=out:st={max(1.10, clip_dur - 0.45):.2f}:d=0.34:alpha=1[ov]"
+            )
+            fc.append("[vb][ov]overlay=0:0:format=auto,format=yuv420p[vout]")
+        else:
+            fc.append("[vb]format=yuv420p[vout]")
+        fc.append(f"[0:a]{a_chain}[aout]")
+
         cmd += [
             "-filter_complex", ";".join(fc),
             "-map", "[vout]", "-map", "[aout]",
@@ -846,7 +884,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         raw_events.extend([
             (0.45, 3.30, "TitleGold", "KARMIC GENIE SHOW  •  SEASON 1, EPISODE 1"),
             (3.45, 6.35, "CinemaWhite", "Every Industry, City & Career Shift Serves a Grander Design"),
-            (6.50, min(cold_dur - 0.20, 9.25), "TitleGold", "THE 7D WAY  •  Duty • Dignity • Discipline • Dharma • Devotion • Divine • Destiny"),
+            (6.50, min(cold_dur - 0.20, 9.25), "TitleGold", "THE 7D WAY  •  Tick ≥ 4 of 7D to Stay the Course — Or Change Your Route!"),
         ])
 
     for st in shot_timings:
@@ -899,7 +937,7 @@ def main():
     OUT_MP4.parent.mkdir(parents=True, exist_ok=True)
 
     total_slots = len(V3_SHOT_LEDGER)
-    print(f"1️⃣ Verifying Grand-Design editorial purity & probing all {total_slots} clips with Whisper (`tiny.en`)...", flush=True)
+    print(f"1️⃣ Verifying Grand-Design & 7D-Scorecard purity across all {total_slots} clips...", flush=True)
     for entry in V3_SHOT_LEDGER:
         src = Path(entry["src"])
         if not src.exists():
@@ -916,7 +954,7 @@ def main():
     fin_mp4 = TEMP_DIR / "part_99_finale_logo.mp4"
     fin_dur = render_finale_outro_v3(fin_mp4)
 
-    print(f"3️⃣ Assembling all {total_slots} shots at brisk 1.0x pace (Full Studio + 75% Gold-Framed Studio Window)...", flush=True)
+    print(f"3️⃣ Assembling all {total_slots} shots at brisk 1.0x pace (Dual-HUD 7D Scorecard + 75% Window)...", flush=True)
     parts = [co_mp4]
     cursor = cold_dur
     shot_timings = []
@@ -1002,7 +1040,7 @@ def main():
         shutil.copy2(OUT_MP4, ARTIFACT_MP4)
 
     final_d = probe_duration(OUT_MP4)
-    print(f"\n🏆 S01E01 v3.1 INTERACTIVE GRAND-DESIGN MASTER READY: {OUT_MP4}")
+    print(f"\n🏆 S01E01 v3.2 INTERACTIVE 7D-SCORECARD MASTER READY: {OUT_MP4}")
     print(f"   Runtime: {int(final_d//60):02d}:{final_d%60:05.2f} ({final_d:.2f}s) | Size: {OUT_MP4.stat().st_size/1e6:.2f} MB", flush=True)
 
 
