@@ -21,5 +21,29 @@
         "token": "tokens_karmicgenie/token_942198183044.json"
       }
     }
+  },
+  "Karmic_Genie_Show_S01E01_Full_Film_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "format": "16:9 Full Widescreen Film (~7m)",
+    "title": "Non-AI Teams, $720B CapEx & The 2030 Clock | What Does Genie Say — The 7D Way? (S1 E1)",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "A1N84WhxCio",
+        "watch_url": "https://www.youtube.com/watch?v=A1N84WhxCio",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      },
+      "@influenzian": {
+        "role": "SYNDICATION",
+        "channel_id": "UCcJFqC7z0f-ARNcJadKiKpQ",
+        "channel_title": "Influenzian",
+        "video_id": "bhnhW3JtDc8",
+        "watch_url": "https://www.youtube.com/watch?v=bhnhW3JtDc8",
+        "token": "token_influenzian.json"
+      }
+    }
   }
 }

@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 .DS_Store
 
-# Temporary FFmpeg / Whisper scratch directories
+# Temporary FFmpeg / Whisper scratch directories & >100MB lossless master renders (hosted on YouTube & Drive)
 **/temp_*/
+episodes/**/flow_16x9_clips/
+renders/Karmic_Genie_Show_S01E01_Full_Film_16x9.mp4
 renders/ep01_flow_clips/
 renders/ep01_v5_7d_9x16_clips/
 renders/opener_v5_7d_16x9_clips/

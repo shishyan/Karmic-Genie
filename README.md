@@ -12,22 +12,26 @@
 
 * **Prime YouTube Channel:** [`@karmicgenie` (*Karmic Genie Show*)](https://www.youtube.com/@karmicgenie)
 * **Syndication Channel:** [`@influenzian`](https://www.youtube.com/@influenzian)
-* **Season 1, Episode 1 Vertical Short (`70%` Contemplative Pacing):**
+* **Season 1, Episode 1 — Full Widescreen Movie (`07:12`, `16:9`, `1080p`):**
+  * **Watch on `@karmicgenie` (Prime):** https://www.youtube.com/watch?v=A1N84WhxCio
+  * **Watch on `@influenzian` (Syndication):** https://www.youtube.com/watch?v=bhnhW3JtDc8
+* **Season 1, Episode 1 — Vertical Short (`70%` Contemplative Pacing):**
   * Watch on `@karmicgenie`: https://youtube.com/shorts/mpQlEJGyz1o
   * Watch on `@influenzian`: https://youtube.com/shorts/ns1kWtoNB5U
 
 ---
 
-## Governed by *The 7D Way*
+## Governed by *The 7D Way* (`v6` Padded-Logo Stage Wall Standard)
 
-Flanking the jeweled-lamp emblem across the pure-white curved studio walls, seven warm brushed-gold maxims govern every episode:
+Flanking the centered `Karmic Genie Show` jeweled-lamp emblem with generous breathing space on either side, seven warm brushed-gold maxims govern every episode:
 
-| Left Stage Side Wall | Right Stage Side Wall |
-| :--- | :--- |
-| **1.** `Do Your DUTY.` | **5.** `Keep Your DIGNITY.` |
-| **2.** `Practice DHARMA.` | **6.** `Be DEVOUT.` |
-| **3.** `Remember the DIVINE.` | **7.** `Respect DESTINY.` |
-| **4.** `Live by DISCIPLINE.` | |
+```text
+   Respect Your DUTY First.        [ Logo ]       Uphold Karmic DHARMA.
+   Earn with DIGNITY Always.       [  Logo  ]       Raise Family with DEVOTION.
+   Practice Life DISCIPLINE.       [  Logo    ]       Be Grateful to Your DIVINE.
+
+                       Purposeful Life Is Your DESTINY.
+```
 
 ### Official Show Theme Song (`64.40s`)
 ```text
@@ -40,9 +44,10 @@ Karmic Genie Show!
 
 ---
 
-## Studio Architecture (`v5` Subtle Side-Wall 7D Standard)
+## Studio Architecture (`v6` Symmetrical 7D Wall Standard)
 
-![16:9 Widescreen 2K Studio Master](assets/studio_v5_masters/v5_subtle_7d_stadium_16x9.jpg)
+![16:9 Widescreen 2K Dormant Stage Master](assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg)
+![16:9 Widescreen 2K Awakened Genie Master](assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg)
 
 * **Pure-White Circular Marble Stage & Floor:** Concentric champagne-gold inlay rings keeping visual focus squarely on the human dialogue.
 * **Mild Dark Violet-Magenta Vault Roof:** Tall stadium vault with concentric golden Halo chandeliers overhead.
@@ -61,6 +66,8 @@ Karmic-Genie-Show/
 ├── episodes/
 │   └── S01E01_Employees_vs_Tech_CEO/
 │       ├── S01E01_7Min_Movie_Screenplay.md
+│       ├── overlays/
+│       ├── s01e01_youtube_thumbnail_16x9.jpg
 │       └── published_manifest.json
 ├── assets/
 │   ├── logo/
@@ -69,10 +76,19 @@ Karmic-Genie-Show/
 │   │   ├── official_karmic_genie_7d_theme_song.wav
 │   │   └── official_karmic_genie_7d_theme_lyrics.txt
 │   └── studio_v5_masters/
+│       ├── v6_7d_dormant_stage_16x9.jpg
+│       ├── v6_7d_saintly_genie_16x9.jpg
 │       ├── v5_subtle_7d_stadium_16x9.jpg
 │       ├── v5_subtle_7d_dormant_9x16.jpg
 │       └── v5_subtle_7d_awakened_9x16.jpg
 ├── pipeline/
+│   ├── build_v6_7d_stage_masters.py
+│   ├── render_s01e01_overlays.py
+│   ├── generate_s01e01_full_film_clips.py
+│   ├── topup_s01e01_clips.py
+│   ├── prepare_v6_cinema_plates.py
+│   ├── build_s01e01_full_film_16x9.py
+│   ├── publish_s01e01_full_film.py
 │   ├── build_official_7d_theme_opener_16x9.py
 │   ├── build_s01e01_short_70pct.py
 │   └── publish_s01e01_short.py

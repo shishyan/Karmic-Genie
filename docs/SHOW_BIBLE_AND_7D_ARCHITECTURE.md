@@ -19,13 +19,17 @@
 
 ---
 
-## 2. Locked Studio Set Invariants (`v5`)
+## 2. Locked Studio Set Invariants (`v6` Padded-Logo 7D Wall Standard)
 
 * **Floor & Circular Host Platform:** 100% pure-white marble with subtle champagne-gold concentric inlay rings.
 * **Vault Roof:** Tall stadium vault in mild dark violet-magenta with concentric golden Halo chandeliers so focus stays on the pure-white stage.
-* **Back Wall & Subtle Side-Wall 7D Maxims:**
-  * Centered `Karmic Genie Show` jeweled-lamp emblem on pure white.
-  * Left curved white wall (subtle warm brushed gold): `Do Your DUTY.` / `Practice DHARMA.` / `Remember the DIVINE.` / `Live by DISCIPLINE.`
-  * Right curved white wall (subtle warm brushed gold): `Keep Your DIGNITY.` / `Be DEVOUT.` / `Respect DESTINY.`
+* **Back Wall & Symmetrical 7D Maxims (Generous Padding Around `[ Logo ]`):**
+  ```text
+     Respect Your DUTY First.        [ Logo ]       Uphold Karmic DHARMA.
+     Earn with DIGNITY Always.       [  Logo  ]       Raise Family with DEVOTION.
+     Practice Life DISCIPLINE.       [  Logo    ]       Be Grateful to Your DIVINE.
+
+                         Purposeful Life Is Your DESTINY.
+  ```
 * **Curved Glass Metric Barriers & Stadium Crowd:** Continuous waist-high transparent OLED smart-glass walls cleanly separating steeply elevated horizon-blue stadium rows (diverse realistic professionals in varied attire) from the circular host platform.
 * **Typography & Captions:** Borderless shadowed broadcast text (`BorderStyle=1`)—zero opaque caption boxes, zero video borders.

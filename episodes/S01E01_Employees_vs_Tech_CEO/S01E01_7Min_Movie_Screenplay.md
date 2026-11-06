@@ -6,9 +6,11 @@
 * **Target Runtime:** `~07:15` (`435 seconds` — slow, contemplative cinema & global public-forum film)
 * **Aspect Ratio:** `16:9` Widescreen Master (`1920x1080` / `2K`)
 * **Signature Show Punchline:** ***"What does Genie say — the 7D way?"***
-* **Governing Stage Side-Wall Inscriptions (`v5` Subtle Brushed Gold):**
-  * **Left Wall:** `Do Your DUTY.` · `Practice DHARMA.` · `Remember the DIVINE.` · `Live by DISCIPLINE.`
-  * **Right Wall:** `Keep Your DIGNITY.` · `Be DEVOUT.` · `Respect DESTINY.`
+* **Governing Stage Wall Inscriptions (`v6` Symmetrical Brushed Gold with Generous Logo Padding):**
+  * **Left Wall:** `Respect Your DUTY First.` · `Earn with DIGNITY Always.` · `Practice Life DISCIPLINE.`
+  * **Center Emblem:** `[ Karmic Genie Show Logo ]` *(generous clean white padding on both sides)*
+  * **Right Wall:** `Uphold Karmic DHARMA.` · `Raise Family with DEVOTION.` · `Be Grateful to Your DIVINE.`
+  * **Centered Below Logo:** `Purposeful Life Is Your DESTINY.`
 
 ---
 
@@ -45,7 +47,7 @@ Every date and figure presented by the Narrator (`@Me`) on the curved OLED glass
 
 **`00:00` — INT. KARMIC GENIE STADIUM-STUDIO — WIDE CRANE DESCENT (`7D THEME HOOK`)**
 Orchestral strings and brass open gently—*"The 7D Way — Duty, Dharma, Divine, Discipline, Dignity, Devout, Destiny — Karmic Genie Show!"*—as the camera glides beneath the mild dark violet-magenta vault ceiling and golden Halo rings onto the **pure-white circular marble host platform**.
-Subtle brushed-gold sentences gleam softly on the curved white stage walls flanking the jeweled-lamp emblem (`Do Your DUTY.` · `Practice DHARMA.` · `Remember the DIVINE.` · `Live by DISCIPLINE.` / `Keep Your DIGNITY.` · `Be DEVOUT.` · `Respect DESTINY.`). Between the dark chair and white chair, the **jeweled gold Genie Lamp** rests dormant on the center glass table.
+Subtle brushed-gold sentences gleam softly on the curved white stage wall with generous padding on both sides of the centered `Karmic Genie Show` jeweled-lamp emblem (`Respect Your DUTY First.` · `Earn with DIGNITY Always.` · `Practice Life DISCIPLINE.` on the left, `Uphold Karmic DHARMA.` · `Raise Family with DEVOTION.` · `Be Grateful to Your DIVINE.` on the right, and `Purposeful Life Is Your DESTINY.` centered below). Between the dark chair and white chair, the **jeweled gold Genie Lamp** rests dormant on the center glass table.
 
 **`00:18` — NARRATOR (`@Me`) WALKS SLOWLY ALONG THE CURVED GLASS TIMELINE & WORLD MAP (`2025 → TODAY`)**
 Music settles into a calm, quiet pulse. **`@Me` (NARRATOR / HOST)** stands beside the waist-high curved transparent OLED glass screen separating the elevated blue-seat stadium audience from the pure-white stage. As he walks slowly along the arc, a clean luminous **Timeline (`JAN 2025 → NOV 2026`)** and **World Map** illuminate step by step.
@@ -178,7 +180,7 @@ Where heavy pressure falls on tired shoulders, the heart hears **compassion**.
 ## SCENE 6 (PAGE 6): The Blessing in Disguise & *The 7D Way* (`05:36 – 06:38`)
 
 **`05:36` — SLOW ORBITAL GLIDE PAST THE SAINTLY GENIE & THE SUBTLE BRUSHED-GOLD 7D WALL MAXIMS**
-Camera drifts gently past `Do Your DUTY.` · `Practice DHARMA.` · `Remember the DIVINE.` · `Live by DISCIPLINE.` and `Keep Your DIGNITY.` · `Be DEVOUT.` · `Respect DESTINY.` as the hall listens in deep stillness.
+Camera drifts gently past `Respect Your DUTY First.` · `Earn with DIGNITY Always.` · `Practice Life DISCIPLINE.` on the left wall, `Uphold Karmic DHARMA.` · `Raise Family with DEVOTION.` · `Be Grateful to Your DIVINE.` on the right wall, and `Purposeful Life Is Your DESTINY.` centered below the padded logo as the hall listens in deep stillness.
 
 **KARMIC GENIE**
 *(gentle, conversational, wondering aloud—zero preaching)*
