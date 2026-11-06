@@ -1,0 +1,25 @@
+{
+  "Karmic_Genie_Show_S01E01_Tech_CEO_Short_70pct_9x16.mp4": {
+    "season": 1,
+    "episode": 1,
+    "speed": "70%",
+    "title": "Employees vs. Tech CEO: Why AI Arrived Now | Karmic Genie Show (S1 E1) #Shorts",
+    "channels": {
+      "@influenzian": {
+        "video_id": "ns1kWtoNB5U",
+        "url": "https://youtube.com/shorts/ns1kWtoNB5U",
+        "watch_url": "https://www.youtube.com/watch?v=ns1kWtoNB5U",
+        "token": "token_influenzian.json"
+      },
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "mpQlEJGyz1o",
+        "url": "https://youtube.com/shorts/mpQlEJGyz1o",
+        "watch_url": "https://www.youtube.com/watch?v=mpQlEJGyz1o",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  }
+}
