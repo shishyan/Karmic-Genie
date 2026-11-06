@@ -189,7 +189,7 @@ def main():
                         "defaultAudioLanguage": "en",
                     },
                     "status": {
-                        "privacyStatus": "public",
+                        "privacyStatus": "unlisted",
                         "selfDeclaredMadeForKids": False,
                     },
                 }

@@ -141,7 +141,7 @@ def main():
                         "categoryId": "22",
                     },
                     "status": {
-                        "privacyStatus": "public",
+                        "privacyStatus": "unlisted",
                         "selfDeclaredMadeForKids": False,
                     },
                 }
