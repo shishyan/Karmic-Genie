@@ -5,6 +5,17 @@ description: Complete production bible, Grand-Design philosophical framework, v6
 
 # Karmic Genie Show — Official Production Skill & Multi-Agent Runbook
 
+## Storage Policy — Google Drive Is the Central Repository
+
+> Updated 2026-11-08 by owner decision: Drive-first, GitHub = code only, **no Git LFS**.
+
+- **All media lives on Google Drive** (`nagaraj957@gmail.com`): renders, clips, audio, thumbnails, bundles, masters, build artifacts. Project folder `Karmic_Genie_Show_S01E01` (Drive ID `1Mf-4vffVo6RRBhNFqTjzW3RAcC2bpbCy`) is what Colab/remote agents read.
+- **GitHub is for code sync only**: scripts, `SKILL.md`, docs and small web assets. Never add `filter=lfs` rules, never commit media, OAuth tokens or `.env`.
+- **Every build ends on Drive**: upload outputs with `gdrive mutate upload <file> --parent <folder-id>`, confirm the Drive size equals the local size, and record the Drive file ID.
+- Dated handoff drops go in `remote_agent_sync_YYYYMMDD/` inside that folder (source bundle + README handoff + published cuts). Colab inputs: `karmic_genie_7d_colab_bundle.tar.gz`.
+- **Never delete or overwrite a local binary until its Drive copy is verified** (size match). When a file name is reused by a newer build, upload the older cut under a distinct name first.
+- Repo `Karmic-Genie-Show` ignores media via `.gitignore`; see its `STORAGE.md`. Published YouTube IDs are recorded in each episode's `published_manifest.json`.
+
 This skill is the single source of truth for **all agents and subagents** working on ***Karmic Genie Show*** (`@karmicgenie` / syndication on `@influenzian`). Every agent MUST read and enforce all rules in this document before writing scripts, generating clips, assembling video masters, or uploading to YouTube.
 
 ---
@@ -55,7 +66,13 @@ This skill is the single source of truth for **all agents and subagents** workin
 
 ### 2.1 Master Reference Plates (`/home/shishyan/GitHub/Karmic-Genie-Show/assets/studio_v5_masters/`)
 - **Act I/II/IV Wide-Wall Dormant Lamp Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v7_wide_wall_dormant_16x9.jpg` (Seamless ultra-wide pure-white architectural back wall occupying the former steps area so there is generous white space on both sides of the logo and ZERO paint-patch seams!)
-- **Act III Wide-Wall Awakened Cross-Legged Genie Studio (`16:9`, `2752×1536`):** `assets/studio_v5_masters/v7_wide_wall_genie_16x9.jpg`
+- **Canonical Awakened Karmic Genie Persona (`v8` — Narrator `@Me` as *The Royal Indigo & Gold Maharishi*, `16:9`, `2752×1536`):** `assets/studio_v5_masters/v8_genie_royal_indigo_sage_16x9.jpg`
+  - **CRITICAL IDENTITY RULE (`Narrator = Karmic Genie in Regal Costume`):** Never use a literal cartoon blue genie! The **Karmic Genie IS the Narrator (`@Me` / Nagarajan himself)** appearing in his awakened **Royal Indigo & Champagne-Gold Maharishi costume** (midnight-indigo silk Achkan with violet-gold lotus embroidery, draped burnished-gold silk *angavastram* stole over the left shoulder, and ruby-emerald jeweled golden lamp brooch over the heart, seated/standing behind the ornate jeweled golden lamp as 7-color light ribbons rise from the spout).
+  - **Host Persona vs. Genie Persona:** As the studio **Host / Narrator**, `@Me` wears his crisp **ivory-white modern bandhgala suit**. As the **Karmic Genie**, `@Me` wears the **Royal Indigo & Gold Maharishi Achkan (`Sample A`)**!
+- **Universal `70-Point` (`1–10` per Dimension, `< 35 = Change Your Life's Course`) 7D Scorecard Law:**
+  - Every dimension (`1. DUTY`, `2. DIGNITY`, `3. DISCIPLINE`, `4. DHARMA`, `5. DEVOTION`, `6. DIVINE`, `7. DESTINY`) is scored on a scale of **`1` to `10`** (`Max = 70`).
+  - **Decision Threshold:** If any situation in your life scores **below `35 / 70`**, you must **change the course of your life**.
+  - **Canonical Sage Definition of `DUTY`:** Duty is **NOT** an office job; Duty is anything that matters to your soul's growth—and its simplest test is **Conscience**: *Duty is the task that triggers guilt inside you (activating your conscience) when you fail to do it*. Most people drown this conscience trigger with alcohol, intoxicants, or distractions; like a thief who feels guilt the first few times and then normalizes it, repeatedly ignoring the conscience silences it completely—draining the world of empathy, sympathy, and compassion.
 - **Official Show Logo (`Pure White`):** `assets/logo/official_karmic_genie_show_logo.jpg`
 - **Official 7D Theme Song (`WAV`):** `assets/theme/official_karmic_genie_7d_theme_song.wav`
 - **STRICT BAN ON FAKE DARK TOP OVERLAY BOXES:** Never render dark-backgrounded rectangular PIL boxes at the top of the screen (`y=0..150`)! All metrics and 7D Scorecards MUST be integrated **directly onto the studio's curved circular glass displays** (using glowing glass-projection typography along the lower left/right curved glass barriers, or shown inside the `2025 → 2026` holographic glass metrics clips!).
@@ -138,7 +155,7 @@ Never summarize this as `"7D maxims"` in prompts (summarizing causes video model
 
 ---
 
-## 6. YouTube Publishing (`UNLISTED` First!) & GitHub Sync
+## 6. YouTube Publishing (`UNLISTED` First!), Drive Storage & Code-Only GitHub Sync
 
 1. **NEVER Publish Directly to `public` While Testing the Waters:**
    - Every upload script MUST enforce `assert body["status"]["privacyStatus"] == "unlisted"`.

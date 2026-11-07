@@ -17,3 +17,23 @@ renders/opener_v5_7d_16x9_clips/
 *token*.json
 *client_secret*.json
 .env
+
+# ---- Storage policy: Google Drive is the central repository for ALL media & build artifacts ----
+# GitHub holds code (pipeline/, SKILL.md, README, small docs) only. No Git LFS.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.tar.gz
+*.zip
+renders/
+episodes/**/flow_*clips/
+episodes/**/sketches_*/
+episodes/**/virtues_30s/
+episodes/**/overlays_*/
+episodes/**/qa_*.jpg
+# (already-tracked files are unaffected; stop tracking explicitly with `git rm --cached` if desired)

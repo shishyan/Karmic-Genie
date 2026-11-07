@@ -1,5 +1,16 @@
 # Karmic Genie Show
 
+## Storage Policy — Google Drive Is the Central Repository
+
+> Updated 2026-11-08 by owner decision: Drive-first, GitHub = code only, **no Git LFS**.
+
+- **All media lives on Google Drive** (`nagaraj957@gmail.com`): renders, clips, audio, thumbnails, bundles, masters, build artifacts. Project folder `Karmic_Genie_Show_S01E01` (Drive ID `1Mf-4vffVo6RRBhNFqTjzW3RAcC2bpbCy`) is what Colab/remote agents read.
+- **GitHub is for code sync only**: scripts, `SKILL.md`, docs and small web assets. Never add `filter=lfs` rules, never commit media, OAuth tokens or `.env`.
+- **Every build ends on Drive**: upload outputs with `gdrive mutate upload <file> --parent <folder-id>`, confirm the Drive size equals the local size, and record the Drive file ID.
+- Dated handoff drops go in `remote_agent_sync_YYYYMMDD/` inside that folder (source bundle + README handoff + published cuts). Colab inputs: `karmic_genie_7d_colab_bundle.tar.gz`.
+- **Never delete or overwrite a local binary until its Drive copy is verified** (size match). When a file name is reused by a newer build, upload the older cut under a distinct name first.
+- Repo `Karmic-Genie-Show` ignores media via `.gitignore`; see its `STORAGE.md`. Published YouTube IDs are recorded in each episode's `published_manifest.json`.
+
 ![Official Karmic Genie Show Logo](assets/logo/official_karmic_genie_show_logo.jpg)
 
 > ***"What does Genie say — the 7D way?"***
