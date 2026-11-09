@@ -1,0 +1,100 @@
+[
+  {
+    "id": "S01E00",
+    "code": "S01E00_Pilot_The_7D_Way",
+    "title": "The 7D Way: 7 Great Virtues to Become a Pioneer of the New World",
+    "subtitle": "The Universal 7D Life-Compass & The 35/70 Threshold Law",
+    "cast": [
+      "Adult Host (@Me in Ivory Bandhgala)",
+      "4yo Bala-Rishi (@Me with Neem Stylus)",
+      "Maharishi Genie (Indigo/Gold Robes)"
+    ],
+    "core_concept": "The 7 Virtues of Vedic Dharmic Life (Duty, Dignity, Discipline, Dharma, Devotion, Divine, Destiny) and the 35/70 Conscience Audit.",
+    "script_file": "episodes/S01E00_Pilot_The_7D_Way/S01E00_Pilot_7D_30s_Philosopher_Screenplay.md",
+    "duration": "5 Minutes (40 Beats x 7.5s)"
+  },
+  {
+    "id": "S01E01",
+    "code": "S01E01_The_Way_Forward_Master",
+    "title": "The Way Forward: As in the Macrocosm, So in the Microcosm",
+    "subtitle": "Andathil Ullathe Pindam, Pindathil Ullathe Andam",
+    "cast": [
+      "Host (@Me)",
+      "4yo Bala-Rishi (Jnana)",
+      "Bala-Matha (Arul in Green/Rose Silk)"
+    ],
+    "core_concept": "The great awakening that Mother Earth is a living conscious mother, and all human organ systems mirror the 7 global industry sectors.",
+    "script_file": "docs/guides/THE_WAY_FORWARD_MASTER_GUIDE.md",
+    "duration": "14-Page Movie Screenplay"
+  },
+  {
+    "id": "S01E02",
+    "code": "S01E02_Technological_Singularity_2027_2100",
+    "title": "Technological Singularity (2027 \u2013 2100): The Sacred Timeline",
+    "subtitle": "Decoupling 7D Philosophy from Direct Yearly Eras",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "The macroscopic multi-decade evolution from 2027 media synthesis to the post-scarcity living planet household by 2100.",
+    "script_file": "episodes/S01E02_Technological_Singularity_2027_2100/S01E02_Full_Screenplay_Tech_Singularity_2027_2100.md",
+    "duration": "Full Episodic Screenplay"
+  },
+  {
+    "id": "S01E03",
+    "code": "S01E03_Predictions_2027_Zero_Friction_Media_Era",
+    "title": "Predictions 2027: The Zero-Friction Media Era",
+    "subtitle": "1-Prompt Movies, Heritage Resurrections & The Death of Gatekeepers",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "How generative cinematic intelligence allows every human to create high-production value mythic films in their mother tongue.",
+    "script_file": "episodes/S01E03_Predictions_2027_Zero_Friction_Media_Era/S01E03_14_Page_Master_Screenplay_Predictions_2027.md",
+    "duration": "14-Page Master Screenplay"
+  },
+  {
+    "id": "S01E04",
+    "code": "S01E04_The_Cosmic_Gardener_The_Great_Transition",
+    "title": "The Cosmic Gardener: The Great Transition",
+    "subtitle": "The Living Mountain Invariant & The Scaffolds of Mother Earth",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "Mother Earth already operates flawless systems in ancient forests; cities and tech were temporary scaffolds held while tools matured.",
+    "script_file": "episodes/S01E04_The_Cosmic_Gardener_The_Great_Transition/S01E04_14_Page_Master_Screenplay_Cosmic_Gardener.md",
+    "duration": "14-Page Master Screenplay"
+  },
+  {
+    "id": "S01E05",
+    "code": "S01E05_2028_Unified_AI_Platform",
+    "title": "2028: The Unified AI Platform",
+    "subtitle": "Planetary Neural Tube Closure & The Sacred Offering of Thanks (Nandri)",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "1-Prompt application synthesis, federated open-weight intelligence, honoring tech pioneers for building the neural backbone.",
+    "script_file": "episodes/S01E05_2028_Unified_AI_Platform/S01E05_7_Page_Master_Screenplay_Unified_AI_Platform.md",
+    "duration": "7-Page Master Screenplay"
+  },
+  {
+    "id": "S01E06",
+    "code": "S01E06_2029_Unified_ERP_Platform",
+    "title": "2029: The Unified ERP Platform",
+    "subtitle": "The Vascular Circulation of Planetary Resources",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "Universal resource routing, ending supply-chain friction, circulating food, medicine, and energy like oxygenated blood.",
+    "script_file": "episodes/S01E06_2029_Unified_ERP_Platform/S01E06_7_Page_Master_Screenplay_Unified_ERP.md",
+    "duration": "7-Page Master Screenplay"
+  }
+]
