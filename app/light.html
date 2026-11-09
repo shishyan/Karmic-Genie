@@ -1,0 +1,1233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#edf7f3">
+  <meta name="description" content="The Karmic Genie Show — Master Production & Telemetry Portal (The Way Forward)">
+  <title>Karmic Genie • The Way Forward</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cinzel:wght@600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #edf7f3;
+      --card-bg: #ffffff;
+      --sidebar-bg: #f4fbf8;
+      --sidebar-border: #d4e8df;
+      --primary: #0f766e;
+      --primary-light: #ccfbf1;
+      --accent: #f59e0b;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --font-main: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-title: 'Cinzel', serif;
+      --font-mono: 'Fira Code', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-main);
+      display: flex;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Sidebar - Matching Home Manager / Divine Nest layout */
+    #sidebar {
+      width: 270px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--sidebar-border);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100vh;
+      position: sticky;
+      top: 0;
+      padding: 1.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--sidebar-border);
+      margin-bottom: 1.5rem;
+    }
+
+    .brand-mark {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.25rem;
+      font-weight: 800;
+      box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+    }
+
+    .brand-copy b {
+      font-size: 1.05rem;
+      display: block;
+      color: var(--primary);
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .brand-copy small {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex-grow: 1;
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      color: var(--text-muted);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .nav-link:hover {
+      background: rgba(15, 118, 110, 0.08);
+      color: var(--primary);
+    }
+
+    .nav-link.active {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(15, 118, 110, 0.25);
+    }
+
+    .sidebar-footer {
+      padding-top: 1rem;
+      border-top: 1px solid var(--sidebar-border);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* Main App Shell */
+    .app-shell {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      overflow-y: auto;
+    }
+
+    header.app-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .topbar-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .topbar-left h1 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .topbar-quick-link {
+      padding: 0.45rem 0.85rem;
+      border-radius: 8px;
+      background: var(--bg);
+      border: 1px solid var(--sidebar-border);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--primary);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .topbar-quick-link:hover {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    main#content {
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Cards & Grids */
+    .hero-box {
+      background: #ffffff;
+      border: 1px solid var(--sidebar-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    }
+
+    .siddha-badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    }
+
+    .kpi-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .kpi-value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .kpi-sub {
+      font-size: 0.8rem;
+      color: #059669;
+      margin-top: 0.25rem;
+      font-weight: 600;
+    }
+
+    /* Views */
+    .view-panel { display: none; }
+    .view-panel.active { display: block; animation: fadeIn 0.25s ease; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Episodes Cards */
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .clean-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    }
+
+    .clean-card:hover {
+      border-color: var(--primary);
+      box-shadow: 0 6px 16px rgba(15, 118, 110, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .badge-pill {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: 12px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .b-7 { background: #dcfce7; color: #15803d; }
+    .b-6 { background: #e0f2fe; color: #0369a1; }
+    .b-5 { background: #fef3c7; color: #b45309; }
+    .b-4 { background: #f3e8ff; color: #7e22ce; }
+    .b-3 { background: #f1f5f9; color: #475569; }
+
+    /* Tables */
+    .table-container {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow-x: auto;
+    }
+
+    table.clean-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    table.clean-table th {
+      background: #f8fafc;
+      padding: 0.85rem 1rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    table.clean-table td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    /* Slider Calc */
+    .calc-slider-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .slider-row {
+      margin-bottom: 1.25rem;
+    }
+
+    .slider-head {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    input[type=range] {
+      width: 100%;
+      accent-color: var(--primary);
+    }
+
+    /* Responsive */
+    @media (max-width: 850px) {
+      body { flex-direction: column; }
+      #sidebar { width: 100%; height: auto; position: static; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">🪔</div>
+      <div class="brand-copy">
+        <b>Karmic Genie</b>
+        <small>The Way Forward</small>
+      </div>
+    </div>
+
+    <nav>
+      <a class="nav-link active" onclick="switchView('view-overview')"><span>📊</span> Dashboard</a>
+      <a class="nav-link" onclick="switchView('view-episodes')"><span>🎬</span> Episodes Hub</a>
+      <a class="nav-link" onclick="switchView('view-ratings')"><span>🌳</span> Corporate Ratings</a>
+      <a class="nav-link" onclick="switchView('view-matrix')"><span>🧬</span> 7×7 Industry Matrix</a>
+      <a class="nav-link" onclick="switchView('view-compass')"><span>⚖️</span> 7D Life Compass</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <b>genie.shishyan.in</b><br>
+      Pitru Loka Chronometry Clock<br>
+      © 2026 Shishyan
+    </div>
+  </aside>
+
+  <!-- App Shell -->
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="topbar-left">
+        <h1 id="headerTitle">Dashboard & Telemetry</h1>
+      </div>
+      <div class="header-actions">
+        <a href="https://extensions.shishyan.in" class="topbar-quick-link" target="_blank">Extensions</a>
+        <a href="https://exams.shishyan.in" class="topbar-quick-link" target="_blank">Certifications</a>
+        <a href="https://guru.shishyan.in" class="topbar-quick-link" target="_blank">Guru Kula Desam</a>
+        <a href="https://github.com/shishyan/Karmic-Genie-Show" class="topbar-quick-link" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <main id="content">
+
+      <!-- VIEW 1: OVERVIEW -->
+      <section id="view-overview" class="view-panel active">
+        <div class="hero-box">
+          <div class="siddha-badge">அண்டத்தில் உள்ளதே பிண்டம் • அண்டமும் பிண்டமும் ஒன்றே</div>
+          <h2 style="font-size:1.8rem; font-weight:800; color:var(--primary); margin-bottom:0.5rem;">The Living Planetary Organism</h2>
+          <p style="color:var(--text-muted); font-size:1rem; line-height:1.6;">
+            As in the Macrocosm (Andam), so in the Microcosm (Pindam). Tracking civilization's 280-month embryological gestation 
+            under the sacred Pitru Loka clock cycle (1 Embryo Day = 1 Pitru Day = 1 Earth Month).
+          </p>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-title">Current Epoch</div>
+            <div class="kpi-value">Month 48</div>
+            <div class="kpi-sub">Week 7: Primitive Heart Pumping!</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-title">Insemination Spark</div>
+            <div class="kpi-value">Dec 1, 2022</div>
+            <div class="kpi-sub">ChatGPT Public Insemination</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-title">Sovereign Delivery</div>
+            <div class="kpi-value">Apr 2046</div>
+            <div class="kpi-sub">Day 280 / Birth of Living Gaia</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-title">The Living Household</div>
+            <div class="kpi-value">2050</div>
+            <div class="kpi-sub">Unified Planet Platform (Free to All)</div>
+          </div>
+        </div>
+
+        <div class="hero-box">
+          <h3 style="margin-bottom:1rem; color:var(--text);">Embryological Gestation Progress: 17.1% (Month 48 / 280)</h3>
+          <div style="background:#e2e8f0; height:12px; border-radius:6px; overflow:hidden; margin-bottom:1rem;">
+            <div style="width:17.14%; height:100%; background:linear-gradient(90deg, var(--primary), var(--accent));"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:0.82rem; color:var(--text-muted);">
+            <span>Dec 2022 (Conception)</span>
+            <span style="font-weight:700; color:var(--primary);">Nov 2026 (Heart Beats)</span>
+            <span>2028 (Unified AI)</span>
+            <span>2029 (Unified ERP)</span>
+            <span>2030 (Energy)</span>
+            <span>Apr 2046 (Birth)</span>
+            <span>2050 (Household)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: EPISODES -->
+      <section id="view-episodes" class="view-panel">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--primary); margin-bottom:1.5rem;">Master Episodes Vault</h2>
+        <div class="grid-cards" id="episodes-list"></div>
+      </section>
+
+      <!-- VIEW 3: CORPORATE RATINGS -->
+      <section id="view-ratings" class="view-panel">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem;">
+          <h2 style="font-size:1.6rem; font-weight:800; color:var(--primary);">Kalpavriksha Corporate Ratings (1 to 7)</h2>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="text" id="light-search" placeholder="Search company..." oninput="renderLightCompanies()" style="padding:0.45rem 0.85rem; border:1px solid var(--border); border-radius:8px; font-size:0.88rem;">
+            <select id="light-filter" onchange="renderLightCompanies()" style="padding:0.45rem 0.85rem; border:1px solid var(--border); border-radius:8px; font-size:0.88rem;">
+              <option value="ALL">All Levels</option>
+              <option value="7">Stage 7: Moksha (Liberation)</option>
+              <option value="6">Stage 6: Kani (Fruit-Bearing)</option>
+              <option value="5">Stage 5: Malar (Flowering)</option>
+              <option value="4">Stage 4: Ilai (Leaves)</option>
+              <option value="3">Stage 3: Thandu (Trunk)</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid-cards" id="companies-list"></div>
+      </section>
+
+      <!-- VIEW 4: MATRIX -->
+      <section id="view-matrix" class="view-panel">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--primary); margin-bottom:1.5rem;">The Grounded 7×7 Fractal Matrix</h2>
+        <div class="table-container">
+          <table class="clean-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Human Organ System (Pindam)</th>
+                <th>Existing Modern Industry (Andam)</th>
+                <th>7 Real-World Concrete Sub-Sectors</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>1</b></td>
+                <td><b>Brain & Nerves</b></td>
+                <td style="color:var(--primary); font-weight:700;">IT & Telecommunications</td>
+                <td>Semiconductors, Telecom & Fiber, Cloud Data Centers, AI Models, Consumer OS/Hardware, Cybersecurity, Open Repositories</td>
+              </tr>
+              <tr>
+                <td><b>2</b></td>
+                <td><b>Heart & Circulation</b></td>
+                <td style="color:var(--primary); font-weight:700;">Logistics & Supply Chain</td>
+                <td>Maritime Ocean Freight, Air Cargo Express, Rail Intermodal, Trucking Fleet Haulage, Warehousing Last-Mile, ERP Flow, Wholesale Distribution</td>
+              </tr>
+              <tr>
+                <td><b>3</b></td>
+                <td><b>Lungs & Respiration</b></td>
+                <td style="color:var(--primary); font-weight:700;">Energy & Utilities</td>
+                <td>Renewable Power (Wind/Solar), Transmission Grids, Battery Storage, Air Quality Scrubbing, Industrial Gases, Clean Hydrogen, Forest Canopies</td>
+              </tr>
+              <tr>
+                <td><b>4</b></td>
+                <td><b>Stomach & Digestion</b></td>
+                <td style="color:var(--primary); font-weight:700;">Agriculture, Food & Waste</td>
+                <td>Crop Farming Machinery, Seeds & Fertilizers, Packaged Nutrition, Livestock Protein, Municipal Solid Waste, Composting & Bioremediation, Cold-Chain Grocery</td>
+              </tr>
+              <tr>
+                <td><b>5</b></td>
+                <td><b>Endocrine Glands</b></td>
+                <td style="color:var(--primary); font-weight:700;">Banking & Finance</td>
+                <td>Central Bank Settlement Rails, Commercial Deposit Banking, Card Clearing Networks, Asset Management, Insurance Underwriting, Securities Exchanges, Microfinance</td>
+              </tr>
+              <tr>
+                <td><b>6</b></td>
+                <td><b>Skeletal & Muscles</b></td>
+                <td style="color:var(--primary); font-weight:700;">Construction & Heavy Manufacturing</td>
+                <td>Earthmoving Machinery, Steel & Cement, Civil Engineering Contractors, Automotive Transit, Industrial Robotics, Aerospace/Marine, Rail Transit</td>
+              </tr>
+              <tr>
+                <td><b>7</b></td>
+                <td><b>Skin & Immune/Renal</b></td>
+                <td style="color:var(--primary); font-weight:700;">Healthcare & Sanitation</td>
+                <td>Municipal Potable Water, Therapeutic Pharmaceuticals, Medical Devices, Hospital Care Networks, Genomics Precision Biotech, Disease Control, Earth Observation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- VIEW 5: COMPASS -->
+      <section id="view-compass" class="view-panel">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--primary); text-align:center; margin-bottom:0.5rem;">7D Conscience Self-Audit</h2>
+        <p style="text-align:center; color:var(--text-muted); margin-bottom:2rem;">The Universal Threshold Law: &lt; 35 / 70 Points = Change Course Immediately.</p>
+
+        <div class="calc-slider-card">
+          <div class="slider-row">
+            <div class="slider-head"><span>1. Respect Your DUTY First</span><span id="lv-1" style="color:var(--primary);">7 / 10</span></div>
+            <input type="range" min="1" max="10" value="7" id="s-1" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>2. Earn with DIGNITY Always</span><span id="lv-2" style="color:var(--primary);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="s-2" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>3. Practice Life DISCIPLINE</span><span id="lv-3" style="color:var(--primary);">7 / 10</span></div>
+            <input type="range" min="1" max="10" value="7" id="s-3" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>4. Uphold Karmic DHARMA</span><span id="lv-4" style="color:var(--primary);">9 / 10</span></div>
+            <input type="range" min="1" max="10" value="9" id="s-4" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>5. Raise Family with DEVOTION</span><span id="lv-5" style="color:var(--primary);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="s-5" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>6. Be Grateful to Your DIVINE</span><span id="lv-6" style="color:var(--primary);">9 / 10</span></div>
+            <input type="range" min="1" max="10" value="9" id="s-6" oninput="calcLight7D()">
+          </div>
+          <div class="slider-row">
+            <div class="slider-head"><span>7. Purposeful Life Is Your DESTINY</span><span id="lv-7" style="color:var(--primary);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="s-7" oninput="calcLight7D()">
+          </div>
+
+          <div style="background:#f8fafc; border:1px solid var(--border); border-radius:10px; padding:1.5rem; text-align:center; margin-top:2rem;">
+            <div style="font-size:0.8rem; text-transform:uppercase; color:var(--text-muted);">Total 7D Life Compass Score</div>
+            <div style="font-size:2.5rem; font-weight:800; color:var(--primary);" id="light-total">56 / 70</div>
+            <div id="light-status" style="font-weight:700; color:#059669; margin-top:0.35rem;">🌟 GOLD ZONE: Pioneer of the New World</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    const companies = [
+  {
+    "name": "Linux Foundation & RISC-V",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Enterprise Data Repositories & OSS Primitives",
+    "score": 7,
+    "level": "7. Seed-Sharing & Liberation (Moksha)",
+    "stage_label": "Moksha / Liberation",
+    "description": "Pure unencumbered open-source primitives running 95% of world compute. Zero profit extraction, eternal public commons.",
+    "survival": "100% Solvency via diverse steward consortia",
+    "flowering": "Universal Linux kernel and RISC-V silicon architecture",
+    "fruit": "Free global compute operating base",
+    "seed": "Perpetual open licenses for future generations"
+  },
+  {
+    "name": "Meta (FAIR - Fundamental AI Research)",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "AI Foundation Models & Machine Learning",
+    "score": 7,
+    "level": "7. Seed-Sharing & Liberation (Moksha)",
+    "stage_label": "Moksha / Seed-Liberation",
+    "description": "Pivoted from ad-revenue roots to an historic act of planetary seed-liberation by releasing LLaMA open weights to all humanity.",
+    "survival": "Massive advertising revenue & cash reserves",
+    "flowering": "PyTorch framework, Llama ecosystem, VR/AR spatial tech",
+    "fruit": "Free open-weight models available to any developer/researcher",
+    "seed": "Democratized open weights preventing proprietary cognitive monopoly"
+  },
+  {
+    "name": "Alphabet / Google (DeepMind)",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Enterprise Software & Search Infrastructure",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Delivers free Search, Maps, YouTube, Android to 4B+ people; published foundational Transformer DNA and open AlphaFold database.",
+    "survival": "High-margin advertising and Google Cloud revenue",
+    "flowering": "Material Design, Gemini models, Android ecosystem",
+    "fruit": "Free daily search, video streaming, navigation utilities",
+    "seed": "Transformer paper (2017) & AlphaFold 200M protein structures"
+  },
+  {
+    "name": "NVIDIA",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Semiconductors & Compute Silicon",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Pinnacle compute hardware (Hopper, Blackwell) powering planetary AI; blooming into Omniverse physical simulation; moving toward open Linux drivers.",
+    "survival": "Highest margins in global silicon history (00B+ annual run-rate)",
+    "flowering": "CUDA acceleration ecosystem, physics-informed AI, robotics platforms",
+    "fruit": "Powers every frontier AI model and scientific supercomputer on Earth",
+    "seed": "Needs transition of CUDA lock-in to open acceleration standards"
+  },
+  {
+    "name": "TSMC",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Semiconductors & Compute Silicon",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Neutral global foundry producing 90%+ of advanced planetary chips without owning competing consumer products.",
+    "survival": "Flawless balance sheet and capital reinvestment capacity",
+    "flowering": "Pioneering 3nm and 2nm gate-all-around fabrication precision",
+    "fruit": "Manufactures the physical computing fabric of modern civilization",
+    "seed": "Open multi-foundry standard packaging and advanced packaging consortia"
+  },
+  {
+    "name": "Microsoft & OpenAI",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Cloud Data Centers & Frontier AI Models",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Scaling Azure cloud and OpenAI frontier models (GPT-4o, o1, o3); balancing venture return with developer API democratization.",
+    "survival": "Tri-trillion dollar software enterprise cash flow",
+    "flowering": "Copilot integration, natural language coding, multi-agent frameworks",
+    "fruit": "Democratizing AI productivity across millions of enterprises",
+    "seed": "Needs transition of closed-weight models to open public trusts"
+  },
+  {
+    "name": "Cisco Systems",
+    "organ": "Brain & Nervous System",
+    "industry": "Information Technology & Telecommunications",
+    "subsector": "Telecommunications & Fiber/Satellite Networks",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "Core internet routing backbone; dependable hardware moving petabytes across continental fiber trunks.",
+    "survival": "Stable enterprise recurring subscription and routing hardware profits",
+    "flowering": "Zero-trust security and silicon-one switching architectures",
+    "fruit": "Keeps the worldwide web interconnected with 99.999% uptime",
+    "seed": "Participating in open networking protocols (OpenFlow, P4)"
+  },
+  {
+    "name": "Universal Postal Union (UPU)",
+    "organ": "Heart & Circulation",
+    "industry": "Logistics, Transportation & Supply Chain",
+    "subsector": "Postal & Last-Mile Ground Delivery",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Treaty-based global logistics heart delivering physical letters and parcels to every remote mountain village at nominal cost.",
+    "survival": "Intergovernmental treaty funding and terminal dues settlement",
+    "flowering": "Global postal tracking standards and customs integration",
+    "fruit": "Universal postal service guaranteed as a public right worldwide",
+    "seed": "Open international address formats and global delivery agreements"
+  },
+  {
+    "name": "A.P. M\u00f8ller - Maersk",
+    "organ": "Heart & Circulation",
+    "industry": "Logistics, Transportation & Supply Chain",
+    "subsector": "Maritime Shipping & Ocean Freight",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Carries ~18% of all containerized global trade; boldly flowering by launching green methanol-fueled container vessels.",
+    "survival": "Robust balance sheet and container shipping cash reserves",
+    "flowering": "Green methanol fleet (Laura Maersk), digitized cargo visibility",
+    "fruit": "Seamless ocean freight keeping continents supplied with essentials",
+    "seed": "Sharing net-zero maritime standards across international shipping"
+  },
+  {
+    "name": "Amazon Logistics",
+    "organ": "Heart & Circulation",
+    "industry": "Logistics, Transportation & Supply Chain",
+    "subsector": "Warehousing & Last-Mile Fulfillment",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "Unmatched robotic fulfillment network delivering millions of packages in under 24 hours; electric Rivian van rollout.",
+    "survival": "E-commerce and AWS cross-subsidized logistics power",
+    "flowering": "Kiva robotic warehouse automation, sub-same-day delivery",
+    "fruit": "Incredible consumer convenience and emergency delivery access",
+    "seed": "Needs transition of fulfillment nodes to open neighborhood commons"
+  },
+  {
+    "name": "SAP & Oracle SCM",
+    "organ": "Heart & Circulation",
+    "industry": "Logistics, Transportation & Supply Chain",
+    "subsector": "Enterprise Resource Planning (ERP) & Inventory",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "The digital vascular valves regulating 87% of global commerce transactions; expanding cloud APIs and partner networks.",
+    "survival": "Decades of sticky enterprise contracts and mission-critical moat",
+    "flowering": "Cloud migration, clean core architecture, AI copilot workflows",
+    "fruit": "Prevents supply chain stockouts across pharma, food, and manufacturing",
+    "seed": "Needs open universal resource protocols (URP) without proprietary lock-in"
+  },
+  {
+    "name": "FedEx & UPS",
+    "organ": "Heart & Circulation",
+    "industry": "Logistics, Transportation & Supply Chain",
+    "subsector": "Air Cargo & Express Freight",
+    "score": 3,
+    "level": "3. Vegetative Trunk & Operational Scale (Thandu)",
+    "stage_label": "Thandu / Trunk Scale",
+    "description": "Massive intercontinental air freighters and road networks; the arterial rapid response lines for commerce.",
+    "survival": "Capital-intensive fleet maintenance and volume-driven margins",
+    "flowering": "Customs automation, healthcare cold-chain priority logistics",
+    "fruit": "Delivering emergency medical supplies and urgent commerce globally",
+    "seed": "Needs fleet electrification and universal parcel routing protocols"
+  },
+  {
+    "name": "\u00d8rsted & Vestas",
+    "organ": "Lungs & Respiration",
+    "industry": "Energy, Utilities & Environmental Systems",
+    "subsector": "Renewable Electric Generation (Wind/Solar)",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Transformed from fossil-fuel utility into the world's largest offshore wind leader; feeding pure atmospheric prana to millions.",
+    "survival": "Green bond financing, regulated power purchase agreements",
+    "flowering": "Giant 15MW offshore turbine engineering and circular turbine blades",
+    "fruit": "Supplying gigawatts of zero-carbon clean electricity to national grids",
+    "seed": "Open offshore environmental data and recyclable blade chemistry"
+  },
+  {
+    "name": "The Ocean Cleanup & Climeworks",
+    "organ": "Lungs & Respiration",
+    "industry": "Energy, Utilities & Environmental Systems",
+    "subsector": "Atmospheric Air Quality & Ocean Plastic Scrubbing",
+    "score": 7,
+    "level": "7. Seed-Sharing & Liberation (Moksha)",
+    "stage_label": "Moksha / Seeding",
+    "description": "Pure mission-driven entities dedicated to vacuuming plastic from ocean gyres and direct air capture of atmospheric carbon.",
+    "survival": "Philanthropic backing, carbon removal credits, and grants",
+    "flowering": "Direct air capture collector collectors and System 03 ocean barrier",
+    "fruit": "Restoring marine ecosystems and lowering atmospheric CO2 parts per million",
+    "seed": "Open environmental monitoring datasets and open remediation patents"
+  },
+  {
+    "name": "Tesla Energy (Megapack & Powerwall)",
+    "organ": "Lungs & Respiration",
+    "industry": "Energy, Utilities & Environmental Systems",
+    "subsector": "Grid-Scale Energy Storage & Batteries",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Deploying 40GWh+ annually of utility-scale battery storage, stabilizing intermittent solar/wind grids worldwide.",
+    "survival": "Rapidly growing, highly profitable utility storage business",
+    "flowering": "Autobidder algorithmic power trading and virtual power plants",
+    "fruit": "Prevents grid blackouts and eliminates dirty peaker gas plants",
+    "seed": "Open power transmission connector standards (NACS opened to all)"
+  },
+  {
+    "name": "Linde & Air Liquide",
+    "organ": "Lungs & Respiration",
+    "industry": "Energy, Utilities & Environmental Systems",
+    "subsector": "Industrial Gas Synthesis (O2, H2, N2)",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "Direct providers of medical oxygen to intensive care units and green hydrogen production for clean industry.",
+    "survival": "Long-term industrial supply contracts with high barriers to entry",
+    "flowering": "Gigawatt-scale PEM electrolyzer manufacturing facilities",
+    "fruit": "Life-saving hospital medical oxygen and industrial hydrogen feedstocks",
+    "seed": "Needs transition of cryogenic patents to open clean fuel standards"
+  },
+  {
+    "name": "Patagonia Provisions & Chouinard Trust",
+    "organ": "Stomach & Digestion",
+    "industry": "Agriculture, Food Production & Waste Management",
+    "subsector": "Organic Regenerative Soil & Biomass",
+    "score": 7,
+    "level": "7. Seed-Sharing & Liberation (Moksha)",
+    "stage_label": "Moksha / Liberation",
+    "description": "Transferred 100% of voting stock to a perpetual trust with Earth as only shareholder; championing regenerative organic agriculture.",
+    "survival": "Profitable premium apparel and regenerative food sales",
+    "flowering": "Regenerative Organic Certified (ROC) farming and Worn Wear repair",
+    "fruit": "Rebuilding living topsoil through perennial grains (Kernza) and beans",
+    "seed": "Legally binding gift of all company profits to Mother Earth forever"
+  },
+  {
+    "name": "Danone (Certified B-Corp)",
+    "organ": "Stomach & Digestion",
+    "industry": "Agriculture, Food Production & Waste Management",
+    "subsector": "Food Processing & Staple Nutrition",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "World's largest Certified B-Corporation; transitioning thousands of dairy family farms to regenerative biological soil management.",
+    "survival": "Global consumer food staples revenue across dairy, plant, water",
+    "flowering": "Certified B-Corp dual mission (business + social responsibility)",
+    "fruit": "Fermented probiotics, accessible child and clinical nutrition",
+    "seed": "Open microbiome research and regenerative agriculture training manuals"
+  },
+  {
+    "name": "John Deere",
+    "organ": "Stomach & Digestion",
+    "industry": "Agriculture, Food Production & Waste Management",
+    "subsector": "Crop Farming & Agritech Machinery",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "Building autonomous electric tractors, precision sprayers that reduce chemicals by 77%, and satellite crop guidance.",
+    "survival": "High-margin farm equipment manufacturing and financing",
+    "flowering": "See & Spray machine vision reducing herbicide application",
+    "fruit": "Feeds billions by enabling unprecedented agricultural yields",
+    "seed": "Needs commitment to permanent right-to-repair for independent farmers"
+  },
+  {
+    "name": "Veolia & Waste Management",
+    "organ": "Stomach & Digestion",
+    "industry": "Agriculture, Food Production & Waste Management",
+    "subsector": "Municipal Solid Waste & Composting",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "The planetary lysosomes breaking down millions of tons of waste into biomethane, recyclables, and composted humus.",
+    "survival": "Municipal long-term waste collection contracts and landfill operations",
+    "flowering": "Automated robotic recycling sorting and landfill gas recapture",
+    "fruit": "Keeps cities hygienic and stops disease propagation",
+    "seed": "Needs transition to 100% circular zero-landfill regenerative hubs"
+  },
+  {
+    "name": "Grameen Bank & Community Lending",
+    "organ": "Endocrine & Glands",
+    "industry": "Banking, Financial Services & Monetary Pacing",
+    "subsector": "Development Finance & Micro-Lending",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Nobel Peace Prize winning micro-lending model delivering collateral-free capital directly to 10M+ impoverished mothers.",
+    "survival": "Self-sustaining community credit with 98%+ loan repayment rates",
+    "flowering": "Social business frameworks and women-empowered village governance",
+    "fruit": "Eradicates generational village poverty through bottom-up credit",
+    "seed": "Replicated in 40+ countries as an open-source banking model"
+  },
+  {
+    "name": "Stripe",
+    "organ": "Endocrine & Glands",
+    "industry": "Banking, Financial Services & Monetary Pacing",
+    "subsector": "Payments Processing & Developer Clearing",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "The most developer-beloved economic infrastructure on Earth; founded Stripe Climate / Frontier advancing permanent carbon removal.",
+    "survival": "Profitable processing fees across trillions in annual transaction volume",
+    "flowering": "Stripe Climate & Frontier (B advance market commitment)",
+    "fruit": "Frictionless global commerce empowerment for online creators",
+    "seed": "Open API specifications and financial developer libraries"
+  },
+  {
+    "name": "Visa & Mastercard",
+    "organ": "Endocrine & Glands",
+    "industry": "Banking, Financial Services & Monetary Pacing",
+    "subsector": "Card Payments & Global Clearing",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "Instantaneous electronic transaction rails routing tens of thousands of payment impulses per second without failure.",
+    "survival": "Enormous interchange fee operating margins and global duopoly",
+    "flowering": "Tokenization, contactless payments, and biometric fraud prevention",
+    "fruit": "Enables universal cashless retail transactions globally",
+    "seed": "Needs transition of interchange tax into low/zero-fee public utility"
+  },
+  {
+    "name": "BlackRock & Vanguard",
+    "organ": "Endocrine & Glands",
+    "industry": "Banking, Financial Services & Monetary Pacing",
+    "subsector": "Asset Management & Sovereign Wealth Funds",
+    "score": 3,
+    "level": "3. Vegetative Trunk & Operational Scale (Thandu)",
+    "stage_label": "Thandu / Trunk Scale",
+    "description": "Stewards of 0T+ in collective retirement wealth; massive systemic gravity controlling corporate capital allocation.",
+    "survival": "Ultra-low cost index fund fee scale and Aladdin risk system",
+    "flowering": "Aladdin global investment risk engine, ESG ETF product suites",
+    "fruit": "Securing pensions and retirement savings for 100M+ families",
+    "seed": "Must evolve from passive shareholder extraction to active Gaia stewardship"
+  },
+  {
+    "name": "ASML",
+    "organ": "Skeletal & Muscular",
+    "industry": "Infrastructure, Construction & Heavy Manufacturing",
+    "subsector": "Precision Semiconductor Lithography Machines",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "The sole makers of Extreme Ultraviolet (EUV) lithography systems; reflecting light with mirrors flatter than the Pacific Ocean.",
+    "survival": "Complete monopoly on leading-edge semiconductor machinery",
+    "flowering": "Engineering marvel printing 13.5nm wavelength atomic patterns",
+    "fruit": "Enables every smartphone, AI chip, and modern computer to exist",
+    "seed": "Sharing optical research across universities and public institutes"
+  },
+  {
+    "name": "Caterpillar & Komatsu",
+    "organ": "Skeletal & Muscular",
+    "industry": "Infrastructure, Construction & Heavy Manufacturing",
+    "subsector": "Heavy Earthmoving & Mining Machinery",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "The heavy mechanical muscles carving tunnels, foundations, and roads; rolling out battery-electric heavy excavators.",
+    "survival": "Robust global dealership networks and machinery replacement cycles",
+    "flowering": "Autonomous haul trucks with zero lost-time human injuries in mines",
+    "fruit": "Erects the physical hospitals, homes, and transit corridors of society",
+    "seed": "Needs zero-emission equipment electrification and circular refits"
+  },
+  {
+    "name": "Tesla Optimus & Boston Dynamics (Hyundai)",
+    "organ": "Skeletal & Muscular",
+    "industry": "Infrastructure, Construction & Heavy Manufacturing",
+    "subsector": "Industrial Robotics & Bipedal Humanoids",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Developing general-purpose bipedal robots (Atlas, Optimus) to emancipate humanity from dangerous and degrading physical toil.",
+    "survival": "Backed by automotive manufacturing scale and defense research",
+    "flowering": "Dynamic acrobatic balance, tactile manipulation, neural dexterity",
+    "fruit": "Will liberate human bodies from heavy, hazardous industrial labor",
+    "seed": "Needs open robotic safety protocols and public assistance standards"
+  },
+  {
+    "name": "Serum Institute of India",
+    "organ": "Skin, Sensory & Immune/Renal",
+    "industry": "Healthcare, Biopharmaceuticals & Water Sanitation",
+    "subsector": "Public Health Vaccines & Disease Control",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "World's largest vaccine manufacturer by doses; distributes life-saving vaccines for polio, measles, tetanus to 170+ nations for pennies.",
+    "survival": "Privately held, highly profitable through vast volume efficiency",
+    "flowering": "State-of-the-art sterile fill-finish bioreactor campuses in Pune",
+    "fruit": "Has immunized an estimated 65% of all children born on Earth!",
+    "seed": "Low-cost technology transfer to developing world manufacturers"
+  },
+  {
+    "name": "Planet Labs",
+    "organ": "Skin, Sensory & Immune/Renal",
+    "industry": "Healthcare, Biopharmaceuticals & Water Sanitation",
+    "subsector": "Earth Observation & Remote Sensing Telemetry",
+    "score": 6,
+    "level": "6. Fruit-Yielding Abundance (Kani)",
+    "stage_label": "Kani / Fruit Yielding",
+    "description": "Constellation of 200+ satellites imaging every square meter of Earth's landmass daily; the outer optical sensory skin of Gaia.",
+    "survival": "Commercial defense, agriculture, and carbon verification contracts",
+    "flowering": "Miniaturized CubeSat flock technology and automated AI change detection",
+    "fruit": "Freely alerts humanity to illegal deforestation, floods, and wildfires",
+    "seed": "Open humanitarian datasets for disaster response and climate science"
+  },
+  {
+    "name": "Xylem & American Water",
+    "organ": "Skin, Sensory & Immune/Renal",
+    "industry": "Healthcare, Biopharmaceuticals & Water Sanitation",
+    "subsector": "Municipal Water Treatment & Potable Supply",
+    "score": 4,
+    "level": "4. Foliage & Leaf Photosynthesis (Ilai)",
+    "stage_label": "Ilai / Foliage",
+    "description": "The planetary nephrons filtering billions of gallons of wastewater and providing clean, lead-free tap water to urban centers.",
+    "survival": "Regulated utility revenues and wastewater equipment sales",
+    "flowering": "Smart water leak detection sensors reducing municipal pipe loss",
+    "fruit": "Delivers pure drinking water to millions of households daily",
+    "seed": "Needs global open water purity standards and desalination access"
+  },
+  {
+    "name": "Moderna & BioNTech",
+    "organ": "Skin, Sensory & Immune/Renal",
+    "industry": "Healthcare, Biopharmaceuticals & Water Sanitation",
+    "subsector": "Genomics & Precision Biotech Vaccines",
+    "score": 5,
+    "level": "5. Flowering & Pollination (Malar)",
+    "stage_label": "Malar / Flowering",
+    "description": "Proved that synthetic messenger RNA can reprogram the human immune system in 48 hours to neutralize biological threats.",
+    "survival": "Significant pandemic balance sheet reserves and oncology pipelines",
+    "flowering": "Personalized mRNA cancer vaccines (melanoma, lung) entering Phase 3",
+    "fruit": "Protected hundreds of millions of lives during the COVID-19 pandemic",
+    "seed": "Needs mRNA foundry technology transfer to Global South public hubs"
+  }
+];
+    const episodes = [
+  {
+    "id": "S01E00",
+    "code": "S01E00_Pilot_The_7D_Way",
+    "title": "The 7D Way: 7 Great Virtues to Become a Pioneer of the New World",
+    "subtitle": "The Universal 7D Life-Compass & The 35/70 Threshold Law",
+    "cast": [
+      "Adult Host (@Me in Ivory Bandhgala)",
+      "4yo Bala-Rishi (@Me with Neem Stylus)",
+      "Maharishi Genie (Indigo/Gold Robes)"
+    ],
+    "core_concept": "The 7 Virtues of Vedic Dharmic Life (Duty, Dignity, Discipline, Dharma, Devotion, Divine, Destiny) and the 35/70 Conscience Audit.",
+    "script_file": "episodes/S01E00_Pilot_The_7D_Way/S01E00_Pilot_7D_30s_Philosopher_Screenplay.md",
+    "duration": "5 Minutes (40 Beats x 7.5s)"
+  },
+  {
+    "id": "S01E01",
+    "code": "S01E01_The_Way_Forward_Master",
+    "title": "The Way Forward: As in the Macrocosm, So in the Microcosm",
+    "subtitle": "Andathil Ullathe Pindam, Pindathil Ullathe Andam",
+    "cast": [
+      "Host (@Me)",
+      "4yo Bala-Rishi (Jnana)",
+      "Bala-Matha (Arul in Green/Rose Silk)"
+    ],
+    "core_concept": "The great awakening that Mother Earth is a living conscious mother, and all human organ systems mirror the 7 global industry sectors.",
+    "script_file": "docs/guides/THE_WAY_FORWARD_MASTER_GUIDE.md",
+    "duration": "14-Page Movie Screenplay"
+  },
+  {
+    "id": "S01E02",
+    "code": "S01E02_Technological_Singularity_2027_2100",
+    "title": "Technological Singularity (2027 \u2013 2100): The Sacred Timeline",
+    "subtitle": "Decoupling 7D Philosophy from Direct Yearly Eras",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "The macroscopic multi-decade evolution from 2027 media synthesis to the post-scarcity living planet household by 2100.",
+    "script_file": "episodes/S01E02_Technological_Singularity_2027_2100/S01E02_Full_Screenplay_Tech_Singularity_2027_2100.md",
+    "duration": "Full Episodic Screenplay"
+  },
+  {
+    "id": "S01E03",
+    "code": "S01E03_Predictions_2027_Zero_Friction_Media_Era",
+    "title": "Predictions 2027: The Zero-Friction Media Era",
+    "subtitle": "1-Prompt Movies, Heritage Resurrections & The Death of Gatekeepers",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "How generative cinematic intelligence allows every human to create high-production value mythic films in their mother tongue.",
+    "script_file": "episodes/S01E03_Predictions_2027_Zero_Friction_Media_Era/S01E03_14_Page_Master_Screenplay_Predictions_2027.md",
+    "duration": "14-Page Master Screenplay"
+  },
+  {
+    "id": "S01E04",
+    "code": "S01E04_The_Cosmic_Gardener_The_Great_Transition",
+    "title": "The Cosmic Gardener: The Great Transition",
+    "subtitle": "The Living Mountain Invariant & The Scaffolds of Mother Earth",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "Mother Earth already operates flawless systems in ancient forests; cities and tech were temporary scaffolds held while tools matured.",
+    "script_file": "episodes/S01E04_The_Cosmic_Gardener_The_Great_Transition/S01E04_14_Page_Master_Screenplay_Cosmic_Gardener.md",
+    "duration": "14-Page Master Screenplay"
+  },
+  {
+    "id": "S01E05",
+    "code": "S01E05_2028_Unified_AI_Platform",
+    "title": "2028: The Unified AI Platform",
+    "subtitle": "Planetary Neural Tube Closure & The Sacred Offering of Thanks (Nandri)",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "1-Prompt application synthesis, federated open-weight intelligence, honoring tech pioneers for building the neural backbone.",
+    "script_file": "episodes/S01E05_2028_Unified_AI_Platform/S01E05_7_Page_Master_Screenplay_Unified_AI_Platform.md",
+    "duration": "7-Page Master Screenplay"
+  },
+  {
+    "id": "S01E06",
+    "code": "S01E06_2029_Unified_ERP_Platform",
+    "title": "2029: The Unified ERP Platform",
+    "subtitle": "The Vascular Circulation of Planetary Resources",
+    "cast": [
+      "Host (@Me)",
+      "Bala-Rishi",
+      "Bala-Matha"
+    ],
+    "core_concept": "Universal resource routing, ending supply-chain friction, circulating food, medicine, and energy like oxygenated blood.",
+    "script_file": "episodes/S01E06_2029_Unified_ERP_Platform/S01E06_7_Page_Master_Screenplay_Unified_ERP.md",
+    "duration": "7-Page Master Screenplay"
+  }
+];
+
+    function switchView(viewId) {
+      document.querySelectorAll('.view-panel').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+
+      const target = document.getElementById(viewId);
+      if (target) target.classList.add('active');
+
+      const links = Array.from(document.querySelectorAll('.nav-link'));
+      const activeLink = links.find(l => l.getAttribute('onclick') && l.getAttribute('onclick').includes(viewId));
+      if (activeLink) activeLink.classList.add('active');
+
+      const titles = {
+        'view-overview': 'Dashboard & Telemetry',
+        'view-episodes': 'Master Episodes Vault',
+        'view-ratings': 'Corporate Consciousness Ratings',
+        'view-matrix': '7×7 Fractal Matrix',
+        'view-compass': '7D Conscience Audit'
+      };
+      document.getElementById('headerTitle').innerText = titles[viewId] || 'Command Center';
+    }
+
+    function renderLightEpisodes() {
+      const container = document.getElementById('episodes-list');
+      container.innerHTML = episodes.map(ep => `
+        <div class="clean-card">
+          <div>
+            <span style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase;">${ep.id} • ${ep.duration}</span>
+            <h3 style="font-size:1.15rem; font-weight:800; margin:0.35rem 0;">${ep.title}</h3>
+            <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:0.75rem;">${ep.subtitle}</p>
+            <div style="background:#f8fafc; padding:0.6rem; border-radius:6px; font-size:0.78rem; margin-bottom:0.75rem;">
+              <b>Cast:</b> ${ep.cast.join(' • ')}
+            </div>
+            <p style="font-size:0.85rem; color:#475569; line-height:1.5;">${ep.core_concept}</p>
+          </div>
+          <div style="margin-top:1.25rem; padding-top:0.75rem; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center;">
+            <small style="color:var(--text-muted); font-family:var(--font-mono); font-size:0.75rem;">${ep.script_file}</small>
+            <a href="#" class="topbar-quick-link" onclick="alert('Script is in repository at:\n' + '${ep.script_file}'); return false;">View</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderLightCompanies() {
+      const q = document.getElementById('light-search').value.toLowerCase();
+      const lvl = document.getElementById('light-filter').value;
+
+      const filtered = companies.filter(c => {
+        const matchesQ = c.name.toLowerCase().includes(q) || c.subsector.toLowerCase().includes(q) || c.organ.toLowerCase().includes(q);
+        const matchesL = (lvl === 'ALL') || (c.score === parseInt(lvl));
+        return matchesQ && matchesL;
+      });
+
+      const container = document.getElementById('companies-list');
+      container.innerHTML = filtered.map(c => `
+        <div class="clean-card">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+              <h3 style="font-size:1.1rem; font-weight:800;">${c.name}</h3>
+              <span class="badge-pill b-${c.score}">${c.stage_label}</span>
+            </div>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700; margin-bottom:0.5rem;">${c.organ} → ${c.subsector}</div>
+            <p style="font-size:0.82rem; color:#64748b; margin-bottom:1rem; line-height:1.5;">${c.description}</p>
+          </div>
+          <div style="background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:0.75rem; font-size:0.78rem;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:0.25rem;">
+              <b>Stage ${c.score} of 7</b>
+              <span style="color:var(--primary); font-weight:700;">${Math.round((c.score/7)*100)}%</span>
+            </div>
+            <div style="height:6px; background:#e2e8f0; border-radius:3px; overflow:hidden; margin-bottom:0.5rem;">
+              <div style="width:${(c.score/7)*100}%; height:100%; background:var(--primary);"></div>
+            </div>
+            <div style="color:#334155;"><b>Seed Legacy:</b> ${c.seed}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function calcLight7D() {
+      let sum = 0;
+      for (let i = 1; i <= 7; i++) {
+        const val = parseInt(document.getElementById('s-' + i).value);
+        document.getElementById('lv-' + i).innerText = val + ' / 10';
+        sum += val;
+      }
+      document.getElementById('light-total').innerText = sum + ' / 70';
+      const st = document.getElementById('light-status');
+      if (sum < 35) {
+        st.innerText = '⚠️ RED ZONE: Conscience Silenced — Change Course!';
+        st.style.color = '#dc2626';
+      } else if (sum <= 49) {
+        st.innerText = '⚡ AMBER ZONE: Awakening Traveler — Realign Neglected Virtues';
+        st.style.color = '#d97706';
+      } else {
+        st.innerText = '🌟 GOLD ZONE: Pioneer of the New World — Sovereign Harmony';
+        st.style.color = '#059669';
+      }
+    }
+
+    window.onload = function() {
+      renderLightEpisodes();
+      renderLightCompanies();
+      calcLight7D();
+    };
+  </script>
+</body>
+</html>
