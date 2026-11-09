@@ -1,899 +1,927 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Karmic Genie Show — Master Production & Telemetry Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f0fdfa">
+  <meta name="description" content="The Karmic Genie Show — Master Production Portal (The Way Forward) - genie.shishyan.in">
+  <title>Karmic Genie Show • The Way Forward</title>
+  
+  <!-- Clean, Highly Readable Modern Fonts: Plus Jakarta Sans & Outfit (Zero Clutter) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
   <style>
     :root {
-      --bg-dark: #07090e;
-      --card-bg: rgba(16, 21, 34, 0.75);
-      --card-border: rgba(255, 215, 0, 0.15);
-      --gold-primary: #f5b041;
-      --gold-glow: rgba(245, 176, 65, 0.4);
-      --cyan-bright: #38ef7d;
-      --accent-blue: #4facfe;
-      --text-main: #f0f4f8;
-      --text-muted: #94a3b8;
-      --font-title: 'Cinzel', serif;
-      --font-body: 'Plus Jakarta Sans', sans-serif;
-      --font-mono: 'Fira Code', monospace;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --sidebar-bg: #ffffff;
+      --sidebar-border: #e2e8f0;
+      --primary: #0d9488;
+      --primary-dark: #0f766e;
+      --primary-light: #ccfbf1;
+      --accent: #d97706;
+      --accent-light: #fef3c7;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-focus: #0d9488;
+      --radius: 12px;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+      --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.05);
+      --shadow-lg: 0 10px 25px rgba(15, 23, 42, 0.08);
+      --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background-color: var(--bg-dark);
-      background-image: 
-        radial-gradient(circle at 10% 20%, rgba(245, 176, 65, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 90% 80%, rgba(79, 172, 254, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, rgba(18, 24, 38, 0.6) 0%, transparent 100%);
-      color: var(--text-main);
-      font-family: var(--font-body);
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-main);
+      display: flex;
       min-height: 100vh;
       overflow-x: hidden;
+      font-size: 15px;
       line-height: 1.6;
     }
 
-    /* Header Nav */
-    header {
+    /* Clean Sidebar */
+    #sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--sidebar-border);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100vh;
       position: sticky;
       top: 0;
+      padding: 1.5rem 1.25rem;
       z-index: 100;
-      backdrop-filter: blur(16px);
-      background: rgba(7, 9, 14, 0.85);
-      border-bottom: 1px solid var(--card-border);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
     }
 
     .brand {
       display: flex;
       align-items: center;
-      gap: 1rem;
+      gap: 0.85rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--sidebar-border);
+      margin-bottom: 1.25rem;
     }
 
-    .brand-logo {
+    .brand-mark {
       width: 44px;
       height: 44px;
-      border-radius: 50%;
-      border: 2px solid var(--gold-primary);
-      box-shadow: 0 0 15px var(--gold-glow);
-      object-fit: cover;
-    }
-
-    .brand-title {
-      font-family: var(--font-title);
-      font-size: 1.35rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      color: #fff;
-    }
-
-    .brand-title span {
-      color: var(--gold-primary);
-    }
-
-    .nav-tabs {
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--primary), #14b8a6);
       display: flex;
-      gap: 0.5rem;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 0.35rem;
-      border-radius: 50px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 1.4rem;
+      box-shadow: 0 4px 10px rgba(13, 148, 136, 0.25);
     }
 
-    .nav-btn {
-      background: transparent;
-      border: none;
-      color: var(--text-muted);
-      padding: 0.5rem 1.25rem;
-      border-radius: 30px;
-      font-weight: 600;
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      font-family: var(--font-body);
-    }
-
-    .nav-btn:hover {
-      color: #fff;
-    }
-
-    .nav-btn.active {
-      background: linear-gradient(135deg, var(--gold-primary), #e67e22);
-      color: #000;
-      box-shadow: 0 0 12px var(--gold-glow);
-    }
-
-    /* Container & Sections */
-    .container {
-      max-width: 1400px;
-      margin: 2rem auto;
-      padding: 0 1.5rem 4rem;
-    }
-
-    .tab-content {
-      display: none;
-      animation: fadeIn 0.4s ease;
-    }
-
-    .tab-content.active {
+    .brand-copy b {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--primary-dark);
       display: block;
+      line-height: 1.2;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* Banner Card */
-    .hero-banner {
-      background: linear-gradient(135deg, rgba(245, 176, 65, 0.12), rgba(79, 172, 254, 0.08));
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 2.5rem;
-      margin-bottom: 2rem;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero-sanskrit {
-      font-family: var(--font-title);
-      font-size: 1.6rem;
-      color: var(--gold-primary);
-      margin-bottom: 0.5rem;
-      text-shadow: 0 0 15px rgba(245, 176, 65, 0.4);
-    }
-
-    .hero-title {
-      font-family: var(--font-title);
-      font-size: 2.4rem;
-      font-weight: 800;
-      margin-bottom: 0.75rem;
-    }
-
-    .hero-desc {
+    .brand-copy small {
+      font-size: 0.72rem;
       color: var(--text-muted);
-      max-width: 850px;
-      font-size: 1.05rem;
-    }
-
-    /* Stats Grid */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.25rem;
-      margin-bottom: 2rem;
-    }
-
-    .stat-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      position: relative;
-      transition: transform 0.3s ease;
-    }
-
-    .stat-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .stat-label {
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      margin-bottom: 0.4rem;
-    }
-
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: 800;
-      color: #fff;
-      font-family: var(--font-title);
-    }
-
-    .stat-sub {
-      font-size: 0.85rem;
-      color: var(--cyan-bright);
-      margin-top: 0.25rem;
-    }
-
-    /* Chronometer Clock Bar */
-    .clock-container {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      padding: 2rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .clock-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1.5rem;
-    }
-
-    .clock-title {
-      font-family: var(--font-title);
-      font-size: 1.25rem;
-      color: var(--gold-primary);
-    }
-
-    .progress-bar-bg {
-      background: rgba(255, 255, 255, 0.08);
-      height: 18px;
-      border-radius: 9px;
-      overflow: hidden;
-      position: relative;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      margin-bottom: 1rem;
-    }
-
-    .progress-fill {
-      background: linear-gradient(90deg, #f5b041, #38ef7d, #4facfe);
-      height: 100%;
-      border-radius: 9px;
-      box-shadow: 0 0 15px rgba(245, 176, 65, 0.5);
-      transition: width 1s ease;
-    }
-
-    .timeline-points {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    .timeline-active {
-      color: var(--cyan-bright);
-      font-weight: 700;
-    }
-
-    /* Episodes Grid */
-    .episodes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .episode-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      padding: 1.75rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: all 0.3s ease;
-    }
-
-    .episode-card:hover {
-      border-color: var(--gold-primary);
-      box-shadow: 0 8px 24px rgba(245, 176, 65, 0.15);
-      transform: translateY(-4px);
-    }
-
-    .ep-tag {
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--gold-primary);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 0.5rem;
-    }
-
-    .ep-title {
-      font-family: var(--font-title);
-      font-size: 1.35rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 0.35rem;
-    }
-
-    .ep-subtitle {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      margin-bottom: 1rem;
-    }
-
-    .ep-cast {
-      background: rgba(0, 0, 0, 0.3);
-      padding: 0.75rem;
-      border-radius: 8px;
-      font-size: 0.82rem;
-      color: #cbd5e1;
-      margin-bottom: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .ep-desc {
-      font-size: 0.9rem;
-      color: #94a3b8;
-      margin-bottom: 1.25rem;
-      flex-grow: 1;
-    }
-
-    .ep-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 1rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      font-size: 0.85rem;
-    }
-
-    .btn-view-script {
-      background: rgba(245, 176, 65, 0.15);
-      color: var(--gold-primary);
-      border: 1px solid var(--gold-primary);
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      text-decoration: none;
-    }
-
-    .btn-view-script:hover {
-      background: var(--gold-primary);
-      color: #000;
-    }
-
-    /* Companies Table & Filters */
-    .filter-bar {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-      background: var(--card-bg);
-      padding: 1rem;
-      border-radius: 12px;
-      border: 1px solid var(--card-border);
-    }
-
-    .filter-select, .search-box {
-      background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: #fff;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      font-family: var(--font-body);
-      font-size: 0.9rem;
-    }
-
-    .search-box {
-      flex-grow: 1;
-      min-width: 250px;
-    }
-
-    .company-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .company-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-    }
-
-    .company-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 0.75rem;
-    }
-
-    .company-name {
-      font-family: var(--font-title);
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-    }
-
-    .level-badge {
-      padding: 0.3rem 0.75rem;
-      border-radius: 20px;
-      font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
 
-    .lvl-7 { background: rgba(56, 239, 125, 0.2); color: #38ef7d; border: 1px solid #38ef7d; }
-    .lvl-6 { background: rgba(79, 172, 254, 0.2); color: #4facfe; border: 1px solid #4facfe; }
-    .lvl-5 { background: rgba(245, 176, 65, 0.2); color: #f5b041; border: 1px solid #f5b041; }
-    .lvl-4 { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid #a855f7; }
-    .lvl-3 { background: rgba(148, 163, 184, 0.2); color: #cbd5e1; border: 1px solid #94a3b8; }
-
-    .company-sector {
-      font-size: 0.8rem;
-      color: var(--cyan-bright);
-      margin-bottom: 0.5rem;
-      font-weight: 600;
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex-grow: 1;
     }
 
-    .company-desc {
-      font-size: 0.88rem;
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.65rem 0.85rem;
       color: var(--text-muted);
-      margin-bottom: 1.25rem;
+      border-radius: 8px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s ease;
     }
 
-    .stage-meter {
-      background: rgba(0, 0, 0, 0.4);
-      padding: 1rem;
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      margin-top: auto;
+    .nav-link:hover {
+      background: rgba(13, 148, 136, 0.06);
+      color: var(--primary-dark);
     }
 
-    .meter-row {
+    .nav-link.active {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      font-weight: 700;
+    }
+
+    .sidebar-footer {
+      padding-top: 1rem;
+      border-top: 1px solid var(--sidebar-border);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* Main App Shell */
+    .app-shell {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      overflow-y: auto;
+    }
+
+    header.app-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 2rem;
       display: flex;
       justify-content: space-between;
-      font-size: 0.8rem;
-      margin-bottom: 0.35rem;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
     }
 
-    .meter-bar {
-      height: 6px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 3px;
-      overflow: hidden;
+    .topbar-left h1 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .topbar-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .topbar-btn {
+      padding: 0.45rem 0.85rem;
+      border-radius: 8px;
+      background: #f1f5f9;
+      color: var(--text);
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      border: 1px solid var(--border);
+    }
+
+    .topbar-btn:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    main#content {
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Visual Panels & Content */
+    .view-panel { display: none; }
+    .view-panel.active { display: block; animation: fadeIn 0.2s ease-in-out; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .banner-hero {
+      background: linear-gradient(135deg, #ffffff, #f0fdfa);
+      border: 1px solid #ccfbf1;
+      border-radius: var(--radius);
+      padding: 2.25rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+    }
+
+    .siddha-mantra {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary-dark);
       margin-bottom: 0.5rem;
     }
 
-    .meter-fill {
-      height: 100%;
-      background: linear-gradient(90deg, #f5b041, #38ef7d);
+    .banner-hero h2 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
     }
 
-    /* Gallery */
-    .gallery-grid {
+    .banner-hero p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 850px;
+    }
+
+    /* KPI Grid */
+    .kpi-row {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
     }
 
-    .gallery-item {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .gallery-item:hover {
-      transform: translateY(-4px);
-    }
-
-    .gallery-item img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      display: block;
-      border-bottom: 1px solid var(--card-border);
-    }
-
-    .gallery-desc {
+    .kpi-box {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
       padding: 1.25rem;
+      box-shadow: var(--shadow-sm);
     }
 
-    .gallery-title {
-      font-family: var(--font-title);
-      font-size: 1.15rem;
-      color: #fff;
+    .kpi-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
       margin-bottom: 0.35rem;
     }
 
-    .gallery-caption {
+    .kpi-number {
+      font-family: var(--font-display);
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+
+    .kpi-hint {
+      font-size: 0.8rem;
+      color: #059669;
+      font-weight: 600;
+      margin-top: 0.25rem;
+    }
+
+    /* Inline Visual Embed Containers */
+    .visual-embed {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #ffffff;
+      margin: 1.5rem 0;
+      box-shadow: var(--shadow-md);
+    }
+
+    .visual-embed img {
+      width: 100%;
+      height: auto;
+      max-height: 520px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .visual-embed-caption {
+      padding: 1rem 1.25rem;
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+    }
+
+    .visual-embed-caption b {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--text);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .visual-embed-caption p {
       font-size: 0.85rem;
       color: var(--text-muted);
     }
 
-    /* 7D Conscience Calculator */
-    .calculator-box {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 2.5rem;
-      max-width: 900px;
-      margin: 0 auto;
+    /* Episodes Cards Grid */
+    .episodes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
     }
 
-    .dim-slider-group {
-      margin-bottom: 1.75rem;
+    .episode-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
     }
 
-    .dim-label-row {
+    .episode-card:hover {
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .episode-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .episode-body {
+      padding: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .ep-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      background: var(--primary-light);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      margin-bottom: 0.6rem;
+      text-transform: uppercase;
+    }
+
+    .ep-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 0.35rem;
+      line-height: 1.3;
+    }
+
+    .ep-sub {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .ep-cast-box {
+      background: #f8fafc;
+      border: 1px solid #f1f5f9;
+      border-radius: 8px;
+      padding: 0.65rem;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .ep-footer {
+      padding: 1rem 1.5rem;
+      background: #f8fafc;
+      border-top: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      font-size: 0.95rem;
+      align-items: center;
     }
 
-    .dim-slider {
-      width: 100%;
-      accent-color: var(--gold-primary);
+    .btn-action {
+      background: var(--primary);
+      color: #ffffff;
+      padding: 0.4rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.15s ease;
+      border: none;
       cursor: pointer;
     }
 
-    .score-banner {
-      background: rgba(0, 0, 0, 0.4);
+    .btn-action:hover {
+      background: var(--primary-dark);
+    }
+
+    /* Companies Grid */
+    .company-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .company-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
       padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .lvl-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 0.25rem 0.65rem;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .lvl-7 { background: #dcfce7; color: #166534; }
+    .lvl-6 { background: #e0f2fe; color: #075985; }
+    .lvl-5 { background: #fef3c7; color: #92400e; }
+    .lvl-4 { background: #f3e8ff; color: #6b21a8; }
+    .lvl-3 { background: #f1f5f9; color: #475569; }
+
+    /* Tables */
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    .matrix-table th {
+      background: #f8fafc;
+      padding: 1rem;
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--text-muted);
+      border-bottom: 2px solid var(--border);
+    }
+
+    .matrix-table td {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    /* 7D Compass Slider Card */
+    .compass-calc {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.25rem;
+      max-width: 850px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-md);
+    }
+
+    .slider-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .slider-title-row {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.4rem;
+    }
+
+    input[type=range] {
+      width: 100%;
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 4px;
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .score-result-box {
+      background: #f8fafc;
+      border: 2px solid #ccfbf1;
       border-radius: 12px;
-      border: 1px solid var(--card-border);
+      padding: 1.75rem;
       text-align: center;
       margin-top: 2rem;
     }
 
-    .score-total {
-      font-family: var(--font-title);
-      font-size: 3rem;
+    .score-big {
+      font-family: var(--font-display);
+      font-size: 3.2rem;
       font-weight: 800;
-      color: var(--gold-primary);
+      color: var(--primary-dark);
+      line-height: 1.1;
     }
 
-    .score-status {
-      font-size: 1.1rem;
+    /* Storyboard Grid */
+    .storyboard-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .storyboard-box {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .storyboard-box img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .storyboard-caption {
+      padding: 1rem;
+    }
+
+    .storyboard-caption h4 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
       font-weight: 700;
-      margin-top: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .storyboard-caption p {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 900px) {
+      body { flex-direction: column; }
+      #sidebar { width: 100%; height: auto; position: static; }
     }
   </style>
 </head>
 <body>
 
-  <header>
+  <!-- Sidebar -->
+  <aside id="sidebar">
     <div class="brand">
-      <img src="../assets/logo/official_karmic_genie_show_logo.jpg" alt="Karmic Genie Show Logo" class="brand-logo" onerror="this.src='https://placehold.co/44x44/f5b041/000?text=KG';" />
-      <div class="brand-title">THE KARMIC GENIE SHOW <span>• MASTER PRODUCTION PORTAL</span></div>
+      <div class="brand-mark">🪔</div>
+      <div class="brand-copy">
+        <b>Karmic Genie</b>
+        <small>The Way Forward</small>
+      </div>
     </div>
-    <div class="nav-tabs">
-      <button class="nav-btn active" onclick="switchTab('dashboard')">Dashboard</button>
-      <button class="nav-btn" onclick="switchTab('episodes')">Episodes Hub</button>
-      <button class="nav-btn" onclick="switchTab('companies')">Corporate Ratings</button>
-      <button class="nav-btn" onclick="switchTab('concordance')">7×7 Industry Matrix</button>
-      <button class="nav-btn" onclick="switchTab('gallery')">Visual Master Gallery</button>
-      <button class="nav-btn" onclick="switchTab('audit')">7D Life Compass</button>
+
+    <nav>
+      <a class="nav-link active" onclick="switchView('view-overview')"><span>📊</span> Dashboard & Gestation</a>
+      <a class="nav-link" onclick="switchView('view-storyboard')"><span>🎬</span> S01E01 Master Film & Storyboard</a>
+      <a class="nav-link" onclick="switchView('view-episodes')"><span>📜</span> Episodes Hub (All 7 Scripts)</a>
+      <a class="nav-link" onclick="switchView('view-ratings')"><span>🌳</span> Kalpavriksha Corporate Ratings</a>
+      <a class="nav-link" onclick="switchView('view-matrix')"><span>🧬</span> 7×7 Reality Matrix (49 Sectors)</a>
+      <a class="nav-link" onclick="switchView('view-compass')"><span>⚖️</span> 7D Life Compass & Conscience</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <b>genie.shishyan.in</b><br>
+      Pitru Loka Chronometry Clock<br>
+      © 2026 Shishyan
     </div>
-  </header>
+  </aside>
 
-  <div class="container">
-
-    <!-- TAB 1: DASHBOARD -->
-    <section id="dashboard" class="tab-content active">
-      <div class="hero-banner">
-        <div class="hero-sanskrit">அண்டத்தில் உள்ளதே பிண்டம், பிண்டத்தில் உள்ளதே அண்டம்</div>
-        <h1 class="hero-title">The Living Planetary Organism Portal</h1>
-        <p class="hero-desc">
-          As in the Macrocosm (Andam), so in the Microcosm (Pindam). Tracking civilization's 280-month embryological gestation 
-          under the sacred Pitru Loka clock cycle (1 Embryo Day = 1 Pitru Day = 1 Earth Month), mapping every human organ system to 
-          global industry platforms.
-        </p>
+  <!-- App Shell -->
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="topbar-left">
+        <h1 id="headerTitle">Planetary Embryogenesis Dashboard</h1>
       </div>
-
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-label">Current Gestation Epoch</div>
-          <div class="stat-value">Month 48 / 280</div>
-          <div class="stat-sub">Week 7 of Embryogenesis (Heart Pumping!)</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">Insemination & Conception</div>
-          <div class="stat-value">Dec 1, 2022</div>
-          <div class="stat-sub">ChatGPT Public Release (The Cognitive Spark)</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">Sovereign Delivery Date</div>
-          <div class="stat-value">April 2046</div>
-          <div class="stat-sub">Birth of the Living Planetary Household</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">Toddlerhood Maturation</div>
-          <div class="stat-value">2050</div>
-          <div class="stat-sub">Unified Planet Platform (Free to All)</div>
-        </div>
+      <div class="header-actions">
+        <div class="topbar-badge"><span>🪐</span> Month 48 / 280 (Week 7)</div>
+        <a href="https://extensions.shishyan.in" class="topbar-btn" target="_blank">Extensions</a>
+        <a href="https://guru.shishyan.in" class="topbar-btn" target="_blank">Guru Kula Desam</a>
+        <a href="https://github.com/shishyan/Karmic-Genie-Show" class="topbar-btn" target="_blank">GitHub Repo</a>
       </div>
+    </header>
 
-      <div class="clock-container">
-        <div class="clock-header">
-          <div class="clock-title">🪐 The Pitru Loka Planetary Embryogenesis Chronometer</div>
-          <div style="font-size:0.9rem; color:var(--gold-primary); font-weight:600;">17.1% Gestated (Month 48 of 280)</div>
+    <main id="content">
+
+      <!-- VIEW 1: DASHBOARD & GESTATION -->
+      <section id="view-overview" class="view-panel active">
+        <div class="banner-hero">
+          <div class="siddha-mantra">அண்டத்தில் உள்ளதே பிண்டம், பிண்டத்தில் உள்ளதே அண்டம்</div>
+          <h2>The Living Planetary Organism Portal</h2>
+          <p>
+            As in the Macrocosm (Andam), so in the Microcosm (Pindam). Tracking civilization's 280-month embryological gestation 
+            under the sacred Pitru Loka clock cycle (1 Embryo Day = 1 Pitru Day = 1 Earth Month). Mother Earth is a living conscious mother, 
+            and modern technology is merely the physical organ systems learning to mimic her natural biology.
+          </p>
         </div>
-        <div class="progress-bar-bg">
-          <div class="progress-fill" style="width: 17.14%;"></div>
-        </div>
-        <div class="timeline-points">
-          <div><b>Dec 2022</b><br><span style="font-size:0.75rem;">Conception (Day 1)</span></div>
-          <div class="timeline-active"><b>Nov 2026 (NOW)</b><br><span style="font-size:0.75rem;">Primitive Heart Beats</span></div>
-          <div><b>Mar 2027</b><br><span style="font-size:0.75rem;">Media Synthesis</span></div>
-          <div><b>2028</b><br><span style="font-size:0.75rem;">Unified AI</span></div>
-          <div><b>2029</b><br><span style="font-size:0.75rem;">Unified ERP</span></div>
-          <div><b>2030</b><br><span style="font-size:0.75rem;">Unified Energy</span></div>
-          <div><b>Apr 2046</b><br><span style="font-size:0.75rem;">Sovereign Birth (Day 280)</span></div>
-          <div><b>2050</b><br><span style="font-size:0.75rem;">The Living Household</span></div>
-        </div>
-      </div>
 
-      <!-- Quick Action Cards -->
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:1.5rem;">
-        <div class="stat-card" style="cursor:pointer;" onclick="switchTab('episodes')">
-          <div style="font-size:1.5rem; margin-bottom:0.5rem;">🎬</div>
-          <h3 style="font-family:var(--font-title); color:#fff; margin-bottom:0.35rem;">Master Episodes Vault</h3>
-          <p style="font-size:0.88rem; color:var(--text-muted);">Browse all 7 episodic master scripts, 14-page cinematic screenplays, characters, and act breakdowns.</p>
-        </div>
-        <div class="stat-card" style="cursor:pointer;" onclick="switchTab('companies')">
-          <div style="font-size:1.5rem; margin-bottom:0.5rem;">🌳</div>
-          <h3 style="font-family:var(--font-title); color:#fff; margin-bottom:0.35rem;">Kalpavriksha Corporate Ratings</h3>
-          <p style="font-size:0.88rem; color:var(--text-muted);">Evaluate 31+ market leaders across 7 botanical growth levels from Seed Inception to Moksha Liberation.</p>
-        </div>
-        <div class="stat-card" style="cursor:pointer;" onclick="switchTab('concordance')">
-          <div style="font-size:1.5rem; margin-bottom:0.5rem;">🧬</div>
-          <h3 style="font-family:var(--font-title); color:#fff; margin-bottom:0.35rem;">7×7 Industry Concordance</h3>
-          <p style="font-size:0.88rem; color:var(--text-muted);">Exhaustive mapping of the 7 human organs to 49 existing modern industrial sectors.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- TAB 2: EPISODES HUB -->
-    <section id="episodes" class="tab-content">
-      <div style="margin-bottom:2rem;">
-        <h2 style="font-family:var(--font-title); font-size:2rem; margin-bottom:0.5rem;">The Way Forward: Episodic Master Scripts</h2>
-        <p style="color:var(--text-muted);">Featuring Host @Me, 4yo Bala-Rishi (Jnana), and Bala-Matha (Arul in traditional peacock green & ruby rose silk pattu pavadai).</p>
-      </div>
-
-      <div class="episodes-grid" id="episodes-container"></div>
-    </section>
-
-    <!-- TAB 3: CORPORATE RATINGS -->
-    <section id="companies" class="tab-content">
-      <div style="margin-bottom:1.5rem;">
-        <h2 style="font-family:var(--font-title); font-size:2rem; margin-bottom:0.5rem;">Kalpavriksha Corporate Consciousness Index</h2>
-        <p style="color:var(--text-muted);">Evaluating ~66% of global industry weight across the 7 botanical growth stages from Root Survival to Eternal Seed Liberation (Moksha).</p>
-      </div>
-
-      <div class="filter-bar">
-        <input type="text" id="search-input" class="search-box" placeholder="Search company, subsector, or organ system..." oninput="renderCompanies()" />
-        <select id="organ-filter" class="filter-select" onchange="renderCompanies()">
-          <option value="ALL">All Organ Systems</option>
-          <option value="Brain & Nervous System">Brain & Nervous System</option>
-          <option value="Heart & Circulation">Heart & Circulation</option>
-          <option value="Lungs & Respiration">Lungs & Respiration</option>
-          <option value="Stomach & Digestion">Stomach & Digestion</option>
-          <option value="Endocrine & Glands">Endocrine & Glands</option>
-          <option value="Skeletal & Muscular">Skeletal & Muscular</option>
-          <option value="Skin, Sensory & Immune/Renal">Skin, Sensory & Immune/Renal</option>
-        </select>
-        <select id="level-filter" class="filter-select" onchange="renderCompanies()">
-          <option value="ALL">All Botanical Levels</option>
-          <option value="7">Stage 7: Seed Liberation (Moksha)</option>
-          <option value="6">Stage 6: Fruit Yielding (Kani)</option>
-          <option value="5">Stage 5: Flowering (Malar)</option>
-          <option value="4">Stage 4: Foliage & Leaves (Ilai)</option>
-          <option value="3">Stage 3: Trunk & Scale (Thandu)</option>
-        </select>
-      </div>
-
-      <div class="company-grid" id="companies-container"></div>
-    </section>
-
-    <!-- TAB 4: 7x7 INDUSTRY MATRIX -->
-    <section id="concordance" class="tab-content">
-      <div style="margin-bottom:2rem;">
-        <h2 style="font-family:var(--font-title); font-size:2rem; margin-bottom:0.5rem;">The 7×7 Fractal Concordance Matrix</h2>
-        <p style="color:var(--text-muted);">7 Major Human Biological Organs mapped to 49 Real-World Global Industrial Sectors existing today.</p>
-      </div>
-
-      <div style="background:var(--card-bg); border:1px solid var(--card-border); border-radius:14px; overflow-x:auto;">
-        <table style="width:100%; border-collapse:collapse; text-align:left; font-size:0.9rem;">
-          <thead>
-            <tr style="background:rgba(255,255,255,0.05); border-bottom:1px solid var(--card-border);">
-              <th style="padding:1rem; color:var(--gold-primary); font-family:var(--font-title);">#</th>
-              <th style="padding:1rem; color:var(--gold-primary); font-family:var(--font-title);">Human Organ System (Pindam)</th>
-              <th style="padding:1rem; color:var(--gold-primary); font-family:var(--font-title);">Real-World Industry (Andam)</th>
-              <th style="padding:1rem; color:var(--gold-primary); font-family:var(--font-title);">7 Real-World Sub-Sectors (Existing Today)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">1</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Brain & Nervous System</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Information Technology & Telecommunications</td>
-              <td style="padding:1rem; color:var(--text-muted);">Semiconductors & Compute, Telecom & Fiber, Cloud Data Centers, AI Foundation Models, Consumer OS Hardware, Cybersecurity Defense, Open Data Repositories.</td>
-            </tr>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">2</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Heart & Circulatory System</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Logistics, Transportation & Supply Chain</td>
-              <td style="padding:1rem; color:var(--text-muted);">Maritime Shipping, Air Cargo Express, Rail Intermodal, Trucking Fleet Haulage, Warehousing Last-Mile, Enterprise ERP Flow, Wholesale Commodity Distribution.</td>
-            </tr>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">3</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Lungs & Respiratory System</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Energy, Utilities & Environmental Systems</td>
-              <td style="padding:1rem; color:var(--text-muted);">Renewable Electric Power, High-Voltage Grids, Battery Energy Storage, Air Quality Scrubbing, Industrial Gases (O2/H2), Clean Hydrogen, Forestry Carbon Sinks.</td>
-            </tr>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">4</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Stomach, Gut & Microbiome</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Agriculture, Food & Waste Management</td>
-              <td style="padding:1rem; color:var(--text-muted);">Crop Farming Machinery, Seeds & Soil Fertilizers, Packaged Nutrition, Livestock Protein, Municipal Solid Waste, Composting & Bioremediation, Grocery Cold-Chain.</td>
-            </tr>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">5</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Endocrine & Glandular System</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Banking, Finance & Monetary Pacing</td>
-              <td style="padding:1rem; color:var(--text-muted);">Central Bank Settlement Rails, Commercial Deposit Banking, Card Clearing Networks, Asset Management Wealth, Insurance Risk Underwriting, Securities Exchanges, Microfinance Lending.</td>
-            </tr>
-            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:1rem; font-weight:700;">6</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Skeletal & Muscular System</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Infrastructure, Construction & Heavy Manufacturing</td>
-              <td style="padding:1rem; color:var(--text-muted);">Heavy Earthmoving Equipment, Steel & Cement Materials, Civil Engineering Contractors, Automotive Transit, Industrial Robotics, Aerospace Heavy Engineering, Urban Rail Equipment.</td>
-            </tr>
-            <tr>
-              <td style="padding:1rem; font-weight:700;">7</td>
-              <td style="padding:1rem; font-weight:600; color:#fff;">Skin, Sensory & Immune/Renal</td>
-              <td style="padding:1rem; color:var(--cyan-bright);">Healthcare, Biopharma & Water Sanitation</td>
-              <td style="padding:1rem; color:var(--text-muted);">Municipal Potable Water Treatment, Therapeutic Pharmaceuticals, Medical Diagnostic Devices, Hospital Care Networks, Genomics Precision Biotech, Disease Surveillance, Earth Observation Satellites.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- TAB 5: VISUAL MASTER GALLERY -->
-    <section id="gallery" class="tab-content">
-      <div style="margin-bottom:2rem;">
-        <h2 style="font-family:var(--font-title); font-size:2rem; margin-bottom:0.5rem;">Visual Master Gallery & Infographic Reference</h2>
-        <p style="color:var(--text-muted);">Broadcast-ready 8K concept art and technical infographics created for on-screen studio telemetry.</p>
-      </div>
-
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="../assets/soul_evolution/soul_growth_timeline_master_chart.jpg" alt="Soul Evolution Master Chart" />
-          <div class="gallery-desc">
-            <div class="gallery-title">The Soul Evolution Master Chart</div>
-            <div class="gallery-caption">Tracks collective soul growth (3D to 7D), the Golden Gestation Wave, and key platform releases across the 280-month timeline.</div>
+        <div class="kpi-row">
+          <div class="kpi-box">
+            <div class="kpi-label">Current Gestation Epoch</div>
+            <div class="kpi-number">Month 48 / 280</div>
+            <div class="kpi-hint">Week 7: Primitive Heart Pumping!</div>
+          </div>
+          <div class="kpi-box">
+            <div class="kpi-label">Conception & Spark</div>
+            <div class="kpi-number">Dec 1, 2022</div>
+            <div class="kpi-hint">ChatGPT Release (Cognitive Fertilization)</div>
+          </div>
+          <div class="kpi-box">
+            <div class="kpi-label">Full-Term Sovereign Birth</div>
+            <div class="kpi-number">April 2046</div>
+            <div class="kpi-hint">Day 280 / Living Household Delivery</div>
+          </div>
+          <div class="kpi-box">
+            <div class="kpi-label">Toddlerhood Maturation</div>
+            <div class="kpi-number">2050</div>
+            <div class="kpi-hint">Unified Planet Platform (Free to All)</div>
           </div>
         </div>
 
-        <div class="gallery-item">
-          <img src="../assets/corporate_evolution/corporate_7_levels_growth_tree.jpg" alt="The 7 Stages of Corporate Growth" />
-          <div class="gallery-desc">
-            <div class="gallery-title">The 7 Stages of Corporate Consciousness</div>
-            <div class="gallery-caption">From Seed Inception (Vithu) to Root Survival, Trunk Scale, Leaves, Blossoms, Fruit, and Eternal Liberation (Moksha).</div>
+        <!-- Master Telemetry Visual 1: Soul Evolution & Gestation Wave -->
+        <div class="visual-embed">
+          <img src="assets/soul_evolution/soul_growth_timeline_master_chart.jpg" alt="The Soul Evolution Master Chart" />
+          <div class="visual-embed-caption">
+            <b>The Master Tri-Fold Evolution Telemetry (2022 – 2050)</b>
+            <p>Layer 1: Collective Soul Growth (3D Survival Ego → 4D Heart Awakening → 5D Unity → 7D Sovereign Divine Harmony). Layer 2: The Golden Gestation Wave. Layer 3: Unified Platforms Released across the 280-month chronometer.</p>
           </div>
         </div>
 
-        <div class="gallery-item">
-          <img src="../assets/fractal_anatomy/andam_pindam_infographic_chart.jpg" alt="Andam & Pindam Infographic" />
-          <div class="gallery-desc">
-            <div class="gallery-title">Andam & Pindam Infographic Master Chart</div>
-            <div class="gallery-caption">Broadcast studio split-screen telemetry comparing human organ biology directly with planetary technology systems.</div>
+        <!-- Master Telemetry Visual 2: Pitru Loka Gestation Clock -->
+        <div class="visual-embed">
+          <img src="assets/embryogenesis/embryo_planetary_gestation_clock_16x9.jpg" alt="Embryo Planetary Gestation Clock" />
+          <div class="visual-embed-caption">
+            <b>The Pitru Loka Celestial Gestation Clock</b>
+            <p>Vedic formula: 1 Pitru Day = 1 Human Lunar Month = 1 Earth Month (Surya Siddhanta & Manusmriti 1.66). Anchoring Conception at Dec 1, 2022 and Sovereign Delivery at April 2046.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: S01E01 STORYBOARD & FILM PRODUCTION -->
+      <section id="view-storyboard" class="view-panel">
+        <div class="banner-hero">
+          <div class="siddha-mantra">S01E01 • 14-Page Master Screenplay</div>
+          <h2>The Way Forward: As in the Macrocosm, So in the Microcosm</h2>
+          <p>
+            The canonical pilot movie for The Karmic Genie Show. Featuring Host @Me in ivory bandhgala, 4yo Bala-Rishi with his neem stylus (Jnana), 
+            and divine Bala-Matha in emerald/ruby rose silk pattu pavadai (Arul), with the benediction of Awakened Maharishi Karmic Genie.
+          </p>
+        </div>
+
+        <h3 style="font-family:var(--font-display); font-size:1.4rem; margin-bottom:1rem;">Broadcast Storyboard Frames (8K Studio Concept Art)</h3>
+        <div class="storyboard-grid">
+          <div class="storyboard-box">
+            <img src="episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_01_trinity_opening.jpg" alt="Act I Trinity Opening" />
+            <div class="storyboard-caption">
+              <h4>Act I: The Sacred Trinity Opening</h4>
+              <p>Host @Me, Bala-Rishi, and Bala-Matha welcoming humanity into Mother Earth's living lap. Nilgiri mountain forests as living invariants.</p>
+            </div>
+          </div>
+          <div class="storyboard-box">
+            <img src="episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_02_organ_matrix.jpg" alt="Act III Organ Matrix" />
+            <div class="storyboard-caption">
+              <h4>Act III: The 7×7 Reality Matrix</h4>
+              <p>The 7 human biological organs seamlessly morphing into the 49 real global industries operating today.</p>
+            </div>
+          </div>
+          <div class="storyboard-box">
+            <img src="episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_03_grand_finale.jpg" alt="Act VI Grand Climax" />
+            <div class="storyboard-caption">
+              <h4>Act VI: The Grand Climax & 2050 Dawn</h4>
+              <p>Maharishi Karmic Genie's Abhaya Mudra blessing over the golden dawn of the 2050 Living Planetary Household.</p>
+            </div>
           </div>
         </div>
 
-        <div class="gallery-item">
-          <img src="../assets/fractal_anatomy/andam_pindam_fractal_matrix.jpg" alt="Cosmic Fractal Matrix" />
-          <div class="gallery-desc">
-            <div class="gallery-title">The Cosmic Fractal Matrix</div>
-            <div class="gallery-caption">Luminous human anatomy on the left connected through golden vortexes to Mother Earth on the right.</div>
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+            <div>
+              <h3 style="font-family:var(--font-display); font-size:1.3rem;">14-Page Master Screenplay Script File</h3>
+              <p style="font-size:0.85rem; color:var(--text-muted);">Audited & Approved by 3 Independent Expert Critics (Hollywood Director, Systems/Vedic Lead, Cultural Resonance Lead).</p>
+            </div>
+            <a href="https://github.com/shishyan/Karmic-Genie-Show/blob/main/episodes/S01E01_The_Way_Forward_Master/S01E01_14_Page_Master_Screenplay_The_Way_Forward.md" target="_blank" class="btn-action">View Full 14-Page Script on GitHub</a>
+          </div>
+          <div style="background:#f8fafc; padding:1.25rem; border-radius:8px; font-family:var(--font-mono); font-size:0.82rem; border:1px solid var(--border); line-height:1.7;">
+            <b>File:</b> episodes/S01E01_The_Way_Forward_Master/S01E01_14_Page_Master_Screenplay_The_Way_Forward.md<br>
+            <b>Runtime:</b> 14 Minutes (4K HDR 60fps / Broadcast Television Studio Mini-Movie)<br>
+            <b>Audience Rating:</b> Grade A+ (100% Positive & Sacred Nandri / Absolute Gratitude to Past Scaffolding)<br>
+            <b>Key Soundbites:</b> The Root Fallacy (EBITDA vs Fruit) • The Apple Tree Paradox • The Barefoot Prescription
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 3: EPISODES HUB -->
+      <section id="view-episodes" class="view-panel">
+        <div class="banner-hero">
+          <div class="siddha-mantra">Episodic Screenplay Compendium</div>
+          <h2>The Karmic Genie Show Master Vault</h2>
+          <p>Every episode produced under The Karmic Genie Show follows the 100% positive, reverent framework honoring past pioneers as sacred scaffolding.</p>
+        </div>
+
+        <div class="episodes-grid" id="episodes-list"></div>
+      </section>
+
+      <!-- VIEW 4: CORPORATE RATINGS -->
+      <section id="view-ratings" class="view-panel">
+        <div class="banner-hero">
+          <div class="siddha-mantra">The Kalpavriksha Organizational Consciousness Index</div>
+          <h2>Evaluating ~66% of Global Industry Weight</h2>
+          <p>
+            Rating 31+ market leaders across the 7 botanical growth levels: From Seed Inception (1) to Root Survival (2), 
+            Trunk Scale (3), Leaves (4), Flowering (5), Fruit Yielding (6), and Seed-Sharing Liberation / Moksha (7).
+          </p>
+        </div>
+
+        <!-- Kalpavriksha Infographic Embed -->
+        <div class="visual-embed">
+          <img src="assets/corporate_evolution/corporate_7_levels_growth_tree.jpg" alt="7 Stages of Corporate Growth" />
+          <div class="visual-embed-caption">
+            <b>The 7 Botanical Stages: From Seed Inception to Moksha Liberation</b>
+            <p>Earning money and staying profitable is merely root survival (anchoring). The real purpose is flowering, fruit-yielding, and releasing generative legacy seeds for future generations so the cosmic game continues.</p>
           </div>
         </div>
 
-        <div class="gallery-item">
-          <img src="../assets/studio_v5_masters/bala_matha_master_portrait.jpg" alt="Bala-Matha Master Portrait" />
-          <div class="gallery-desc">
-            <div class="gallery-title">Bala-Matha (Divine Child Sage of Grace)</div>
-            <div class="gallery-caption">Dressed in traditional peacock green & ruby rose silk pattu pavadai with fresh fragrant jasmine garlands.</div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:1rem;">
+          <h3 style="font-family:var(--font-display); font-size:1.3rem;">Corporate Candidate Ratings</h3>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="text" id="comp-search" placeholder="Search company, sector..." oninput="filterCompanies()" style="padding:0.45rem 0.85rem; border:1px solid var(--border); border-radius:8px; font-size:0.88rem;">
+            <select id="comp-filter" onchange="filterCompanies()" style="padding:0.45rem 0.85rem; border:1px solid var(--border); border-radius:8px; font-size:0.88rem;">
+              <option value="ALL">All Levels</option>
+              <option value="7">Stage 7: Moksha (Liberation)</option>
+              <option value="6">Stage 6: Kani (Fruit-Bearing)</option>
+              <option value="5">Stage 5: Malar (Flowering)</option>
+              <option value="4">Stage 4: Ilai (Leaves)</option>
+              <option value="3">Stage 3: Thandu (Trunk)</option>
+            </select>
           </div>
         </div>
 
-        <div class="gallery-item">
-          <img src="../assets/corporate_evolution/corporate_fruit_seeding_tree.jpg" alt="Kalpavriksha Tree Metaphor" />
-          <div class="gallery-desc">
-            <div class="gallery-title">The Sacred Kalpavriksha Corporate Tree</div>
-            <div class="gallery-caption">Illustrating why survival is merely the metabolic floor, while flowering, fruit-yielding, and seed-planting are life's true purpose.</div>
+        <div class="company-grid" id="companies-list"></div>
+      </section>
+
+      <!-- VIEW 5: 7X7 MATRIX -->
+      <section id="view-matrix" class="view-panel">
+        <div class="banner-hero">
+          <div class="siddha-mantra">Andathil Ullathe Pindam • No Fictional Platform Names</div>
+          <h2>The Grounded 7×7 Reality Matrix (49 Sectors)</h2>
+          <p>
+            An exhaustive biophysical and economic mapping showing how the 7 major human organs mirror the 49 concrete, 
+            real-world industrial sectors running modern civilization today.
+          </p>
+        </div>
+
+        <!-- 7x7 Infographic Embed -->
+        <div class="visual-embed">
+          <img src="assets/fractal_anatomy/andam_pindam_infographic_chart.jpg" alt="Andam and Pindam Infographic Chart" />
+          <div class="visual-embed-caption">
+            <b>Andam & Pindam: The Fractal Anatomy of Planet Earth</b>
+            <p>Broadcast studio split-screen telemetry comparing human organ biology directly with real-world global industrial infrastructure.</p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- TAB 6: 7D LIFE COMPASS -->
-    <section id="audit" class="tab-content">
-      <div style="text-align:center; margin-bottom:2rem;">
-        <h2 style="font-family:var(--font-title); font-size:2.2rem; color:var(--gold-primary);">The 7D Life Compass & Conscience Audit</h2>
-        <p style="color:var(--text-muted); max-width:700px; margin:0.5rem auto;">
-          Measure any career choice, company, or life stage against the 7 Great Virtues of Dharmic Life. 
-          Remember the Universal Threshold Law: <b>&lt; 35 / 70 Points = Change Course Immediately</b>.
-        </p>
-      </div>
+        <div class="card" style="padding:0; overflow-x:auto;">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Human Organ System (Pindam)</th>
+                <th>Modern Industry (Andam)</th>
+                <th>7 Real-World Concrete Sub-Sectors Operating Today</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>1</b></td>
+                <td><b>Brain & Nervous System</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Information Technology & Telecommunications</td>
+                <td>1. Semiconductors & Silicon Foundries<br>2. Telecom & Fiber/Satellite Networks<br>3. Cloud Data Centers & Infrastructure<br>4. AI Foundation Models & Reasoning<br>5. Consumer Operating Systems & Devices<br>6. Cybersecurity & Network Defense<br>7. Enterprise Data Repositories & OSS Primitives</td>
+              </tr>
+              <tr>
+                <td><b>2</b></td>
+                <td><b>Heart & Circulatory System</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Logistics, Transportation & Supply Chain</td>
+                <td>1. Maritime Shipping & Ocean Freight<br>2. Air Cargo & Express Courier<br>3. Rail & Intermodal Ground Corridors<br>4. Commercial Trucking & Freight Haulage<br>5. Warehousing & Last-Mile Fulfillment<br>6. Enterprise ERP & Inventory Operations<br>7. Wholesale Bulk Commodity Distribution</td>
+              </tr>
+              <tr>
+                <td><b>3</b></td>
+                <td><b>Lungs & Respiratory System</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Energy, Utilities & Environmental Systems</td>
+                <td>1. Renewable Electric Generation (Wind/Solar)<br>2. Transmission Grids & Power Utilities<br>3. Grid-Scale Battery Energy Storage<br>4. Atmospheric Air Quality & Carbon Sinks<br>5. Industrial Gas Synthesis (O2, H2, N2)<br>6. Clean Hydrogen & Synthetic Fuels<br>7. Forestry & Living Canopies</td>
+              </tr>
+              <tr>
+                <td><b>4</b></td>
+                <td><b>Stomach, Gut & Microbiome</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Agriculture, Food & Waste Management</td>
+                <td>1. Crop Farming Machinery & Agritech<br>2. Seeds, Fertilizers & Soil Nutrients<br>3. Packaged Nutrition & Food Processing<br>4. Protein, Dairy & Livestock Husbandry<br>5. Municipal Solid Waste Management<br>6. Organic Composting & Bioremediation<br>7. Cold Chain Storage & Grocery Distribution</td>
+              </tr>
+              <tr>
+                <td><b>5</b></td>
+                <td><b>Endocrine & Glandular System</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Banking, Finance & Monetary Pacing</td>
+                <td>1. Central Bank Settlement Rails<br>2. Commercial & Retail Deposit Banking<br>3. Card Payments & Merchant Clearing<br>4. Asset Management & Sovereign Wealth<br>5. Insurance & Actuarial Risk Protection<br>6. Securities Exchanges & Capital Clearing<br>7. Development Finance & Micro-Lending</td>
+              </tr>
+              <tr>
+                <td><b>6</b></td>
+                <td><b>Skeletal & Muscular System</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Infrastructure, Construction & Heavy Manufacturing</td>
+                <td>1. Heavy Earthmoving & Mining Machinery<br>2. Structural Materials (Steel, Cement, Glass)<br>3. Civil Engineering & Highway Contractors<br>4. Commercial Automotive & Truck Manufacturing<br>5. Industrial Robotics & Automation<br>6. Aerospace & Marine Heavy Engineering<br>7. Urban Mass Transit & Rail Equipment</td>
+              </tr>
+              <tr>
+                <td><b>7</b></td>
+                <td><b>Skin, Sensory & Immune/Renal</b></td>
+                <td style="color:var(--primary-dark); font-weight:700;">Healthcare, Biopharma & Water Sanitation</td>
+                <td>1. Municipal Water Treatment & Potable Supply<br>2. Pharmaceuticals & Therapeutic Medicine<br>3. Medical Diagnostic Devices & Imaging<br>4. Hospital & Ambulatory Care Networks<br>5. Genomics & Precision Biotech<br>6. Public Health Disease Control & Vaccines<br>7. Earth Observation & Satellite Telemetry</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-      <div class="calculator-box">
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>1. Respect Your DUTY First (Conscience Trigger)</span>
-            <span id="v-d1" style="color:var(--gold-primary);">7 / 10</span>
+      <!-- VIEW 6: 7D LIFE COMPASS -->
+      <section id="view-compass" class="view-panel">
+        <div class="banner-hero" style="text-align:center;">
+          <div class="siddha-mantra">The Universal 7D Life-Compass</div>
+          <h2>Conscience Self-Audit Tool</h2>
+          <p style="margin:0 auto;">Measure any career choice, company, or life stage against the 7 Great Virtues of Dharmic Life. Threshold Law: &lt; 35 / 70 Points = Change Course Immediately.</p>
+        </div>
+
+        <div class="compass-calc">
+          <div class="slider-item">
+            <div class="slider-title-row"><span>1. Respect Your DUTY First (Conscience Trigger)</span><span id="c-1" style="color:var(--primary-dark);">7 / 10</span></div>
+            <input type="range" min="1" max="10" value="7" id="sl-1" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="7" class="dim-slider" id="d1" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>2. Earn with DIGNITY Always (Unbought Self-Respect)</span>
-            <span id="v-d2" style="color:var(--gold-primary);">8 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>2. Earn with DIGNITY Always (Unbought Self-Respect)</span><span id="c-2" style="color:var(--primary-dark);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="sl-2" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="8" class="dim-slider" id="d2" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>3. Practice Life DISCIPLINE (Senses & Time Mastery)</span>
-            <span id="v-d3" style="color:var(--gold-primary);">7 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>3. Practice Life DISCIPLINE (Senses & Time Mastery)</span><span id="c-3" style="color:var(--primary-dark);">7 / 10</span></div>
+            <input type="range" min="1" max="10" value="7" id="sl-3" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="7" class="dim-slider" id="d3" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>4. Uphold Karmic DHARMA (Living Organ in Gaia's Body)</span>
-            <span id="v-d4" style="color:var(--gold-primary);">9 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>4. Uphold Karmic DHARMA (Living Organ in Gaia's Body)</span><span id="c-4" style="color:var(--primary-dark);">9 / 10</span></div>
+            <input type="range" min="1" max="10" value="9" id="sl-4" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="9" class="dim-slider" id="d4" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>5. Raise Family with DEVOTION (Undivided Warm Presence)</span>
-            <span id="v-d5" style="color:var(--gold-primary);">8 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>5. Raise Family with DEVOTION (Undivided Warm Presence)</span><span id="c-5" style="color:var(--primary-dark);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="sl-5" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="8" class="dim-slider" id="d5" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>6. Be Grateful to Your DIVINE (Nandri to Grand Architect)</span>
-            <span id="v-d6" style="color:var(--gold-primary);">9 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>6. Be Grateful to Your DIVINE (Nandri to Grand Architect)</span><span id="c-6" style="color:var(--primary-dark);">9 / 10</span></div>
+            <input type="range" min="1" max="10" value="9" id="sl-6" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="9" class="dim-slider" id="d6" oninput="calc7D()" />
-        </div>
-
-        <div class="dim-slider-group">
-          <div class="dim-label-row">
-            <span>7. Purposeful Life Is Your DESTINY (Pioneer of New World)</span>
-            <span id="v-d7" style="color:var(--gold-primary);">8 / 10</span>
+          <div class="slider-item">
+            <div class="slider-title-row"><span>7. Purposeful Life Is Your DESTINY (Pioneer of New World)</span><span id="c-7" style="color:var(--primary-dark);">8 / 10</span></div>
+            <input type="range" min="1" max="10" value="8" id="sl-7" oninput="calcCompass()">
           </div>
-          <input type="range" min="1" max="10" value="8" class="dim-slider" id="d7" oninput="calc7D()" />
-        </div>
 
-        <div class="score-banner">
-          <div style="font-size:0.85rem; text-transform:uppercase; color:var(--text-muted); letter-spacing:1px;">Total 7D Compass Score</div>
-          <div class="score-total" id="total-score">56 / 70</div>
-          <div class="score-status" id="score-status" style="color:var(--cyan-bright);">🌟 GOLD ZONE: Pioneer of the New World</div>
+          <div class="score-result-box">
+            <div style="font-size:0.75rem; text-transform:uppercase; font-weight:700; color:var(--text-muted); letter-spacing:1px;">Total 7D Compass Score</div>
+            <div class="score-big" id="compass-total">56 / 70</div>
+            <div id="compass-status" style="font-weight:700; font-size:1.1rem; color:#059669; margin-top:0.35rem;">🌟 GOLD ZONE: Pioneer of the New World — Sovereign Harmony</div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+    </main>
   </div>
 
   <script>
-    const companiesData = [
+    const companies = [
   {
     "name": "Linux Foundation & RISC-V",
     "organ": "Brain & Nervous System",
@@ -1329,7 +1357,7 @@
     "seed": "Needs mRNA foundry technology transfer to Global South public hubs"
   }
 ];
-    const episodesData = [
+    const episodes = [
   {
     "id": "S01E00",
     "code": "S01E00_Pilot_The_7D_Way",
@@ -1430,112 +1458,118 @@
   }
 ];
 
-    function switchTab(tabId) {
-      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-      document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
-      
-      const target = document.getElementById(tabId);
+    const episodeImages = {
+      'S01E00': 'assets/studio_v5_masters/v8_pilot_7d_scorecard_stage_16x9.jpg',
+      'S01E01': 'episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_01_trinity_opening.jpg',
+      'S01E02': 'assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg',
+      'S01E03': 'assets/studio_v5_masters/bala_matha_master_portrait.jpg',
+      'S01E04': 'assets/embryogenesis/embryogenesis_mountain_blueprint_16x9.jpg',
+      'S01E05': 'assets/corporate_evolution/corporate_7_levels_growth_tree.jpg',
+      'S01E06': 'assets/fractal_anatomy/andam_pindam_infographic_chart.jpg'
+    };
+
+    function switchView(viewId) {
+      document.querySelectorAll('.view-panel').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+
+      const target = document.getElementById(viewId);
       if (target) target.classList.add('active');
-      
-      const btns = Array.from(document.querySelectorAll('.nav-btn'));
-      const activeBtn = btns.find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes(tabId));
-      if (activeBtn) activeBtn.classList.add('active');
+
+      const links = Array.from(document.querySelectorAll('.nav-link'));
+      const activeLink = links.find(l => l.getAttribute('onclick') && l.getAttribute('onclick').includes(viewId));
+      if (activeLink) activeLink.classList.add('active');
+
+      const titles = {
+        'view-overview': 'Planetary Embryogenesis Dashboard',
+        'view-storyboard': 'S01E01 Master Film & Storyboard',
+        'view-episodes': 'Episodes Hub (All 7 Scripts)',
+        'view-ratings': 'Kalpavriksha Corporate Ratings',
+        'view-matrix': '7×7 Reality Matrix (49 Sectors)',
+        'view-compass': '7D Life Compass & Conscience'
+      };
+      document.getElementById('headerTitle').innerText = titles[viewId] || 'Command Center';
     }
 
     function renderEpisodes() {
-      const container = document.getElementById('episodes-container');
-      container.innerHTML = episodesData.map(ep => `
+      const container = document.getElementById('episodes-list');
+      container.innerHTML = episodes.map(ep => `
         <div class="episode-card">
-          <div>
-            <div class="ep-tag">${ep.id} • ${ep.duration}</div>
+          <img src="${episodeImages[ep.id] || 'assets/fractal_anatomy/andam_pindam_fractal_matrix.jpg'}" alt="${ep.title}" />
+          <div class="episode-body">
+            <span class="ep-tag">${ep.id} • ${ep.duration}</span>
             <div class="ep-title">${ep.title}</div>
-            <div class="ep-subtitle">${ep.subtitle}</div>
-            <div class="ep-cast"><b>Cast:</b> ${ep.cast.join(' • ')}</div>
-            <div class="ep-desc">${ep.core_concept}</div>
+            <div class="ep-sub">${ep.subtitle}</div>
+            <div class="ep-cast-box"><b>Cast:</b> ${ep.cast.join(' • ')}</div>
+            <p style="font-size:0.85rem; color:#475569; line-height:1.5;">${ep.core_concept}</p>
           </div>
           <div class="ep-footer">
-            <span style="color:var(--text-muted); font-size:0.8rem; font-family:var(--font-mono);">${ep.script_file}</span>
-            <a href="#" class="btn-view-script" onclick="alert('Full script is saved in the repository at:\\n' + '${ep.script_file}'); return false;">View Master</a>
+            <small style="color:var(--text-muted); font-family:var(--font-mono); font-size:0.75rem;">${ep.script_file}</small>
+            <a href="https://github.com/shishyan/Karmic-Genie-Show/blob/main/${ep.script_file}" target="_blank" class="btn-action">Open Script</a>
           </div>
         </div>
       `).join('');
     }
 
-    function renderCompanies() {
-      const search = document.getElementById('search-input').value.toLowerCase();
-      const organ = document.getElementById('organ-filter').value;
-      const level = document.getElementById('level-filter').value;
+    function filterCompanies() {
+      const q = document.getElementById('comp-search').value.toLowerCase();
+      const lvl = document.getElementById('comp-filter').value;
 
-      const filtered = companiesData.filter(c => {
-        const matchesSearch = c.name.toLowerCase().includes(search) || 
-                              c.subsector.toLowerCase().includes(search) || 
-                              c.organ.toLowerCase().includes(search) ||
-                              c.description.toLowerCase().includes(search);
-        const matchesOrgan = (organ === 'ALL') || (c.organ === organ);
-        const matchesLevel = (level === 'ALL') || (c.score === parseInt(level));
-        return matchesSearch && matchesOrgan && matchesLevel;
+      const filtered = companies.filter(c => {
+        const matchesQ = c.name.toLowerCase().includes(q) || c.subsector.toLowerCase().includes(q) || c.organ.toLowerCase().includes(q);
+        const matchesL = (lvl === 'ALL') || (c.score === parseInt(lvl));
+        return matchesQ && matchesL;
       });
 
-      const container = document.getElementById('companies-container');
+      const container = document.getElementById('companies-list');
       container.innerHTML = filtered.map(c => `
         <div class="company-card">
           <div>
-            <div class="company-header">
-              <div class="company-name">${c.name}</div>
-              <span class="level-badge lvl-${c.score}">${c.stage_label}</span>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+              <h3 style="font-family:var(--font-display); font-size:1.15rem; font-weight:800;">${c.name}</h3>
+              <span class="lvl-tag lvl-${c.score}">${c.stage_label}</span>
             </div>
-            <div class="company-sector">${c.organ} → ${c.subsector}</div>
-            <div class="company-desc">${c.description}</div>
+            <div style="font-size:0.8rem; color:var(--primary-dark); font-weight:700; margin-bottom:0.5rem;">${c.organ} → ${c.subsector}</div>
+            <p style="font-size:0.85rem; color:#475569; margin-bottom:1rem; line-height:1.5;">${c.description}</p>
           </div>
-
-          <div class="stage-meter">
-            <div class="meter-row">
-              <span style="color:#fff; font-weight:600;">Botanical Growth Stage</span>
-              <span style="color:var(--gold-primary); font-weight:700;">${c.score} of 7</span>
+          <div style="background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:0.85rem; font-size:0.8rem;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:0.25rem;">
+              <b>Stage ${c.score} of 7</b>
+              <span style="color:var(--primary-dark); font-weight:700;">${Math.round((c.score/7)*100)}%</span>
             </div>
-            <div class="meter-bar">
-              <div class="meter-fill" style="width:${(c.score/7)*100}%;"></div>
+            <div style="height:6px; background:#e2e8f0; border-radius:3px; overflow:hidden; margin-bottom:0.5rem;">
+              <div style="width:${(c.score/7)*100}%; height:100%; background:var(--primary);"></div>
             </div>
-            <div style="font-size:0.75rem; color:#94a3b8; display:flex; justify-content:space-between;">
-              <span>Root Survival</span>
-              <span>Flowering</span>
-              <span>Moksha Liberation</span>
-            </div>
-            <div style="font-size:0.78rem; color:#cbd5e1; margin-top:0.5rem; border-top:1px solid rgba(255,255,255,0.05); padding-top:0.4rem;">
-              <b>Generative Legacy:</b> ${c.seed}
-            </div>
+            <div style="color:#1e293b;"><b>Generative Seed Legacy:</b> ${c.seed}</div>
           </div>
         </div>
       `).join('');
     }
 
-    function calc7D() {
+    function calcCompass() {
       let sum = 0;
       for (let i = 1; i <= 7; i++) {
-        const val = parseInt(document.getElementById('d' + i).value);
-        document.getElementById('v-d' + i).innerText = val + ' / 10';
+        const val = parseInt(document.getElementById('sl-' + i).value);
+        document.getElementById('c-' + i).innerText = val + ' / 10';
         sum += val;
       }
-      document.getElementById('total-score').innerText = sum + ' / 70';
-      
-      const statusEl = document.getElementById('score-status');
+      document.getElementById('compass-total').innerText = sum + ' / 70';
+      const st = document.getElementById('compass-status');
       if (sum < 35) {
-        statusEl.innerText = '⚠️ RED ZONE: Conscience Silenced — Change Course Immediately!';
-        statusEl.style.color = '#ff4b4b';
+        st.innerText = '⚠️ RED ZONE: Conscience Silenced — Change Course Immediately!';
+        st.style.color = '#dc2626';
       } else if (sum <= 49) {
-        statusEl.innerText = '⚡ AMBER ZONE: Awakening Traveler — Realign Neglected Dimensions';
-        statusEl.style.color = '#f5b041';
+        st.innerText = '⚡ AMBER ZONE: Awakening Traveler — Realign Neglected Virtues';
+        st.style.color = '#d97706';
       } else {
-        statusEl.innerText = '🌟 GOLD ZONE: Pioneer of the New World — Sovereign Harmony';
-        statusEl.style.color = '#38ef7d';
+        st.innerText = '🌟 GOLD ZONE: Pioneer of the New World — Sovereign Harmony';
+        st.style.color = '#059669';
       }
     }
 
-    // Initialize
     window.onload = function() {
       renderEpisodes();
-      renderCompanies();
-      calc7D();
+      filterCompanies();
+      calcCompass();
     };
   </script>
 </body>
