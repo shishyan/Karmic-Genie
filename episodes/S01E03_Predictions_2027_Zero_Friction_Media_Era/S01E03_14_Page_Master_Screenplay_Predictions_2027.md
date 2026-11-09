@@ -236,12 +236,12 @@ Look at our second use case: The revolution in education.
 
 #### STAGE SETTING & VISUAL ARCHITECTURE
 * **Visual Display on Glass Arc:** The screen shifts to a cozy, sunlit study room in a rural home.
-  - A 10-year-old boy named Aarav is struggling with a physics textbook page on Newton’s Laws of Gravitation and Angular Momentum.
-  - The OLED screen shows Aarav’s interactive AI tutor, styled as an animated, wise golden owl named *Yukti*.
-  - *Yukti* does not just give text definitions. The owl waves its wing, and Aarav’s bedroom dissolves into an interactive animated space adventure where Aarav himself is piloting a spacecraft slingshotting around Jupiter.
+  - A young inquiring schoolchild is struggling with a physics textbook page on Newton’s Laws of Gravitation and Angular Momentum.
+  - The OLED screen shows the child’s interactive AI tutor, styled as an animated, wise golden owl named *Yukti*.
+  - *Yukti* does not just give text definitions. The owl waves its wing, and the child’s bedroom dissolves into an interactive animated space adventure where the child is piloting a spacecraft slingshotting around Jupiter.
   - The mathematical formulas (`F = G(m1*m2)/r^2`) float in 3D golden calligraphy, visually contracting and expanding as the spacecraft accelerates near the gas giant.
 * **Text Overlay:** `USE CASE 2: REAL-TIME ADAPTIVE PEDAGOGY | INSTANT FULL-EPISODE LESSON GENERATION`.
-* **Camera Movement:** Push-in close up on Bala-Matha watching Aarav’s face light up with comprehension, then panning to `@Me`.
+* **Camera Movement:** Push-in close up on Bala-Matha watching the young student’s face light up with comprehension, then panning to `@Me`.
 
 #### DIALOGUE & CINEMATIC ACTION
 
@@ -254,7 +254,7 @@ If a child was a visual learner, they failed. If a child spoke a regional dialec
 
 *(taps the screen, showing the tutor generating a 10-minute animated narrative on the fly)*
 In 2027, the concept of a static textbook is dead.
-When 10-year-old Aarav says, *"I don't understand why the moon doesn't crash into the Earth if gravity is pulling it,"* the engine doesn't cite a paragraph.
+When the young student asks, *"I don't understand why the moon doesn't crash into the Earth if gravity is pulling it,"* the engine doesn't cite a paragraph.
 Within eight seconds, it synthesizes an entire personalized, Pixar-quality animated short episode.
 
 **BALA-MATHA**
@@ -319,7 +319,7 @@ You can see the exact moment the valve was turned. You can see the flow of illic
 **BALA-MATHA**
 *(holding her palms open gently)*
 And it protects the innocent!
-How often in human history have corrupt powers blamed weak, defenseless workers for accidents caused by corporate greed?
+How often in human history have corrupt powers blamed honest, hardworking workers for structural accidents caused by institutional velocity and mechanical haste?
 When the forensic engine reconstructs the physics of the bridge collapse or the factory fire down to the microscopic stress fractures in substandard steel, the innocent are exonerated. Truth is no longer a luxury that only expensive lawyers can buy!
 
 **`@Me`**
@@ -448,26 +448,22 @@ What happens to human vanity, ego, and the sacred spark of authentic creation?
 
 **BALA-MATHA**
 *(smiling warmly, extending both hands toward the viewers)*
-Join us in Part Two, dear brothers and sisters!
-Where we journey through the remaining frontiers: the synthesis of personal memories, the future of gaming and virtual realities, the legal battlefield of digital twins, and the ultimate spiritual destiny of human consciousness in a world without friction!
+And the journey does not stop!
+Look at how this intelligence steps from the screen into the physical world: from the physical testing of products before manufacturing, to courtroom justice, to the preservation of vanishing songs, down to the healing of grief and saving communities from storms!
 
 **`@Me`**
 *(facing the center camera, smiling warmly)*
 What does Genie say — the 7D way?
-Stay anchored in truth, honor your duty, and we will see you on the next page of the 2027 horizon!
+Let us step across the horizon into the physical world!
 
-**`07:30` — FADE TO BLACK.**
-**`[ KARMIC GENIE SHOW LOGO FLOURISH — 7D VIRTUES GLOW IN GOLD ]`**
-
----
-*(End of Part 1 — Pages 1 through 7. Ready for architectural continuity with Pages 8 through 14).*
-
+**`22:45` — SEAMLESS ARENA TRANSITION: ELECTRIC SAPPHIRE AWAKENING.**
+The stadium Halo chandeliers pulse in warm golden amber before smoothly tracking into crisp electric sapphire.
 
 ---
 
 # PAGE 8: USE CASE 6 — PRODUCT PROTOTYPING & SYNTHETIC CONSUMER TESTING
 
-### SCENE 8: THE FACTORY OF SHADOWS & LIGHT (`18:30 – 21:45`)
+### SCENE 8: THE FACTORY OF SHADOWS & LIGHT (`22:45 – 26:00`)
 
 **INT. KARMIC GENIE STADIUM-STUDIO — FULL ARENA CRANE SWEEP — NIGHT**
 The overhead Halo chandeliers shift from amber gold to crisp, industrial electric sapphire.
