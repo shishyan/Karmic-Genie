@@ -713,21 +713,42 @@
           </p>
         </div>
 
-        <!-- Embedded S01E01 16:9 Master Epic Movie Player -->
+        <!-- Embedded S01E01 16:9 Master Real Google Flow Movie Player -->
         <div class="card" style="margin-bottom:1.75rem; border:2px solid #0d9488; background:#090d16; color:#ffffff;">
           <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
             <div>
-              <div class="siddha-mantra" style="color:#fde047; margin-bottom:0.2rem;">Now Playing • 16:9 Widescreen Cinema • Official 7D Theme + 40Hz/528Hz Soundtrack</div>
-              <h3 style="font-family:var(--font-display); font-size:1.35rem; color:#ffffff; margin:0;">🎬 S01E01 Master Film: &ldquo;The Way Forward&rdquo; (Narrator <code>@Me</code> + 1 Child Edition)</h3>
+              <div class="siddha-mantra" style="color:#fde047; margin-bottom:0.2rem;">Now Playing • 100% Real Google Flow Live-Action Motion Picture • Spoken Dialogue &amp; 7D Theme</div>
+              <h3 id="flow-player-title" style="font-family:var(--font-display); font-size:1.35rem; color:#ffffff; margin:0;">🎬 S01E01 Real Google Flow Film: &ldquo;The Way Forward&rdquo; (4m 22s • Narrator <code>@Me</code> + 1 Child Cut)</h3>
             </div>
-            <div style="display:flex; gap:0.6rem; flex-wrap:wrap;">
-              <a href="assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" download="Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" class="btn-action" style="background:#0d9488; text-decoration:none; font-size:0.82rem;">⬇️ Download Episode 1 Video (MP4)</a>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <button class="btn-action" style="background:#0d9488; font-size:0.78rem;" onclick="switchFlowFilm('assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4', '🎬 S01E01 Real Google Flow Film: “The Way Forward” (4m 22s • Narrator @Me + 1 Child Cut)')">▶ Play S01E01 Way Forward Cut (4m 22s)</button>
+              <button class="btn-action" style="background:#0284c7; font-size:0.78rem;" onclick="switchFlowFilm('assets/videos/Karmic_Genie_Show_S01E01_Full_Film_16x9.mp4', '🎬 S01E01 Full 44-Shot Google Flow Master Film (7m 12s • Seven Chairs Around One Fire)')">▶ Play Full 44-Shot Master Film (7m 12s)</button>
+              <button class="btn-action" style="background:#7c3aed; font-size:0.78rem;" onclick="switchFlowFilm('assets/videos/Karmic_Genie_Show_S01E00_Pilot_1080p.mp4', '🎬 S01E00 Pilot Film: “The 7D Way” (2m 05s • @Me & 4yo Bala-Rishi)')">▶ Play S01E00 Pilot Film (2m 05s)</button>
+              <a id="flow-player-download" href="assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" download="Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" class="btn-action" style="background:#334155; text-decoration:none; font-size:0.78rem;">⬇️ Download Active MP4</a>
             </div>
           </div>
-          <video controls preload="metadata" poster="assets/movie_cinematics/white_wall_movie_transposition.jpg" style="width:100%; max-height:580px; border-radius:12px; border:1px solid #334155; background:#000;">
-            <source src="assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" type="video/mp4" />
+          <video id="flow-main-video" controls preload="metadata" poster="assets/movie_cinematics/white_wall_movie_transposition.jpg" style="width:100%; max-height:580px; border-radius:12px; border:1px solid #334155; background:#000;">
+            <source id="flow-main-source" src="assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Epic_Movie_16x9.mp4" type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
+          <script>
+            function switchFlowFilm(src, title) {
+              var v = document.getElementById('flow-main-video');
+              var s = document.getElementById('flow-main-source');
+              var t = document.getElementById('flow-player-title');
+              var d = document.getElementById('flow-player-download');
+              if (v && s) {
+                s.src = src;
+                v.load();
+                v.play();
+              }
+              if (t) t.textContent = title;
+              if (d) {
+                d.href = src;
+                d.setAttribute('download', src.split('/').pop());
+              }
+            }
+          </script>
         </div>
 
         <!-- Master Character Avatar Reference Strip (Ingredients for Google Flow) -->
