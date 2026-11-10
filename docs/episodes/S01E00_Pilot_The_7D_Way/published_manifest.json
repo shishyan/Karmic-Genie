@@ -1,0 +1,22 @@
+{
+  "Karmic_Genie_Show_S01E00_Pilot_BalaRishi_360p_Unlisted": {
+    "season": 1,
+    "episode": 0,
+    "version": "v2.0_4yo_bala_rishi_dual_me_360p_unlisted",
+    "source_file": "Karmic_Genie_Show_S01E00_Pilot_The_7D_Way_360p.mp4",
+    "format": "16:9 Widescreen 360p Preview Master",
+    "title": "The 7D Way: 7 Great Virtues & The 35/70 Conscience Test | Karmic Genie Show (Pilot S1 E0)",
+    "privacy": "unlisted",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "Vk9Of2YtkXM",
+        "watch_url": "https://www.youtube.com/watch?v=Vk9Of2YtkXM",
+        "privacyStatus": "unlisted",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  }
+}

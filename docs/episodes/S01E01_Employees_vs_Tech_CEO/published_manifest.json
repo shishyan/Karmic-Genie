@@ -1,0 +1,88 @@
+{
+  "Karmic_Genie_Show_S01E01_Tech_CEO_Short_70pct_9x16.mp4": {
+    "season": 1,
+    "episode": 1,
+    "speed": "70%",
+    "title": "Employees vs. Tech CEO: Why AI Arrived Now | Karmic Genie Show (S1 E1) #Shorts",
+    "channels": {
+      "@influenzian": {
+        "video_id": "ns1kWtoNB5U",
+        "url": "https://youtube.com/shorts/ns1kWtoNB5U",
+        "watch_url": "https://www.youtube.com/watch?v=ns1kWtoNB5U",
+        "token": "token_influenzian.json"
+      },
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "mpQlEJGyz1o",
+        "url": "https://youtube.com/shorts/mpQlEJGyz1o",
+        "watch_url": "https://www.youtube.com/watch?v=mpQlEJGyz1o",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  },
+  "Karmic_Genie_Show_S01E01_Full_Film_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "format": "16:9 Full Widescreen Film (~7m)",
+    "title": "Non-AI Teams, $720B CapEx & The 2030 Clock | What Does Genie Say — The 7D Way? (S1 E1)",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "A1N84WhxCio",
+        "watch_url": "https://www.youtube.com/watch?v=A1N84WhxCio",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      },
+      "@influenzian": {
+        "role": "SYNDICATION",
+        "channel_id": "UCcJFqC7z0f-ARNcJadKiKpQ",
+        "channel_title": "Influenzian",
+        "video_id": "bhnhW3JtDc8",
+        "watch_url": "https://www.youtube.com/watch?v=bhnhW3JtDc8",
+        "token": "token_influenzian.json"
+      }
+    }
+  },
+  "Karmic_Genie_Show_S01E01_v3_Interactive_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "version": "v3.1_interactive_grand_design_unlisted",
+    "format": "16:9 Brisk Interactive Broadcast",
+    "title": "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise | Karmic Genie Show (S1 E1)",
+    "privacy": "unlisted",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "pVj2jJrg_gk",
+        "watch_url": "https://www.youtube.com/watch?v=pVj2jJrg_gk",
+        "privacyStatus": "unlisted",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  },
+  "Karmic_Genie_Show_S01E01_v4_Interactive_16x9.mp4": {
+    "season": 1,
+    "episode": 1,
+    "version": "v4.0_seamless_wide_wall_curved_glass_unlisted",
+    "source_file": "Karmic_Genie_Show_S01E01_v3_Interactive_16x9.mp4",
+    "format": "16:9 Seamless Wide-Wall Interactive Broadcast",
+    "title": "200,000 Cuts, 60,000 Buyouts & Why Every One Is a Blessing in Disguise | Karmic Genie Show (S1 E1)",
+    "privacy": "unlisted",
+    "channels": {
+      "@karmicgenie": {
+        "role": "PRIME",
+        "channel_id": "UCmixCKV4uTv3wIp634IRLXg",
+        "channel_title": "Karmic Genie Show",
+        "video_id": "e8PDB76WvOY",
+        "watch_url": "https://www.youtube.com/watch?v=e8PDB76WvOY",
+        "privacyStatus": "unlisted",
+        "token": "tokens_karmicgenie/token_942198183044.json"
+      }
+    }
+  }
+}

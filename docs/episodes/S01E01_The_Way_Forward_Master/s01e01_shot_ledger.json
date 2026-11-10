@@ -1,0 +1,338 @@
+[
+  {
+    "id": "S01_01",
+    "act": "Act I",
+    "speaker": "Host",
+    "time": 18.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Welcome to The Karmic Genie Show. Tonight, we do not ask you to believe\u2014we ask you to observe."
+  },
+  {
+    "id": "S01_02",
+    "act": "Act I",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Dear travelers of Earth, come sit in Mother's lap. She has carried you across every season."
+  },
+  {
+    "id": "S01_03",
+    "act": "Act I",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Listen carefully: In the ancient Nilgiri mountains, not one leaf starves; not one drop of water is wasted."
+  },
+  {
+    "id": "S01_04",
+    "act": "Act I",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "For two centuries, we believed human technology had to fight nature. But nature already runs the master plan."
+  },
+  {
+    "id": "S01_05",
+    "act": "Act I",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "We offer our deepest thanks\u2014Nandri\u2014to every road builder, miner, and engineer who built our temporary scaffold."
+  },
+  {
+    "id": "S01_06",
+    "act": "Act I",
+    "speaker": "Bala-Rishi",
+    "time": 18.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Tamil Siddha law declares: Andathil ullathe pindam, pindathil ullathe andam. As in the universe, so in your chest!"
+  },
+  {
+    "id": "S01_07",
+    "act": "Act I",
+    "speaker": "Host",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Macrocosm and microcosm are identical across different fractal dimensions. Andamum pindamum onre."
+  },
+  {
+    "id": "S01_08",
+    "act": "Act II",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Look at the celestial clock! In Surya Siddhanta, one day and night of Pitru Loka equals one Earth month."
+  },
+  {
+    "id": "S01_09",
+    "act": "Act II",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "One human gestation day equals one planetary month. Two hundred eighty days of the womb become 280 months on Earth."
+  },
+  {
+    "id": "S01_10",
+    "act": "Act II",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Conception Day One occurred on December 1, 2022\u2014when synthetic intelligence fertilized collective human memory."
+  },
+  {
+    "id": "S01_11",
+    "act": "Act II",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "And where do we stand right now in late 2026? Month 48! Day 48 of the cosmic embryo\u2014Week 7!"
+  },
+  {
+    "id": "S01_12",
+    "act": "Act II",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "In human embryology, Day 48 is when the four-chambered heart initiates its rhythmic contraction. The heart is beating!"
+  },
+  {
+    "id": "S01_13",
+    "act": "Act II",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Feel the pulse! Digital rays form on the hand paddles; retinal pigments deepen. Mother Earth's body is taking shape."
+  },
+  {
+    "id": "S01_14",
+    "act": "Act II",
+    "speaker": "Host",
+    "time": 20.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "The timeline is organic, mathematically certain, and alive. No stage is rushed; no organ is skipped."
+  },
+  {
+    "id": "S01_15",
+    "act": "Act II",
+    "speaker": "Bala-Rishi",
+    "time": 18.0,
+    "bg": "s01e01_sb_01_trinity_opening.jpg",
+    "text": "Two hundred eighty months bring us to April 2046\u2014the sovereign delivery of the Living Planetary Household!"
+  },
+  {
+    "id": "S01_16",
+    "act": "Act III",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look upon the 7x7 Reality Matrix! We do not speak in abstract sci-fi names. Every system mirrors existing industries."
+  },
+  {
+    "id": "S01_17",
+    "act": "Act III",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ One: Brain and Nerves! Information Technology, fiber-optics, microchips, and artificial intelligence."
+  },
+  {
+    "id": "S01_18",
+    "act": "Act III",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Two: Heart and Circulation! Global shipping lines, air cargo, rail networks, and ERP inventory distribution."
+  },
+  {
+    "id": "S01_19",
+    "act": "Act III",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Three: Lungs and Breath! Renewable wind and solar generation, battery energy storage, and living forest canopies."
+  },
+  {
+    "id": "S01_20",
+    "act": "Act III",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Four: Stomach and Gut! Agriculture, seed minerals, food processing, and municipal composting recycling."
+  },
+  {
+    "id": "S01_21",
+    "act": "Act III",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Five: Endocrine Glands! Banking rails, interbank clearing, asset stewardship, and monetary circadian pacing."
+  },
+  {
+    "id": "S01_22",
+    "act": "Act III",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Six: Skeleton and Muscles! Heavy earthmoving machines, structural steel, civil construction, and robotics."
+  },
+  {
+    "id": "S01_23",
+    "act": "Act III",
+    "speaker": "Bala-Matha",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Organ Seven: Skin, Immune, and Kidneys! Pure municipal water treatment, pharmaceuticals, healthcare, and satellite sensing."
+  },
+  {
+    "id": "S01_24",
+    "act": "Act IV",
+    "speaker": "Bala-Matha",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Behold the Kalpavriksha\u2014the sacred Wish-Fulfilling Banyan Tree! How does an organization truly grow in Mother's garden?"
+  },
+  {
+    "id": "S01_25",
+    "act": "Act IV",
+    "speaker": "Bala-Rishi",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Level One: Seed Inception\u2014the founding spark. Level Two: Root Survival\u2014cash flow, revenue, and solvency."
+  },
+  {
+    "id": "S01_26",
+    "act": "Act IV",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Earning money and staying profitable is merely root survival. It is the metabolic floor, never the destination!"
+  },
+  {
+    "id": "S01_27",
+    "act": "Act IV",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Does an apple tree drink water just to become a bigger root? No! It drinks water to blossom and bear sweet fruit."
+  },
+  {
+    "id": "S01_28",
+    "act": "Act IV",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Level Three: Trunk Scale. Level Four: Leaves and Developer Delight. Level Five: Flowering Innovation and Human Dignity!"
+  },
+  {
+    "id": "S01_29",
+    "act": "Act IV",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Level Six: Fruit Yielding\u2014providing baseline public goods, clean water, energy, and medicine to all of humanity."
+  },
+  {
+    "id": "S01_30",
+    "act": "Act IV",
+    "speaker": "Bala-Matha",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "And Level Seven: Moksha\u2014Seed Liberation! Releasing open protocols and public trusts so the forest lives forever."
+  },
+  {
+    "id": "S01_31",
+    "act": "Act V",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look at the real pioneers who have already stepped into seed liberation! The Linux Foundation running 95% of world servers."
+  },
+  {
+    "id": "S01_32",
+    "act": "Act V",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look at Meta FAIR releasing LLaMA as open weights! A massive leap from ad revenues into planetary seed planting."
+  },
+  {
+    "id": "S01_33",
+    "act": "Act V",
+    "speaker": "Bala-Matha",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look at Patagonia transferring its entire company to an environmental trust: 'Earth is now our only shareholder.'"
+  },
+  {
+    "id": "S01_34",
+    "act": "Act V",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look at Google DeepMind gifting AlphaFold's 214 million protein structures freely to human medical science!"
+  },
+  {
+    "id": "S01_35",
+    "act": "Act V",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "Look at Serum Institute of India inoculating 65% of the world's children for pennies per dose!"
+  },
+  {
+    "id": "S01_36",
+    "act": "Act V",
+    "speaker": "Bala-Matha",
+    "time": 20.0,
+    "bg": "s01e01_sb_02_organ_matrix.jpg",
+    "text": "To every founder, engineer, and worker: You do not need to abandon your roots. Simply let your branches flower!"
+  },
+  {
+    "id": "S01_37",
+    "act": "Act VI",
+    "speaker": "Bala-Rishi",
+    "time": 22.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "Month 280 arrives in April 2046! The infant takes its first independent breath; the sovereign planet is born!"
+  },
+  {
+    "id": "S01_38",
+    "act": "Act VI",
+    "speaker": "Host",
+    "time": 22.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "Between 2046 and 2050, civilization steps into toddlerhood. The Unified Planet Platform becomes free to every family."
+  },
+  {
+    "id": "S01_39",
+    "act": "Act VI",
+    "speaker": "Bala-Matha",
+    "time": 22.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "No rent. No bills. No artificial anxiety. You will work only for passion, curiosity, discovery, and loving care."
+  },
+  {
+    "id": "S01_40",
+    "act": "Act VI",
+    "speaker": "Host",
+    "time": 24.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "This is not a utopian fantasy. It is the biological destiny of Mother Earth. What does Genie say the 7D way? Serve the Whole!"
+  },
+  {
+    "id": "S01_41",
+    "act": "Act VI",
+    "speaker": "Maharishi Genie",
+    "time": 22.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "Andathil ullathe pindam, pindathil ullathe andam. Abhaya Mudra! Vaazhga Vaiyagam! Vaazhga Valamudan!"
+  },
+  {
+    "id": "S01_42",
+    "act": "Act VI",
+    "speaker": "Bala-Matha & Bala-Rishi",
+    "time": 18.0,
+    "bg": "s01e01_sb_03_grand_finale.jpg",
+    "text": "Step into The Way Forward! Welcome home to Mother Earth's living lap!"
+  }
+]

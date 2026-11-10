@@ -1,0 +1,138 @@
+{
+  "verified": false,
+  "clips": {
+    "G00_Bala_Opening_Sample2": "/home/shishyan/.gemini/antigravity/brain/b55fc9ea-1a2e-45b9-8d71-a53ee11caf0c/scratch/flow_me_4yo_samples/flow_me_4yo_360p_01.mp4",
+    "H02_Host_D1_Duty_Definition": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b1_host_compass_and_d1_d2/b1_host_compass_and_d1_d2_04.mp4",
+    "H03_Host_D1_Silenced_Conscience": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b1_host_compass_and_d1_d2/b1_host_compass_and_d1_d2_01.mp4",
+    "H04_Host_D2_Dignity_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b1_host_compass_and_d1_d2/b1_host_compass_and_d1_d2_03.mp4",
+    "H01_Host_Pilot_35_Rule": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b1_host_compass_and_d1_d2/b1_host_compass_and_d1_d2_02.mp4",
+    "H05_Host_D3_Discipline_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b2_host_d3_to_d7_details/b2_host_d3_to_d7_details_05.mp4",
+    "H06_Host_D4_Dharma_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b2_host_d3_to_d7_details/b2_host_d3_to_d7_details_04.mp4",
+    "H07_Host_D5_Devotion_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b2_host_d3_to_d7_details/b2_host_d3_to_d7_details_01.mp4",
+    "H08_Host_D6_Divine_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b2_host_d3_to_d7_details/b2_host_d3_to_d7_details_03.mp4",
+    "H09_Host_D7_Destiny_Explain": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b2_host_d3_to_d7_details/b2_host_d3_to_d7_details_02.mp4",
+    "G02_Bala_D2_Dignity": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b3_bala_rishi_4yo_virtues_1/b3_bala_rishi_4yo_virtues_1_03.mp4",
+    "G03_Bala_D3_Discipline": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b3_bala_rishi_4yo_virtues_1/b3_bala_rishi_4yo_virtues_1_04.mp4",
+    "G04_Bala_D4_Dharma": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b3_bala_rishi_4yo_virtues_1/b3_bala_rishi_4yo_virtues_1_02.mp4",
+    "G01_Bala_D1_Duty": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b3_bala_rishi_4yo_virtues_1/b3_bala_rishi_4yo_virtues_1_01.mp4",
+    "G05_Bala_D5_Devotion": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b4_bala_rishi_4yo_virtues_2/b4_bala_rishi_4yo_virtues_2_01.mp4",
+    "G06_Bala_D6_Divine": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b4_bala_rishi_4yo_virtues_2/b4_bala_rishi_4yo_virtues_2_03.mp4",
+    "G07_Bala_D7_Destiny_Blessing": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b4_bala_rishi_4yo_virtues_2/b4_bala_rishi_4yo_virtues_2_02.mp4",
+    "B01_Thief_Conscience_Alert": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b5_conscience_parables/b5_conscience_parables_02.mp4",
+    "B02_Numbing_Conscience_To_Compassion": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b5_conscience_parables/b5_conscience_parables_03.mp4",
+    "B03_Fruit_Bearing_Banyan_Tree": "/home/shishyan/GitHub/Karmic-Genie-Show/episodes/S01E00_Pilot_The_7D_Way/flow_s01e00_clips/b5_conscience_parables/b5_conscience_parables_01.mp4"
+  },
+  "diagnostics": {
+    "G00_Bala_Opening_Sample2": {
+      "file": "flow_me_4yo_360p_01.mp4",
+      "note": "Approved Sample 2 4yo Bala-Rishi"
+    },
+    "H02_Host_D1_Duty_Definition": {
+      "file": "b1_host_compass_and_d1_d2_04.mp4",
+      "keyword_hits": 6,
+      "transcript": "duty is never your office job. duty is the task that triggers guilt in your conscience when you leave it undone."
+    },
+    "H03_Host_D1_Silenced_Conscience": {
+      "file": "b1_host_compass_and_d1_d2_01.mp4",
+      "keyword_hits": 6,
+      "transcript": "a thief feels conscience guilt, the first few are triggered with alcohol or neglect and conscience goes silenting our world of empathy."
+    },
+    "H04_Host_D2_Dignity_Explain": {
+      "file": "b1_host_compass_and_d1_d2_03.mp4",
+      "keyword_hits": 4,
+      "transcript": "on your livelihood honestly, by building real value, never by selling your spine, your truth, or your peace."
+    },
+    "H01_Host_Pilot_35_Rule": {
+      "file": "b1_host_compass_and_d1_d2_02.mp4",
+      "keyword_hits": 2,
+      "transcript": "score every situation from 1 to 10 across 7 virtues, below 35 out of 7s of your life."
+    },
+    "H05_Host_D3_Discipline_Explain": {
+      "file": "b2_host_d3_to_d7_details_05.mp4",
+      "keyword_hits": 9,
+      "transcript": "third is discipline, sovereign mastery over your senses, tongue and clock, so impulsive cravings and midnight screens never enslave your mind."
+    },
+    "H06_Host_D4_Dharma_Explain": {
+      "file": "b2_host_d3_to_d7_details_04.mp4",
+      "keyword_hits": 6,
+      "transcript": "fourth is dharma, living as a vital organ in earth's body, like a fruit -bearing banyan tree and nourishment to all."
+    },
+    "H07_Host_D5_Devotion_Explain": {
+      "file": "b2_host_d3_to_d7_details_01.mp4",
+      "keyword_hits": 6,
+      "transcript": "5th is devotion. give your ageing parents, spouse and children, your warm, undivided press -exhausted leftovers."
+    },
+    "H08_Host_D6_Divine_Explain": {
+      "file": "b2_host_d3_to_d7_details_03.mp4",
+      "keyword_hits": 6,
+      "transcript": "6. gratitude to the divine daily humility before the grand architect who harmonized your body, mind, soul and parasol."
+    },
+    "H09_Host_D7_Destiny_Explain": {
+      "file": "b2_host_d3_to_d7_details_02.mp4",
+      "keyword_hits": 4,
+      "transcript": "seventh is destiny. when duty, dignity, you flower into a pioneer of the new world."
+    },
+    "G02_Bala_D2_Dignity": {
+      "file": "b3_bala_rishi_4yo_virtues_1_03.mp4",
+      "keyword_hits": 7,
+      "transcript": "dimension 2 is dignity. stand tall with an honest heart, no paycheck or title is ever worth trading away your self -respect."
+    },
+    "G03_Bala_D3_Discipline": {
+      "file": "b3_bala_rishi_4yo_virtues_1_04.mp4",
+      "keyword_hits": 7,
+      "transcript": "dimension 3 is discipline, rule your habits, your sleep and your senses every morning, so your mind stays free and bright."
+    },
+    "G04_Bala_D4_Dharma": {
+      "file": "b3_bala_rishi_4yo_virtues_1_02.mp4",
+      "keyword_hits": 7,
+      "transcript": "dimension 4 is dharma. be like a sweet mango tree, sharing shade and fruit with every creature on mother earth."
+    },
+    "G01_Bala_D1_Duty": {
+      "file": "b3_bala_rishi_4yo_virtues_1_01.mp4",
+      "keyword_hits": 3,
+      "transcript": "dimension 1 is never drink away the whisper of your conscience."
+    },
+    "G05_Bala_D5_Devotion": {
+      "file": "b4_bala_rishi_4yo_virtues_2_01.mp4",
+      "keyword_hits": 8,
+      "transcript": "dimension five is devotion put down your phone tonight hug your parents and children tight and give them your whole heart"
+    },
+    "G06_Bala_D6_Divine": {
+      "file": "b4_bala_rishi_4yo_virtues_2_03.mp4",
+      "keyword_hits": 5,
+      "transcript": "say thank you every sunrise to the grand architect of your body, mind and soul."
+    },
+    "G07_Bala_D7_Destiny_Blessing": {
+      "file": "b4_bala_rishi_4yo_virtues_2_02.mp4",
+      "keyword_hits": 4,
+      "transcript": "dimension 7 is your destiny. score above 35 across all 7 and shine as a pioneer of the new world."
+    },
+    "B01_Thief_Conscience_Alert": {
+      "file": "b5_conscience_parables_02.mp4",
+      "lum0": 41.0,
+      "lumm": 21.1,
+      "lum1": 49.7,
+      "mean_lum": 37.3,
+      "foliage_score": 48.5,
+      "dawn_jump": 8.7
+    },
+    "B02_Numbing_Conscience_To_Compassion": {
+      "file": "b5_conscience_parables_03.mp4",
+      "lum0": 124.4,
+      "lumm": 143.5,
+      "lum1": 143.5,
+      "mean_lum": 137.1,
+      "foliage_score": 169.6,
+      "dawn_jump": 19.1
+    },
+    "B03_Fruit_Bearing_Banyan_Tree": {
+      "file": "b5_conscience_parables_01.mp4",
+      "lum0": 125.9,
+      "lumm": 99.4,
+      "lum1": 128.2,
+      "mean_lum": 117.8,
+      "foliage_score": 656.8,
+      "dawn_jump": 2.3
+    }
+  }
+}
