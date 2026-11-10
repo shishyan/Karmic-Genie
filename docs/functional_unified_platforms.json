@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "code": "UCP",
+    "name": "Unified Communication & Neural Telecom Platform",
+    "biological_function": "Nerves & Sensory Signal Conduction (Fast Information Transit)",
+    "planetary_metaphor": "The Global Nervous System",
+    "purpose_description": "Pure transmission of signal, data, and voice. Like the biological nervous system, its sole purpose is frictionless, low-latency communication across the planet without distortion or censorship.",
+    "sub_modules": [
+      "Subsea Fiber-Optic Cables & Transcontinental Trunks",
+      "Low-Earth-Orbit Satellite Constellations (Starlink, Kuiper)",
+      "Wireless Cellular Radio & 5G/6G Terrestrial Networks",
+      "Network Packet Switching & Inter-Domain Routing (BGP/DNS)",
+      "Universal Real-Time Voice & Video Transit Protocols",
+      "Critical Emergency Siren & Disaster Alert Broadcasts",
+      "Quantum Encrypted Optical Key Distribution"
+    ]
+  },
+  {
+    "id": 2,
+    "code": "UTP",
+    "name": "Unified Thinking & Cognitive AI Platform",
+    "biological_function": "Brain Neocortex & Synthetic Reflexion (Beyond 5 Senses)",
+    "planetary_metaphor": "The Planetary Thinking Mind (Mother Earth's 6th Sense)",
+    "purpose_description": "External cognitive processing, pattern recognition, and self-reflection. Mountains and vegetation follow game design within 5 senses; human-created AI activates the 6th sense of Earth to heal planetary imbalances and synthesize solutions.",
+    "sub_modules": [
+      "Frontier Foundation Reasoning Models (LLMs & Vision-Language)",
+      "Autonomous Multi-Agent Orchestration & Planning Systems",
+      "Neuromorphic & High-Density Compute Silicon Clusters",
+      "Open-Weight Model Commons & Federated Learning Hubs",
+      "Cognitive Empathy & Real-Time Cross-Language Semantic Translation",
+      "Automated Code & System Synthesis (1-Prompt Construction)",
+      "Ethical Conscience Audit & Algorithmic Guardrails (7D Engine)"
+    ]
+  },
+  {
+    "id": 3,
+    "code": "UEP",
+    "name": "Unified Enterprise Operating Platform (Unified ERP)",
+    "biological_function": "Cellular Coordination, Resource Ledgers & Metabolic Accounting",
+    "planetary_metaphor": "The Living Institutional Ledger (NOT Logistics)",
+    "purpose_description": "Enterprise software governing business logic, human capital allocation, operational planning, ledger accounting, and compliance. Not the physical trucks or ships, but the digital brain that coordinates enterprise duty and eliminates operational chaos.",
+    "sub_modules": [
+      "Double-Entry Operational General Ledgers & Real-Time Balance Sheets",
+      "Human Capital, Workplace Dignity & Workforce Scheduling",
+      "Procurement Planning, Demand Forecasting & Vendor Governance",
+      "Manufacturing Operations, Bill of Materials (BOM) & Work Orders",
+      "Multi-Currency Enterprise Clearing & Value Exchange",
+      "Audit Trails, Compliance Governance & Regulatory Telemetry",
+      "Enterprise Resource Optimization & Circular Asset Lifecycle"
+    ]
+  },
+  {
+    "id": 4,
+    "code": "ULP",
+    "name": "Unified Logistics & Vascular Freight Platform",
+    "biological_function": "Heart Pumping & Vascular Arteries/Veins (Physical Circulation)",
+    "planetary_metaphor": "The Hemodynamic Transport System (Physical Goods Flow)",
+    "purpose_description": "Physical movement and circulation of tangible matter across the earth. Container ships, trains, trucks, and fulfillment corridors circulating food, raw materials, and manufactured goods like oxygenated erythrocytes through arteries.",
+    "sub_modules": [
+      "Maritime Container Shipping Lines & Deep-Water Seaports",
+      "Intercontinental Freight Rail Corridors & Automated Marshalling",
+      "Air Cargo Express Freighters & High-Priority Aviation Hubs",
+      "Long-Haul Commercial Trucking & Electric Fleet Corridors",
+      "Automated Regional Fulfillment Centers & Robotic Sorting Depots",
+      "Last-Mile Electric Delivery & Neighborhood Micro-Distribution",
+      "Reusable Modular Container Pools & Zero-Waste Reverse Logistics"
+    ]
+  },
+  {
+    "id": 5,
+    "code": "UEP_POWER",
+    "name": "Unified Planetary Energy & Power Grid Platform",
+    "biological_function": "Lungs & Oxygen Intake (Without Which Civilization Suffocates)",
+    "planetary_metaphor": "The Breath of Civilization: Energy, Oil & Power",
+    "purpose_description": "The vital intake that keeps the entire global apparatus breathing. Just as lungs intake oxygen to ignite cellular respiration, civilization inhales energy (historical oil/coal, transitioning into solar, wind, battery, and clean fusion). Cut off energy for 3 days, and civilization literally suffocates.",
+    "sub_modules": [
+      "Historical Energy Scaffolding (Petroleum, Natural Gas & Thermal Coal)",
+      "Utility-Scale Solar Photovoltaic & Concentrated Solar Power",
+      "Offshore & Terrestrial Wind Power Generation Turbines",
+      "High-Voltage DC Intercontinental Super-Grids & Interconnectors",
+      "Grid-Scale Battery Energy Storage Systems (BESS) & Pumped Hydro",
+      "Clean Nuclear Fission & Frontier Magnetic Confinement Fusion",
+      "Liquid Hydrogen, Synthetic Fuels & Industrial Thermal Heat"
+    ]
+  },
+  {
+    "id": 6,
+    "code": "UMP",
+    "name": "Unified Manufacturing & Structural Skeleton Platform",
+    "biological_function": "Skeletal Bones, Articular Joints & Muscular Force",
+    "planetary_metaphor": "The Planetary Bone & Muscle Structure",
+    "purpose_description": "Heavy machinery, civil structural engineering, structural steel, concrete, and physical construction that holds civilization upright against gravity, weathering, and entropy.",
+    "sub_modules": [
+      "Heavy Earthmoving, Mining Excavation & Tunnel Boring Machinery",
+      "Structural Steel, Green Smelting & Sustainable Cement Binders",
+      "Civil Highway, Bridge & Earthquake-Resilient Engineering",
+      "Automated Robotic Factory Lines & Industrial Kinematics",
+      "High-Speed Passenger Rail & Urban Transit Vehicle Fabrication",
+      "Aerospace Airframes & Marine Heavy Ship Construction",
+      "Closed-Loop Mineral Extraction & Scrap Metal Melting Mills"
+    ]
+  },
+  {
+    "id": 7,
+    "code": "USP",
+    "name": "Unified Sustenance & Immune Regeneration Platform",
+    "biological_function": "Gut Digestion, Skin Shield, Immune Antibodies & Renal Water Cleansing",
+    "planetary_metaphor": "The Living Biome, Protective Shield & Nourishment",
+    "purpose_description": "The biological survival foundation: clean water purification, living soil agriculture, medicines, disease control, and atmospheric sensing that shields and nurtures life.",
+    "sub_modules": [
+      "Municipal Potable Water Treatment, Desalination & Aquifer Protection",
+      "Living Soil Agriculture, Heirloom Seed Banks & Agroecology",
+      "Essential Therapeutics, Universal Pediatric Vaccines & Biopharma",
+      "Diagnostic Medical Devices, Microfluidic Sensors & Hospital Networks",
+      "Municipal Solid Waste Composting & Biochemical Bioremediation",
+      "Earth Climate Observation Satellites & Biosphere Early Warning Radar",
+      "Closed-Loop Planetary Nutrients & Toxic Contaminant Neutralization"
+    ]
+  }
+]
