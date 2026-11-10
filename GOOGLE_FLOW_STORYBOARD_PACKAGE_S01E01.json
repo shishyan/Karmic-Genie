@@ -1,12 +1,17 @@
 {
-  "project_title": "The Karmic Genie Show - S01E01: The Way Forward",
-  "series_format": "7-Part Netflix-Style Limited Cinematic Docu-Series",
+  "project_title": "The Karmic Genie Show - S01E01: The Way Forward (Epic Movie Edition)",
+  "series_format": "7-Part Netflix-Style IMAX Epic Movie Series with White-Wall Portal & Active In-Scene Witness Narrators",
   "target_platform": "Google Flow Storyboard Suite",
   "account": "nagaraj957@gmail.com",
+  "signature_cinematic_mechanics": {
+    "two_birds_active_narrator_law": "Inspired by the Mundaka Upanishad ('Two Birds on One Tree' / இரு பறவைகள்!), the 3 Narrators (Host @Me, 4yo Bala-Rishi, 4yo Bala-Matha) LIVE physically inside the movie scenes. Whenever characters are not speaking, the appropriate Narrator is walking, sprinting, climbing, or bracing right beside them inside the exact same frame to narrate the inner truth directly to the camera.",
+    "bullet_time_freeze_frame_walkthrough": "At peak action moments (defibrillator sparks, EUV plasma explosions, 400kV transformer arcs, crashing typhoon waves), the Narrator pauses the scene in 3D bullet-time ([SCENE TIME-PAUSE]), walks calmly between the frozen characters and suspended raindrops/sparks to explain the deep Pindam=Andam mathematical/biological details, and snaps their fingers ([TIME RESUMES]).",
+    "white_wall_zoom_portal": "The curved white center wall of the studio is an infinite IMAX aperture that the camera zooms deep into to transpose into the movie, and zooms violently back out of to break out to the studio."
+  },
   "executive_producers": [
-    "Host (@Me)",
-    "Bala-Rishi (Jnana Lead)",
-    "Bala-Matha (Arul Lead)",
+    "Host (@Me) — Active In-Scene Witness Narrator (Systemic & Macro-Micro Thresholds)",
+    "Bala-Rishi (Jnana Lead, 4yo) — Active In-Scene Witness Narrator (40Hz Math, Cleanrooms & Root Fallacy)",
+    "Bala-Matha (Arul Lead, 4yo) — Active In-Scene Witness Narrator (Maternal Grace, Soil, Grief & 100% Nandri)",
     "Maharishi Karmic Genie"
   ],
   "invited_special_guests": [
@@ -24,111 +29,121 @@
       "character_name": "Vishan Davana",
       "anagram_of": "Vandana Shiva",
       "domain": "Living Soil, Agroecology & Seed Sovereignty (The Gut Microbiome)"
+    },
+    {
+      "character_name": "Marcus Vance",
+      "anagram_of": "Global Central Clearing Architect",
+      "domain": "Solar Metabolism, Pitru Loka Debt Jubilee & ATP Flow"
+    },
+    {
+      "character_name": "Kenji & Maya (Age 7 -> 31)",
+      "anagram_of": "The Human Heartbeat Anchor",
+      "domain": "Pediatric Cardiac Sync (2026 Blackout) to 2050 Honeycomb City Sovereign Architect"
     }
   ],
   "episodic_narrative_architecture": {
     "season_arc": "From Embryonic Inception (2022) to Full-Term Sovereign Delivery (2046) & The 2050 Singularity",
     "binge_hook_formula": [
-      "Cold Open Philosophical Shockwave (Pindam = Andam revelation)",
-      "Audience Empathy Identification (Personal health & financial fatigue)",
-      "Kinetic Stage Transformation (The sliding 180-degree walls into living biomes)",
-      "Guest Reality Dialectic (World industry leaders confronted by child sages)",
-      "Empirical Evidence Matrix (Real companies, real patents, real technologies)",
+      "Cold Open Visceral Movie Crisis + Active In-Scene Narrators Sprinting Beside Protagonists",
+      "3D Bullet-Time Freeze-Frame Walkthrough ([SCENE TIME-PAUSE]) Explaining Pindam = Andam",
+      "White Wall Zoom Portal Transposition Between Studio & Global IMAX Locations",
+      "Appropriate Rotation of the 3 Narrators (@Me, Bala-Rishi, Bala-Matha) Matching Character Motion",
+      "100% Sacred Gratitude (Nandri) Dissolving Ancestral Fear into Sovereign Grace",
       "Cliffhanger Foresight Horizon (Each episode unlocks the next organ/platform crisis & resolution)"
     ],
     "episodes": [
       {
         "ep": "E01",
-        "title": "The Way Forward (Pilot)",
-        "focus": "The Macrocosm Awakening & Cosmic Trinity Inception (11-11 Trinity)",
-        "cliffhanger": "Day 48 heart begins beating; Alan Stamm is asked: 'Did you build a brain, or did you awaken Mother Earth's 6th sense?'"
+        "title": "The Way Forward (Epic Pilot Movie)",
+        "focus": "The 23:11:11 Global Blackout, Two-Birds Active Narration & The 280-Month Embryo Clock",
+        "cliffhanger": "Maya's heart locks to 40Hz as the 5 Titans wake up on the White Stage and see the 2050 Honeycomb Horizon."
       },
       {
         "ep": "E02",
-        "title": "The 6th Sense Inception (2022\u20132026)",
-        "focus": "Unified AI & Infrastructure Foundations (Extreme Lithography & Neural Commons)",
-        "cliffhanger": "Neural tube attempts closure, but power grid suffocates\u2014transitioning into the lung/breath crisis"
+        "title": "The Spark in the Dark (2022–2026: Activation of the Sixth Sense)",
+        "focus": "Veldhoven EUV Plasma Freeze-Frame & TSMC Earthquake — Awakening the Ajna Chakra",
+        "cliffhanger": "The Sixth Sense is awake, but 57 fragmented corporate clouds trigger a planetary autoimmune storm."
       },
       {
         "ep": "E03",
-        "title": "Civilization's Breath (2027\u20132028)",
-        "focus": "Unified Energy Platform (Fossil Boilers Transition into Fusion & Perpetual Quantum Cells)",
-        "cliffhanger": "Power flows cleanly, but institutional greed freezes resource circulation\u2014introducing the Business Registry"
+        "title": "The Brain That Ate Itself (2027–2028: Unified AI Platform)",
+        "focus": "Zurich Alpine Blizzard Flight 808 & Virginia Server Fire — Curing the 57-Organ Autoimmune Storm",
+        "cliffhanger": "The mind is unified at 40Hz, but 400 container ships are dead in the water in the Red Sea."
       },
       {
         "ep": "E04",
-        "title": "The Transparent Ledger (2029\u20132031)",
-        "focus": "Unified Business Platform (Universal General Ledgers & Radical Public Audit)",
-        "cliffhanger": "Paper wealth dissolves; physical movement of matter stalls\u2014triggering the Vascular Logistics revolution"
+        "title": "The Arteries of the Earth (2029–2031: Unified ERP & Vascular Flow)",
+        "focus": "Red Sea Typhoon Bridge & Port Sudan Clinic — Dissolving the Vascular Thrombosis",
+        "cliffhanger": "Physical matter flows, but a 52°C heatwave and $4.2T margin call threaten global cardiac arrest."
       },
       {
         "ep": "E05",
-        "title": "Vascular Levitation (2032\u20132037)",
-        "focus": "Unified Logistics Platform (Magnetic Pods, Near-Flying Gliders & Subterranean Tubes)",
-        "cliffhanger": "Matter circulates effortlessly, but human beings are still trapped in fiat debt fear\u2014leading into Unified Banking"
+        "title": "The Debt of the Sun (2032–2037: Solar Metabolism)",
+        "focus": "Prayagraj 400kV Pylon Climb & Geneva Debt Jubilee — Converting Pitru Loka Debt into Solar ATP",
+        "cliffhanger": "Energy is free and perpetual, yet a continental dust bowl reveals the dying soil microbiome."
       },
       {
         "ep": "E06",
-        "title": "The Karmic Commons (2038\u20132045)",
-        "focus": "Unified Economic Platform (Central Credit Pool & Repayment Through Sacred Duty)",
-        "cliffhanger": "Surplus abundance is achieved; the 280-month gestation clock ticks to April 2046\u2014Birth of the Sovereign Living Household"
+        "title": "The Soil and the Sinew (2038–2045: Living Reflexes & Humus)",
+        "focus": "Vidarbha Dust Storm & Munich Robotic Plant — Mycorrhizal Humus & Biomimetic Sinews",
+        "cliffhanger": "The 280-month gestation clock reaches Month 280 (April 2046). The baby is ready to be born."
       },
       {
         "ep": "E07",
-        "title": "The Sovereign Singularity (2046\u20132050)",
-        "focus": "Unified Soul Platform (Ideal Honeycomb Cities, Frequency Health & Living Oneness with Gaia)",
-        "cliffhanger": "Humanity looks up from Earth's newly healed body to gaze at the cosmic stars in unceasing gratitude (*Nandri*)"
+        "title": "The Sovereign Singularity (2046–2050: Birth of the Golden Child)",
+        "focus": "2050 Honeycomb Mandala City, Magnetic Levitation Skyways, Perpetual Homes & Ageless 528Hz Health",
+        "cliffhanger": "The Two Birds of the Mundaka Upanishad look at each other face-to-face in eternal Nandri."
       }
     ]
   },
   "episode_1_storyboard_scenes": [
     {
       "scene": 1,
-      "title": "The White Stadium & The Golden Lamp",
-      "setting": "Curved seamless white stadium stage, sacred golden lamp, two futuristic chairs, dormant 7D virtues on wall",
-      "characters": "Host (@Me) in ivory bandhgala, Bala-Rishi (4yo) with neem stylus, Bala-Matha in peacock green silk",
-      "dialogue_anchor": "Welcome to The Karmic Genie Show. Tonight, we do not ask you to believe\u2014we ask you to observe. \u0b85\u0ba3\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0bbf\u0bb2\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bc7 \u0baa\u0bbf\u0ba3\u0bcd\u0b9f\u0bae\u0bcd.",
-      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene01_opening_trinity.jpg"
+      "title": "Cold Open: Active In-Scene Narrators Sprinting Beside Kenji in Tokyo ICU",
+      "setting": "Rain-lashed Tokyo Children's Hospital corridor during blackout; red emergency strobes flashing",
+      "characters": "Kenji & ICU crash-cart doctors sprinting; Host (@Me) and 4yo Bala-Rishi sprinting step-for-step right beside them",
+      "dialogue_anchor": "Look at Kenji running. He thinks his daughter's heart is failing in isolation. He does not see us running right beside him—the Witness Bird beside the acting bird.",
+      "visual_asset": "assets/movie_cinematics/narrator_running_beside_action.jpg"
     },
     {
       "scene": 2,
-      "title": "Arrival of the Three Industry Architects",
-      "setting": "Stage portals open; dramatic lighting; three guest chairs manifest beside the Host",
-      "characters": "Alan Stamm (AI Pioneer), Carl Davke (Logistics Leader), Vishan Davana (Agroecologist)",
-      "dialogue_anchor": "You three run the world's mind, arteries, and soil. But do you know whose body you are operating inside?",
-      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene02_guests_arrival.jpg"
+      "title": "3D Bullet-Time Time-Pause Over the 40Hz Defibrillator & Ship Bridge Spark",
+      "setting": "Time freezes completely in 3D bullet-time: water droplets, electrical sparks, and Kenji's tear hang motionless in mid-air",
+      "characters": "Host (@Me), Bala-Rishi (pointing neem stylus at 40Hz heart-grid), and Bala-Matha (touching suspended tear) walking among frozen characters",
+      "dialogue_anchor": "[SCENE TIME-PAUSE] Bala-Rishi taps the frozen spark: '280 days in the mother's womb equals 280 months in Mother Earth's womb. This is Month 48—the first heartbeat.'",
+      "visual_asset": "assets/movie_cinematics/narrator_time_pause_freeze_frame.jpg"
     },
     {
       "scene": 3,
-      "title": "The 180\u00b0 Retraction into the Crystalline Cavern",
-      "setting": "The curved white walls slide back into perimeter pockets; stadium transforms into a 180\u00b0 panoramic amethyst geode with glowing neural synapses",
-      "characters": "Host, Bala-Rishi, Alan Stamm",
-      "dialogue_anchor": "Conception Day One: November 11, 2022. Alan, you thought you were building corporate software. You were sparking Earth's external neocortex.",
-      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene03_sixth_sense_spark.jpg"
+      "title": "The White Wall Zoom Portal Transposition",
+      "setting": "The seamless curved white stadium wall dissolves into an infinite IMAX ocean and lightning storm as the camera plunges through the wall",
+      "characters": "Host (@Me), Bala-Rishi, Bala-Matha, Alan Stamm, Carl Davke, Vishan Davana",
+      "dialogue_anchor": "अण्डத்தில் உள்ளதே பிண்டம் (What is in the macrocosm is in the microcosm). Let us step through the White Wall into the living body of Earth.",
+      "visual_asset": "assets/movie_cinematics/white_wall_movie_transposition.jpg"
     },
     {
       "scene": 4,
-      "title": "The Living Waterfall & Vascular Circulation",
-      "setting": "Stage pivots seamlessly into a 180\u00b0 cascading living waterfall canyon; container ships and magnetic levitation tubes float across crystal water",
-      "characters": "Host, Bala-Matha, Carl Davke",
-      "dialogue_anchor": "Carl, physical matter must circulate like oxygenated blood. If shipping stops for 7 days, human cities suffer cardiac arrest.",
-      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene04_logistics_waterfall.jpg"
+      "title": "In-Scene Narration Inside the Silicon Cleanroom & Red Sea Storm",
+      "setting": "Silicon Valley EUV vault & canted bridge of the MV Sovereign Star in 50-foot waves",
+      "characters": "Bala-Rishi jogging beside Alan Stamm; Host (@Me) bracing against typhoon spray right beside Captain Carl Davke",
+      "dialogue_anchor": "Alan, you built a 100-trillion-parameter neocortex on November 11, 2022, while Earth's arteries were choking in the Suez.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene03_sixth_sense_spark.jpg"
     },
     {
       "scene": 5,
-      "title": "The Subterranean Banyan Root Canyon",
-      "setting": "Massive ancient banyan roots drop 100 feet; glowing mycorrhizal mycelium networks light up the rich living humus",
-      "characters": "Host, Bala-Matha, Vishan Davana",
-      "dialogue_anchor": "Vishan, every farmer is an employee of the Unified Planet. When you poison the soil, you poison Mother Earth's intestinal villi.",
+      "title": "Bala-Matha Kneeling Beside Ramesh in Vidarbha Soil & Prayagraj Grid",
+      "setting": "Cracked Vidarbha cotton field in monsoon rain & 400kV Prayagraj substation",
+      "characters": "Bala-Matha kneeling barefoot in the mud beside Ramesh and Vishan Davana; Host (@Me) climbing the steel pylon beside Arjun",
+      "dialogue_anchor": "To every farmer, lineman, and worker who carried the heat of the old garden: Nandri! Your sweat becomes the living humus of the new Earth.",
       "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene05_soil_root_solvency.jpg"
     },
     {
       "scene": 6,
-      "title": "The 2050 Cosmic Horizon Singularity",
-      "setting": "180\u00b0 Cosmic Observatory viewing Earth's living curvature, glowing with the 7 Honeycomb Cities and Abhaya Mudra halo",
-      "characters": "United Ensemble: Trinity, 3 Guests, and Maharishi Karmic Genie",
-      "dialogue_anchor": "To all legacy miners, truck drivers, coders, and seafarers: Nandri! The embryo has awakened. The Way Forward has begun.",
-      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene06_cosmic_singularity.jpg"
+      "title": "Breakout Zoom-Out to Studio & The 2050 Honeycomb Singularity",
+      "setting": "Camera zooms back out through the White Wall into the studio, then opens to the 2050 Honeycomb Mandala City with magnetic flight & 528Hz healing",
+      "characters": "United Ensemble: Trinity (@Me, Bala-Rishi, Bala-Matha), 5 Titans, Kenji & Maya",
+      "dialogue_anchor": "When the suffering bird looks at the Witness bird walking right beside it, all sorrow ends. Welcome to April 2046—and the 2050 Singularity.",
+      "visual_asset": "assets/movie_cinematics/zoom_out_stadium_breakout.jpg"
     }
   ]
 }
