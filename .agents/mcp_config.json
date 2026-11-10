@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google-flow": {
+      "command": "python3",
+      "args": [
+        "/home/antigravity/shishyan/Karmic-Genie-Show/pipeline/google_flow_mcp_s01e01_storyboard.py"
+      ],
+      "env": {
+        "GOOGLE_ACCOUNT": "nagaraj957@gmail.com"
+      }
+    }
+  }
+}
