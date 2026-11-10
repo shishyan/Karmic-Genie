@@ -1,12 +1,14 @@
 {
   "mcpServers": {
     "google-flow": {
-      "command": "python3",
+      "command": "bash",
       "args": [
-        "/home/antigravity/shishyan/Karmic-Genie-Show/pipeline/google_flow_mcp_s01e01_storyboard.py"
+        "-lc",
+        "for p in \"./pipeline/google_flow_mcp_s01e01_storyboard.py\" \"$HOME/GitHub/Karmic-Genie-Show/pipeline/google_flow_mcp_s01e01_storyboard.py\" \"$HOME/shishyan/Karmic-Genie-Show/pipeline/google_flow_mcp_s01e01_storyboard.py\"; do if [ -f \"$p\" ]; then exec python3 \"$p\"; fi; done; echo 'google_flow_mcp_s01e01_storyboard.py not found' >&2; exit 1"
       ],
       "env": {
-        "GOOGLE_ACCOUNT": "nagaraj957@gmail.com"
+        "GOOGLE_ACCOUNT": "nagaraj957@gmail.com",
+        "FLOW_CDP_PORT": "9225"
       }
     }
   }
