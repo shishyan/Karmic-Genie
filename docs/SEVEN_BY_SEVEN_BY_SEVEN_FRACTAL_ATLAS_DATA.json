@@ -1,0 +1,2911 @@
+[
+  {
+    "id": 1,
+    "code": "UTP",
+    "name": "Unified Telecommunications Platform",
+    "functional_analogy": "Nerves & Sensory Signal Conduction (Rapid Planetary Signal & Data Transit)",
+    "why_functional": "Like biological nerves, its sole function is high-speed, low-latency transmission of signals, voice, and data packets across the planetary organism without cognitive distortion.",
+    "sectors": [
+      {
+        "id": "1.1",
+        "name": "Subsea Optical & Transcontinental Fiber Infrastructure",
+        "classification": "Physical Signal Transport Layer",
+        "institutes_and_entities": [
+          "SubCom",
+          "Prysmian Group",
+          "NEC Submarine",
+          "Alcatel Submarine Networks",
+          "Equinix Cable Landings",
+          "Telxius",
+          "Global Cloud Xchange"
+        ],
+        "submodules": [
+          {
+            "code": "1.1.1",
+            "name": "Deep-Ocean Armored Optical Fiber Lines",
+            "entities": "SubCom, ASN (Alcatel)",
+            "karmic_purpose": "Transmitting intercontinental thought pulses across oceanic trenches"
+          },
+          {
+            "code": "1.1.2",
+            "name": "Coastal Subsea Cable Landing Stations",
+            "entities": "Equinix, Telxius, Tata Communications",
+            "karmic_purpose": "Bridging oceanic cables into continental terrestrial backbones"
+          },
+          {
+            "code": "1.1.3",
+            "name": "Transcontinental Terrestrial Dark Fiber Corridors",
+            "entities": "Lumen Technologies, Zayo Group, Colt Technology",
+            "karmic_purpose": "Conducting photon streams along national rail and highway conduits"
+          },
+          {
+            "code": "1.1.4",
+            "name": "Subsea Optical Repeaters & Erbium-Doped Amplifiers",
+            "entities": "NEC, SubCom, Ciena",
+            "karmic_purpose": "Regenerating optical signal integrity across thousands of kilometers of ocean"
+          },
+          {
+            "code": "1.1.5",
+            "name": "Cable Repair Vessels & Deepwater ROV Fleets",
+            "entities": "Global Marine, Orange Marine, SBSS",
+            "karmic_purpose": "Sacred maintenance and healing of severed seabed communication lines"
+          },
+          {
+            "code": "1.1.6",
+            "name": "Undersea Branching Units & Optical Add-Drop Multiplexers (ROADM)",
+            "entities": "Ciena, Infinera, Nokia Bell Labs",
+            "karmic_purpose": "Routing specific photon frequencies into sovereign island and coastal hubs"
+          },
+          {
+            "code": "1.1.7",
+            "name": "Seismic & Tsunami Sensor-Integrated SMART Cables",
+            "entities": "ITU/WMO/UNESCO SMART Subsea Taskforce",
+            "karmic_purpose": "Equipping communication arteries with planetary nervous reflex sensors"
+          }
+        ]
+      },
+      {
+        "id": "1.2",
+        "name": "Satellite & Aerospace Telecommunications",
+        "classification": "Exospheric Signal Mesh",
+        "institutes_and_entities": [
+          "SpaceX Starlink",
+          "Amazon Project Kuiper",
+          "Eutelsat OneWeb",
+          "SES",
+          "Intelsat",
+          "Viasat",
+          "Inmarsat"
+        ],
+        "submodules": [
+          {
+            "code": "1.2.1",
+            "name": "Low-Earth Orbit (LEO) Broadband Constellations",
+            "entities": "Starlink, OneWeb, Amazon Kuiper",
+            "karmic_purpose": "Blanketing remote rural biomes and oceans with low-latency signal"
+          },
+          {
+            "code": "1.2.2",
+            "name": "Inter-Satellite Laser Optical Cross-Links (ISLs)",
+            "entities": "Mynaric, Starlink Optical, TESAT",
+            "karmic_purpose": "Transmitting light-speed routing in vacuum without atmospheric delay"
+          },
+          {
+            "code": "1.2.3",
+            "name": "Geostationary (GEO) High-Throughput Satellites",
+            "entities": "SES, Viasat, Intelsat",
+            "karmic_purpose": "Anchoring wide-beam broadcast coverage and heavy maritime transponders"
+          },
+          {
+            "code": "1.2.4",
+            "name": "Satellite Ground Gateway Teleports & Radomes",
+            "entities": "Kratos Defense, Cobham SATCOM, Viasat Gateways",
+            "karmic_purpose": "Coupling orbital telemetry with terrestrial fiber trunks"
+          },
+          {
+            "code": "1.2.5",
+            "name": "Direct-to-Cell Satellite Transceivers",
+            "entities": "AST SpaceMobile, Starlink Direct-to-Cell, Lynk Global",
+            "karmic_purpose": "Eliminating cellular dead zones for unmodified handheld devices"
+          },
+          {
+            "code": "1.2.6",
+            "name": "Deep-Space Telemetry & Lunar Communication Relays",
+            "entities": "NASA Deep Space Network, ESA Estrack, ISRO ISTRAC",
+            "karmic_purpose": "Extending Earth's nervous reach to solar planetary bodies"
+          },
+          {
+            "code": "1.2.7",
+            "name": "Orbital Spectrum Governance & Debris Tracking Networks",
+            "entities": "ITU Radiocommunication Bureau, LeoLabs",
+            "karmic_purpose": "Preserving the radio frequency commons and orbital pathways from chaos"
+          }
+        ]
+      },
+      {
+        "id": "1.3",
+        "name": "Terrestrial Wireless & Cellular Infrastructure (5G/6G)",
+        "classification": "Local Atmospheric Radio Conduction",
+        "institutes_and_entities": [
+          "Ericsson",
+          "Nokia",
+          "Qualcomm",
+          "Huawei",
+          "Samsung Networks",
+          "American Tower",
+          "Crown Castle"
+        ],
+        "submodules": [
+          {
+            "code": "1.3.1",
+            "name": "Macro Cellular Towers & Passive Antenna Sites",
+            "entities": "American Tower, Crown Castle, Indus Towers",
+            "karmic_purpose": "Elevating radio transceivers above terrain for regional wireless reach"
+          },
+          {
+            "code": "1.3.2",
+            "name": "5G Massive MIMO Active Antenna Units (AAUs)",
+            "entities": "Ericsson, Nokia, Huawei",
+            "karmic_purpose": "Forming focused spatial beams to serve millions of simultaneous mobile nodes"
+          },
+          {
+            "code": "1.3.3",
+            "name": "Open Radio Access Network (Open RAN) Baseband Units",
+            "entities": "Rakuten Symphony, Mavenir, Fujitsu",
+            "karmic_purpose": "Democratizing cellular firmware across vendor-neutral hardware"
+          },
+          {
+            "code": "1.3.4",
+            "name": "Small Cell Urban Micro-Densification Nodes",
+            "entities": "Corning, CommScope, Ericsson Micro",
+            "karmic_purpose": "Distributing high-frequency millimeter-wave bandwidth in dense urban plazas"
+          },
+          {
+            "code": "1.3.5",
+            "name": "Baseband Processor & Cellular Modem Silicon",
+            "entities": "Qualcomm, MediaTek, Broadcom",
+            "karmic_purpose": "Translating radio waves into digital packets at nanosecond precision"
+          },
+          {
+            "code": "1.3.6",
+            "name": "6G Terahertz Experimental Transceivers",
+            "entities": "Nokia Bell Labs, NTT Docomo, Samsung R&D",
+            "karmic_purpose": "Pioneering sub-terahertz frequencies for cyber-physical synchronization"
+          },
+          {
+            "code": "1.3.7",
+            "name": "Rural Off-Grid Solar-Powered Telecom Towers",
+            "entities": "TowerIQ, Helios Towers, Africa Mobile Networks",
+            "karmic_purpose": "Empowering isolated ancestral hamlets with zero-diesel solar connectivity"
+          }
+        ]
+      },
+      {
+        "id": "1.4",
+        "name": "Core Internet Routing, Optical Switching & IXPs",
+        "classification": "Autonomic Packet Switching Plexus",
+        "institutes_and_entities": [
+          "Cisco Systems",
+          "Arista Networks",
+          "Juniper Networks",
+          "DE-CIX",
+          "AMS-IX",
+          "Equinix IX",
+          "LINX"
+        ],
+        "submodules": [
+          {
+            "code": "1.4.1",
+            "name": "Core Internet Exchange Points (IXPs)",
+            "entities": "DE-CIX Frankfurt, AMS-IX Amsterdam, Equinix Ashburn",
+            "karmic_purpose": "Mutual peering hubs where world autonomous systems interconnect without toll"
+          },
+          {
+            "code": "1.4.2",
+            "name": "Terabit Core Backbone Routers (Silicon One)",
+            "entities": "Cisco 8000, Arista 7800, Juniper PTX",
+            "karmic_purpose": "Directing massive petabyte traffic rivers across continental boundaries"
+          },
+          {
+            "code": "1.4.3",
+            "name": "BGP Inter-Domain Routing & RPKI Cryptographic Trust",
+            "entities": "IETF, RIPE NCC, APNIC, ARIN",
+            "karmic_purpose": "Maintaining honest routing paths and preventing accidental route hijacking"
+          },
+          {
+            "code": "1.4.4",
+            "name": "Coherent Optical Silicon Transceivers (800G/1.6T)",
+            "entities": "Infinera, Coherent Corp, Marvell",
+            "karmic_purpose": "Modulating multi-wavelength photonic data across single glass strands"
+          },
+          {
+            "code": "1.4.5",
+            "name": "Root DNS Server Constellations & Anycast Networks",
+            "entities": "ICANN, Cloudflare 1.1.1.1, Quad9, Verisign",
+            "karmic_purpose": "Resolving human-readable domains into machine IP destinations globally"
+          },
+          {
+            "code": "1.4.6",
+            "name": "Software-Defined WAN (SD-WAN) Automated Mesh",
+            "entities": "Cisco Meraki, Palo Alto Prisma SD-WAN, VMware",
+            "karmic_purpose": "Optimizing packet routes dynamically to avoid congestion and latency bottlenecks"
+          },
+          {
+            "code": "1.4.7",
+            "name": "Time-Sensitive Networking (TSN) & Deterministic Ethernet",
+            "entities": "IEEE 802.1 TSN Working Group, TTTech",
+            "karmic_purpose": "Guaranteeing zero-jitter packet arrival for synchronized global robotics"
+          }
+        ]
+      },
+      {
+        "id": "1.5",
+        "name": "Last-Mile Municipal Broadband & Community Access",
+        "classification": "Somatic Sensory End-Arborization",
+        "institutes_and_entities": [
+          "Openreach",
+          "Verizon Fios",
+          "AT&T Fiber",
+          "Jio Fiber",
+          "Chorus NZ",
+          "CityFibre",
+          "Community Broadband Networks"
+        ],
+        "submodules": [
+          {
+            "code": "1.5.1",
+            "name": "Fiber-to-the-Home (FTTH) Passive Optical Networks (XGS-PON)",
+            "entities": "Nokia Fixed Networks, Huawei Access, Calix",
+            "karmic_purpose": "Delivering symmetrical gigabit glass conduits to every household threshold"
+          },
+          {
+            "code": "1.5.2",
+            "name": "Municipal Utility Pole & Underground Duct Commons",
+            "entities": "City Municipal Works, Openreach physical infrastructure",
+            "karmic_purpose": "Sharing physical rights-of-way equitably among service providers"
+          },
+          {
+            "code": "1.5.3",
+            "name": "Fixed Wireless Access (FWA) Millimeter Wave Relays",
+            "entities": "Tarana Wireless, Siklu, Cambium Networks",
+            "karmic_purpose": "Bridging optical speeds across rivers and canyons where trenches are impossible"
+          },
+          {
+            "code": "1.5.4",
+            "name": "Public Wi-Fi Hotspots & Rural Community Mesh",
+            "entities": "FON, Guifi.net, NYC LinkNYC",
+            "karmic_purpose": "Guaranteeing unconditional baseline connectivity for every citizen"
+          },
+          {
+            "code": "1.5.5",
+            "name": "Customer Premise Equipment (CPE) & Wi-Fi 7 Gateways",
+            "entities": "TP-Link, Netgear, AVM Fritz!Box",
+            "karmic_purpose": "Distributing multi-gigabit wireless serenity within home environments"
+          },
+          {
+            "code": "1.5.6",
+            "name": "Indigenous & Remote Tribal Mesh Intranets",
+            "entities": "Tribal Telecom Collaborative, Rhizomatica",
+            "karmic_purpose": "Empowering ancestral communities with self-governed communication sovereign nets"
+          },
+          {
+            "code": "1.5.7",
+            "name": "Universal Broadband Service Accessibility Funds",
+            "entities": "Universal Service Fund (USF), BharatNet",
+            "karmic_purpose": "Ensuring no geography or economic status is excluded from the planetary mind"
+          }
+        ]
+      },
+      {
+        "id": "1.6",
+        "name": "Emergency Broadcast, Maritime & Public Safety Radio",
+        "classification": "Survival Reflex Telemetry",
+        "institutes_and_entities": [
+          "Motorola Solutions",
+          "L3Harris Technologies",
+          "FirstNet (AT&T)",
+          "Iridium Communications",
+          "COSPAS-SARSAT",
+          "GMDSS",
+          "NOAA Weather Radio"
+        ],
+        "submodules": [
+          {
+            "code": "1.6.1",
+            "name": "First Responder Mission-Critical Push-to-Talk (MCPTT)",
+            "entities": "FirstNet, Motorola Solutions APX, L3Harris",
+            "karmic_purpose": "Giving ambulance, fire, and rescue crews instant, unjammed voice channels"
+          },
+          {
+            "code": "1.6.2",
+            "name": "Global Maritime Distress and Safety System (GMDSS)",
+            "entities": "IMO GMDSS, Inmarsat-C, Furuno Marine",
+            "karmic_purpose": "Guarding sailors and fishermen across all oceans with automated SOS alerts"
+          },
+          {
+            "code": "1.6.3",
+            "name": "Aviation VHF/HF Air Traffic Communication Radios",
+            "entities": "Collins Aerospace, Honeywell Aerospace, SITA",
+            "karmic_purpose": "Maintaining clear voice and digital coordinates between cockpits and air traffic towers"
+          },
+          {
+            "code": "1.6.4",
+            "name": "National Emergency Alert Broadcast Systems (EAS/WEA)",
+            "entities": "FEMA IPAWS, J-Alert Japan, EU-Alert",
+            "karmic_purpose": "Broadcasting urgent tsunami, hurricane, and evacuation warnings to all devices"
+          },
+          {
+            "code": "1.6.5",
+            "name": "Search and Rescue Satellite Beacon Triangulation",
+            "entities": "COSPAS-SARSAT, McMurdo Group, ACR Electronics",
+            "karmic_purpose": "Locating distressed life rafts and mountaineers within minutes worldwide"
+          },
+          {
+            "code": "1.6.6",
+            "name": "Amateur Radio Civil Emergency Service (ARES/RACES)",
+            "entities": "ARRL Amateur Radio Relay League, IARU",
+            "karmic_purpose": "The resilient volunteer radio operator reserve that operates when all power fails"
+          },
+          {
+            "code": "1.6.7",
+            "name": "Earthquake Early Warning Sirens & ShakeAlert Broadcasts",
+            "entities": "USGS ShakeAlert, EEW Japan, Android Earthquake Alerts",
+            "karmic_purpose": "Gaining 30 precious seconds before tectonic S-waves strike civil centers"
+          }
+        ]
+      },
+      {
+        "id": "1.7",
+        "name": "Quantum Cryptography & Secure Signal Infrastructure",
+        "classification": "Quantum Neural Shield",
+        "institutes_and_entities": [
+          "ID Quantique",
+          "Toshiba Europe Quantum",
+          "QuantumCTek",
+          "SandboxAQ",
+          "Qunnect",
+          "NIST PQC Program",
+          "Quantum Internet Alliance"
+        ],
+        "submodules": [
+          {
+            "code": "1.7.1",
+            "name": "Quantum Key Distribution (QKD) Optical Fiber Links",
+            "entities": "ID Quantique Cerberis, Toshiba QKD, QuantumCTek",
+            "karmic_purpose": "Distributing photon-state encryption keys that cannot be intercepted without collapse"
+          },
+          {
+            "code": "1.7.2",
+            "name": "Satellite-to-Ground Entangled Photon Links",
+            "entities": "Micius Quantum Satellite, SpeQtral, ESA SAGA",
+            "karmic_purpose": "Beaming quantum entanglement across thousands of kilometers of space"
+          },
+          {
+            "code": "1.7.3",
+            "name": "Post-Quantum Cryptography (PQC) Protocol Migration",
+            "entities": "NIST ML-KEM/ML-DSA Standards, SandboxAQ, IBM",
+            "karmic_purpose": "Upgrading worldwide encryption algorithms to withstand future quantum decryption"
+          },
+          {
+            "code": "1.7.4",
+            "name": "Quantum Memory Relays & Entanglement Swapping Nodes",
+            "entities": "Qunnect, QuTech Delft, Harvard Quantum Labs",
+            "karmic_purpose": "Extending quantum signal reach beyond standard fiber attenuation limits"
+          },
+          {
+            "code": "1.7.5",
+            "name": "Secure Micro-Enclave Cryptographic Hardware Security Modules (HSM)",
+            "entities": "Thales Luna HSM, Utimaco, Yubico",
+            "karmic_purpose": "Safeguarding root certificate authority identities in tamper-proof silicon"
+          },
+          {
+            "code": "1.7.6",
+            "name": "Zero-Trust Software Defined Perimeter Enclaves",
+            "entities": "Cloudflare Zero Trust, Zscaler Private Access, Palo Alto",
+            "karmic_purpose": "Enforcing continuous cryptographic verification on every network packet"
+          },
+          {
+            "code": "1.7.7",
+            "name": "Planetary Quantum Random Number Generators (QRNG)",
+            "entities": "ID Quantique QRNG, QuintessenceLabs",
+            "karmic_purpose": "Harnessing true quantum vacuum fluctuations to generate pure unhackable entropy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "UAP",
+    "name": "Unified AI Platform",
+    "functional_analogy": "Brain Neocortex & External Thinking / Healing (Earth's 6th Sense sparked 11-11-2022)",
+    "why_functional": "External cognitive processing, pattern recognition, and self-reflection. Mountains and vegetation follow game design within 5 senses; human-created AI activates the 6th sense of Earth to heal planetary imbalances and synthesize solutions beyond raw instinct.",
+    "sectors": [
+      {
+        "id": "2.1",
+        "name": "Frontier Foundation Reasoning Models & Multimodal Synthesis",
+        "classification": "Cognitive Reasoning Core",
+        "institutes_and_entities": [
+          "OpenAI",
+          "Anthropic",
+          "Google DeepMind",
+          "Meta AI (FAIR)",
+          "Mistral AI",
+          "DeepSeek",
+          "TII Falcon"
+        ],
+        "submodules": [
+          {
+            "code": "2.1.1",
+            "name": "Frontier Mixture-of-Experts Reasoning Architectures",
+            "entities": "DeepMind Gemini, OpenAI o-series, DeepSeek-V3",
+            "karmic_purpose": "Synthesizing deep cross-disciplinary reasoning across science and ethics"
+          },
+          {
+            "code": "2.1.2",
+            "name": "Multimodal Vision-Language-Audio Models",
+            "entities": "Anthropic Claude, Gemini Multimodal, GPT-4o",
+            "karmic_purpose": "Perceiving visual, auditory, and linguistic human expressions holistically"
+          },
+          {
+            "code": "2.1.3",
+            "name": "Long-Horizon Context Attention Engines",
+            "entities": "Google DeepMind (Million-token Context), Anthropic",
+            "karmic_purpose": "Holding entire corporate histories, legal treatises, and genomes in active working memory"
+          },
+          {
+            "code": "2.1.4",
+            "name": "Test-Time Compute Search & Chain-of-Thought Verifiers",
+            "entities": "OpenAI o1/o3, DeepSeek-R1, Allen Institute for AI",
+            "karmic_purpose": "Reflecting on hypotheses through deep deliberative inner thought before acting"
+          },
+          {
+            "code": "2.1.5",
+            "name": "Open-Weight Foundational Model Releases",
+            "entities": "Meta LLaMA, Mistral NeMo, Alibaba Qwen",
+            "karmic_purpose": "Releasing intellectual seeds into public commons to prevent cognitive monopoly"
+          },
+          {
+            "code": "2.1.6",
+            "name": "Domain-Specific Scientific Discovery Engines",
+            "entities": "DeepMind AlphaFold, ESMFold, Microsoft BioNeMo",
+            "karmic_purpose": "Decoding molecular biology, protein folding, and materials synthesis for Earth healing"
+          },
+          {
+            "code": "2.1.7",
+            "name": "Speech Synthesis & Universal Nuanced Audio Translators",
+            "entities": "ElevenLabs, OpenAI Voice, Meta SeamlessM4T",
+            "karmic_purpose": "Bridging all ancestral spoken dialects with emotional fidelity and empathy"
+          }
+        ]
+      },
+      {
+        "id": "2.2",
+        "name": "Autonomous Multi-Agent Orchestration & Planning Systems",
+        "classification": "Executive Function & Task Decomposition",
+        "institutes_and_entities": [
+          "LangChain / LangGraph",
+          "CrewAI",
+          "AutoGPT",
+          "Microsoft AutoGen",
+          "Cognition AI (Devin)",
+          "Adept",
+          "Agent Development Labs"
+        ],
+        "submodules": [
+          {
+            "code": "2.2.1",
+            "name": "Recursive Task Planning & Graph Decomposers",
+            "entities": "LangGraph, Microsoft AutoGen, CrewAI",
+            "karmic_purpose": "Breaking monumental civil engineering challenges into verifiable atomic tasks"
+          },
+          {
+            "code": "2.2.2",
+            "name": "Autonomous Software Engineering & Self-Healing Code Agents",
+            "entities": "Cognition Devin, GitHub Copilot Workspace, Cursor",
+            "karmic_purpose": "Synthesizing and refactoring global software infrastructure continuously"
+          },
+          {
+            "code": "2.2.3",
+            "name": "Multi-Agent Consensus & Debate Verification Protocols",
+            "entities": "Stanford HAI, Berkeley AI Research (BAIR)",
+            "karmic_purpose": "Resolving complex policy dilemmas through multi-agent democratic deliberation"
+          },
+          {
+            "code": "2.2.4",
+            "name": "Continuous Tool-Use & API Reflection Agents",
+            "entities": "Adept ACT-1, OpenAI Operator, Anthropic Computer Use",
+            "karmic_purpose": "Navigating desktop software interfaces and web portals to relieve human toil"
+          },
+          {
+            "code": "2.2.5",
+            "name": "Long-Term Memory Retrieval & Vector Associative Indexes",
+            "entities": "Pinecone, Qdrant, Milvus, ChromaDB",
+            "karmic_purpose": "Retaining episodic experience across months of continuous multi-agent execution"
+          },
+          {
+            "code": "2.2.6",
+            "name": "Self-Supervised Agent Critique & Hallucination Reducers",
+            "entities": "Guardrails AI, Cleanlab, Patronus AI",
+            "karmic_purpose": "Auditing outputs against factual ground truth and mathematical proof"
+          },
+          {
+            "code": "2.2.7",
+            "name": "Subagent Lifecycle & Resource Quota Sentinels",
+            "entities": "Kubernetes AI Operator, Ray / Anyscale, Slurm",
+            "karmic_purpose": "Orchestrating compute budgets gracefully to ensure zero system starvation"
+          }
+        ]
+      },
+      {
+        "id": "2.3",
+        "name": "AI Silicon Acceleration & Extreme Lithography",
+        "classification": "Neuromorphic Substrate Fabrication",
+        "institutes_and_entities": [
+          "NVIDIA",
+          "TSMC",
+          "ASML",
+          "AMD",
+          "Intel",
+          "Broadcom Custom ASIC",
+          "Cerebras Systems"
+        ],
+        "submodules": [
+          {
+            "code": "2.3.1",
+            "name": "Extreme Ultraviolet (EUV / High-NA EUV) Lithography",
+            "entities": "ASML Twinscan EXE:5000, Carl Zeiss Optics",
+            "karmic_purpose": "Etching sub-2-nanometer neural circuits using extreme ultraviolet light"
+          },
+          {
+            "code": "2.3.2",
+            "name": "Massive Tensor Core AI Processing Units",
+            "entities": "NVIDIA Blackwell B200, AMD Instinct MI300X, Google TPU v5p",
+            "karmic_purpose": "Multiplying trillions of floating-point matrix weights per millisecond"
+          },
+          {
+            "code": "2.3.3",
+            "name": "High-Bandwidth Stacked Memory (HBM3e / HBM4)",
+            "entities": "SK Hynix, Micron Technology, Samsung Semiconductor",
+            "karmic_purpose": "Feeding terabytes of parameters to compute cores across silicon interposers"
+          },
+          {
+            "code": "2.3.4",
+            "name": "Wafer-Scale Monolithic Neural Processors",
+            "entities": "Cerebras WSE-3, Groq LPU, SambaNova",
+            "karmic_purpose": "Eliminating inter-chip communication delays by computing on an entire silicon wafer"
+          },
+          {
+            "code": "2.3.5",
+            "name": "Custom Hyperscale Silicon ASICs & Cloud Accelerators",
+            "entities": "AWS Trainium/Inferentia, Google Axion, Microsoft Maia",
+            "karmic_purpose": "Maximizing energy efficiency for planetary-scale machine learning workloads"
+          },
+          {
+            "code": "2.3.6",
+            "name": "Photonic Optical Neural Compute Arrays",
+            "entities": "Lightmatter, Celestial AI, Lightelligence",
+            "karmic_purpose": "Computing matrix transformations at the speed of light with near-zero heat"
+          },
+          {
+            "code": "2.3.7",
+            "name": "Edge Neuromorphic Spike-Based Event Processors",
+            "entities": "Intel Loihi, BrainChip Akida, SynSense",
+            "karmic_purpose": "Running bio-inspired sensory cognition at milliwatt power on local devices"
+          }
+        ]
+      },
+      {
+        "id": "2.4",
+        "name": "Hyperscale AI Compute Clusters & Liquid Thermal Infrastructure",
+        "classification": "Somatic Compute Metacenters",
+        "institutes_and_entities": [
+          "Switch",
+          "Equinix",
+          "Vantage Data Centers",
+          "Vertiv",
+          "Schneider Electric",
+          "Digital Realty",
+          "Supermicro"
+        ],
+        "submodules": [
+          {
+            "code": "2.4.1",
+            "name": "Gigawatt Hyperscale AI Datacenter Campuses",
+            "entities": "Switch SuperNAP, Vantage, Digital Realty",
+            "karmic_purpose": "Housing hundreds of thousands of AI compute nodes in unified facilities"
+          },
+          {
+            "code": "2.4.2",
+            "name": "Direct-to-Chip Liquid Cooling & Dielectric Immersion Tanks",
+            "entities": "Vertiv Liebert, CoolIT Systems, Submer",
+            "karmic_purpose": "Extracting intense thermal energy gently from high-density silicon dies"
+          },
+          {
+            "code": "2.4.3",
+            "name": "Ultra-Dense High-Efficiency Power Distribution Units (415V/54V)",
+            "entities": "Schneider Electric EcoStruxure, Eaton, Delta Electronics",
+            "karmic_purpose": "Transforming grid electricity with minimal harmonic loss directly into compute racks"
+          },
+          {
+            "code": "2.4.4",
+            "name": "Lossless InfiniBand & Ultra Ethernet RoCE v2 Fabrics",
+            "entities": "NVIDIA Quantum-2, Arista Etherlink, Broadcom Tomahawk 5",
+            "karmic_purpose": "Interconnecting 100,000 GPUs without packet loss or micro-burst tail latency"
+          },
+          {
+            "code": "2.4.5",
+            "name": "Datacenter Waste-Heat Capture & Urban District Heating",
+            "entities": "Stockholm Data Parks, Equinix Heat Export, Fortum",
+            "karmic_purpose": "Channelling server thermal exhaust into municipal homes and warm greenhouses"
+          },
+          {
+            "code": "2.4.6",
+            "name": "Micro-Grid Backup Hydrogen Fuel Cells & Flywheels",
+            "entities": "Plug Power, Bloom Energy, Active Power",
+            "karmic_purpose": "Providing zero-diesel clean backup power during electrical grid surges"
+          },
+          {
+            "code": "2.4.7",
+            "name": "Autonomous Thermal & Fan Acoustic Modulation Robotics",
+            "entities": "Supermicro Intelligent Management, Siemens Desigo CC",
+            "karmic_purpose": "Tuning airflow and fluid pumps harmonically to match real-time compute load"
+          }
+        ]
+      },
+      {
+        "id": "2.5",
+        "name": "Open-Weight Model Commons & Federated Learning Hubs",
+        "classification": "Democratic Knowledge Commons",
+        "institutes_and_entities": [
+          "Hugging Face",
+          "Ollama",
+          "vLLM",
+          "RedPajama (Together AI)",
+          "EleutherAI",
+          "LAION",
+          "Open Source Initiative (OSI)"
+        ],
+        "submodules": [
+          {
+            "code": "2.5.1",
+            "name": "Global Open-Source Model & Dataset Repositories",
+            "entities": "Hugging Face Hub, Civitai, Kaggle",
+            "karmic_purpose": "Providing a free public sanctuary for open AI artifacts and scientific weights"
+          },
+          {
+            "code": "2.5.2",
+            "name": "Local Desktop & Edge Inference Runtimes",
+            "entities": "Ollama, llama.cpp, LM Studio",
+            "karmic_purpose": "Enabling any human to run private intelligence locally on personal consumer hardware"
+          },
+          {
+            "code": "2.5.3",
+            "name": "High-Throughput Open Serving Engines (vLLM/SGLang)",
+            "entities": "vLLM Project, SGLang, TensorRT-LLM",
+            "karmic_purpose": "Serving concurrent neural inferences at maximum hardware efficiency"
+          },
+          {
+            "code": "2.5.4",
+            "name": "Federated Decentralized Privacy-Preserving Training",
+            "entities": "Flower Labs, OpenMined PySyft, FedML",
+            "karmic_purpose": "Training collective health and climate models without centralizing personal data"
+          },
+          {
+            "code": "2.5.5",
+            "name": "Vetted Public Domain Training Corpora Curators",
+            "entities": "EleutherAI, Common Crawl, Pleias",
+            "karmic_purpose": "Curating high-quality human knowledge commons free of toxic bias and copyright traps"
+          },
+          {
+            "code": "2.5.6",
+            "name": "Parameter-Efficient Fine-Tuning (PEFT/LoRA) Toolkits",
+            "entities": "Hugging Face PEFT, Unsloth, Axolotl",
+            "karmic_purpose": "Allowing grassroots communities to adapt frontier models on a single GPU"
+          },
+          {
+            "code": "2.5.7",
+            "name": "Reproducible Open Science AI Benchmarking Consortiums",
+            "entities": "HELM (Stanford), LMSYS Chatbot Arena, MLCommons",
+            "karmic_purpose": "Providing transparent, unbiased evaluation of AI capabilities and safety"
+          }
+        ]
+      },
+      {
+        "id": "2.6",
+        "name": "Algorithmic Ethics, Conscience Auditing & 7D Alignment",
+        "classification": "Moral Conscience & Alignment Governor",
+        "institutes_and_entities": [
+          "Center for Humane Technology",
+          "Partnership on AI",
+          "Alignment Research Center (ARC)",
+          "Future of Humanity Institute",
+          "NIST AI Safety Institute",
+          "Ada Lovelace Institute",
+          "7D Virtue Engine Consortium"
+        ],
+        "submodules": [
+          {
+            "code": "2.6.1",
+            "name": "Constitutional AI & Self-Correction Feedback Loops",
+            "entities": "Anthropic Constitutional AI, DeepMind Safe RL",
+            "karmic_purpose": "Aligning model responses with fundamental universal human rights and harmlessness"
+          },
+          {
+            "code": "2.6.2",
+            "name": "The 7D Virtue Conscience Gatekeepers",
+            "entities": "Karmic Genie 7D Engine, Alignment Research Center",
+            "karmic_purpose": "Verifying that every automated action adheres to Love, Gratitude, Truth, and Compassion"
+          },
+          {
+            "code": "2.6.3",
+            "name": "Algorithmic Bias, Fairness & Societal Red-Teaming",
+            "entities": "Black in AI, LatinX in AI, Algorithmic Justice League",
+            "karmic_purpose": "Uncovering systemic historical prejudices and cleansing algorithmic outputs"
+          },
+          {
+            "code": "2.6.4",
+            "name": "Mechanistic Interpretability & Neural Activation Probes",
+            "entities": "Anthropic Circuit Analysis, Redwood Research",
+            "karmic_purpose": "Opening the black box to observe inner neural circuits and ensure transparency"
+          },
+          {
+            "code": "2.6.5",
+            "name": "Automated Content Provenance & Deepfake Watermarking",
+            "entities": "C2PA Coalition, SynthID (Google DeepMind), Truepic",
+            "karmic_purpose": "Attaching unforgeable cryptographic provenance to synthetic media"
+          },
+          {
+            "code": "2.6.6",
+            "name": "Autonomous Capability Evaluation & Sandboxed Containment",
+            "entities": "METR (Model Evaluation & Threat Research), UK AISI",
+            "karmic_purpose": "Testing advanced models for dangerous autonomous replication before public release"
+          },
+          {
+            "code": "2.6.7",
+            "name": "Child Protection & Neurodiversity Mental Well-Being Filters",
+            "entities": "Internet Watch Foundation, Thorn, Common Sense Media",
+            "karmic_purpose": "Shielding youthful minds from predatory patterns and addictive algorithmic traps"
+          }
+        ]
+      },
+      {
+        "id": "2.7",
+        "name": "Physical AI, Embodied Robotics & Cyber-Physical Actuation",
+        "classification": "Somatic Motor Coordination",
+        "institutes_and_entities": [
+          "Boston Dynamics",
+          "Figure AI",
+          "Tesla Optimus",
+          "Sanctuary AI",
+          "Unitree Robotics",
+          "Agility Robotics",
+          "Open-X Embodiment Lab"
+        ],
+        "submodules": [
+          {
+            "code": "2.7.1",
+            "name": "Vision-Language-Action (VLA) Foundation Models",
+            "entities": "Google RT-2, Covariant RFM-1, Physical Intelligence",
+            "karmic_purpose": "Translating high-level cognitive intent directly into physical motor manipulation"
+          },
+          {
+            "code": "2.7.2",
+            "name": "Bipedal & Quadrupedal Dynamic Balance Controllers",
+            "entities": "Boston Dynamics Atlas, Unitree H1/B2, Agility Digit",
+            "karmic_purpose": "Navigating rough mountain terrain and disaster ruins to deliver humanitarian aid"
+          },
+          {
+            "code": "2.7.3",
+            "name": "Dexterous Multi-Fingered Tactile Robotic Hands",
+            "entities": "Shadow Robot, Sanctuary AI Phoenix, Wonik Robotics",
+            "karmic_purpose": "Handling fragile crops, surgical tools, and delicate repair tasks with human grace"
+          },
+          {
+            "code": "2.7.4",
+            "name": "High-Torque Density Harmonic Actuators & Frameless Motors",
+            "entities": "Harmonic Drive SE, Kollmorgen, Maxon Motor",
+            "karmic_purpose": "Delivering precise mechanical muscle power in compact robot joints"
+          },
+          {
+            "code": "2.7.5",
+            "name": "Sim-to-Real Physics Simulators & Synthetic Training Worlds",
+            "entities": "NVIDIA Isaac Sim, MuJoCo (DeepMind), Drake (MIT)",
+            "karmic_purpose": "Simulating millions of robot training hours in parallel virtual physics sandboxes"
+          },
+          {
+            "code": "2.7.6",
+            "name": "Human-Robot Collaborative Safety Sensors (ISO 10218)",
+            "entities": "Pilz Automation, SICK Sensor Intelligence, Universal Robots",
+            "karmic_purpose": "Ensuring physical machines operate safely alongside human workers with instant soft stops"
+          },
+          {
+            "code": "2.7.7",
+            "name": "Autonomous Hazardous Disaster Cleanup Humanoids",
+            "entities": "DARPA Robotics Challenge, Tokyo Electric Robotics Group",
+            "karmic_purpose": "Entering toxic radioactive or chemical spills to spare human lives from harm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "code": "UEP",
+    "name": "Unified Enterprise Platform (Unified ERP)",
+    "functional_analogy": "Cellular Coordination, Resource Ledgers & Metabolic Accounting (Software Logic, NOT Logistics)",
+    "why_functional": "Enterprise software governing business logic, human capital allocation, operational planning, ledger accounting, and compliance. Not the physical trucks or ships, but the digital brain that coordinates enterprise duty and eliminates operational chaos.",
+    "sectors": [
+      {
+        "id": "3.1",
+        "name": "Double-Entry General Ledgers & Real-Time Balance Sheets",
+        "classification": "Core Financial Truth & Metabolic Bookkeeping",
+        "institutes_and_entities": [
+          "SAP S/4HANA Finance",
+          "Oracle Fusion Cloud ERP",
+          "Workday Financials",
+          "Odoo Accounting",
+          "Intuit",
+          "Xero",
+          "IFRS Foundation"
+        ],
+        "submodules": [
+          {
+            "code": "3.1.1",
+            "name": "Real-Time Continuous Double-Entry Core Ledgers",
+            "entities": "SAP Universal Journal, Oracle General Ledger",
+            "karmic_purpose": "Recording every economic metabolic event with immutable mathematical balance"
+          },
+          {
+            "code": "3.1.2",
+            "name": "Automated Multi-Entity Consolidation & Currency Revaluation",
+            "entities": "Workday Consolidation, OneStream Software, BlackLine",
+            "karmic_purpose": "Harmonizing diverse global subsidiary books into a unified transparent whole"
+          },
+          {
+            "code": "3.1.3",
+            "name": "Accounts Payable Automated Invoicing & 3-Way Matching",
+            "entities": "Coupa Pay, Basware, Tipalti",
+            "karmic_purpose": "Verifying purchase orders, goods receipts, and invoices to pay suppliers promptly"
+          },
+          {
+            "code": "3.1.4",
+            "name": "Accounts Receivable Automated Collections & Credit Risk",
+            "entities": "HighRadius, Billtrust, Odoo AR",
+            "karmic_purpose": "Maintaining healthy cash flow cycles without predatory collection practices"
+          },
+          {
+            "code": "3.1.5",
+            "name": "Fixed Asset Depreciation & Amortization Registers",
+            "entities": "Oracle Fixed Assets, SAP Asset Accounting",
+            "karmic_purpose": "Tracking the physical lifecycle, wear, and renewal of productive tools"
+          },
+          {
+            "code": "3.1.6",
+            "name": "Real-Time Treasury Management & Liquidity Forecasting",
+            "entities": "Kyriba, FIS Treasury, GTreasury",
+            "karmic_purpose": "Ensuring organizations have the liquidity to meet payroll and emergency commitments"
+          },
+          {
+            "code": "3.1.7",
+            "name": "International Financial Reporting Standards (IFRS/GAAP) Engines",
+            "entities": "IFRS Foundation, FASB compliance engines",
+            "karmic_purpose": "Enforcing rigorous, standardized reporting so stakeholders see the true financial health"
+          }
+        ]
+      },
+      {
+        "id": "3.2",
+        "name": "Human Capital Management, Workplace Dignity & Payroll",
+        "classification": "Somatic Human Vitality Governance",
+        "institutes_and_entities": [
+          "Workday HCM",
+          "SAP SuccessFactors",
+          "ADP",
+          "Dayforce (Ceridian)",
+          "UKG (Ultimate Kronos Group)",
+          "BambooHR",
+          "International Labour Organization (ILO)"
+        ],
+        "submodules": [
+          {
+            "code": "3.2.1",
+            "name": "Global Multi-Country Payroll Engines & Direct Tax Withholding",
+            "entities": "ADP GlobalView, Dayforce, Deel",
+            "karmic_purpose": "Guaranteeing workers are paid accurately and on time in their sovereign currencies"
+          },
+          {
+            "code": "3.2.2",
+            "name": "Workplace Dignity, Living Wage Auditing & Pay Equity Analyzers",
+            "entities": "Syndio, Workday HCM, ILO Living Wage Initiative",
+            "karmic_purpose": "Eliminating unjust gender/racial pay disparities and enforcing living wage floors"
+          },
+          {
+            "code": "3.2.3",
+            "name": "Employee Health, Mental Well-Being & Workplace Safety Tracking",
+            "entities": "Cority, Intelex, UKG Wellness",
+            "karmic_purpose": "Prioritizing the physical safety and psychological peace of human contributors"
+          },
+          {
+            "code": "3.2.4",
+            "name": "Continuous Skills Development, Mentorship & Learning Pathways",
+            "entities": "Cornerstone OnDemand, Degreed, Coursera for Business",
+            "karmic_purpose": "Nurturing the lifelong knowledge, craftsmanship, and potential of workers"
+          },
+          {
+            "code": "3.2.5",
+            "name": "Time, Attendance & Ethical Shift Scheduling (Fatigue Protection)",
+            "entities": "UKG Pro, Deputy, SAP Time Management",
+            "karmic_purpose": "Preventing burnout by scheduling fair shifts with mandatory circadian rest periods"
+          },
+          {
+            "code": "3.2.6",
+            "name": "Performance Reflection, Feedback & Peer Recognition",
+            "entities": "Culture Amp, Lattice, 15Five",
+            "karmic_purpose": "Fostering mutual appreciation and constructive growth rather than punitive reviews"
+          },
+          {
+            "code": "3.2.7",
+            "name": "Worker Representation, Union Dialog & Grievance Whistleblowing",
+            "entities": "Navex Global, Whispli, Trade Union Congress Portals",
+            "karmic_purpose": "Providing safe, anonymous channels for reporting abuse and protecting collective bargaining"
+          }
+        ]
+      },
+      {
+        "id": "3.3",
+        "name": "Enterprise Procurement Planning & Vendor Governance",
+        "classification": "Upstream Resource Ingestion Software",
+        "institutes_and_entities": [
+          "SAP Ariba",
+          "Coupa Software",
+          "Ivalua",
+          "Jaggaer",
+          "GEP SMART",
+          "Zycus",
+          "Fair Trade Certified"
+        ],
+        "submodules": [
+          {
+            "code": "3.3.1",
+            "name": "Strategic Sourcing & Transparent Reverse Auction Portals",
+            "entities": "SAP Ariba Sourcing, Coupa, Ivalua",
+            "karmic_purpose": "Conducting open, transparent bidding to prevent corrupt kickbacks and favoritism"
+          },
+          {
+            "code": "3.3.2",
+            "name": "Supplier Ethical Sourcing & ESG Compliance Scorecards",
+            "entities": "EcoVadis, Sedex, IntegrityNext",
+            "karmic_purpose": "Verifying that suppliers do not use child labor, deforestation, or toxic dumping"
+          },
+          {
+            "code": "3.3.3",
+            "name": "Contract Lifecycle Management (CLM) & Obligation Tracking",
+            "entities": "Icertis, DocuSign CLM, Agiloft",
+            "karmic_purpose": "Ensuring all parties honor contractual pledges and mutual commitments with integrity"
+          },
+          {
+            "code": "3.3.4",
+            "name": "Procure-to-Pay (P2P) Catalogs & Requisition Routing",
+            "entities": "Coupa P2P, Jaggaer, Odoo Purchase",
+            "karmic_purpose": "Streamlining requisition approvals while preventing wasteful frivolous spending"
+          },
+          {
+            "code": "3.3.5",
+            "name": "Supplier Relationship Management (SRM) & Capacity Building",
+            "entities": "GEP SMART, SAP SRM",
+            "karmic_purpose": "Treating suppliers as long-term collaborative partners rather than squeezed vendors"
+          },
+          {
+            "code": "3.3.6",
+            "name": "Raw Material Price Hedging & Purchase Order Currency Guarding",
+            "entities": "Bloomberg Commodities, Kyriba Commodity Risk",
+            "karmic_purpose": "Protecting manufacturing stability against volatile global commodity speculation"
+          },
+          {
+            "code": "3.3.7",
+            "name": "Direct Supplier Financing & Prompt Payment Early-Cash Discounts",
+            "entities": "Taulia, C2FO, PrimeRevenue",
+            "karmic_purpose": "Providing small suppliers with low-cost working capital so they flourish"
+          }
+        ]
+      },
+      {
+        "id": "3.4",
+        "name": "Manufacturing Resource Planning (MRP II) & Work Orders",
+        "classification": "Production Software Blueprinting",
+        "institutes_and_entities": [
+          "SAP S/4HANA Manufacturing",
+          "Oracle NetSuite",
+          "Plex Systems (Rockwell)",
+          "Epicor",
+          "Infor CloudSuite",
+          "Odoo Manufacturing",
+          "Dassault DELMIA"
+        ],
+        "submodules": [
+          {
+            "code": "3.4.1",
+            "name": "Multi-Level Bill of Materials (BOM) & Engineering Versioning",
+            "entities": "PTC Windchill, Siemens Teamcenter, Odoo PLM",
+            "karmic_purpose": "Defining the precise recipes and parts required to build functional goods"
+          },
+          {
+            "code": "3.4.2",
+            "name": "Material Requirements Planning (MRP) Calculation Engines",
+            "entities": "SAP MRP Live, Oracle NetSuite MRP, Infor",
+            "karmic_purpose": "Calculating exactly what components are needed and when, preventing shortages and waste"
+          },
+          {
+            "code": "3.4.3",
+            "name": "Shop Floor Routing & Work Order Execution Dispatch",
+            "entities": "Plex MES, Rockwell FactoryTalk, Odoo MRP",
+            "karmic_purpose": "Directing manufacturing steps smoothly across work centers and assembly stations"
+          },
+          {
+            "code": "3.4.4",
+            "name": "Finite Capacity Production Scheduling & Bottleneck Resolvers",
+            "entities": "Siemens Opcenter APS, Dassault DELMIA Ortems",
+            "karmic_purpose": "Balancing machine loads gracefully to avoid worker overtime and machinery strain"
+          },
+          {
+            "code": "3.4.5",
+            "name": "In-Line Statistical Quality Control (SQC) & Defect Tracking",
+            "entities": "InfinityQS, ETQ Reliance, MasterControl",
+            "karmic_purpose": "Detecting physical defects early to ensure only flawless, durable goods reach society"
+          },
+          {
+            "code": "3.4.6",
+            "name": "Overall Equipment Effectiveness (OEE) & Maintenance Triggers",
+            "entities": "Emerson Plantweb, GE Vernova Proficy, Fiix",
+            "karmic_purpose": "Monitoring machine health to schedule preventative maintenance before breakdowns occur"
+          },
+          {
+            "code": "3.4.7",
+            "name": "Remanufacturing, Disassembly BOMs & Scrap Re-Entry Logic",
+            "entities": "SAP Circular Manufacturing, Circularity Capital tools",
+            "karmic_purpose": "Software logic to disassemble returned products and reintroduce components into new runs"
+          }
+        ]
+      },
+      {
+        "id": "3.5",
+        "name": "Regulatory Compliance, Tax Reporting & Cross-Border Audit",
+        "classification": "Institutional Integrity & Sovereign Harmony",
+        "institutes_and_entities": [
+          "Thomson Reuters ONESOURCE",
+          "Avalara",
+          "Vertex Inc",
+          "MetricStream",
+          "Diligent",
+          "KPMG Klarity",
+          "OECD Tax Framework"
+        ],
+        "submodules": [
+          {
+            "code": "3.5.1",
+            "name": "Multi-Jurisdiction Real-Time VAT/GST & Sales Tax Engines",
+            "entities": "Avalara AvaTax, Vertex Inc, Thomson Reuters",
+            "karmic_purpose": "Calculating and remitting accurate civic taxes to host sovereign communities"
+          },
+          {
+            "code": "3.5.2",
+            "name": "Corporate Income Tax Provisioning & OECD Pillar Two Minimum Tax",
+            "entities": "ONESOURCE Tax Provision, SAP Tax Compliance",
+            "karmic_purpose": "Ensuring multinational conglomerates pay their fair statutory share without tax-haven evasion"
+          },
+          {
+            "code": "3.5.3",
+            "name": "Immutable Audit Trail Logging & Continuous Internal Controls",
+            "entities": "MetricStream, Diligent HighBond, SAP GRC",
+            "karmic_purpose": "Maintaining tamper-proof ledgers where every entry, debit, and approval is traceable"
+          },
+          {
+            "code": "3.5.4",
+            "name": "Export Controls, Trade Sanctions & Denied Party Screening",
+            "entities": "Descartes Visual Compliance, Amber Road (E2open)",
+            "karmic_purpose": "Preventing the illicit proliferation of weapons and dual-use technologies to bad actors"
+          },
+          {
+            "code": "3.5.5",
+            "name": "Environmental & Sustainability CSRD/SEC Disclosure Engines",
+            "entities": "Watershed, Persefoni, Workiva ESG",
+            "karmic_purpose": "Auditing and reporting corporate carbon, water, and waste footprints truthfully"
+          },
+          {
+            "code": "3.5.6",
+            "name": "Anti-Bribery, Anti-Money Laundering (AML) & KYC Verification",
+            "entities": "LexisNexis Bridger, Moody's KYC, NICE Actimize",
+            "karmic_purpose": "Scrubbing enterprise transactions to prevent financial corruption and illicit proceeds"
+          },
+          {
+            "code": "3.5.7",
+            "name": "Data Privacy & Sovereign Residency Compliance (GDPR/CCPA)",
+            "entities": "OneTrust, BigID, Securiti.ai",
+            "karmic_purpose": "Protecting customer and employee personal data rights with verifiable consent"
+          }
+        ]
+      },
+      {
+        "id": "3.6",
+        "name": "Enterprise Asset Management & Equipment Lifecycle",
+        "classification": "Physical Tool Stewardship & Maintenance",
+        "institutes_and_entities": [
+          "IBM Maximo",
+          "SAP EAM",
+          "Hexagon EAM",
+          "IFS Ultimo",
+          "ServiceMax",
+          "UpKeep",
+          "ISO 55000 Asset Council"
+        ],
+        "submodules": [
+          {
+            "code": "3.6.1",
+            "name": "Enterprise Asset Registries & Hierarchy Topologies",
+            "entities": "IBM Maximo, SAP Asset Strategy, Hexagon",
+            "karmic_purpose": "Cataloging every building, transformer, vehicle, and machine with full serial histories"
+          },
+          {
+            "code": "3.6.2",
+            "name": "Predictive Condition-Based Maintenance (PdM) Algorithms",
+            "entities": "GE Vernova Predix, Uptake, SparkCognition",
+            "karmic_purpose": "Predicting bearing failure or insulation wear days in advance to prevent accidents"
+          },
+          {
+            "code": "3.6.3",
+            "name": "Work Order Dispatch & Field Service Mobility",
+            "entities": "Salesforce Field Service, ServiceMax, IFS",
+            "karmic_purpose": "Equipping repair technicians with schematics, replacement parts, and safe protocols"
+          },
+          {
+            "code": "3.6.4",
+            "name": "Spare Parts Inventory Optimization & Critical Stock Buffers",
+            "entities": "PTC Servigistics, Syncron, Smart Software",
+            "karmic_purpose": "Maintaining vital spare parts locally without tying up excessive capital in idle metal"
+          },
+          {
+            "code": "3.6.5",
+            "name": "Warranty, Service Contracts & Vendor Guarantee Tracking",
+            "entities": "Tavant Warranty, Mize, SAP Service Cloud",
+            "karmic_purpose": "Enforcing warranty claims and holding equipment manufacturers accountable for durability"
+          },
+          {
+            "code": "3.6.6",
+            "name": "Civil Infrastructure Structural Health Monitoring (Bridges/Dams)",
+            "entities": "Bentley Systems, Hexagon Geosystems, Campbell Scientific",
+            "karmic_purpose": "Sensing minute structural shifts in dams and bridges to protect downstream populations"
+          },
+          {
+            "code": "3.6.7",
+            "name": "Decommissioning, Hazardous Removal & Asset Salvage Ledgers",
+            "entities": "Veolia Asset Decommissioning, Curium, Jacobs Clean",
+            "karmic_purpose": "Managing safe, environmentally benign retirement of industrial assets at end-of-life"
+          }
+        ]
+      },
+      {
+        "id": "3.7",
+        "name": "Inter-Enterprise Clearing, Settlement & Circular Resource Balancing",
+        "classification": "Macro-Metabolic Resource Harmony",
+        "institutes_and_entities": [
+          "E2open",
+          "OpenText Business Network",
+          "SAP Business Network",
+          "Tradeshift",
+          "Bank for International Settlements (BIS)",
+          "SWIFT ISO 20022",
+          "Circle Economy Foundation"
+        ],
+        "submodules": [
+          {
+            "code": "3.7.1",
+            "name": "Electronic Data Interchange (EDI/AS2) & API Business Networks",
+            "entities": "OpenText Liason, SPS Commerce, Boomi",
+            "karmic_purpose": "Standardizing commercial documents so enterprises exchange orders seamlessly"
+          },
+          {
+            "code": "3.7.2",
+            "name": "Inter-Company Multilateral Netting & Settlement Engines",
+            "entities": "Copernicus Netting, TreasuryXpress, SAP Netting",
+            "karmic_purpose": "Canceling out offsetting debts between enterprises to minimize wasteful transaction fees"
+          },
+          {
+            "code": "3.7.3",
+            "name": "Circular By-Product & Industrial Symbiosis Exchanges",
+            "entities": "Kalundborg Symbiosis Network, Excess Materials Exchange",
+            "karmic_purpose": "Matching one factory's waste steam or slag as another factory's primary raw input"
+          },
+          {
+            "code": "3.7.4",
+            "name": "Universal Digital Product Passports (DPP) & Material Traceability",
+            "entities": "Circulor, Minespider, TraceX Technologies",
+            "karmic_purpose": "Logging the exact origin, recycled content, and repairability of manufactured goods"
+          },
+          {
+            "code": "3.7.5",
+            "name": "Collaborative Multi-Tier Demand Planning & Forecasting",
+            "entities": "Blue Yonder, Kinaxis RapidResponse, o9 Solutions",
+            "karmic_purpose": "Eliminating the destructive 'bullwhip effect' through shared multi-enterprise demand truth"
+          },
+          {
+            "code": "3.7.6",
+            "name": "Cross-Border Letter of Credit & Trade Finance Digitization",
+            "entities": "Contour, Komgo, Marco Polo Network",
+            "karmic_purpose": "Facilitating international trade trust without delays and archaic paper bills of lading"
+          },
+          {
+            "code": "3.7.7",
+            "name": "Community Barter, Skill-Sharing & Local Currency Clearing",
+            "entities": "Mutual Credit Networks, Sardex, TimeBanks USA",
+            "karmic_purpose": "Enabling local communities to exchange goods and care services when national fiat is scarce"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "code": "ULP",
+    "name": "Unified Logistics Platform",
+    "functional_analogy": "Heart Pumping & Vascular Circulation (Physical Movement of Tangible Matter & Cargo)",
+    "why_functional": "Physical circulation of matter across the planet. Container ships, trains, trucks, and fulfillment corridors moving raw materials, food, and manufactured components like erythrocytes carrying oxygen through bodily arteries. NEVER confuse this with enterprise software.",
+    "sectors": [
+      {
+        "id": "4.1",
+        "name": "Maritime Container Shipping & Deep-Water Seaport Hubs",
+        "classification": "Oceanic Arterial Flow",
+        "institutes_and_entities": [
+          "Maersk",
+          "MSC (Mediterranean Shipping Co)",
+          "CMA CGM",
+          "COSCO Shipping",
+          "Hapag-Lloyd",
+          "Port of Rotterdam",
+          "Port of Singapore (PSA)",
+          "Port of Shanghai"
+        ],
+        "submodules": [
+          {
+            "code": "4.1.1",
+            "name": "Ultra-Large Container Vessels (ULCV 24,000+ TEU)",
+            "entities": "MSC Irina, Maersk Triple-E, Daewoo Shipbuilding",
+            "karmic_purpose": "Circulating massive freight volumes across oceans at the lowest energy per ton-mile"
+          },
+          {
+            "code": "4.1.2",
+            "name": "Automated Port Container Terminals & Ship-to-Shore Cranes",
+            "entities": "PSA Singapore, APM Terminals Rotterdam, ZPMC Cranes",
+            "karmic_purpose": "Transferring thousands of cargo boxes per hour between sea and land flawlessly"
+          },
+          {
+            "code": "4.1.3",
+            "name": "Global Maritime Chokepoint & Canal Operations",
+            "entities": "Suez Canal Authority, Panama Canal Authority",
+            "karmic_purpose": "Guarding and maintaining crucial oceanic shortcut passages connecting oceans"
+          },
+          {
+            "code": "4.1.4",
+            "name": "Refrigerated Container ('Reefer') Fleets & Cold Monitoring",
+            "entities": "Carrier Transicold, Thermo King Marine, Maersk Line",
+            "karmic_purpose": "Keeping fruit, milk, and lifesaving medicines fresh across weeks of tropical transit"
+          },
+          {
+            "code": "4.1.5",
+            "name": "Green Methanol & Ammonia Maritime Propulsion",
+            "entities": "MAN Energy Solutions, W\u00e4rtsil\u00e4, WinGD",
+            "karmic_purpose": "Purging heavy bunker fuel pollution from ocean voyages in reverence for marine life"
+          },
+          {
+            "code": "4.1.6",
+            "name": "Container Depot Automated Yard Stacking & Straddle Carriers",
+            "entities": "Konecranes, Kalmar (Cargotec), Liebherr",
+            "karmic_purpose": "Stacking and organizing containers in optimal order to prevent port congestion"
+          },
+          {
+            "code": "4.1.7",
+            "name": "Seafarer Welfare, Shore-Leave Protection & Merchant Marine Training",
+            "entities": "International Maritime Organization (IMO), ITF Seafarers",
+            "karmic_purpose": "Honoring and protecting the merchant sailors whose tireless voyages keep humanity fed"
+          }
+        ]
+      },
+      {
+        "id": "4.2",
+        "name": "Intercontinental Freight Rail & Intermodal Rail Yards",
+        "classification": "Continental Steel Arteries",
+        "institutes_and_entities": [
+          "BNSF Railway",
+          "Union Pacific",
+          "China Railway Express (Eurasian Landbridge)",
+          "DB Cargo",
+          "Canadian National (CN)",
+          "Wabtec",
+          "Alstom Transport"
+        ],
+        "submodules": [
+          {
+            "code": "4.2.1",
+            "name": "Double-Stack Intermodal Container Train Sets",
+            "entities": "BNSF, Union Pacific, TTX Company",
+            "karmic_purpose": "Moving three miles of containers inland with one-quarter the fuel of highway trucks"
+          },
+          {
+            "code": "4.2.2",
+            "name": "Automated Freight Rail Hump Yards & Classification Track",
+            "entities": "Union Pacific Bailey Yard, DB Cargo Maschen Yard",
+            "karmic_purpose": "Sorting and reforming hundreds of railcars into destination blocks automatically"
+          },
+          {
+            "code": "4.2.3",
+            "name": "Trans-Eurasian Rail Landbridge Freight Corridors",
+            "entities": "China Railway Express, UTLC ERA, DB Schenker Rail",
+            "karmic_purpose": "Linking East Asian production centers to European heartlands via overland silk rails"
+          },
+          {
+            "code": "4.2.4",
+            "name": "High-Tonnage Heavy-Haul Mineral & Grain Hopper Fleets",
+            "entities": "BHP Iron Ore Rail, Australian National Rail, Greenbrier",
+            "karmic_purpose": "Carrying millions of tons of wheat and iron ore from interior plains to coastal ports"
+          },
+          {
+            "code": "4.2.5",
+            "name": "Battery-Electric & Hydrogen Heavy-Haul Locomotives",
+            "entities": "Wabtec FLXdrive, Progress Rail (Caterpillar), CRRC",
+            "karmic_purpose": "Decarbonizing freight rail haulage across continental plains and steep mountain grades"
+          },
+          {
+            "code": "4.2.6",
+            "name": "Positive Train Control (PTC) & Autonomous Rail Dispatch",
+            "entities": "Wabtec I-ETMS, Siemens Rail Automation, Hitachi Rail",
+            "karmic_purpose": "Preventing train collisions and overspeed derailments through automated trackside safety"
+          },
+          {
+            "code": "4.2.7",
+            "name": "Intermodal Rail-Truck Gantry Transfer Terminals",
+            "entities": "BNSF Logistics Park Chicago, Port of Duisburg Intermodal",
+            "karmic_purpose": "Hoisting containers directly between rail flatcars and highway chassis in 90 seconds"
+          }
+        ]
+      },
+      {
+        "id": "4.3",
+        "name": "Air Cargo Express Networks & Aviation Cargo Hubs",
+        "classification": "High-Velocity Aerial Circulation",
+        "institutes_and_entities": [
+          "FedEx Express",
+          "UPS Airlines",
+          "DHL Aviation",
+          "Cargolux",
+          "Atlas Air",
+          "Memphis World Hub (MEM)",
+          "Hong Kong International Cargo (HKG)",
+          "Louisville Worldport (SDF)"
+        ],
+        "submodules": [
+          {
+            "code": "4.3.1",
+            "name": "Dedicated Wide-Body Cargo Freighters (777F/A350F)",
+            "entities": "Boeing Cargo, Airbus Freighter, Atlas Air",
+            "karmic_purpose": "Flying critical machine parts and emergency vaccines across continents in 12 hours"
+          },
+          {
+            "code": "4.3.2",
+            "name": "Super-Hub Automated Cargo Sorting Facilities",
+            "entities": "Memphis FedEx Hub, UPS Louisville Worldport, DHL Leipzig",
+            "karmic_purpose": "Sorting hundreds of thousands of emergency parcels an hour during night flight waves"
+          },
+          {
+            "code": "4.3.3",
+            "name": "Temperature-Controlled Pharmaceutical Air Enclosures",
+            "entities": "Envirotainer, CSafe Global, Sonoco ThermoSafe",
+            "karmic_purpose": "Protecting vital biologic vaccines and insulin from temperature excursions in flight"
+          },
+          {
+            "code": "4.3.4",
+            "name": "Air Pallet & Unit Load Device (ULD) Standardization",
+            "entities": "IATA Cargo Committee, Nordisk Aviation, VRR",
+            "karmic_purpose": "Standardizing aerodynamic cargo containers to lock seamlessly into freighter decks"
+          },
+          {
+            "code": "4.3.5",
+            "name": "Sustainable Aviation Fuel (SAF) Freight Procurement",
+            "entities": "Neste MY SAF, World Energy, SkyNRG",
+            "karmic_purpose": "Replacing fossil jet kerosene with circular bio-waste fuels for freight flights"
+          },
+          {
+            "code": "4.3.6",
+            "name": "Air Cargo Automated Customs & Pre-Clearance Corridors",
+            "entities": "IATA e-Freight, WCO Cargo, Descartes Air Cargo",
+            "karmic_purpose": "Digitizing air waybills and pre-clearing cargo prior to wheel touchdown"
+          },
+          {
+            "code": "4.3.7",
+            "name": "Disaster Humanitarian Air-Bridge Operations",
+            "entities": "UN Humanitarian Air Service (UNHAS), Airlink, Red Cross Cargo",
+            "karmic_purpose": "Deploying emergency water purifiers, tents, and field hospitals to earthquake zones"
+          }
+        ]
+      },
+      {
+        "id": "4.4",
+        "name": "Long-Haul Commercial Trucking & Heavy Fleet Corridors",
+        "classification": "Continental Capillary Flow",
+        "institutes_and_entities": [
+          "J.B. Hunt",
+          "Knight-Swift",
+          "Schneider National",
+          "XPO Logistics",
+          "Volvo Trucks",
+          "Daimler Truck",
+          "Scania",
+          "PACCAR (Kenworth/Peterbilt)"
+        ],
+        "submodules": [
+          {
+            "code": "4.4.1",
+            "name": "Class 8 Heavy-Duty Electric Semi-Trucks",
+            "entities": "Tesla Semi, Volvo VNR Electric, Freightliner eCascadia",
+            "karmic_purpose": "Hauling 80,000 lbs of freight with zero tailpipe emissions and quiet elegance"
+          },
+          {
+            "code": "4.4.2",
+            "name": "Hydrogen Fuel Cell Long-Range Freight Tractors",
+            "entities": "Nikola Motor, Hyundai XCIENT, Kenworth T680 FCEV",
+            "karmic_purpose": "Achieving 500-mile zero-carbon freight range for heavy cross-country hauls"
+          },
+          {
+            "code": "4.4.3",
+            "name": "Megawatt Charging System (MCS) Highway Freight Corridors",
+            "entities": "CharIN MCS, Milence, WattEV",
+            "karmic_purpose": "Recharging heavy truck batteries in 30 minutes during driver rest breaks"
+          },
+          {
+            "code": "4.4.4",
+            "name": "Autonomous Hub-to-Hub Highway Trucking Fleets",
+            "entities": "Aurora Innovation, Kodiak Robotics, Gatik",
+            "karmic_purpose": "Running long overnight highway stretches safely to reduce driver exhaustion"
+          },
+          {
+            "code": "4.4.5",
+            "name": "Commercial Truck Driver Rest Havens & Clean Amenities",
+            "entities": "Pilot Flying J, Love's Travel Stops, European Truck Parks",
+            "karmic_purpose": "Honoring long-haul truckers with warm showers, restful sleep, and healthy meals"
+          },
+          {
+            "code": "4.4.6",
+            "name": "Digital Freight Matching & Empty Backhaul Eliminators",
+            "entities": "Convoy by Flexport, Uber Freight, Transfix",
+            "karmic_purpose": "Preventing empty diesel trucks from driving empty on return highway journeys"
+          },
+          {
+            "code": "4.4.7",
+            "name": "Telematics, Cold-Chain Temp Loggers & Electronic Logging Devices",
+            "entities": "Samsara, Geotab, Trimble Transportation",
+            "karmic_purpose": "Monitoring driver safety, vehicle engine health, and food temperatures in transit"
+          }
+        ]
+      },
+      {
+        "id": "4.5",
+        "name": "Automated High-Density Warehousing & Fulfillment Centers",
+        "classification": "Regional Metabolic Organ Storage",
+        "institutes_and_entities": [
+          "Prologis",
+          "Amazon Fulfillment",
+          "Dematic",
+          "Daifuku",
+          "Swisslog",
+          "Vanderlande",
+          "Knapp AG"
+        ],
+        "submodules": [
+          {
+            "code": "4.5.1",
+            "name": "Automated Storage and Retrieval Systems (AS/RS)",
+            "entities": "Daifuku, Dematic, Swisslog PowerStore",
+            "karmic_purpose": "Storing hundreds of thousands of pallet positions in vertical high-bay warehouses"
+          },
+          {
+            "code": "4.5.2",
+            "name": "Autonomous Mobile Robots (AMR) & Goods-to-Person Fleets",
+            "entities": "Amazon Robotics (Kiva), Geek+, Locus Robotics",
+            "karmic_purpose": "Bringing shelving pods directly to pickers, eliminating miles of walking fatigue"
+          },
+          {
+            "code": "4.5.3",
+            "name": "High-Speed Cross-Belt & Shoe Parcel Sorters",
+            "entities": "Vanderlande, Beumer Group, Fives Group",
+            "karmic_purpose": "Diverting parcels to regional delivery chutes at speeds of over 20,000 items per hour"
+          },
+          {
+            "code": "4.5.4",
+            "name": "Deep-Freeze Automated Food Storage Facilities",
+            "entities": "Lineage Logistics, Americold, NewCold",
+            "karmic_purpose": "Preserving frozen food reserves at -25\u00b0C with minimal thermal energy loss"
+          },
+          {
+            "code": "4.5.5",
+            "name": "Robotic Depalletizing & Case Packing Arms",
+            "entities": "Boston Dynamics Stretch, ABB Robotics, Fanuc",
+            "karmic_purpose": "Unloading heavy boxes from shipping containers to prevent worker back injuries"
+          },
+          {
+            "code": "4.5.6",
+            "name": "Warehouse Energy Management & Solar Rooftop Arrays",
+            "entities": "Prologis Solar, EDPR Sunseap, Schneider EcoStruxure",
+            "karmic_purpose": "Converting vast logistics center roofs into massive clean solar power generation plants"
+          },
+          {
+            "code": "4.5.7",
+            "name": "Ergonomic Packing Stations & Worker Exoskeletons",
+            "entities": "German Bionic, Ottobock, Sarcos Robotics",
+            "karmic_purpose": "Supporting human spines and muscles during warehouse fulfillment tasks"
+          }
+        ]
+      },
+      {
+        "id": "4.6",
+        "name": "Last-Mile Urban Delivery & Micro-Distribution Hubs",
+        "classification": "Micro-Vascular Capillary Delivery",
+        "institutes_and_entities": [
+          "DPDgroup",
+          "PostNL",
+          "Yamato Transport",
+          "DHL Express Local",
+          "Gophr",
+          "Delivery Hero",
+          "Urban Micro-Hubs"
+        ],
+        "submodules": [
+          {
+            "code": "4.6.1",
+            "name": "Urban Neighborhood Micro-Fulfillment Depots",
+            "entities": "Fabric, Alert Innovation, Reef Technology",
+            "karmic_purpose": "Staging daily essentials within 10-minute bike radius of neighborhood homes"
+          },
+          {
+            "code": "4.6.2",
+            "name": "Electric Cargo Bike Delivery Fleets",
+            "entities": "Rytle, Tern Bicycles, Rad Power Commercial",
+            "karmic_purpose": "Delivering packages through dense city streets without noise, pollution, or gridlock"
+          },
+          {
+            "code": "4.6.3",
+            "name": "Purpose-Built Electric Delivery Vans (EDVs)",
+            "entities": "Rivian EDV, BrightDrop (GM), Ford E-Transit",
+            "karmic_purpose": "Providing quiet, comfortable, zero-emission vans for daily neighborhood couriers"
+          },
+          {
+            "code": "4.6.4",
+            "name": "Automated Smart Parcel Locker Networks",
+            "entities": "InPost, Cleveron, Amazon Hub Locker",
+            "karmic_purpose": "Consolidating 100 home deliveries into a single 24/7 neighborhood pickup point"
+          },
+          {
+            "code": "4.6.5",
+            "name": "Autonomous Sidewalk Delivery Rovers",
+            "entities": "Starship Technologies, Serve Robotics, Cartken",
+            "karmic_purpose": "Rolling quietly along sidewalks to deliver meals and prescriptions to homes"
+          },
+          {
+            "code": "4.6.6",
+            "name": "Rural Drone Delivery for Emergency Blood & Medicine",
+            "entities": "Zipline International, Wing (Alphabet), Swoop Aero",
+            "karmic_purpose": "Parachuting lifesaving blood plasma and antivenom to remote clinics in 15 minutes"
+          },
+          {
+            "code": "4.6.7",
+            "name": "Dynamic Multi-Stop Delivery Route Optimization",
+            "entities": "Route4Me, OptimoRoute, Onfleet",
+            "karmic_purpose": "Sequencing neighborhood stops to minimize total travel distance and carbon emissions"
+          }
+        ]
+      },
+      {
+        "id": "4.7",
+        "name": "Modular Container Pooling, Pallet Exchanges & Reverse Logistics",
+        "classification": "Vascular Recycling & Venous Return",
+        "institutes_and_entities": [
+          "CHEP (Brambles)",
+          "PECO Pallet",
+          "IFCO Systems",
+          "TricorBraun",
+          "TerraCycle",
+          "Reverse Logistics Association",
+          "Circular Shipping Alliances"
+        ],
+        "submodules": [
+          {
+            "code": "4.7.1",
+            "name": "Standardized Global Pallet Pooling & Shared Asset Pools",
+            "entities": "CHEP Blue Pallets, PECO Red Pallets, EPAL",
+            "karmic_purpose": "Sharing durable standardized pallets so no lumber is wasted on single-use pallets"
+          },
+          {
+            "code": "4.7.2",
+            "name": "Reusable Plastic Folding Crates (RPC) for Fresh Produce",
+            "entities": "IFCO Systems, Euro Pool System, Tosca",
+            "karmic_purpose": "Protecting fruits and vegetables across farm-to-shelf cycles without cardboard waste"
+          },
+          {
+            "code": "4.7.3",
+            "name": "Universal Returnable Secondary Packaging Systems",
+            "entities": "Loop (TerraCycle), Returnity, LivingPackets",
+            "karmic_purpose": "Replacing single-use cardboard boxes with padded boxes reused over 100 times"
+          },
+          {
+            "code": "4.7.4",
+            "name": "Reverse Logistics Automated Return & Inspection Centers",
+            "entities": "Optoro, Happy Returns (UPS), GXO Reverse",
+            "karmic_purpose": "Inspecting returned merchandise swiftly to restock, refurbish, or donate goods"
+          },
+          {
+            "code": "4.7.5",
+            "name": "Bulk Liquid Intermediate Bulk Container (IBC) Washing & Reconditioning",
+            "entities": "Sch\u00fctz, Mauser Packaging, Hoover Ferguson",
+            "karmic_purpose": "Washing and recertifying heavy chemical and food totes for endless reuse cycles"
+          },
+          {
+            "code": "4.7.6",
+            "name": "E-Waste & Battery Circular Collection Logistics",
+            "entities": "Call2Recycle, Redwood Materials Collection, Li-Cycle",
+            "karmic_purpose": "Safely retrieving spent lithium batteries and electronics from society for recycling"
+          },
+          {
+            "code": "4.7.7",
+            "name": "Damaged Pallet & Plastic Crate Automated Repair Robotic Mills",
+            "entities": "CHEP Automation, Alliance Automation, PRS Group",
+            "karmic_purpose": "Robodressing and nailing damaged pallets back to pristine operational life"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "code": "UEnP",
+    "name": "Unified Energy Platform",
+    "functional_analogy": "Lungs / Civilization's Breath (Without energy/power/fuel for 72 hours civilization suffocates)",
+    "why_functional": "The vital intake that keeps the entire global apparatus breathing. Just as lungs intake oxygen to ignite cellular respiration, civilization inhales energy (historical petroleum/gas/coal scaffold transitioning into solar, wind, battery, and clean fusion). Cut off energy for 3 days, and civilization literally suffocates.",
+    "sectors": [
+      {
+        "id": "5.1",
+        "name": "Historical Energy Scaffold (Petroleum, Natural Gas & Coal Transition)",
+        "classification": "Legacy Bronchial Scaffold & Transitional Substrate",
+        "institutes_and_entities": [
+          "Saudi Aramco",
+          "ExxonMobil",
+          "Shell",
+          "TotalEnergies",
+          "BP",
+          "Chevron",
+          "Petrobras",
+          "International Energy Agency (IEA)"
+        ],
+        "submodules": [
+          {
+            "code": "5.1.1",
+            "name": "Deepwater Offshore Production Platforms",
+            "entities": "Petrobras FPSO, Shell Appomattox, TechnipFMC",
+            "karmic_purpose": "Extracting historical energy reserves safely while minimizing environmental leakage"
+          },
+          {
+            "code": "5.1.2",
+            "name": "Transcontinental Natural Gas Pipeline Networks",
+            "entities": "Kinder Morgan, Enbridge, TC Energy",
+            "karmic_purpose": "Transporting clean gaseous energy to heat homes and power industrial kilns"
+          },
+          {
+            "code": "5.1.3",
+            "name": "Liquefied Natural Gas (LNG) Cryogenic Terminals & Carriers",
+            "entities": "Qatargas, Cheniere Energy, GTT Cryogenics",
+            "karmic_purpose": "Chilling gas to -162\u00b0C to bridge continental energy deficits during harsh winters"
+          },
+          {
+            "code": "5.1.4",
+            "name": "Refinery Catalytic Hydrocracking & Petrochemical Units",
+            "entities": "Reliance Jamnagar, Sinopec, ExxonMobil Chemical",
+            "karmic_purpose": "Producing vital asphalt, lubricants, and polymer precursors essential for civilization"
+          },
+          {
+            "code": "5.1.5",
+            "name": "Fugitive Methane Detection & Flaring Elimination Systems",
+            "entities": "GHGSat, Bridger Photonics, Baker Hughes",
+            "karmic_purpose": "Stopping invisible atmospheric methane leaks across drilling and pipeline corridors"
+          },
+          {
+            "code": "5.1.6",
+            "name": "Legacy Coal Power Plant Decommissioning & Site Remediation",
+            "entities": "Vistra Energy, RWE, Tennessee Valley Authority (TVA)",
+            "karmic_purpose": "Retiring legacy coal boilers reverently and converting sites into solar/battery parks"
+          },
+          {
+            "code": "5.1.7",
+            "name": "Oilfield Worker Transition & Geothermal Retooling Programs",
+            "entities": "Fervo Energy, Project InnerSpace, IEA Just Transition",
+            "karmic_purpose": "Transitioning skilled roughnecks and drillers into clean baseload geothermal drilling"
+          }
+        ]
+      },
+      {
+        "id": "5.2",
+        "name": "Utility-Scale Solar Photovoltaic & Concentrated Solar Power",
+        "classification": "Photonic Alveolar Photosynthesis",
+        "institutes_and_entities": [
+          "First Solar",
+          "Longi Green Energy",
+          "JinkoSolar",
+          "Enphase Energy",
+          "NextEra Energy",
+          "Adani Green Energy",
+          "International Solar Alliance (ISA)"
+        ],
+        "submodules": [
+          {
+            "code": "5.2.1",
+            "name": "Multi-Gigawatt Desert Solar PV Parks",
+            "entities": "Bhadla Solar Park, Tengger Desert Solar, Noor Abu Dhabi",
+            "karmic_purpose": "Harvesting abundant desert photons to generate gigawatts of clean electricity"
+          },
+          {
+            "code": "5.2.2",
+            "name": "High-Efficiency N-Type TOPCon & Perovskite-Silicon Tandem Cells",
+            "entities": "Longi, JinkoSolar, Oxford PV",
+            "karmic_purpose": "Pushing photovoltaic solar conversion efficiency beyond 30% per square meter"
+          },
+          {
+            "code": "5.2.3",
+            "name": "Bifacial Single-Axis Tracker Arrays",
+            "entities": "Nextracker, Array Technologies, TrinaTracker",
+            "karmic_purpose": "Following the sun smoothly across the sky while harvesting ground albedo light"
+          },
+          {
+            "code": "5.2.4",
+            "name": "Molten-Salt Concentrated Solar Thermal Power (CSP) Towers",
+            "entities": "Noor Ouarzazate, Cerro Dominador, BrightSource",
+            "karmic_purpose": "Concentrating mirrors onto salt towers to store thermal energy for 15 hours of night generation"
+          },
+          {
+            "code": "5.2.5",
+            "name": "Commercial & Residential Rooftop Micro-Inverters",
+            "entities": "Enphase Energy, SolarEdge, SMA Solar",
+            "karmic_purpose": "Enabling millions of homes to become sovereign solar power generation sanctuaries"
+          },
+          {
+            "code": "5.2.6",
+            "name": "Agrivoltaic Elevated Crops & Shaded Pasture Systems",
+            "entities": "Sun\u2019Agri, Fraunhofer ISE, REM Tec",
+            "karmic_purpose": "Sharing land between solar generation and living agricultural crops beneath"
+          },
+          {
+            "code": "5.2.7",
+            "name": "Solar Module Circular Delamination & Silver/Silicon Recycling",
+            "entities": "First Solar Recycling, ROSI Solar, Veolia Solar",
+            "karmic_purpose": "Recovering 95% of glass, silver, and silicon from retired solar panels for new runs"
+          }
+        ]
+      },
+      {
+        "id": "5.3",
+        "name": "Offshore & Terrestrial Wind Turbine Generation",
+        "classification": "Atmospheric Kinetic Respiration",
+        "institutes_and_entities": [
+          "Vestas",
+          "Siemens Gamesa (Siemens Energy)",
+          "GE Vernova",
+          "Goldwind",
+          "Envision Energy",
+          "\u00d8rsted",
+          "Global Wind Energy Council (GWEC)"
+        ],
+        "submodules": [
+          {
+            "code": "5.3.1",
+            "name": "Giant 15MW+ Offshore Marine Wind Turbines",
+            "entities": "Vestas V236-15.0 MW, Siemens Gamesa SG 14-236, GE Haliade-X",
+            "karmic_purpose": "Capturing relentless maritime gale winds with 115-meter composite blades"
+          },
+          {
+            "code": "5.3.2",
+            "name": "Deep-Water Floating Offshore Wind Foundations",
+            "entities": "Equinor Hywind, Principle Power, BW Ideol",
+            "karmic_purpose": "Deploying wind farms over deep oceanic shelf waters beyond the sight of shores"
+          },
+          {
+            "code": "5.3.3",
+            "name": "Direct-Drive Permanent Magnet Wind Generators",
+            "entities": "Goldwind, Siemens Gamesa, Envision",
+            "karmic_purpose": "Generating electricity directly from slow rotor turns without mechanical gearboxes"
+          },
+          {
+            "code": "5.3.4",
+            "name": "Wind Farm Wake Steering & LiDAR Wind Profilers",
+            "entities": "NREL Wake Steering, Vaisala Leosphere LiDAR",
+            "karmic_purpose": "Coordinating turbine angles so upwind rotors don't rob wind from downwind turbines"
+          },
+          {
+            "code": "5.3.5",
+            "name": "Specialized Wind Turbine Installation Vessels (WTIV)",
+            "entities": "Cadeler, Fred. Olsen Windcarrier, Jan De Nul",
+            "karmic_purpose": "Jacking heavy crane platforms above raging seas to assemble massive towers"
+          },
+          {
+            "code": "5.3.6",
+            "name": "Recyclable Epoxy Composite Turbine Blades",
+            "entities": "Vestas CETEC, Siemens Gamesa RecyclableBlade",
+            "karmic_purpose": "Synthesizing blades that dissolve chemically at end-of-life into virgin resins"
+          },
+          {
+            "code": "5.3.7",
+            "name": "High-Altitude Airborne Wind Energy Kites & Tethers",
+            "entities": "Ampyx Power, Makani (historical), Kitemill",
+            "karmic_purpose": "Harvesting powerful high-altitude jetstream winds with tethered aerodynamic wings"
+          }
+        ]
+      },
+      {
+        "id": "5.4",
+        "name": "High-Voltage Transmission Grids (HVDC/HVAC) & Smart Substations",
+        "classification": "Civilization's Thoracic Aorta & Power Arteries",
+        "institutes_and_entities": [
+          "Hitachi Energy",
+          "Siemens Energy",
+          "GE Vernova Grid",
+          "State Grid Corporation of China (SGCC)",
+          "National Grid UK",
+          "RTE France",
+          "CIGRE"
+        ],
+        "submodules": [
+          {
+            "code": "5.4.1",
+            "name": "Ultra-High Voltage DC (\u00b11100kV UHVDC) Continental Corridors",
+            "entities": "State Grid Changji-Guquan, Hitachi Energy HVDC",
+            "karmic_purpose": "Transmitting 12,000 megawatts across 3,000 kilometers with under 3% line loss"
+          },
+          {
+            "code": "5.4.2",
+            "name": "Voltage Source Converter (VSC-HVDC) Subsea Interconnectors",
+            "entities": "Hitachi Energy HVDC Light, Siemens Energy HVDC Plus",
+            "karmic_purpose": "Interconnecting national power grids beneath seas to share clean surplus energy"
+          },
+          {
+            "code": "5.4.3",
+            "name": "SF6-Free Gas-Insulated High-Voltage Switchgear (GIS)",
+            "entities": "Siemens Energy Blue GIS, Hitachi EconiQ, Schneider",
+            "karmic_purpose": "Eliminating toxic greenhouse SF6 gas from electrical grid substations completely"
+          },
+          {
+            "code": "5.4.4",
+            "name": "Dynamic Line Rating (DLR) Real-Time Transmission Sensors",
+            "entities": "LineVision, Heimdall Power, Ampacimon",
+            "karmic_purpose": "Increasing power line capacity dynamically when cool winds dissipate line heat"
+          },
+          {
+            "code": "5.4.5",
+            "name": "Synchrophasor Phasor Measurement Units (PMU / WAMS)",
+            "entities": "Schweitzer Engineering Laboratories (SEL), ABB",
+            "karmic_purpose": "Measuring electrical grid phase angles 60 times a second to prevent blackouts"
+          },
+          {
+            "code": "5.4.6",
+            "name": "Grid-Forming Inverters & Synthetic Inertia Systems",
+            "entities": "Tesla Megapack Grid-Forming, SMA, Power Electronics",
+            "karmic_purpose": "Stabilizing grid AC frequency artificially as traditional spinning turbines retire"
+          },
+          {
+            "code": "5.4.7",
+            "name": "High-Temperature Superconducting (HTS) Power Cables",
+            "entities": "AMSC (American Superconductor), Nexans, SuperPower",
+            "karmic_purpose": "Carrying massive electrical current through narrow urban rights-of-way with zero resistance"
+          }
+        ]
+      },
+      {
+        "id": "5.5",
+        "name": "Grid-Scale Energy Storage (BESS, Pumped Hydro & Flow Batteries)",
+        "classification": "Energy Alveolar Reserve",
+        "institutes_and_entities": [
+          "Tesla Energy (Megapack)",
+          "Fluence Energy",
+          "CATL",
+          "BYD Energy Storage",
+          "Form Energy",
+          "Eos Energy Enterprises",
+          "Voith Hydro"
+        ],
+        "submodules": [
+          {
+            "code": "5.5.1",
+            "name": "Utility-Scale Lithium Iron Phosphate (LFP) Battery Parks",
+            "entities": "Tesla Megapack, Fluence Gridstack, CATL EnerC",
+            "karmic_purpose": "Providing 4-hour instant electrical balancing to ride through solar sunset peaks"
+          },
+          {
+            "code": "5.5.2",
+            "name": "Multi-Day Iron-Air Rust/Unrust Storage Batteries (100-Hour)",
+            "entities": "Form Energy, ESS Inc, Eos Energy",
+            "karmic_purpose": "Backing up power grids across 4-day winter wind lulls using abundant iron and air"
+          },
+          {
+            "code": "5.5.3",
+            "name": "Closed-Loop Closed-Catchment Pumped Storage Hydropower (PSH)",
+            "entities": "Voith Hydro, GE Vernova Hydro, Andritz Hydro",
+            "karmic_purpose": "Pumping water up mountains when power is cheap, releasing it through turbines when needed"
+          },
+          {
+            "code": "5.5.4",
+            "name": "Vanadium Redox Flow Batteries (VRFB) for Decoupled Energy",
+            "entities": "Invinity Energy Systems, Rongke Power, Sumitomo Electric",
+            "karmic_purpose": "Cycling liquid electrolyte tanks daily for 30 years without battery degradation"
+          },
+          {
+            "code": "5.5.5",
+            "name": "Compressed Air & Liquid Air Cryogenic Energy Storage",
+            "entities": "Hydrostor, Highview Power, Corre Energy",
+            "karmic_purpose": "Storing massive mechanical energy in underground salt caverns or liquid air tanks"
+          },
+          {
+            "code": "5.5.6",
+            "name": "Flywheel High-Cycle Kinetic Frequency Regulation",
+            "entities": "Beacon Power, Stornetic, Amber Kinetics",
+            "karmic_purpose": "Absorbing instant millisecond grid frequency spikes without chemical wear"
+          },
+          {
+            "code": "5.5.7",
+            "name": "Battery Energy Storage Fire Suppression & Deflagration Enclosures",
+            "entities": "Stat-X, Fike, Honeywell Li-ion Tamer",
+            "karmic_purpose": "Preventing thermal runaway cascade through automated chemical containment"
+          }
+        ]
+      },
+      {
+        "id": "5.6",
+        "name": "Clean Nuclear Fission Baseload & Magnetic Confinement Fusion",
+        "classification": "Planetary Stellar Core Combustion",
+        "institutes_and_entities": [
+          "Westinghouse Electric",
+          "Framatome",
+          "NuScale Power",
+          "TerraPower",
+          "Commonwealth Fusion Systems",
+          "ITER Organization",
+          "International Atomic Energy Agency (IAEA)"
+        ],
+        "submodules": [
+          {
+            "code": "5.6.1",
+            "name": "Generation III+ Pressurized Water Reactors (AP1000/EPR)",
+            "entities": "Westinghouse AP1000, Framatome EPR, Rosatom VVER-1200",
+            "karmic_purpose": "Generating thousands of megawatts of steady, emission-free electricity around the clock"
+          },
+          {
+            "code": "5.6.2",
+            "name": "Small Modular Reactors (SMR) with Passive Safety",
+            "entities": "NuScale Power, GE Hitachi BWRX-300, Rolls-Royce SMR",
+            "karmic_purpose": "Providing factory-built, passively cooled baseload power for remote cities and mines"
+          },
+          {
+            "code": "5.6.3",
+            "name": "Molten Chloride & Sodium Fast Breeder Reactors",
+            "entities": "TerraPower Natrium, Moltex Energy, Oklo",
+            "karmic_purpose": "Consuming existing nuclear stockpiles to produce zero-carbon energy with minimal waste"
+          },
+          {
+            "code": "5.6.4",
+            "name": "High-Temperature Superconducting Tokamak Fusion Reactors",
+            "entities": "Commonwealth Fusion (SPARC), Tokamak Energy, ITER",
+            "karmic_purpose": "Bottling the power of stars on Earth using magnetic confinement to provide limitless power"
+          },
+          {
+            "code": "5.6.5",
+            "name": "Stellarator Magnetically Confined Plasma Devices",
+            "entities": "Wendelstein 7-X, Type One Energy, Proxima Fusion",
+            "karmic_purpose": "Confining steady-state burning plasma inside twisty, computer-optimized magnetic fields"
+          },
+          {
+            "code": "5.6.6",
+            "name": "Deep Geological Repository Nuclear Fuel Isolation",
+            "entities": "Posiva Onkalo Finland, SKB Sweden, Nagra Switzerland",
+            "karmic_purpose": "Sealing spent nuclear fuel safely 500 meters deep in stable ancient bedrock for 100,000 years"
+          },
+          {
+            "code": "5.6.7",
+            "name": "Inertial Confinement Laser Fusion Ignition Systems",
+            "entities": "National Ignition Facility (LLNL), Focused Energy, Marvel Fusion",
+            "karmic_purpose": "Compressing deuterium-tritium fuel pellets with petawatt lasers to achieve net energy gain"
+          }
+        ]
+      },
+      {
+        "id": "5.7",
+        "name": "Green Hydrogen, Synthetic Fuels & Industrial Thermal Heat",
+        "classification": "Universal Chemical Energy Carrier",
+        "institutes_and_entities": [
+          "ITM Power",
+          "Nel Hydrogen",
+          "Thyssenkrupp Nucera",
+          "Plug Power",
+          "Air Liquide",
+          "Linde",
+          "Hydrogen Council"
+        ],
+        "submodules": [
+          {
+            "code": "5.7.1",
+            "name": "Proton Exchange Membrane (PEM) High-Pressure Electrolyzers",
+            "entities": "ITM Power, Plug Power, Nel Hydrogen",
+            "karmic_purpose": "Splitting pure water into hydrogen and oxygen using surplus wind and solar electricity"
+          },
+          {
+            "code": "5.7.2",
+            "name": "Alkaline Water Electrolysis (AWE) Gigawatt Module Arrays",
+            "entities": "Thyssenkrupp Nucera, John Cockerill, LONGi Hydrogen",
+            "karmic_purpose": "Producing massive low-cost hydrogen for green chemical refining and fertilizer"
+          },
+          {
+            "code": "5.7.3",
+            "name": "Solid Oxide Electrolyzer Cells (SOEC) for High-Temperature Steam",
+            "entities": "Bloom Energy, Topsoe, Sunfire",
+            "karmic_purpose": "Using industrial waste heat to produce hydrogen with 90%+ electrical efficiency"
+          },
+          {
+            "code": "5.7.4",
+            "name": "Industrial High-Temperature Electric Thermal Heat Batteries",
+            "entities": "Rondo Energy, Antora Energy, Electrified Thermal Solutions",
+            "karmic_purpose": "Storing renewable electricity as 1,500\u00b0C radiant heat to power cement kilns and steel mills"
+          },
+          {
+            "code": "5.7.5",
+            "name": "Green Ammonia Synthesis for Maritime & Fertilizer Decarbonization",
+            "entities": "Yara Clean Ammonia, CF Industries, Topsoe",
+            "karmic_purpose": "Synthesizing zero-carbon ammonia to feed both ocean container ships and agricultural soil"
+          },
+          {
+            "code": "5.7.6",
+            "name": "Direct Air Capture (DAC) CO2 with Hydrogen for E-Fuels",
+            "entities": "Climeworks, Carbon Engineering, Infinium",
+            "karmic_purpose": "Combining atmospheric CO2 with green hydrogen to synthesize drop-in circular jet fuel"
+          },
+          {
+            "code": "5.7.7",
+            "name": "Salt Cavern Underground Compressed Hydrogen Storage",
+            "entities": "Storengy, Uniper Energy Storage, HyStock",
+            "karmic_purpose": "Storing seasonal terawatt-hours of hydrogen in subterranean salt domes for winter security"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "code": "UMP",
+    "name": "Unified Manufacturing Platform",
+    "functional_analogy": "Skeletal Bones, Articular Joints & Muscular Force (Structural Steel, Machinery & Heavy Civil Works)",
+    "why_functional": "Heavy machinery, civil structural engineering, structural steel, concrete, and physical fabrication that holds civilization upright against gravity, weathering, and entropy. Like biological skeleton and muscle.",
+    "sectors": [
+      {
+        "id": "6.1",
+        "name": "Primary Metallurgy, Green Steel & Non-Ferrous Alloys",
+        "classification": "Planetary Mineral Bone Calcification",
+        "institutes_and_entities": [
+          "ArcelorMittal",
+          "SSAB (HYBRIT)",
+          "Nippon Steel",
+          "POSCO",
+          "Alcoa",
+          "Rio Tinto",
+          "World Steel Association"
+        ],
+        "submodules": [
+          {
+            "code": "6.1.1",
+            "name": "Green Hydrogen Direct Reduced Iron (DRI) Plants",
+            "entities": "SSAB HYBRIT, H2 Green Steel, ArcelorMittal DRI",
+            "karmic_purpose": "Smelting iron ore using hydrogen instead of coking coal, emitting pure water vapor"
+          },
+          {
+            "code": "6.1.2",
+            "name": "High-Power Electric Arc Furnaces (EAF) for Scrap Steel",
+            "entities": "Nucor Corporation, Tenaris, Danieli EAF",
+            "karmic_purpose": "Melting end-of-life steel scrap back into structural grade I-beams and rebar"
+          },
+          {
+            "code": "6.1.3",
+            "name": "Low-Carbon Aluminum Inert Anode Smelting",
+            "entities": "Elysis (Alcoa & Rio Tinto), Hydro, Rusal",
+            "karmic_purpose": "Smelting lightweight aluminum while releasing pure oxygen instead of greenhouse gases"
+          },
+          {
+            "code": "6.1.4",
+            "name": "High-Strength Micro-Alloyed Automotive & Aerospace Steels",
+            "entities": "Nippon Steel, POSCO Giga Steel, Voestalpine",
+            "karmic_purpose": "Providing ultra-light, crash-resistant metal skeletons for vehicles and aircraft"
+          },
+          {
+            "code": "6.1.5",
+            "name": "Copper Smelting & Electrolytic Refining for Electrification",
+            "entities": "Freeport-McMoRan, Codelco, Aurubis",
+            "karmic_purpose": "Refining 99.99% pure copper cathodes to wire the world's motors and grids"
+          },
+          {
+            "code": "6.1.6",
+            "name": "Titanium & Superalloy Vacuum Induction Melting (VIM/VAR)",
+            "entities": "ATI Inc, Carpenter Technology, VDM Metals",
+            "karmic_purpose": "Forming heat-defying turbine blades and surgical implants that resist corrosion"
+          },
+          {
+            "code": "6.1.7",
+            "name": "Continuous Billet Casting & Automated Hot Strip Rolling Mills",
+            "entities": "Primetals Technologies, SMS Group, Danieli",
+            "karmic_purpose": "Rolling glowing steel ingots into continuous coils with micrometer thickness accuracy"
+          }
+        ]
+      },
+      {
+        "id": "6.2",
+        "name": "Heavy Mining Equipment, Earthmoving Machinery & Tunnel Boring",
+        "classification": "Tectonic Skeletal Excavation & Muscle Force",
+        "institutes_and_entities": [
+          "Caterpillar",
+          "Komatsu",
+          "Herrenknecht AG",
+          "Sandvik",
+          "Epiroc",
+          "Hitachi Construction Machinery",
+          "Liebherr Mining"
+        ],
+        "submodules": [
+          {
+            "code": "6.2.1",
+            "name": "Autonomous Mega Tunnel Boring Machines (TBM 15m+)",
+            "entities": "Herrenknecht AG, Robbins, CRCHI",
+            "karmic_purpose": "Carving high-speed rail and water transit tunnels through solid mountain granite"
+          },
+          {
+            "code": "6.2.2",
+            "name": "Ultra-Class Autonomous Electric Mining Haul Trucks (400-Ton)",
+            "entities": "Caterpillar 797F, Komatsu 980E-4, Liebherr T 284",
+            "karmic_purpose": "Moving massive rock burdens with electric trolley assistance to minimize diesel use"
+          },
+          {
+            "code": "6.2.3",
+            "name": "Electric Hydraulic Mining Shovels & Draglines",
+            "entities": "Komatsu PC8000, Caterpillar 6090, Joy Global",
+            "karmic_purpose": "Scooping 50 cubic meters of earth in a single motion to unlock vital mineral veins"
+          },
+          {
+            "code": "6.2.4",
+            "name": "Underground Battery-Electric Drill Jumbos & Loaders (LHD)",
+            "entities": "Sandvik DD422iE, Epiroc Scooptram, Normet",
+            "karmic_purpose": "Mining critical minerals underground with zero toxic diesel fumes for human miners"
+          },
+          {
+            "code": "6.2.5",
+            "name": "Autonomous GPS-Guided Civil Earth Bulldozers & Graders",
+            "entities": "Caterpillar D11 Cat Command, Komatsu iMC",
+            "karmic_purpose": "Grading highway foundations and flood levees to millimeter GPS precision automatically"
+          },
+          {
+            "code": "6.2.6",
+            "name": "Heavy Duty Tracked Excavators & Demolition Crushers",
+            "entities": "Hitachi Zaxis, Kobelco, Volvo CE",
+            "karmic_purpose": "Dismantling old concrete structures and preparing ground for civil regeneration"
+          },
+          {
+            "code": "6.2.7",
+            "name": "Continuous Surface Miners & Mineral Milling Drums",
+            "entities": "Wirtgen Group, Vermeer, Vermeer Surface Miners",
+            "karmic_purpose": "Cutting rock without explosive blasting, preserving surrounding village tranquility"
+          }
+        ]
+      },
+      {
+        "id": "6.3",
+        "name": "Civil Infrastructure Engineering (Roads, Bridges, Tunnels & Concrete)",
+        "classification": "Skeletal Bedrock & Articular Civil Joints",
+        "institutes_and_entities": [
+          "Vinci",
+          "Bouygues",
+          "Hochtief (ACS)",
+          "Strabag",
+          "Holcim",
+          "Heidelberg Materials",
+          "American Society of Civil Engineers (ASCE)"
+        ],
+        "submodules": [
+          {
+            "code": "6.3.1",
+            "name": "Low-Carbon Calcined Clay & Pozzolanic Concrete Binders",
+            "entities": "Holcim ECOPact, Heidelberg evoZero, Cemex",
+            "karmic_purpose": "Curing concrete structures with 70% lower CO2 while building durable foundations"
+          },
+          {
+            "code": "6.3.2",
+            "name": "Earthquake Base-Isolated Cable-Stayed & Suspension Bridges",
+            "entities": "Vinci Construction, China Communications (CCCC), Freyssinet",
+            "karmic_purpose": "Spanning stormy straits and earthquake faults with flexural suspension mastery"
+          },
+          {
+            "code": "6.3.3",
+            "name": "Self-Healing Bio-Concrete with Calcite-Forming Microbes",
+            "entities": "Basilisk Self-Healing Concrete, TU Delft Civil Labs",
+            "karmic_purpose": "Sealing internal concrete micro-cracks automatically when exposed to moisture"
+          },
+          {
+            "code": "6.3.4",
+            "name": "Geothermal Energy Piles & Precast Structural Foundations",
+            "entities": "Keller Group, Soletanche Bachy, Bauer AG",
+            "karmic_purpose": "Driving foundational piles that double as geothermal heat exchangers for buildings"
+          },
+          {
+            "code": "6.3.5",
+            "name": "High-Speed Rail Precast Ballastless Track Slab Systems",
+            "entities": "Max B\u00f6gl, Vossloh, Porr AG",
+            "karmic_purpose": "Laying precision concrete track beds that support 350 km/h trains with zero vibration"
+          },
+          {
+            "code": "6.3.6",
+            "name": "Storm Surge Sea Walls & Climate-Resilient Barrier Gates",
+            "entities": "Delta Works Rijkswaterstaat, MOSE Venice, Royal Boskalis",
+            "karmic_purpose": "Guarding low-lying coastal populations from rising sea tides and cyclone surges"
+          },
+          {
+            "code": "6.3.7",
+            "name": "Modular Mass-Timber & Cross-Laminated Timber (CLT) Architecture",
+            "entities": "Stora Enso, Binderholz, Katerra (historical)/Mercer",
+            "karmic_purpose": "Erecting 20-story urban towers using renewable sequestered timber beams"
+          }
+        ]
+      },
+      {
+        "id": "6.4",
+        "name": "Automated Machine Tooling, CNC Machining & Industrial Robotics",
+        "classification": "Precision Muscular Motor Kinematics",
+        "institutes_and_entities": [
+          "Fanuc",
+          "ABB Robotics",
+          "KUKA",
+          "Yaskawa Electric",
+          "DMG Mori",
+          "Mazak",
+          "Trumpf Laser"
+        ],
+        "submodules": [
+          {
+            "code": "6.4.1",
+            "name": "5-Axis High-Precision CNC Machining Centers",
+            "entities": "DMG Mori, Yamazaki Mazak, Makino",
+            "karmic_purpose": "Milling complex aerospace impellers and engine blocks with single-micron tolerance"
+          },
+          {
+            "code": "6.4.2",
+            "name": "Heavy Automotive Assembly Industrial Robotic Arms",
+            "entities": "Fanuc M-2000iA, KUKA Titan, ABB IRB 8700",
+            "karmic_purpose": "Lifting and spot-welding complete automobile bodies effortlessly with tireless safety"
+          },
+          {
+            "code": "6.4.3",
+            "name": "High-Power Fiber Laser Cutting & Automated Sheet Bending",
+            "entities": "Trumpf TruLaser, Bystronic, Amada",
+            "karmic_purpose": "Slicing through 30mm steel plates like butter with concentrated coherent light"
+          },
+          {
+            "code": "6.4.4",
+            "name": "Wire Electrical Discharge Machining (EDM) for Hardened Dies",
+            "entities": "GF Machining Solutions, Sodick, Mitsubishi Electric",
+            "karmic_purpose": "Shaping hardest hardened alloys using microscopic electrical sparks without physical contact"
+          },
+          {
+            "code": "6.4.5",
+            "name": "Laser Powder Bed Fusion (LPBF) Metal 3D Printing Systems",
+            "entities": "EOS GmbH, SLM Solutions, Renishaw",
+            "karmic_purpose": "Growing lightweight biomimetic titanium rocket manifolds layer by layer from metal powder"
+          },
+          {
+            "code": "6.4.6",
+            "name": "Coordinate Measuring Machines (CMM) & Optical Metrology",
+            "entities": "Hexagon Manufacturing, Carl Zeiss Industrial, Mitutoyo",
+            "karmic_purpose": "Verifying physical manufactured parts with nanometer lasers to guarantee perfect fit"
+          },
+          {
+            "code": "6.4.7",
+            "name": "Collaborative Assembly Cobots with Force Feedback",
+            "entities": "Universal Robots (Teradyne), Fanuc CRX, Techman Robot",
+            "karmic_purpose": "Pairing gently with human artisans to assist in intricate manual manufacturing"
+          }
+        ]
+      },
+      {
+        "id": "6.5",
+        "name": "Transportation Fleet Manufacturing (Commercial Ships, Trains & Aircraft)",
+        "classification": "Planetary Locomotion Organ Synthesis",
+        "institutes_and_entities": [
+          "Hyundai Heavy Industries (HD KSOE)",
+          "Daewoo (Hanwha Ocean)",
+          "CRRC",
+          "Alstom",
+          "Siemens Mobility",
+          "Boeing",
+          "Airbus"
+        ],
+        "submodules": [
+          {
+            "code": "6.5.1",
+            "name": "Massive Commercial Shipyard Drydocks & Gantry Cranes",
+            "entities": "HD Hyundai Heavy Industries, Hanwha Ocean, Imabari",
+            "karmic_purpose": "Assembling 400-meter container ships and LNG tankers from pre-outfitted megablocks"
+          },
+          {
+            "code": "6.5.2",
+            "name": "High-Speed Passenger Bullet Train Fabrication",
+            "entities": "CRRC Fuxing Hao, Alstom TGV/Avelia, Siemens Velaro",
+            "karmic_purpose": "Fabricating aerodynamic bullet trains that glide quietly across continents on steel rails"
+          },
+          {
+            "code": "6.5.3",
+            "name": "Commercial Passenger Aircraft Final Assembly Lines (FAL)",
+            "entities": "Airbus Toulouse/Hamburg, Boeing Everett/Renton",
+            "karmic_purpose": "Assembling reliable aircraft airframes to connect distant human cultures across the sky"
+          },
+          {
+            "code": "6.5.4",
+            "name": "Electric Transit Bus & Tramcar Fabrication Plants",
+            "entities": "BYD Bus, Solaris Bus, Stadler Rail",
+            "karmic_purpose": "Supplying cities with quiet zero-emission electric buses and streetcars for clean air"
+          },
+          {
+            "code": "6.5.5",
+            "name": "Heavy Marine Slow-Speed 2-Stroke Propulsion Engines",
+            "entities": "MAN Energy Solutions, W\u00e4rtsil\u00e4, WinGD",
+            "karmic_purpose": "Building durable 80,000-horsepower marine engines that power intercontinental commerce"
+          },
+          {
+            "code": "6.5.6",
+            "name": "Automated Composite Aircraft Fuselage Winding Facilities",
+            "entities": "Toray Industries, Hexcel, GKN Aerospace",
+            "karmic_purpose": "Weaving carbon fiber barrels that never rust and withstand decades of cabin pressurization"
+          },
+          {
+            "code": "6.5.7",
+            "name": "High-Speed Maglev Train Guideway & Bogie Engineering",
+            "entities": "Central Japan Railway (L0 Series), CRRC Qingdao Sifang",
+            "karmic_purpose": "Levitating trains on superconducting magnets at 600 km/h with zero wheel friction"
+          }
+        ]
+      },
+      {
+        "id": "6.6",
+        "name": "Advanced Composite Materials, Industrial Polymers & Glass",
+        "classification": "Somatic Connective Fascia & Membrane Substrate",
+        "institutes_and_entities": [
+          "Toray Industries",
+          "Hexcel",
+          "BASF",
+          "Covestro",
+          "Corning Inc",
+          "Saint-Gobain",
+          "Asahi Glass (AGC)"
+        ],
+        "submodules": [
+          {
+            "code": "6.6.1",
+            "name": "Aerospace Grade PAN Carbon Fiber Tow Production",
+            "entities": "Torayca, Hexcel, Mitsubishi Chemical",
+            "karmic_purpose": "Synthesizing ultra-strong, lightweight carbon fibers five times stronger than steel"
+          },
+          {
+            "code": "6.6.2",
+            "name": "Chemically Strengthened Ultra-Thin Display Glass",
+            "entities": "Corning Gorilla Glass, AGC Dragontrail, Schott Glass",
+            "karmic_purpose": "Protecting millions of touch devices with crack-resistant, optically pure glass covers"
+          },
+          {
+            "code": "6.6.3",
+            "name": "Bio-Based High-Performance Structural Thermoplastics",
+            "entities": "BASF Ultramid Advanced, Covestro Makrolon, Arkema Rilsan",
+            "karmic_purpose": "Formulating polymers from castor beans and plant oils to replace fossil-based plastics"
+          },
+          {
+            "code": "6.6.4",
+            "name": "Low-Emissivity Double/Triple Glazed Architectural Glass",
+            "entities": "Saint-Gobain Planitherm, Guardian Glass, Pilkington",
+            "karmic_purpose": "Insulating modern buildings from desert heat and winter freezing while passing daylight"
+          },
+          {
+            "code": "6.6.5",
+            "name": "Structural Epoxy & Polyurethane Adhesives for Lightweighting",
+            "entities": "Henkel Loctite, 3M Industrial Adhesives, Sika AG",
+            "karmic_purpose": "Bonding metal and composite frames silently, replacing thousands of heavy rivets"
+          },
+          {
+            "code": "6.6.6",
+            "name": "Technical Ceramic Armor & High-Voltage Insulators",
+            "entities": "Kyocera, CoorsTek, Morgan Advanced Materials",
+            "karmic_purpose": "Forming heat and electrical barrier insulators that survive 2,000\u00b0C furnace environments"
+          },
+          {
+            "code": "6.6.7",
+            "name": "Industrial Graphene Nanoplatelet & Carbon Nanotube Additives",
+            "entities": "NanoXplore, OCSiAl, Haydale",
+            "karmic_purpose": "Infusing concrete and polymers with atomic-thin carbon to double tensile strength"
+          }
+        ]
+      },
+      {
+        "id": "6.7",
+        "name": "Industrial Scrap Recycling, Electric Smelting & Circular Remanufacturing",
+        "classification": "Skeletal Bone Remodeling & Osteoclastic Renewal",
+        "institutes_and_entities": [
+          "Sims Limited",
+          "Schnitzer Steel (Radius Recycling)",
+          "Commercial Metals Company (CMC)",
+          "Aurubis",
+          "Umicore",
+          "Cat Reman (Caterpillar)",
+          "Bureau of International Recycling (BIR)"
+        ],
+        "submodules": [
+          {
+            "code": "6.7.1",
+            "name": "Automobile Shredder Residue (ASR) Megamills & Density Separators",
+            "entities": "Sims Metal Management, Radius Recycling, Wendt Corp",
+            "karmic_purpose": "Shredding whole end-of-life cars in 30 seconds and sorting every metal particle cleanly"
+          },
+          {
+            "code": "6.7.2",
+            "name": "Precious Metals Electronic Scrap Pyro-Metallurgical Smelters",
+            "entities": "Umicore Hoboken Smelter, Aurubis, Dowa Holdings",
+            "karmic_purpose": "Recovering 99% of gold, silver, and copper from discarded electronic circuit boards"
+          },
+          {
+            "code": "6.7.3",
+            "name": "Factory Caterpillar Reman Engine & Component Remanufacturing",
+            "entities": "Cat Reman, Cummins ReCon, Komatsu Reman",
+            "karmic_purpose": "Disassembling worn diesel blocks, machining them to new specs, saving 85% energy"
+          },
+          {
+            "code": "6.7.4",
+            "name": "Post-Consumer PET & Polyolefin Advanced Optical Sorting",
+            "entities": "TOMRA Sorting Solutions, Pellenc ST, Bollegraaf",
+            "karmic_purpose": "Using near-infrared spectral sensors to sort recyclable plastics at 10 meters per second"
+          },
+          {
+            "code": "6.7.5",
+            "name": "Scrap Tire Pyrolysis & Recovered Carbon Black (rCB)",
+            "entities": "Pyrum Innovations, Scandinavian Enviro, Bolder Industries",
+            "karmic_purpose": "Decomposing worn tires into clean oil and recovered carbon black for new tires"
+          },
+          {
+            "code": "6.7.6",
+            "name": "Hydrometallurgical Lithium-Ion Battery Cathode Black Mass Recovery",
+            "entities": "Redwood Materials, Li-Cycle, Ascend Elements",
+            "karmic_purpose": "Extracting battery-grade nickel, cobalt, and lithium from spent EV packs indefinitely"
+          },
+          {
+            "code": "6.7.7",
+            "name": "Industrial Demolition Concrete Crushing & Aggregate Re-Use",
+            "entities": "Rubbl, Kleemann (Wirtgen), Terex Finlay",
+            "karmic_purpose": "Crushing demolished concrete into clean aggregate road beds, avoiding gravel pit mining"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "USHP",
+    "name": "Unified Sustenance & Healthcare Platform",
+    "functional_analogy": "Gut Digestion, Skin Shield, Immune Antibodies & Renal Water Cleansing (Biological Foundation of Life)",
+    "why_functional": "The biological survival foundation of Earth: clean water purification, living soil agriculture, medicines, disease control, and atmospheric sensing that shields and nurtures life like human gut, skin, immune, and renal systems.",
+    "sectors": [
+      {
+        "id": "7.1",
+        "name": "Living Soil Agroecology, Regenerative Farming & Heirloom Seeds",
+        "classification": "Planetary Gut Microbiome & Soil Humus",
+        "institutes_and_entities": [
+          "Navdanya (Vandana Shiva)",
+          "Rodale Institute",
+          "Svalbard Global Seed Vault",
+          "CGIAR Consortium",
+          "IFOAM Organics",
+          "Slow Food International",
+          "Ecovida"
+        ],
+        "submodules": [
+          {
+            "code": "7.1.1",
+            "name": "Sovereign Heirloom Seed Banks & Community Seed Libraries",
+            "entities": "Navdanya Seed Bank, Svalbard Seed Vault, Native Seeds/SEARCH",
+            "karmic_purpose": "Guarding non-patented heirloom crop seeds for future human nourishment"
+          },
+          {
+            "code": "7.1.2",
+            "name": "Living Soil Humus, Mycorrhizal Inoculants & Biochar Integration",
+            "entities": "Rodale Institute, Groundwork BioAg, Soil Health Institute",
+            "karmic_purpose": "Restoring fungal mycelium and beneficial bacteria to regenerate eroded agricultural soil"
+          },
+          {
+            "code": "7.1.3",
+            "name": "Cover Cropping, Multi-Species Grazing & Holistic Land Management",
+            "entities": "Savory Institute, Understanding Ag, Kiss the Ground",
+            "karmic_purpose": "Drawing carbon out of the atmosphere into living root networks using rotational grazing"
+          },
+          {
+            "code": "7.1.4",
+            "name": "No-Till Regenerative Precision Seeding Drills",
+            "entities": "John Deere ExactEmerge, Case IH Early Riser, Great Plains",
+            "karmic_purpose": "Planting seeds directly through crop residue without disturbing soil micro-ecology"
+          },
+          {
+            "code": "7.1.5",
+            "name": "Biological Pest Management & Pheromone Mating Disrupters",
+            "entities": "Koppert Biological Systems, Biobest, Suterra",
+            "karmic_purpose": "Protecting crops with beneficial predator insects and pheromones instead of toxic sprays"
+          },
+          {
+            "code": "7.1.6",
+            "name": "Agroforestry Canopy Systems & Traditional Polycultures",
+            "entities": "World Agroforestry (ICRAF), Trees for the Future, Milpa networks",
+            "karmic_purpose": "Growing fruit trees, grain, and vegetables in diverse layered symbiotic canopies"
+          },
+          {
+            "code": "7.1.7",
+            "name": "Composting Megacomplexes & Microbial Tea Bioreactors",
+            "entities": "Cedar Grove Composting, Synagro, Soil Food Web School",
+            "karmic_purpose": "Transforming city food waste into rich living compost to feed regional farms"
+          }
+        ]
+      },
+      {
+        "id": "7.2",
+        "name": "Bulk Staple Crop Harvesting, Grain Silos & Food Cold Storage",
+        "classification": "Planetary Digestive Storage & Food Security",
+        "institutes_and_entities": [
+          "Archer Daniels Midland (ADM)",
+          "Bunge",
+          "Cargill",
+          "Louis Dreyfus Company (LDC)",
+          "AGCO (Fendt/GSI)",
+          "B\u00fchler Group",
+          "World Food Programme (WFP)"
+        ],
+        "submodules": [
+          {
+            "code": "7.2.1",
+            "name": "Autonomous High-Capacity Combine Harvesters",
+            "entities": "Claas Lexion, John Deere X9, New Holland CR",
+            "karmic_purpose": "Harvesting vast wheat and grain fields efficiently before storms ruin the crop"
+          },
+          {
+            "code": "7.2.2",
+            "name": "Aerated Grain Elevator Silo Complexes & Dust Explosion Protectors",
+            "entities": "GSI Group, Sukup Manufacturing, Brock Grain",
+            "karmic_purpose": "Storing millions of bushels of staple cereals safely with automated aeration and drying"
+          },
+          {
+            "code": "7.2.3",
+            "name": "Precision Roller Flour & Cereal Processing Mills",
+            "entities": "B\u00fchler Group, Ocrim, Alapala",
+            "karmic_purpose": "Milling whole grains into nutritious flour while preserving essential vitamins and germ"
+          },
+          {
+            "code": "7.2.4",
+            "name": "Food Grade Cold Chain Flash-Freezing Tunnels",
+            "entities": "OctoFrost, GEA Group, JBT Corporation",
+            "karmic_purpose": "Flash-freezing fresh berries, vegetables, and proteins at peak harvest nutrition"
+          },
+          {
+            "code": "7.2.5",
+            "name": "Universal Grain Testing & Aflatoxin Detection Instruments",
+            "entities": "Foss Analytics, Perten Instruments, Neogen",
+            "karmic_purpose": "Screening grain trucks in 60 seconds to ensure total freedom from fungal mycotoxins"
+          },
+          {
+            "code": "7.2.6",
+            "name": "Strategic National Grain Reserves & World Food Aid Silos",
+            "entities": "World Food Programme (WFP) UNHRD, Sinograin, US DLA",
+            "karmic_purpose": "Maintaining multi-month emergency grain reserves to buffer against droughts and conflicts"
+          },
+          {
+            "code": "7.2.7",
+            "name": "Aseptic Liquid Food Packaging & Solar-Powered Milk Chillers",
+            "entities": "Tetra Pak, SIG Combibloc, Promethean Power Systems",
+            "karmic_purpose": "Preserving milk and fruit juices without refrigeration so rural children drink safely"
+          }
+        ]
+      },
+      {
+        "id": "7.3",
+        "name": "Municipal Potable Water Treatment, Desalination & Aquifer Protection",
+        "classification": "Renal Water Purification & Glomerular Filtration",
+        "institutes_and_entities": [
+          "Veolia Water",
+          "Suez",
+          "Xylem",
+          "Kurita Water",
+          "Saline Water Conversion Corp (SWCC)",
+          "Ecolab",
+          "International Water Association (IWA)"
+        ],
+        "submodules": [
+          {
+            "code": "7.3.1",
+            "name": "Seawater Reverse Osmosis (SWRO) Desalination Megaplants",
+            "entities": "SWCC Ras Al-Khair, IDE Technologies, Sorek Plant",
+            "karmic_purpose": "Transforming abundant ocean saltwater into pure drinking water for arid coastal cities"
+          },
+          {
+            "code": "7.3.2",
+            "name": "Energy Recovery Pressure Exchangers for SWRO",
+            "entities": "Energy Recovery Inc (PX), Danfoss High Pressure",
+            "karmic_purpose": "Recycling 98% of hydraulic energy from brine rejects to slash desalination power needs"
+          },
+          {
+            "code": "7.3.3",
+            "name": "Ultraviolet & Advanced Oxidation Pathogen Disinfection Systems",
+            "entities": "Xylem Wedeco, Trojan Technologies, Evoqua",
+            "karmic_purpose": "Inactivating all bacterial and viral pathogens using ultraviolet photons without chlorine taste"
+          },
+          {
+            "code": "7.3.4",
+            "name": "Ozone & Granular Activated Carbon (GAC) Micropollutant Filters",
+            "entities": "Veolia Actiflo Carb, Suez Aquasource, Calgon Carbon",
+            "karmic_purpose": "Adsorbing trace pharmaceutical residues and PFAS 'forever chemicals' from tap water"
+          },
+          {
+            "code": "7.3.5",
+            "name": "Managed Aquifer Recharge (MAR) & Deep Well Groundwater Replenishment",
+            "entities": "Orange County Water District (GWRS), Veolia Water, USGS",
+            "karmic_purpose": "Injecting purified municipal water deep into natural underground aquifers to prevent sinkholes"
+          },
+          {
+            "code": "7.3.6",
+            "name": "Acoustic Leak Detection & Smart Municipal Water Distribution",
+            "entities": "Xylem Sensus, Badger Meter, Mueller Water Products",
+            "karmic_purpose": "Detecting hidden underground main pipe leaks before precious drinking water is lost"
+          },
+          {
+            "code": "7.3.7",
+            "name": "Rural Gravity-Fed Sand Filters & Off-Grid Solar Purifiers",
+            "entities": "Charity: Water, WaterAid, LifeStraw Community",
+            "karmic_purpose": "Providing unconditional clean drinking water to remote villages with zero chemical cost"
+          }
+        ]
+      },
+      {
+        "id": "7.4",
+        "name": "Essential Therapeutics, Antimicrobial Medicines & Universal Vaccines",
+        "classification": "Humoral Immune Antibodies & Cellular Regeneration",
+        "institutes_and_entities": [
+          "Serum Institute of India",
+          "Gavi (The Vaccine Alliance)",
+          "Cipla",
+          "Novartis",
+          "Pfizer",
+          "Moderna",
+          "World Health Organization (WHO)"
+        ],
+        "submodules": [
+          {
+            "code": "7.4.1",
+            "name": "High-Volume Pediatric Vaccine Bioreactors & Cold-Chain Formulations",
+            "entities": "Serum Institute of India, Sanofi Pasteur, GSK",
+            "karmic_purpose": "Producing billions of measles, polio, and pneumonia vaccines at affordable low cost for all children"
+          },
+          {
+            "code": "7.4.2",
+            "name": "mRNA Antigen Platforms & Lipid Nanoparticle (LNP) Formulation",
+            "entities": "Moderna, BioNTech, CureVac",
+            "karmic_purpose": "Synthesizing rapid pandemic defenses within weeks of genetic sequencing of novel pathogens"
+          },
+          {
+            "code": "7.4.3",
+            "name": "Affordable Essential Generic Antibiotics & Antiretrovirals",
+            "entities": "Cipla, Sun Pharma, Viatris",
+            "karmic_purpose": "Ensuring life-saving penicillin, amoxicillin, and HIV therapies are accessible to everyone"
+          },
+          {
+            "code": "7.4.4",
+            "name": "Monoclonal Antibody (mAb) Single-Use Perfusion Bioreactors",
+            "entities": "Sartorius Stedim, Lonza, Danaher Cytiva",
+            "karmic_purpose": "Culturing precision biological antibodies that neutralize cancer cells and severe viral infections"
+          },
+          {
+            "code": "7.4.5",
+            "name": "Continuous Active Pharmaceutical Ingredient (API) Micro-Reactors",
+            "entities": "Continuus Pharmaceuticals, Snapdragon Chemistry, Corning",
+            "karmic_purpose": "Manufacturing critical medicines in continuous flow reactors, eliminating global drug shortages"
+          },
+          {
+            "code": "7.4.6",
+            "name": "Universal Antivenom & Snakebite Immunotherapy Laboratories",
+            "entities": "Instituto Butantan, MicroPharm, Inosan Biopharma",
+            "karmic_purpose": "Producing broad-spectrum antivenoms that save farmers and rural children from snake envenomation"
+          },
+          {
+            "code": "7.4.7",
+            "name": "Global Medicine Patent Pool & Open Therapeutics Licensing",
+            "entities": "Medicines Patent Pool (MPP), WHO C-TAP",
+            "karmic_purpose": "Sharing pharmaceutical formulas transparently so local manufacturers can treat their own people"
+          }
+        ]
+      },
+      {
+        "id": "7.5",
+        "name": "Diagnostic Imaging, Laboratory Automation & Hospital Care Networks",
+        "classification": "Cellular Sensory Inspection & Clinical Healing",
+        "institutes_and_entities": [
+          "Siemens Healthineers",
+          "GE HealthCare",
+          "Philips Healthcare",
+          "Roche Diagnostics",
+          "Abbott Laboratories",
+          "Mayo Clinic",
+          "M\u00e9decins Sans Fronti\u00e8res (MSF)"
+        ],
+        "submodules": [
+          {
+            "code": "7.5.1",
+            "name": "Superconducting Magnetic Resonance Imaging (3T/7T MRI)",
+            "entities": "Siemens Healthineers Magnetom, GE SIGNA, Philips MR",
+            "karmic_purpose": "Visualizing soft tissues and brain anatomy with harmless magnetic radio pulses without X-ray radiation"
+          },
+          {
+            "code": "7.5.2",
+            "name": "Ultra-Low-Dose Spectral Computed Tomography (CT) Scanners",
+            "entities": "Siemens SOMATOM, GE Revolution CT, Canon Medical",
+            "karmic_purpose": "Detecting micro-vascular aneurysms and early tumors in seconds with minimal radiation dose"
+          },
+          {
+            "code": "7.5.3",
+            "name": "Automated High-Throughput Clinical Chemistry & Immunoassay Lines",
+            "entities": "Roche cobas, Abbott Alinity, Beckman Coulter",
+            "karmic_purpose": "Analyzing thousands of blood panels per hour to deliver accurate diagnostic truth to clinicians"
+          },
+          {
+            "code": "7.5.4",
+            "name": "Point-of-Care Handheld Ultrasound & Microfluidic Blood Analyzers",
+            "entities": "Butterfly Network iQ, Abbott i-STAT, LumiraDx",
+            "karmic_purpose": "Giving rural clinicians instant bedside organ imaging and cardiac marker readouts in minutes"
+          },
+          {
+            "code": "7.5.5",
+            "name": "Intensive Care Unit (ICU) Multi-Parameter Monitors & Ventilators",
+            "entities": "Mindray, Dr\u00e4ger, Hamilton Medical",
+            "karmic_purpose": "Guarding the fragile vital signs of critically ill patients with continuous breath and rhythm support"
+          },
+          {
+            "code": "7.5.6",
+            "name": "Minimally Invasive Robotic Laparoscopic Surgical Platforms",
+            "entities": "Intuitive Surgical (da Vinci), CMR Surgical, Medtronic",
+            "karmic_purpose": "Executing microsurgery through tiny incisions with tremor-filtered robotic precision"
+          },
+          {
+            "code": "7.5.7",
+            "name": "Rapid Deployment Field Hospitals & Mobile Surgical Containers",
+            "entities": "MSF Field Logistics, Red Cross ERU, Saab Deployable Health",
+            "karmic_purpose": "Setting up fully equipped surgical suites inside disaster and conflict zones within 48 hours"
+          }
+        ]
+      },
+      {
+        "id": "7.6",
+        "name": "Sanitation, Wastewater Bioremediation & Pathogen Neutralization",
+        "classification": "Renal Tubule Waste Neutralization & Lymphatic Drainage",
+        "institutes_and_entities": [
+          "Veolia",
+          "Suez Water Technologies",
+          "Evoqua (Xylem)",
+          "Huber SE",
+          "Bill & Melinda Gates Foundation (Reinvent the Toilet)",
+          "Water Environment Federation (WEF)",
+          "EAWAG"
+        ],
+        "submodules": [
+          {
+            "code": "7.6.1",
+            "name": "Membrane Aerated Biofilm Reactors (MABR) & Anammox Systems",
+            "entities": "Suez ZeeLung, Fluence Aspiral, Paques Anammox",
+            "karmic_purpose": "Digesting nitrogen and ammonia pollutants from wastewater using 70% less aeration energy"
+          },
+          {
+            "code": "7.6.2",
+            "name": "Anaerobic Sludge Digestion & Biomethane Power Cogeneration",
+            "entities": "Veolia Biothane, Cambi Thermal Hydrolysis, Clarke Energy",
+            "karmic_purpose": "Converting sewage sludge into clean renewable biomethane gas to power municipal treatment plants"
+          },
+          {
+            "code": "7.6.3",
+            "name": "Constructed Wetland Bio-Filtration & Phytoremediation Reed Beds",
+            "entities": "ARM Ltd, Phytorestore, EAWAG Aquatic Research",
+            "karmic_purpose": "Using native wetland reeds, cattails, and microbes to naturally cleanse water without electricity"
+          },
+          {
+            "code": "7.6.4",
+            "name": "Wastewater-Based Epidemiology & Viral Genomic Surveillance",
+            "entities": "Biobot Analytics, Verily Wastewater, CDC NWSS",
+            "karmic_purpose": "Sequencing municipal wastewater to detect viral outbreak waves two weeks before clinical symptoms appear"
+          },
+          {
+            "code": "7.6.5",
+            "name": "Non-Sewered Off-Grid Reinvented Sanitary Toilets",
+            "entities": "Gates Foundation Reinvented Toilet, Helbling, Eram Scientific",
+            "karmic_purpose": "Sterilizing human waste on-site without sewer hookups, transforming it into pathogen-free ash and water"
+          },
+          {
+            "code": "7.6.6",
+            "name": "Hospital Wastewater Pharmaceutical Degradation Ozonators",
+            "entities": "Metawater, De Nora, Ozonia (Suez)",
+            "karmic_purpose": "Destroying resistant superbugs and chemotherapy compounds before hospital effluent enters public rivers"
+          },
+          {
+            "code": "7.6.7",
+            "name": "Industrial Zero Liquid Discharge (ZLD) Evaporation Crystallizers",
+            "entities": "Aquatech International, HPD Veolia, GEA Crystallization",
+            "karmic_purpose": "Extracting clean distilled water from chemical factory waste, leaving only dry inert mineral salts"
+          }
+        ]
+      },
+      {
+        "id": "7.7",
+        "name": "Nutritional Distribution, Community Food Security & Sovereign Nourishment",
+        "classification": "Somatic Cellular Nourishment & Metabolic Equity",
+        "institutes_and_entities": [
+          "Feeding America",
+          "Global FoodBanking Network (GFN)",
+          "Akshaya Patra Foundation",
+          "City Harvest",
+          "World Central Kitchen (Jos\u00e9 Andr\u00e9s)",
+          "Food and Agriculture Organization (FAO)",
+          "AmpleHarvest.org"
+        ],
+        "submodules": [
+          {
+            "code": "7.7.1",
+            "name": "Mega-Kitchen Automated Hot Meal Preparation Facilities",
+            "entities": "Akshaya Patra Foundation, ISKCON Food for Life",
+            "karmic_purpose": "Cooking two million freshly prepared, nutritious hot meals daily for school children with love"
+          },
+          {
+            "code": "7.7.2",
+            "name": "Rapid-Response Disaster Kitchens & Chef Mobilization",
+            "entities": "World Central Kitchen (WCK), Red Cross Food Trucks",
+            "karmic_purpose": "Serving hot, comforting, chef-crafted meals directly to survivors immediately following disasters"
+          },
+          {
+            "code": "7.7.3",
+            "name": "Surplus Grocery Rescue Logistics & Cold Redistribution Fleets",
+            "entities": "Feeding America MealConnect, City Harvest, FareShare UK",
+            "karmic_purpose": "Rescuing billions of pounds of fresh grocery surplus and delivering it to neighborhood food pantries"
+          },
+          {
+            "code": "7.7.4",
+            "name": "Universal Free School Breakfast & Lunch Nutrition Programs",
+            "entities": "USDA School Meals, Midday Meal Scheme India, Brazil PNAE",
+            "karmic_purpose": "Guaranteeing every child receives wholesome, brain-nourishing meals regardless of household wealth"
+          },
+          {
+            "code": "7.7.5",
+            "name": "Urban Community Regenerative Kitchen Gardens & Food Forests",
+            "entities": "Ron Finley Project, Incredible Edible, Beacon Food Forest",
+            "karmic_purpose": "Transforming barren city parkways and vacant lots into free organic fruit and vegetable commons"
+          },
+          {
+            "code": "7.7.6",
+            "name": "Mobile Refrigerated Farmer's Market Vans for Food Deserts",
+            "entities": "The Food Trust, Fresh Moves Chicago, Veggie Van",
+            "karmic_purpose": "Driving affordable fresh organic farm produce directly into historically neglected urban neighborhoods"
+          },
+          {
+            "code": "7.7.7",
+            "name": "Traditional Indigenous Food Sovereignty & Wild Harvest Protection",
+            "entities": "Indigenous Food Systems Network, Native American Food Sovereignty Alliance",
+            "karmic_purpose": "Reviving ancient wild rice, blue corn, and berry foraging traditions in reverence for nature's wisdom"
+          }
+        ]
+      }
+    ]
+  }
+]

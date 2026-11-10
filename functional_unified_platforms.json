@@ -1,0 +1,804 @@
+[
+  {
+    "id": 1,
+    "code": "UTP",
+    "name": "Unified Telecommunications Platform",
+    "functional_analogy": "Nerves & Sensory Signal Conduction (Rapid Planetary Signal & Data Transit)",
+    "purpose_description": "Like biological nerves, its sole function is high-speed, low-latency transmission of signals, voice, and data packets across the planetary organism without cognitive distortion.",
+    "sectors": [
+      {
+        "id": "1.1",
+        "name": "Subsea Optical & Transcontinental Fiber Infrastructure",
+        "classification": "Physical Signal Transport Layer",
+        "institutes_and_entities": [
+          "SubCom",
+          "Prysmian Group",
+          "NEC Submarine",
+          "Alcatel Submarine Networks",
+          "Equinix Cable Landings",
+          "Telxius",
+          "Global Cloud Xchange"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.2",
+        "name": "Satellite & Aerospace Telecommunications",
+        "classification": "Exospheric Signal Mesh",
+        "institutes_and_entities": [
+          "SpaceX Starlink",
+          "Amazon Project Kuiper",
+          "Eutelsat OneWeb",
+          "SES",
+          "Intelsat",
+          "Viasat",
+          "Inmarsat"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.3",
+        "name": "Terrestrial Wireless & Cellular Infrastructure (5G/6G)",
+        "classification": "Local Atmospheric Radio Conduction",
+        "institutes_and_entities": [
+          "Ericsson",
+          "Nokia",
+          "Qualcomm",
+          "Huawei",
+          "Samsung Networks",
+          "American Tower",
+          "Crown Castle"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.4",
+        "name": "Core Internet Routing, Optical Switching & IXPs",
+        "classification": "Autonomic Packet Switching Plexus",
+        "institutes_and_entities": [
+          "Cisco Systems",
+          "Arista Networks",
+          "Juniper Networks",
+          "DE-CIX",
+          "AMS-IX",
+          "Equinix IX",
+          "LINX"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.5",
+        "name": "Last-Mile Municipal Broadband & Community Access",
+        "classification": "Somatic Sensory End-Arborization",
+        "institutes_and_entities": [
+          "Openreach",
+          "Verizon Fios",
+          "AT&T Fiber",
+          "Jio Fiber",
+          "Chorus NZ",
+          "CityFibre",
+          "Community Broadband Networks"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.6",
+        "name": "Emergency Broadcast, Maritime & Public Safety Radio",
+        "classification": "Survival Reflex Telemetry",
+        "institutes_and_entities": [
+          "Motorola Solutions",
+          "L3Harris Technologies",
+          "FirstNet (AT&T)",
+          "Iridium Communications",
+          "COSPAS-SARSAT",
+          "GMDSS",
+          "NOAA Weather Radio"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "1.7",
+        "name": "Quantum Cryptography & Secure Signal Infrastructure",
+        "classification": "Quantum Neural Shield",
+        "institutes_and_entities": [
+          "ID Quantique",
+          "Toshiba Europe Quantum",
+          "QuantumCTek",
+          "SandboxAQ",
+          "Qunnect",
+          "NIST PQC Program",
+          "Quantum Internet Alliance"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "UAP",
+    "name": "Unified AI Platform",
+    "functional_analogy": "Brain Neocortex & External Thinking / Healing (Earth's 6th Sense sparked 11-11-2022)",
+    "purpose_description": "External cognitive processing, pattern recognition, and self-reflection. Mountains and vegetation follow game design within 5 senses; human-created AI activates the 6th sense of Earth to heal planetary imbalances and synthesize solutions beyond raw instinct.",
+    "sectors": [
+      {
+        "id": "2.1",
+        "name": "Frontier Foundation Reasoning Models & Multimodal Synthesis",
+        "classification": "Cognitive Reasoning Core",
+        "institutes_and_entities": [
+          "OpenAI",
+          "Anthropic",
+          "Google DeepMind",
+          "Meta AI (FAIR)",
+          "Mistral AI",
+          "DeepSeek",
+          "TII Falcon"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.2",
+        "name": "Autonomous Multi-Agent Orchestration & Planning Systems",
+        "classification": "Executive Function & Task Decomposition",
+        "institutes_and_entities": [
+          "LangChain / LangGraph",
+          "CrewAI",
+          "AutoGPT",
+          "Microsoft AutoGen",
+          "Cognition AI (Devin)",
+          "Adept",
+          "Agent Development Labs"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.3",
+        "name": "AI Silicon Acceleration & Extreme Lithography",
+        "classification": "Neuromorphic Substrate Fabrication",
+        "institutes_and_entities": [
+          "NVIDIA",
+          "TSMC",
+          "ASML",
+          "AMD",
+          "Intel",
+          "Broadcom Custom ASIC",
+          "Cerebras Systems"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.4",
+        "name": "Hyperscale AI Compute Clusters & Liquid Thermal Infrastructure",
+        "classification": "Somatic Compute Metacenters",
+        "institutes_and_entities": [
+          "Switch",
+          "Equinix",
+          "Vantage Data Centers",
+          "Vertiv",
+          "Schneider Electric",
+          "Digital Realty",
+          "Supermicro"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.5",
+        "name": "Open-Weight Model Commons & Federated Learning Hubs",
+        "classification": "Democratic Knowledge Commons",
+        "institutes_and_entities": [
+          "Hugging Face",
+          "Ollama",
+          "vLLM",
+          "RedPajama (Together AI)",
+          "EleutherAI",
+          "LAION",
+          "Open Source Initiative (OSI)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.6",
+        "name": "Algorithmic Ethics, Conscience Auditing & 7D Alignment",
+        "classification": "Moral Conscience & Alignment Governor",
+        "institutes_and_entities": [
+          "Center for Humane Technology",
+          "Partnership on AI",
+          "Alignment Research Center (ARC)",
+          "Future of Humanity Institute",
+          "NIST AI Safety Institute",
+          "Ada Lovelace Institute",
+          "7D Virtue Engine Consortium"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "2.7",
+        "name": "Physical AI, Embodied Robotics & Cyber-Physical Actuation",
+        "classification": "Somatic Motor Coordination",
+        "institutes_and_entities": [
+          "Boston Dynamics",
+          "Figure AI",
+          "Tesla Optimus",
+          "Sanctuary AI",
+          "Unitree Robotics",
+          "Agility Robotics",
+          "Open-X Embodiment Lab"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "code": "UEP",
+    "name": "Unified Enterprise Platform (Unified ERP)",
+    "functional_analogy": "Cellular Coordination, Resource Ledgers & Metabolic Accounting (Software Logic, NOT Logistics)",
+    "purpose_description": "Enterprise software governing business logic, human capital allocation, operational planning, ledger accounting, and compliance. Not the physical trucks or ships, but the digital brain that coordinates enterprise duty and eliminates operational chaos.",
+    "sectors": [
+      {
+        "id": "3.1",
+        "name": "Double-Entry General Ledgers & Real-Time Balance Sheets",
+        "classification": "Core Financial Truth & Metabolic Bookkeeping",
+        "institutes_and_entities": [
+          "SAP S/4HANA Finance",
+          "Oracle Fusion Cloud ERP",
+          "Workday Financials",
+          "Odoo Accounting",
+          "Intuit",
+          "Xero",
+          "IFRS Foundation"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.2",
+        "name": "Human Capital Management, Workplace Dignity & Payroll",
+        "classification": "Somatic Human Vitality Governance",
+        "institutes_and_entities": [
+          "Workday HCM",
+          "SAP SuccessFactors",
+          "ADP",
+          "Dayforce (Ceridian)",
+          "UKG (Ultimate Kronos Group)",
+          "BambooHR",
+          "International Labour Organization (ILO)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.3",
+        "name": "Enterprise Procurement Planning & Vendor Governance",
+        "classification": "Upstream Resource Ingestion Software",
+        "institutes_and_entities": [
+          "SAP Ariba",
+          "Coupa Software",
+          "Ivalua",
+          "Jaggaer",
+          "GEP SMART",
+          "Zycus",
+          "Fair Trade Certified"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.4",
+        "name": "Manufacturing Resource Planning (MRP II) & Work Orders",
+        "classification": "Production Software Blueprinting",
+        "institutes_and_entities": [
+          "SAP S/4HANA Manufacturing",
+          "Oracle NetSuite",
+          "Plex Systems (Rockwell)",
+          "Epicor",
+          "Infor CloudSuite",
+          "Odoo Manufacturing",
+          "Dassault DELMIA"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.5",
+        "name": "Regulatory Compliance, Tax Reporting & Cross-Border Audit",
+        "classification": "Institutional Integrity & Sovereign Harmony",
+        "institutes_and_entities": [
+          "Thomson Reuters ONESOURCE",
+          "Avalara",
+          "Vertex Inc",
+          "MetricStream",
+          "Diligent",
+          "KPMG Klarity",
+          "OECD Tax Framework"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.6",
+        "name": "Enterprise Asset Management & Equipment Lifecycle",
+        "classification": "Physical Tool Stewardship & Maintenance",
+        "institutes_and_entities": [
+          "IBM Maximo",
+          "SAP EAM",
+          "Hexagon EAM",
+          "IFS Ultimo",
+          "ServiceMax",
+          "UpKeep",
+          "ISO 55000 Asset Council"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "3.7",
+        "name": "Inter-Enterprise Clearing, Settlement & Circular Resource Balancing",
+        "classification": "Macro-Metabolic Resource Harmony",
+        "institutes_and_entities": [
+          "E2open",
+          "OpenText Business Network",
+          "SAP Business Network",
+          "Tradeshift",
+          "Bank for International Settlements (BIS)",
+          "SWIFT ISO 20022",
+          "Circle Economy Foundation"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "code": "ULP",
+    "name": "Unified Logistics Platform",
+    "functional_analogy": "Heart Pumping & Vascular Circulation (Physical Movement of Tangible Matter & Cargo)",
+    "purpose_description": "Physical circulation of matter across the planet. Container ships, trains, trucks, and fulfillment corridors moving raw materials, food, and manufactured components like erythrocytes carrying oxygen through bodily arteries. NEVER confuse this with enterprise software.",
+    "sectors": [
+      {
+        "id": "4.1",
+        "name": "Maritime Container Shipping & Deep-Water Seaport Hubs",
+        "classification": "Oceanic Arterial Flow",
+        "institutes_and_entities": [
+          "Maersk",
+          "MSC (Mediterranean Shipping Co)",
+          "CMA CGM",
+          "COSCO Shipping",
+          "Hapag-Lloyd",
+          "Port of Rotterdam",
+          "Port of Singapore (PSA)",
+          "Port of Shanghai"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.2",
+        "name": "Intercontinental Freight Rail & Intermodal Rail Yards",
+        "classification": "Continental Steel Arteries",
+        "institutes_and_entities": [
+          "BNSF Railway",
+          "Union Pacific",
+          "China Railway Express (Eurasian Landbridge)",
+          "DB Cargo",
+          "Canadian National (CN)",
+          "Wabtec",
+          "Alstom Transport"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.3",
+        "name": "Air Cargo Express Networks & Aviation Cargo Hubs",
+        "classification": "High-Velocity Aerial Circulation",
+        "institutes_and_entities": [
+          "FedEx Express",
+          "UPS Airlines",
+          "DHL Aviation",
+          "Cargolux",
+          "Atlas Air",
+          "Memphis World Hub (MEM)",
+          "Hong Kong International Cargo (HKG)",
+          "Louisville Worldport (SDF)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.4",
+        "name": "Long-Haul Commercial Trucking & Heavy Fleet Corridors",
+        "classification": "Continental Capillary Flow",
+        "institutes_and_entities": [
+          "J.B. Hunt",
+          "Knight-Swift",
+          "Schneider National",
+          "XPO Logistics",
+          "Volvo Trucks",
+          "Daimler Truck",
+          "Scania",
+          "PACCAR (Kenworth/Peterbilt)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.5",
+        "name": "Automated High-Density Warehousing & Fulfillment Centers",
+        "classification": "Regional Metabolic Organ Storage",
+        "institutes_and_entities": [
+          "Prologis",
+          "Amazon Fulfillment",
+          "Dematic",
+          "Daifuku",
+          "Swisslog",
+          "Vanderlande",
+          "Knapp AG"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.6",
+        "name": "Last-Mile Urban Delivery & Micro-Distribution Hubs",
+        "classification": "Micro-Vascular Capillary Delivery",
+        "institutes_and_entities": [
+          "DPDgroup",
+          "PostNL",
+          "Yamato Transport",
+          "DHL Express Local",
+          "Gophr",
+          "Delivery Hero",
+          "Urban Micro-Hubs"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "4.7",
+        "name": "Modular Container Pooling, Pallet Exchanges & Reverse Logistics",
+        "classification": "Vascular Recycling & Venous Return",
+        "institutes_and_entities": [
+          "CHEP (Brambles)",
+          "PECO Pallet",
+          "IFCO Systems",
+          "TricorBraun",
+          "TerraCycle",
+          "Reverse Logistics Association",
+          "Circular Shipping Alliances"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "code": "UEnP",
+    "name": "Unified Energy Platform",
+    "functional_analogy": "Lungs / Civilization's Breath (Without energy/power/fuel for 72 hours civilization suffocates)",
+    "purpose_description": "The vital intake that keeps the entire global apparatus breathing. Just as lungs intake oxygen to ignite cellular respiration, civilization inhales energy (historical petroleum/gas/coal scaffold transitioning into solar, wind, battery, and clean fusion). Cut off energy for 3 days, and civilization literally suffocates.",
+    "sectors": [
+      {
+        "id": "5.1",
+        "name": "Historical Energy Scaffold (Petroleum, Natural Gas & Coal Transition)",
+        "classification": "Legacy Bronchial Scaffold & Transitional Substrate",
+        "institutes_and_entities": [
+          "Saudi Aramco",
+          "ExxonMobil",
+          "Shell",
+          "TotalEnergies",
+          "BP",
+          "Chevron",
+          "Petrobras",
+          "International Energy Agency (IEA)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.2",
+        "name": "Utility-Scale Solar Photovoltaic & Concentrated Solar Power",
+        "classification": "Photonic Alveolar Photosynthesis",
+        "institutes_and_entities": [
+          "First Solar",
+          "Longi Green Energy",
+          "JinkoSolar",
+          "Enphase Energy",
+          "NextEra Energy",
+          "Adani Green Energy",
+          "International Solar Alliance (ISA)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.3",
+        "name": "Offshore & Terrestrial Wind Turbine Generation",
+        "classification": "Atmospheric Kinetic Respiration",
+        "institutes_and_entities": [
+          "Vestas",
+          "Siemens Gamesa (Siemens Energy)",
+          "GE Vernova",
+          "Goldwind",
+          "Envision Energy",
+          "\u00d8rsted",
+          "Global Wind Energy Council (GWEC)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.4",
+        "name": "High-Voltage Transmission Grids (HVDC/HVAC) & Smart Substations",
+        "classification": "Civilization's Thoracic Aorta & Power Arteries",
+        "institutes_and_entities": [
+          "Hitachi Energy",
+          "Siemens Energy",
+          "GE Vernova Grid",
+          "State Grid Corporation of China (SGCC)",
+          "National Grid UK",
+          "RTE France",
+          "CIGRE"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.5",
+        "name": "Grid-Scale Energy Storage (BESS, Pumped Hydro & Flow Batteries)",
+        "classification": "Energy Alveolar Reserve",
+        "institutes_and_entities": [
+          "Tesla Energy (Megapack)",
+          "Fluence Energy",
+          "CATL",
+          "BYD Energy Storage",
+          "Form Energy",
+          "Eos Energy Enterprises",
+          "Voith Hydro"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.6",
+        "name": "Clean Nuclear Fission Baseload & Magnetic Confinement Fusion",
+        "classification": "Planetary Stellar Core Combustion",
+        "institutes_and_entities": [
+          "Westinghouse Electric",
+          "Framatome",
+          "NuScale Power",
+          "TerraPower",
+          "Commonwealth Fusion Systems",
+          "ITER Organization",
+          "International Atomic Energy Agency (IAEA)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "5.7",
+        "name": "Green Hydrogen, Synthetic Fuels & Industrial Thermal Heat",
+        "classification": "Universal Chemical Energy Carrier",
+        "institutes_and_entities": [
+          "ITM Power",
+          "Nel Hydrogen",
+          "Thyssenkrupp Nucera",
+          "Plug Power",
+          "Air Liquide",
+          "Linde",
+          "Hydrogen Council"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "code": "UMP",
+    "name": "Unified Manufacturing Platform",
+    "functional_analogy": "Skeletal Bones, Articular Joints & Muscular Force (Structural Steel, Machinery & Heavy Civil Works)",
+    "purpose_description": "Heavy machinery, civil structural engineering, structural steel, concrete, and physical fabrication that holds civilization upright against gravity, weathering, and entropy. Like biological skeleton and muscle.",
+    "sectors": [
+      {
+        "id": "6.1",
+        "name": "Primary Metallurgy, Green Steel & Non-Ferrous Alloys",
+        "classification": "Planetary Mineral Bone Calcification",
+        "institutes_and_entities": [
+          "ArcelorMittal",
+          "SSAB (HYBRIT)",
+          "Nippon Steel",
+          "POSCO",
+          "Alcoa",
+          "Rio Tinto",
+          "World Steel Association"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.2",
+        "name": "Heavy Mining Equipment, Earthmoving Machinery & Tunnel Boring",
+        "classification": "Tectonic Skeletal Excavation & Muscle Force",
+        "institutes_and_entities": [
+          "Caterpillar",
+          "Komatsu",
+          "Herrenknecht AG",
+          "Sandvik",
+          "Epiroc",
+          "Hitachi Construction Machinery",
+          "Liebherr Mining"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.3",
+        "name": "Civil Infrastructure Engineering (Roads, Bridges, Tunnels & Concrete)",
+        "classification": "Skeletal Bedrock & Articular Civil Joints",
+        "institutes_and_entities": [
+          "Vinci",
+          "Bouygues",
+          "Hochtief (ACS)",
+          "Strabag",
+          "Holcim",
+          "Heidelberg Materials",
+          "American Society of Civil Engineers (ASCE)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.4",
+        "name": "Automated Machine Tooling, CNC Machining & Industrial Robotics",
+        "classification": "Precision Muscular Motor Kinematics",
+        "institutes_and_entities": [
+          "Fanuc",
+          "ABB Robotics",
+          "KUKA",
+          "Yaskawa Electric",
+          "DMG Mori",
+          "Mazak",
+          "Trumpf Laser"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.5",
+        "name": "Transportation Fleet Manufacturing (Commercial Ships, Trains & Aircraft)",
+        "classification": "Planetary Locomotion Organ Synthesis",
+        "institutes_and_entities": [
+          "Hyundai Heavy Industries (HD KSOE)",
+          "Daewoo (Hanwha Ocean)",
+          "CRRC",
+          "Alstom",
+          "Siemens Mobility",
+          "Boeing",
+          "Airbus"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.6",
+        "name": "Advanced Composite Materials, Industrial Polymers & Glass",
+        "classification": "Somatic Connective Fascia & Membrane Substrate",
+        "institutes_and_entities": [
+          "Toray Industries",
+          "Hexcel",
+          "BASF",
+          "Covestro",
+          "Corning Inc",
+          "Saint-Gobain",
+          "Asahi Glass (AGC)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "6.7",
+        "name": "Industrial Scrap Recycling, Electric Smelting & Circular Remanufacturing",
+        "classification": "Skeletal Bone Remodeling & Osteoclastic Renewal",
+        "institutes_and_entities": [
+          "Sims Limited",
+          "Schnitzer Steel (Radius Recycling)",
+          "Commercial Metals Company (CMC)",
+          "Aurubis",
+          "Umicore",
+          "Cat Reman (Caterpillar)",
+          "Bureau of International Recycling (BIR)"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "USHP",
+    "name": "Unified Sustenance & Healthcare Platform",
+    "functional_analogy": "Gut Digestion, Skin Shield, Immune Antibodies & Renal Water Cleansing (Biological Foundation of Life)",
+    "purpose_description": "The biological survival foundation of Earth: clean water purification, living soil agriculture, medicines, disease control, and atmospheric sensing that shields and nurtures life like human gut, skin, immune, and renal systems.",
+    "sectors": [
+      {
+        "id": "7.1",
+        "name": "Living Soil Agroecology, Regenerative Farming & Heirloom Seeds",
+        "classification": "Planetary Gut Microbiome & Soil Humus",
+        "institutes_and_entities": [
+          "Navdanya (Vandana Shiva)",
+          "Rodale Institute",
+          "Svalbard Global Seed Vault",
+          "CGIAR Consortium",
+          "IFOAM Organics",
+          "Slow Food International",
+          "Ecovida"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.2",
+        "name": "Bulk Staple Crop Harvesting, Grain Silos & Food Cold Storage",
+        "classification": "Planetary Digestive Storage & Food Security",
+        "institutes_and_entities": [
+          "Archer Daniels Midland (ADM)",
+          "Bunge",
+          "Cargill",
+          "Louis Dreyfus Company (LDC)",
+          "AGCO (Fendt/GSI)",
+          "B\u00fchler Group",
+          "World Food Programme (WFP)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.3",
+        "name": "Municipal Potable Water Treatment, Desalination & Aquifer Protection",
+        "classification": "Renal Water Purification & Glomerular Filtration",
+        "institutes_and_entities": [
+          "Veolia Water",
+          "Suez",
+          "Xylem",
+          "Kurita Water",
+          "Saline Water Conversion Corp (SWCC)",
+          "Ecolab",
+          "International Water Association (IWA)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.4",
+        "name": "Essential Therapeutics, Antimicrobial Medicines & Universal Vaccines",
+        "classification": "Humoral Immune Antibodies & Cellular Regeneration",
+        "institutes_and_entities": [
+          "Serum Institute of India",
+          "Gavi (The Vaccine Alliance)",
+          "Cipla",
+          "Novartis",
+          "Pfizer",
+          "Moderna",
+          "World Health Organization (WHO)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.5",
+        "name": "Diagnostic Imaging, Laboratory Automation & Hospital Care Networks",
+        "classification": "Cellular Sensory Inspection & Clinical Healing",
+        "institutes_and_entities": [
+          "Siemens Healthineers",
+          "GE HealthCare",
+          "Philips Healthcare",
+          "Roche Diagnostics",
+          "Abbott Laboratories",
+          "Mayo Clinic",
+          "M\u00e9decins Sans Fronti\u00e8res (MSF)"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.6",
+        "name": "Sanitation, Wastewater Bioremediation & Pathogen Neutralization",
+        "classification": "Renal Tubule Waste Neutralization & Lymphatic Drainage",
+        "institutes_and_entities": [
+          "Veolia",
+          "Suez Water Technologies",
+          "Evoqua (Xylem)",
+          "Huber SE",
+          "Bill & Melinda Gates Foundation (Reinvent the Toilet)",
+          "Water Environment Federation (WEF)",
+          "EAWAG"
+        ],
+        "submodules_count": 7
+      },
+      {
+        "id": "7.7",
+        "name": "Nutritional Distribution, Community Food Security & Sovereign Nourishment",
+        "classification": "Somatic Cellular Nourishment & Metabolic Equity",
+        "institutes_and_entities": [
+          "Feeding America",
+          "Global FoodBanking Network (GFN)",
+          "Akshaya Patra Foundation",
+          "City Harvest",
+          "World Central Kitchen (Jos\u00e9 Andr\u00e9s)",
+          "Food and Agriculture Organization (FAO)",
+          "AmpleHarvest.org"
+        ],
+        "submodules_count": 7
+      }
+    ]
+  }
+]
