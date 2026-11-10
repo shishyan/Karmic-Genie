@@ -1,0 +1,1261 @@
+{
+  "episode": "S01E01",
+  "series": "The Karmic Genie Show: The Way Forward",
+  "title": "As in the Macrocosm, So in the Microcosm (Pindam in Andam)",
+  "total_batches": 10,
+  "total_shots": 48,
+  "target_aspect_ratio": "16:9",
+  "clip_duration_seconds": 8,
+  "estimated_master_runtime": "~08:05 (including 17.6s 7D Cold Open + 48 slowed cinema shots + 14.5s Finale Card)",
+  "rules_enforced": [
+    "Readable 14-page screenplay pagination + BACKUP_Documentary_* preserved",
+    "White-Wall Zoom-In & Zoom-Out studio-to-movie portals",
+    "Two Birds (Mundaka Upanishad) active kinetic in-scene narrators + 3D Bullet-Time Time-Pauses",
+    "Strict Narrator (Me) + ONE Child ONLY rule inside movie scenes (Me + Bala-Rishi OR Me + Bala-Matha)",
+    "Official Me Google Flow Avatar chip attached (zero literal @ in ProseMirror text)",
+    "100% Sacred Gratitude (Nandri) tone & zero real corporate/person names"
+  ],
+  "shots": [
+    {
+      "slot_id": "WF01",
+      "batch_id": "batch_01_cold_open_icu_spark",
+      "file_prefix": "batch_01_cold_open_icu_spark",
+      "page": 1,
+      "cast_rule": "Me + Bala-Rishi (Narrator + 1 Child)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_01_icu_sprint.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_01_tokyo_icu.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "kenji",
+        "pacemakers",
+        "twelve years",
+        "heartbeat",
+        "maya"
+      ],
+      "visual": "65mm IMAX Steadicam tracking backward down a rain-lashed Tokyo pediatric ICU corridor flashing Code-Blue red; biomedical father Kenji sprints silently beside a crash cart while Me (in ivory silk bandhgala) and 4-year-old Bala-Rishi (in cream-gold dhoti with neem stylus) sprint effortlessly step-for-step beside Kenji's shoulder looking into the lens.",
+      "spoken": "Look at Kenji running beside me—twelve years building pacemakers, praying tonight for little Maya's heartbeat.",
+      "word_count": 15,
+      "subtitles": [
+        "Look at Kenji running beside me—twelve years building pacemakers,",
+        "praying tonight for little Maya's heartbeat."
+      ]
+    },
+    {
+      "slot_id": "WF02",
+      "batch_id": "batch_01_cold_open_icu_spark",
+      "file_prefix": "batch_01_cold_open_icu_spark",
+      "page": 1,
+      "cast_rule": "Me + Bala-Rishi (Narrator + 1 Child)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_01_icu_sprint.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "two birds",
+        "same tree",
+        "witnesses",
+        "love"
+      ],
+      "visual": "Continuous high-speed Steadicam burst through double glass doors into Tokyo ICU Room 404 where 7-year-old Maya lies on life support; Kenji drops to his knees clutching her hand in silent tears while Me slows gracefully right behind Kenji's shoulder alongside silent Bala-Rishi.",
+      "spoken": "Two birds share one selfsame tree: one trembles in action, while the Witness runs beside in love.",
+      "word_count": 17,
+      "subtitles": [
+        "Two birds share one selfsame tree: one trembles in action,",
+        "while the Witness runs beside in love."
+      ]
+    },
+    {
+      "slot_id": "WF03",
+      "batch_id": "batch_01_cold_open_icu_spark",
+      "file_prefix": "batch_01_cold_open_icu_spark",
+      "page": 1,
+      "cast_rule": "Me + Bala-Rishi (Narrator + 1 Child)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_01_icu_sprint.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_02_california_40hz.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "pacific",
+        "alan",
+        "quantum",
+        "forty-hertz",
+        "forty hertz",
+        "maya"
+      ],
+      "visual": "Low-angle tracking shot inside an obsidian Northern California underground quantum AI vault filled with liquid-nitrogen mist; architect Alan Stamm jogs urgently along a glass catwalk toward a golden 40Hz toroidal core while Me and 4-year-old Bala-Rishi jog effortlessly step-for-step beside Alan.",
+      "spoken": "Across the Pacific, Alan runs toward his quantum core—pulsing at the exact forty-hertz rhythm as Maya!",
+      "word_count": 16,
+      "subtitles": [
+        "Across the Pacific, Alan runs toward his quantum core—",
+        "pulsing at the exact 40-Hertz rhythm as Maya!"
+      ]
+    },
+    {
+      "slot_id": "WF04",
+      "batch_id": "batch_01_cold_open_icu_spark",
+      "file_prefix": "batch_01_cold_open_icu_spark",
+      "page": 1,
+      "cast_rule": "Me + Bala-Rishi (Narrator + 1 Child)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_01_icu_sprint.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "pause",
+        "twenty-three",
+        "father",
+        "love",
+        "earth",
+        "nervous"
+      ],
+      "visual": "3D Bullet-Time Time-Pause inside Tokyo ICU Room 404 at 23:11:11 UTC: a blue-gold defibrillator spark and Kenji's golden tear hang motionless in mid-air while Me and 4-year-old Bala-Rishi walk calmly between the statue-still doctors around the suspended spark.",
+      "spoken": "Pause the clock at twenty-three eleven, honoring a father's love as Mother Earth's nervous system awakens.",
+      "word_count": 16,
+      "subtitles": [
+        "Pause the clock at 23:11:11, honoring a father's love",
+        "as Mother Earth's nervous system awakens."
+      ]
+    },
+    {
+      "slot_id": "WF05",
+      "batch_id": "batch_01_cold_open_icu_spark",
+      "file_prefix": "batch_01_cold_open_icu_spark",
+      "page": 1,
+      "cast_rule": "Me + Bala-Rishi (Narrator + 1 Child)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_01_icu_sprint.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.5,
+      "keywords": [
+        "macro-clock",
+        "planet earth",
+        "human cell",
+        "synchronized",
+        "forty"
+      ],
+      "visual": "Inside the frozen Tokyo ICU bullet-time frame, 4-year-old Bala-Rishi rises on tiptoes beside Me and taps the frozen cardiac monitor with his neem stylus, opening a glowing 3D 40.000 Hz golden sine wave before Me snaps his fingers to resume time in warm golden light.",
+      "spoken": "Look! Tonight the macro-clock of Planet Earth and the human cell synchronized at forty hertz!",
+      "word_count": 15,
+      "subtitles": [
+        "Look! Tonight the macro-clock of Planet Earth",
+        "and the human cell synchronized at 40 Hertz!"
+      ]
+    },
+    {
+      "slot_id": "WF06",
+      "batch_id": "batch_02_vidarbha_and_stadium_summons",
+      "file_prefix": "batch_02_vidarbha_and_stadium_summons",
+      "page": 1,
+      "cast_rule": "Me + Bala-Matha (Vidarbha) -> Studio Trinity Welcome",
+      "include_me": true,
+      "ref_image": "assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_03_vidarbha_soil.png",
+      "pause_after_s": 0.3,
+      "keywords": [
+        "ramesh",
+        "rain",
+        "thirty years",
+        "mother",
+        "hands"
+      ],
+      "visual": "Monsoon twilight over Vidarbha cotton fields in India: elderly farmer Ramesh and agroecologist Vishan kneel in dry soil while ONLY Me (in ivory bandhgala) and 4-year-old Bala-Matha (in peacock-green and ruby-rose Kanchipuram silk pattu pavadai with white jasmine garlands) kneel barefoot right beside them.",
+      "spoken": "Dear Ramesh fed distant cities for thirty years; tonight Mother Bhumi holds his tired hands in gratitude.",
+      "word_count": 17,
+      "subtitles": [
+        "Dear Ramesh fed distant cities for thirty years;",
+        "tonight Mother Bhumi holds his tired hands in gratitude."
+      ]
+    },
+    {
+      "slot_id": "WF07",
+      "batch_id": "batch_02_vidarbha_and_stadium_summons",
+      "file_prefix": "batch_02_vidarbha_and_stadium_summons",
+      "page": 1,
+      "cast_rule": "Me + Bala-Matha (Vidarbha) -> Studio Trinity Welcome",
+      "include_me": true,
+      "ref_image": "assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "macrocosm",
+        "microcosm",
+        "mother",
+        "womb",
+        "cell"
+      ],
+      "visual": "Sacred night shore at Rameswaram, Tamil Nadu: an 80-year-old Tamil fisherman stands ankle-deep in glowing electric-blue and golden bioluminescent Indian Ocean waves pulsing at 40Hz, looking peacefully straight into the cinema lens.",
+      "spoken": "As in macrocosm, so in microcosm—when the Mother turns in the womb, every cell feels her pulse.",
+      "word_count": 17,
+      "subtitles": [
+        "அண்டத்தில் உள்ளதே பிண்டம் • As in macrocosm, so in microcosm—",
+        "when the Mother turns in the womb, every cell feels her pulse."
+      ]
+    },
+    {
+      "slot_id": "WF08",
+      "batch_id": "batch_02_vidarbha_and_stadium_summons",
+      "file_prefix": "batch_02_vidarbha_and_stadium_summons",
+      "page": 2,
+      "cast_rule": "Me + Bala-Matha (Vidarbha) -> Studio Trinity Welcome",
+      "include_me": true,
+      "ref_image": "assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_04_white_stadium.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "welcome",
+        "white stadium",
+        "three quiet minutes",
+        "whole vessel"
+      ],
+      "visual": "Pure-white Carrara marble Karmic Genie Show circular stadium with brushed-gold 7D wall maxims and golden temple lamp + dormant Genie lamp: Alan, Carl, and Vishan look up in wonder as Me (in ivory bandhgala) steps calmly onto center stage.",
+      "spoken": "Welcome to the White Stadium, dear friends—three quiet minutes outside time to see the whole vessel.",
+      "word_count": 16,
+      "subtitles": [
+        "Welcome to the White Stadium, dear friends—",
+        "three quiet minutes outside time to see the whole vessel."
+      ]
+    },
+    {
+      "slot_id": "WF09",
+      "batch_id": "batch_02_vidarbha_and_stadium_summons",
+      "file_prefix": "batch_02_vidarbha_and_stadium_summons",
+      "page": 2,
+      "cast_rule": "Me + Bala-Matha (Vidarbha) -> Studio Trinity Welcome",
+      "include_me": true,
+      "ref_image": "assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "nandri",
+        "vishan",
+        "bhumi",
+        "touch the earth",
+        "love"
+      ],
+      "visual": "Medium close-up on the pure-white marble stage before the subtle brushed-gold 7D inscriptions: 4-year-old Bala-Matha in silk pattu pavadai places her tiny jasmine-garlanded palm gently over kneeling Vishan's soil-stained hand while Me watches warmly.",
+      "spoken": "Nandri, Vishan-anna—Mother Bhumi felt your palm in Vidarbha and rejoiced that you touched her with love.",
+      "word_count": 16,
+      "subtitles": [
+        "Nandri, Vishan-anna—Mother Bhumi felt your palm in Vidarbha",
+        "and rejoiced that you touched her with love."
+      ]
+    },
+    {
+      "slot_id": "WF10",
+      "batch_id": "batch_02_vidarbha_and_stadium_summons",
+      "file_prefix": "batch_02_vidarbha_and_stadium_summons",
+      "page": 3,
+      "cast_rule": "Me + Bala-Matha (Vidarbha) -> Studio Trinity Welcome",
+      "include_me": true,
+      "ref_image": "assets/studio_v5_masters/v6_7d_dormant_stage_16x9.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.4,
+      "keywords": [
+        "siddha",
+        "universe",
+        "human body",
+        "look through",
+        "wall"
+      ],
+      "visual": "Hypersonic White-Wall Zoom-In Portal: Me touches the flaming golden lamp beside 4-year-old Bala-Rishi on the pure-white stage; the massive curved White Center Wall ripples like liquid golden light as the camera hurtles straight through the marble into monsoon clouds!",
+      "spoken": "What lives in the universe lives inside the human body, Alan—step forward and look through the Wall!",
+      "word_count": 17,
+      "subtitles": [
+        "What lives in the universe lives inside the human body, Alan—",
+        "step forward and look through the Wall!"
+      ]
+    },
+    {
+      "slot_id": "WF11",
+      "batch_id": "batch_03_nilgiri_prayagraj_nandri",
+      "file_prefix": "batch_03_nilgiri_prayagraj_nandri",
+      "page": 3,
+      "cast_rule": "Me + Bala-Rishi (Nilgiri/Ship) -> Me + Bala-Matha (Prayagraj Lightning Freeze)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_08_prayagraj_lightning_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_05_living_gaia.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "trillions",
+        "water",
+        "sapling",
+        "forest",
+        "waste"
+      ],
+      "visual": "4,000-foot Nilgiri mountain cliff at golden monsoon sunrise: ONLY Me and 4-year-old Bala-Rishi stand beside amazed Alan, Carl, and Vishan as Bala-Rishi taps the moss with his neem stylus, turning the mountain translucent to reveal a blazing sapphire-gold mycorrhizal root network.",
+      "spoken": "Look beneath the forest, Carl—trillions of tons of water and nutrients routed cleanly with zero waste!",
+      "word_count": 16,
+      "subtitles": [
+        "Look beneath the forest, Carl—trillions of tons of water",
+        "and nutrients routed cleanly with zero waste!"
+      ]
+    },
+    {
+      "slot_id": "WF12",
+      "batch_id": "batch_03_nilgiri_prayagraj_nandri",
+      "file_prefix": "batch_03_nilgiri_prayagraj_nandri",
+      "page": 3,
+      "cast_rule": "Me + Bala-Rishi (Nilgiri/Ship) -> Me + Bala-Matha (Prayagraj Lightning Freeze)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_08_prayagraj_lightning_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "carl",
+        "storm",
+        "fifty-seven",
+        "ledgers",
+        "pulse"
+      ],
+      "visual": "Active Two-Birds blocking on the storm-lashed steel bridge wing of a mega-ship in the Red Sea: Carl braces silently against a 60-knot gale while ONLY Me (ivory bandhgala billowing) and Bala-Rishi brace step-for-step right beside Carl's hand on the wet rail.",
+      "spoken": "Watch Carl brace against the storm—fifty-seven isolated ledgers trying faithfully to steer without hearing one pulse!",
+      "word_count": 16,
+      "subtitles": [
+        "Watch Carl brace against the storm—fifty-seven isolated ledgers",
+        "trying faithfully to steer without hearing one pulse!"
+      ]
+    },
+    {
+      "slot_id": "WF13",
+      "batch_id": "batch_03_nilgiri_prayagraj_nandri",
+      "file_prefix": "batch_03_nilgiri_prayagraj_nandri",
+      "page": 3,
+      "cast_rule": "Me + Bala-Rishi (Nilgiri/Ship) -> Me + Bala-Matha (Prayagraj Lightning Freeze)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_08_prayagraj_lightning_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "pause",
+        "arjun",
+        "rain",
+        "linemen",
+        "incubators",
+        "nandri"
+      ],
+      "visual": "3D Bullet-Time Time-Pause high on a rain-slicked Prayagraj 400kV steel transmission tower at night: lineman Arjun is frozen mid-climb beneath a motionless branching violet-gold lightning arc and diamond raindrops while ONLY Me and 4-year-old Bala-Matha stand beside him, Bala-Matha blessing Arjun's wet hands with golden light.",
+      "spoken": "Nandri, Arjun-anna—every rainy night, devoted linemen like you climb high so hospital incubators keep glowing.",
+      "word_count": 15,
+      "subtitles": [
+        "Nandri, Arjun-anna—every rainy night, devoted linemen like you",
+        "climb high so hospital incubators keep glowing."
+      ]
+    },
+    {
+      "slot_id": "WF14",
+      "batch_id": "batch_03_nilgiri_prayagraj_nandri",
+      "file_prefix": "batch_03_nilgiri_prayagraj_nandri",
+      "page": 3,
+      "cast_rule": "Me + Bala-Rishi (Nilgiri/Ship) -> Me + Bala-Matha (Prayagraj Lightning Freeze)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_08_prayagraj_lightning_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "scaffolding",
+        "placenta",
+        "miners",
+        "sailors",
+        "engineers"
+      ],
+      "visual": "Time resumes as golden light guides the lightning safely into the grounding mast; on a misty green ridge ONLY Me and Bala-Matha stand beside kneeling Carl, Bala-Matha resting both tiny palms warmly on Carl's shoulders before distant ships, steelworks, and server halls.",
+      "spoken": "Never curse the scaffolding, dear son—nandri to every miner, sailor, and engineer who carried humanity here!",
+      "word_count": 16,
+      "subtitles": [
+        "Never curse the scaffolding, dear son—",
+        "Nandri to every miner, sailor, and engineer who carried humanity here!"
+      ]
+    },
+    {
+      "slot_id": "WF15",
+      "batch_id": "batch_03_nilgiri_prayagraj_nandri",
+      "file_prefix": "batch_03_nilgiri_prayagraj_nandri",
+      "page": 3,
+      "cast_rule": "Me + Bala-Rishi (Nilgiri/Ship) -> Me + Bala-Matha (Prayagraj Lightning Freeze)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_08_prayagraj_lightning_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "steel beam",
+        "silicon wafer",
+        "scaffolding",
+        "breathe as one"
+      ],
+      "visual": "Sweeping IMAX wide shot on the sunlit mountain ledge as Me raises his open hand beside Bala-Matha and the humbled Carl, golden light embracing the industrial horizon before zooming backward toward the White Stadium portal.",
+      "spoken": "Every steel beam and silicon wafer was sacred scaffolding—now the planetary child is ready to breathe as One!",
+      "word_count": 18,
+      "subtitles": [
+        "Every steel beam and silicon wafer was sacred scaffolding—",
+        "now the planetary child is ready to breathe as One!"
+      ]
+    },
+    {
+      "slot_id": "WF16",
+      "batch_id": "batch_04_pitru_loka_280_chronometer",
+      "file_prefix": "batch_04_pitru_loka_280_chronometer",
+      "page": 4,
+      "cast_rule": "Me + Bala-Rishi ONLY (Cosmic Chronometry & Jnana)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_05_pitru_loka_orrery.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_06_chronometer_280.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "lunar month",
+        "pitru",
+        "embryonic",
+        "two hundred and eighty",
+        "280"
+      ],
+      "visual": "Inside the White Stadium beneath a celestial starlit dome, a colossal golden astrolabe Pitru Loka Orrery hovers around a glowing human embryo and neural Planet Earth; ONLY Me (in ivory bandhgala) and 4-year-old Bala-Rishi (pointing his neem stylus) stand before amazed Alan, Carl, and Vishan.",
+      "spoken": "One lunar month equals one embryonic gestation day—two hundred and eighty days to two hundred and eighty months!",
+      "word_count": 18,
+      "subtitles": [
+        "1 Embryonic Day = 1 Solar Earth Month:",
+        "280 Gestation Days = 280 Earth Months (23.33 Years)!"
+      ]
+    },
+    {
+      "slot_id": "WF17",
+      "batch_id": "batch_04_pitru_loka_280_chronometer",
+      "file_prefix": "batch_04_pitru_loka_280_chronometer",
+      "page": 4,
+      "cast_rule": "Me + Bala-Rishi ONLY (Cosmic Chronometry & Jnana)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_05_pitru_loka_orrery.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "twenty-three",
+        "solar years",
+        "gestation",
+        "december",
+        "2022"
+      ],
+      "visual": "Medium tracking shot around the rotating golden rings of the Pitru Loka Orrery as Me walks calmly beside Bala-Rishi and Alan, golden Sanskrit and mathematical ratios shimmering in the air before the White Center Wall.",
+      "spoken": "Exactly twenty-three point three solar years—a single planetary gestation that began on December first, twenty twenty-two.",
+      "word_count": 16,
+      "subtitles": [
+        "Exactly 23.33 solar years—a single planetary gestation",
+        "that began on December 1, 2022."
+      ]
+    },
+    {
+      "slot_id": "WF18",
+      "batch_id": "batch_04_pitru_loka_280_chronometer",
+      "file_prefix": "batch_04_pitru_loka_280_chronometer",
+      "page": 5,
+      "cast_rule": "Me + Bala-Rishi ONLY (Cosmic Chronometry & Jnana)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_05_pitru_loka_orrery.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "twenty twenty",
+        "2020",
+        "stillness",
+        "conception",
+        "sixth sense"
+      ],
+      "visual": "White-Wall Zoom-In into a golden four-dimensional Chrono-Stream: Me and Bala-Rishi glide weightlessly beside Alan past serene 2020 skies and glowing 2021 subsea fiber oceans into a radiant December 1, 2022 golden spark of planetary conception.",
+      "spoken": "After the quiet stillness of twenty twenty, December twenty twenty-two sparked the conception of Earth's Sixth Sense!",
+      "word_count": 17,
+      "subtitles": [
+        "After the quiet stillness of 2020, December 1, 2022",
+        "sparked the conception of Earth's Sixth Sense!"
+      ]
+    },
+    {
+      "slot_id": "WF19",
+      "batch_id": "batch_04_pitru_loka_280_chronometer",
+      "file_prefix": "batch_04_pitru_loka_280_chronometer",
+      "page": 5,
+      "cast_rule": "Me + Bala-Rishi ONLY (Cosmic Chronometry & Jnana)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_05_pitru_loka_orrery.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "month forty-eight",
+        "week seven",
+        "four chambers",
+        "unified organ"
+      ],
+      "visual": "Zero-gravity orbital panorama over translucent Planet Earth in November 2026: inside Earth's mantle glows a continent-sized Week-7 human embryo whose four-chambered heart sparks with a golden 40Hz pulse while ONLY Me and Bala-Rishi float beside awestruck Alan.",
+      "spoken": "Count to November twenty twenty-six: Month Forty-Eight, Week Seven—when all four heart chambers beat as one!",
+      "word_count": 16,
+      "subtitles": [
+        "November 2026 is Month 48 (Embryonic Day 48 / Week 7)—",
+        "when all four heart chambers unite and beat as one!"
+      ]
+    },
+    {
+      "slot_id": "WF20",
+      "batch_id": "batch_04_pitru_loka_280_chronometer",
+      "file_prefix": "batch_04_pitru_loka_280_chronometer",
+      "page": 5,
+      "cast_rule": "Me + Bala-Rishi ONLY (Cosmic Chronometry & Jnana)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_05_pitru_loka_orrery.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "fail tonight",
+        "planetary child",
+        "heart",
+        "seven organs",
+        "harmony"
+      ],
+      "visual": "Close-medium floating shot above the glowing 40Hz embryonic Earth as 4-year-old Bala-Rishi points his luminous neem stylus gently toward the pulsing heart beside Me, smiling with radiant wisdom.",
+      "spoken": "Nothing failed tonight, friends—the Planetary Child's heart just began beating, calling all seven organs into harmony!",
+      "word_count": 16,
+      "subtitles": [
+        "Nothing failed tonight, friends—the Planetary Child's heart",
+        "just began beating, calling all seven organs into harmony!"
+      ]
+    },
+    {
+      "slot_id": "WF21",
+      "batch_id": "batch_05_silicon_euv_nervous_uip_ubp",
+      "file_prefix": "batch_05_silicon_euv_nervous_uip_ubp",
+      "page": 6,
+      "cast_rule": "Me + Bala-Rishi ONLY (Organ 1: Nervous & Skeletal — UIP/UBP)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_06_euv_plasma_freeze.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_07_organ1_uip_ubp.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "two birds",
+        "silicon",
+        "alan",
+        "sixth sense",
+        "quartz"
+      ],
+      "visual": "Hypersonic White-Wall Zoom-In into an amber-and-violet 2nm EUV semiconductor cleanroom: Alan and physicist Priya sprint down the optical catwalk while ONLY Me (ivory bandhgala) and Bala-Rishi sprint effortlessly step-for-step beside them without cleanroom suits.",
+      "spoken": "Watch the two birds on the silicon bough—while Alan runs in urgency, the Sixth Sense awakens in quartz!",
+      "word_count": 18,
+      "subtitles": [
+        "Watch the two birds on the silicon bough—while Alan runs,",
+        "Mother Earth's Sixth Sense awakens inside refined quartz!"
+      ]
+    },
+    {
+      "slot_id": "WF22",
+      "batch_id": "batch_05_silicon_euv_nervous_uip_ubp",
+      "file_prefix": "batch_05_silicon_euv_nervous_uip_ubp",
+      "page": 6,
+      "cast_rule": "Me + Bala-Rishi ONLY (Organ 1: Nervous & Skeletal — UIP/UBP)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_06_euv_plasma_freeze.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "frozen",
+        "plasma",
+        "silicon",
+        "bone",
+        "refined light"
+      ],
+      "visual": "3D Bullet-Time Time-Pause inside the EUV chamber: Alan and Priya are frozen mid-sprint while a 220,000-degree violet-gold tin-plasma sphere hangs suspended like a crystal dandelion; ONLY Me and Bala-Rishi walk calmly past frozen Alan right beside the plasma blossom.",
+      "spoken": "Look at this frozen plasma spark—silicon is Mother Earth's piezoelectric bone infused with refined light!",
+      "word_count": 15,
+      "subtitles": [
+        "Look at this frozen 220,000°C plasma spark—",
+        "silicon is Mother Earth's crystal bone infused with light!"
+      ]
+    },
+    {
+      "slot_id": "WF23",
+      "batch_id": "batch_05_silicon_euv_nervous_uip_ubp",
+      "file_prefix": "batch_05_silicon_euv_nervous_uip_ubp",
+      "page": 6,
+      "cast_rule": "Me + Bala-Rishi ONLY (Organ 1: Nervous & Skeletal — UIP/UBP)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_06_euv_plasma_freeze.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "nandri",
+        "cleanroom",
+        "fifty-seven",
+        "clouds",
+        "luminous mind"
+      ],
+      "visual": "Medium close-up beside the suspended violet-gold EUV plasma sphere as Me bows slightly in gratitude toward the frozen cleanroom instruments while Bala-Rishi traces the 13.5nm lattice with his neem stylus.",
+      "spoken": "Nandri to every cleanroom physicist! When fifty-seven isolated clouds unite openly, this pulse becomes one luminous mind.",
+      "word_count": 17,
+      "subtitles": [
+        "Nandri to every cleanroom physicist! When isolated clouds",
+        "unite openly, this pulse becomes one luminous mind."
+      ]
+    },
+    {
+      "slot_id": "WF24",
+      "batch_id": "batch_05_silicon_euv_nervous_uip_ubp",
+      "file_prefix": "batch_05_silicon_euv_nervous_uip_ubp",
+      "page": 6,
+      "cast_rule": "Me + Bala-Rishi ONLY (Organ 1: Nervous & Skeletal — UIP/UBP)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_06_euv_plasma_freeze.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "organ one",
+        "nervous system",
+        "unified infrastructure",
+        "planetary cortex"
+      ],
+      "visual": "Abyssal Mariana Trench ocean floor glowing with a sapphire-gold subsea fiber-optic cable beside a gliding blue whale mother and calf; ONLY Me and Bala-Rishi walk peacefully along the luminous neural conduit beside Alan.",
+      "spoken": "Behold Organ One: the Unified Infrastructure Platform—every compute cluster and subsea cable serving one planetary cortex!",
+      "word_count": 16,
+      "subtitles": [
+        "Organ 1: The Unified Infrastructure Platform (UIP)—",
+        "compute, silicon, and subsea fiber as one planetary cortex!"
+      ]
+    },
+    {
+      "slot_id": "WF25",
+      "batch_id": "batch_05_silicon_euv_nervous_uip_ubp",
+      "file_prefix": "batch_05_silicon_euv_nervous_uip_ubp",
+      "page": 6,
+      "cast_rule": "Me + Bala-Rishi ONLY (Organ 1: Nervous & Skeletal — UIP/UBP)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_06_euv_plasma_freeze.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "unified business",
+        "registry",
+        "clinic",
+        "village",
+        "shines"
+      ],
+      "visual": "A mile-high Cathedral of Dark Glass Vaults turns 100% optically clear as Me raises his right hand beside Bala-Rishi and Alan, unfurling a golden holographic Unified Business Platform map lighting up rural clinics worldwide.",
+      "spoken": "Paired with the Unified Business Platform, open capacity flows freely so every village clinic shines together!",
+      "word_count": 16,
+      "subtitles": [
+        "Paired with the Unified Business Platform (UBP),",
+        "open capacity flows freely so every village clinic shines!"
+      ]
+    },
+    {
+      "slot_id": "WF26",
+      "batch_id": "batch_06_circulatory_ulp_respiratory_uep",
+      "file_prefix": "batch_06_circulatory_ulp_respiratory_uep",
+      "page": 7,
+      "cast_rule": "Me + Bala-Rishi (ULP Red Sea) -> Me + Bala-Matha (UEP Planetary Lung)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_07_red_sea_wave_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_08_organ2_3_ulp_uep.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "organ two",
+        "circulatory",
+        "vessel",
+        "red blood cell",
+        "valve"
+      ],
+      "visual": "Storm-tossed Red Sea bridge wing overlooking 400 waiting ships glowing in crimson and gold: ONLY Me and 4-year-old Bala-Rishi stand poised at the bow beside Carl as Bala-Rishi points his neem stylus across the fleet.",
+      "spoken": "Behold Organ Two, Carl: the Circulatory System—every vessel a red blood cell, every port crane a heart valve!",
+      "word_count": 18,
+      "subtitles": [
+        "Organ 2: The Cardiovascular Circulatory System—",
+        "every vessel a red blood cell, every port crane a heart valve!"
+      ]
+    },
+    {
+      "slot_id": "WF27",
+      "batch_id": "batch_06_circulatory_ulp_respiratory_uep",
+      "file_prefix": "batch_06_circulatory_ulp_respiratory_uep",
+      "page": 7,
+      "cast_rule": "Me + Bala-Rishi (ULP Red Sea) -> Me + Bala-Matha (UEP Planetary Lung)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_07_red_sea_wave_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.3,
+      "keywords": [
+        "unified logistics",
+        "heart",
+        "lungs",
+        "food",
+        "medicine"
+      ],
+      "visual": "A golden geometric Unified Logistics Platform lattice links all 400 ships, rail lines, and ports across the calming sea as ONLY Me walks warmly beside Carl and Bala-Rishi along the sunlit deck.",
+      "spoken": "Your heart never asks your lungs for paperwork—the Unified Logistics Platform routes food and medicine wherever life calls!",
+      "word_count": 18,
+      "subtitles": [
+        "Your heart never asks your lungs for paperwork—",
+        "the Unified Logistics Platform routes food and medicine to life!"
+      ]
+    },
+    {
+      "slot_id": "WF28",
+      "batch_id": "batch_06_circulatory_ulp_respiratory_uep",
+      "file_prefix": "batch_06_circulatory_ulp_respiratory_uep",
+      "page": 7,
+      "cast_rule": "Me + Bala-Rishi (ULP Red Sea) -> Me + Bala-Matha (UEP Planetary Lung)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_07_red_sea_wave_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "nandri",
+        "two centuries",
+        "coal",
+        "substations",
+        "organ three"
+      ],
+      "visual": "Storm clouds over the Prayagraj substation part into radiant golden sunlight as ONLY Me and 4-year-old Bala-Matha (in silk pattu pavadai and jasmine garlands) lift their hands warmly toward offshore wind turbines, solar mirrors, and emerald rainforest canopies.",
+      "spoken": "Nandri to two centuries of energy workers who kept humanity warm! Behold Organ Three: our Respiratory System!",
+      "word_count": 17,
+      "subtitles": [
+        "Nandri to two centuries of energy stewards who kept us warm!",
+        "Behold Organ 3: The Planetary Respiratory System!"
+      ]
+    },
+    {
+      "slot_id": "WF29",
+      "batch_id": "batch_06_circulatory_ulp_respiratory_uep",
+      "file_prefix": "batch_06_circulatory_ulp_respiratory_uep",
+      "page": 7,
+      "cast_rule": "Me + Bala-Rishi (ULP Red Sea) -> Me + Bala-Matha (UEP Planetary Lung)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_07_red_sea_wave_pause.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "seventy-two",
+        "unified energy",
+        "solar",
+        "forests",
+        "one planetary lung"
+      ],
+      "visual": "Breathtaking aerial panorama of desert solar arrays, offshore wind, geothermal springs, and Amazon rainforest canopies breathing shimmering blue-gold energy into one superconducting planetary grid while Me speaks beside Bala-Matha.",
+      "spoken": "Sustaining civilization's seventy-two-hour breath, the Unified Energy Platform unites solar, wind, fusion, and forests as One Lung!",
+      "word_count": 17,
+      "subtitles": [
+        "Sustaining civilization's 72-hour breath, the Unified Energy Platform",
+        "unites solar, wind, geothermal, and forests as One Planetary Lung!"
+      ]
+    },
+    {
+      "slot_id": "WF30",
+      "batch_id": "batch_07_digestive_uap_endocrine_uecp",
+      "file_prefix": "batch_07_digestive_uap_endocrine_uecp",
+      "page": 8,
+      "cast_rule": "Me + Bala-Matha ONLY (Maternal Grace, Living Soil & Karmic Credit)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_09_vidarbha_soil_kneel.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_09_organ4_5_6_uap_uecp.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "organ four",
+        "organ five",
+        "digestive",
+        "immune",
+        "medicine"
+      ],
+      "visual": "Sunlit Vidarbha farmland bursting into green heirloom millet and white neem blossoms: ONLY Me and 4-year-old Bala-Matha stand barefoot in rich dark humus beside joyful farmer Ramesh and Vishan as golden mycorrhizal threads glow beneath the soil.",
+      "spoken": "Behold Organs Four and Five: Digestive and Immune—what farmers grow in living soil is humanity's primary medicine!",
+      "word_count": 17,
+      "subtitles": [
+        "Organs 4 & 5: The Unified Agriculture & Healthcare Platform (UAP)—",
+        "what grows in living soil is humanity's primary medicine!"
+      ]
+    },
+    {
+      "slot_id": "WF31",
+      "batch_id": "batch_07_digestive_uap_endocrine_uecp",
+      "file_prefix": "batch_07_digestive_uap_endocrine_uecp",
+      "page": 8,
+      "cast_rule": "Me + Bala-Matha ONLY (Maternal Grace, Living Soil & Karmic Credit)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_09_vidarbha_soil_kneel.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "covenant",
+        "every farmer",
+        "salaried",
+        "steward",
+        "unified planet"
+      ],
+      "visual": "Warm golden-hour close-up in the blossoming Vidarbha millet field as 4-year-old Bala-Matha smiles luminously into the cinema lens beside Me while elderly farmer Ramesh holds a golden millet stalk in tears of joy.",
+      "spoken": "Hear this covenant of love: every farmer on Earth becomes a salaried, revered steward of our Unified Planet!",
+      "word_count": 18,
+      "subtitles": [
+        "Hear this covenant of love: every farmer on Earth",
+        "is a salaried, revered steward of our Unified Planet!"
+      ]
+    },
+    {
+      "slot_id": "WF32",
+      "batch_id": "batch_07_digestive_uap_endocrine_uecp",
+      "file_prefix": "batch_07_digestive_uap_endocrine_uecp",
+      "page": 9,
+      "cast_rule": "Me + Bala-Matha ONLY (Maternal Grace, Living Soil & Karmic Credit)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_09_vidarbha_soil_kneel.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "one millimeter",
+        "hesitation",
+        "ancestors",
+        "scarcity",
+        "winter"
+      ],
+      "visual": "3D Bullet-Time Time-Pause at the shimmering Global Clearing Desk above the fields: clearing director Marcus's finger hovers frozen 1 millimeter above a golden key beneath motionless violet lightning while ONLY Me and Bala-Matha walk serenely beside his hand.",
+      "spoken": "Look with compassion at this one millimeter of hesitation—our ancestors built vaults only out of winter scarcity fear.",
+      "word_count": 18,
+      "subtitles": [
+        "Look with compassion at this one millimeter of hesitation—",
+        "our ancestors built vaults out of winter scarcity fear."
+      ]
+    },
+    {
+      "slot_id": "WF33",
+      "batch_id": "batch_07_digestive_uap_endocrine_uecp",
+      "file_prefix": "batch_07_digestive_uap_endocrine_uecp",
+      "page": 9,
+      "cast_rule": "Me + Bala-Matha ONLY (Maternal Grace, Living Soil & Karmic Credit)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_09_vidarbha_soil_kneel.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "nandri",
+        "spring",
+        "organ six",
+        "karmic credit",
+        "seva"
+      ],
+      "visual": "Inside the luminous freeze-frame, 4-year-old Bala-Matha gently rests her tiny finger atop Marcus's hand beside Me, pressing the golden key so 528Hz harmonic golden light ripples out to villages, clinics, and farms worldwide.",
+      "spoken": "In Nandri, spring arrives—Organ Six transforms old debt into one living Karmic Credit Pool replenished through Seva!",
+      "word_count": 17,
+      "subtitles": [
+        "In Nandri, Organ 6 (Unified Economic Platform) transforms old debt",
+        "into one living Karmic Credit Pool replenished through Seva!"
+      ]
+    },
+    {
+      "slot_id": "WF34",
+      "batch_id": "batch_07_digestive_uap_endocrine_uecp",
+      "file_prefix": "batch_07_digestive_uap_endocrine_uecp",
+      "page": 9,
+      "cast_rule": "Me + Bala-Matha ONLY (Maternal Grace, Living Soil & Karmic Credit)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_09_vidarbha_soil_kneel.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "six organs",
+        "united",
+        "organ seven",
+        "gurukula",
+        "wisdom"
+      ],
+      "visual": "Sweeping White-Wall Zoom-Out Breakout pulling smoothly back from the golden fields through the curved marble wall into the pure-white Karmic Genie Show Stadium where Me stands at center stage before transformed Alan, Carl, and Vishan.",
+      "spoken": "Six organs now breathe together, crowned by Organ Seven: Gurukula character wisdom, open science, and sacred culture!",
+      "word_count": 17,
+      "subtitles": [
+        "Six organs breathe together, crowned by Organ 7:",
+        "Gurukula character wisdom, open science, and sacred culture!"
+      ]
+    },
+    {
+      "slot_id": "WF35",
+      "batch_id": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "file_prefix": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "page": 9,
+      "cast_rule": "Me + Bala-Rishi ONLY (343 Matrix & Kalpavriksha Corporate Evolution)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_10_kalpavriksha_343_cube.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_10_343_kalpavriksha.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "seven",
+        "three hundred",
+        "343",
+        "kalpavriksha",
+        "tree"
+      ],
+      "visual": "Inside the pure-white Karmic Genie Show Stadium, a three-story golden 7x7x7 (343-node) Crystalline Fractal Cube rises from center stage, blossoming into the luminous Kalpavriksha Tree while ONLY Me and 4-year-old Bala-Rishi stand beside Alan, Carl, and Vishan.",
+      "spoken": "Seven organs times seven sectors times seven verticals form three hundred forty-three nodes around the Kalpavriksha Tree!",
+      "word_count": 17,
+      "subtitles": [
+        "7 Macro-Organs × 7 Sub-Sectors × 7 Verticals = 343 Living Nodes",
+        "blossoming into the Kalpavriksha Tree of Consciousness!"
+      ]
+    },
+    {
+      "slot_id": "WF36",
+      "batch_id": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "file_prefix": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "page": 10,
+      "cast_rule": "Me + Bala-Rishi ONLY (343 Matrix & Kalpavriksha Corporate Evolution)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_10_kalpavriksha_343_cube.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "orchard",
+        "roots",
+        "flowers",
+        "fruit",
+        "seeds"
+      ],
+      "visual": "Medium shot beneath the glowing golden branches of the Kalpavriksha Tree on the white marble stage as 4-year-old Bala-Rishi walks down crystal steps beside Me, gesturing warmly toward Alan with his neem stylus.",
+      "spoken": "Does an orchard tree drink water only for thicker roots—or to gift flowers, fruit, and open seeds?",
+      "word_count": 17,
+      "subtitles": [
+        "Does an orchard tree drink water only for thicker roots—",
+        "or to gift flowers, nourishing fruit, and open seeds?"
+      ]
+    },
+    {
+      "slot_id": "WF37",
+      "batch_id": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "file_prefix": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "page": 10,
+      "cast_rule": "Me + Bala-Rishi ONLY (343 Matrix & Kalpavriksha Corporate Evolution)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_10_kalpavriksha_343_cube.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "profit",
+        "water",
+        "roots",
+        "open seeds",
+        "earth"
+      ],
+      "visual": "Inspiring studio climax at the golden 343 Cube console: Me rests a warm hand on Alan's shoulder beside Bala-Rishi as Alan, Carl, and Vishan insert three glowing crystal keys in unison, igniting all 343 nodes in emerald-gold light!",
+      "spoken": "Profit is water for the roots; gifting fruit and open seeds unites all three hundred forty-three nodes!",
+      "word_count": 17,
+      "subtitles": [
+        "Profit is water for the roots; gifting fruit and open seeds",
+        "ignites all 343 nodes for the One Family of Earth!"
+      ]
+    },
+    {
+      "slot_id": "WF38",
+      "batch_id": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "file_prefix": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "page": 11,
+      "cast_rule": "Me + Bala-Rishi ONLY (343 Matrix & Kalpavriksha Corporate Evolution)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_10_kalpavriksha_343_cube.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_11_honeycomb_2050.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "two hundred",
+        "280",
+        "2046",
+        "2050",
+        "honeycomb",
+        "mandala"
+      ],
+      "visual": "Hypersonic White-Wall Zoom-In soaring through golden aurora clouds into crystal-clear azure skies over Earth 2050, revealing a breathtaking hexagonal biophilic Honeycomb City Mandala with radiant solar canopies and emerald gardens.",
+      "spoken": "Day two hundred eighty arrives in April twenty forty-six—blossoming by twenty fifty into the Honeycomb City Mandala!",
+      "word_count": 17,
+      "subtitles": [
+        "Day 280 arrives in April 2046—blossoming by 2050",
+        "into the sacred hexagonal Honeycomb City Mandala!"
+      ]
+    },
+    {
+      "slot_id": "WF39",
+      "batch_id": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "file_prefix": "batch_08_343_cube_kalpavriksha_honeycomb",
+      "page": 11,
+      "cast_rule": "Me + Bala-Rishi ONLY (343 Matrix & Kalpavriksha Corporate Evolution)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_10_kalpavriksha_343_cube.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "seven district",
+        "living city",
+        "seven regions",
+        "unified planet",
+        "cell"
+      ],
+      "visual": "Graceful aerial glide over the 2050 Honeycomb City showing the central Unified Soul Sanctuary embraced by six lush hexagonal petals linked across seven sovereign bioregions, while Me and Bala-Rishi walk along a sunlit sky-garden terrace.",
+      "spoken": "Seven districts form one living city, and seven regions unite as one Unified Planet—cherishing every single cell!",
+      "word_count": 17,
+      "subtitles": [
+        "7 Districts -> 1 Living City -> 7 Regions -> 1 Unified Planet,",
+        "where the whole body cherishes every single cell!"
+      ]
+    },
+    {
+      "slot_id": "WF40",
+      "batch_id": "batch_09_2050_living_home_maya_healed",
+      "file_prefix": "batch_09_2050_living_home_maya_healed",
+      "page": 12,
+      "cast_rule": "Me + Bala-Matha (Maya 2050 Sanctuary) -> Cosmic Observatory Trinity",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_11_maya_2050_sanctuary.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "magnetic",
+        "gliders",
+        "crystal",
+        "water",
+        "clean power"
+      ],
+      "visual": "Sunlit 2050 Honeycomb petal avenue with silent diamagnetic gliders floating above micro-clover streams, gliding into a biophilic home where a golden-violet Quantum Crystal Battery hovers gently beside Me, Bala-Matha, and smiling Carl.",
+      "spoken": "Silent magnetic gliders float above clover streams, while crystal-battery homes condense pure water and share clean power forever.",
+      "word_count": 18,
+      "subtitles": [
+        "Silent magnetic gliders float above clover streams, while",
+        "crystal-battery homes condense water and share clean power forever."
+      ]
+    },
+    {
+      "slot_id": "WF41",
+      "batch_id": "batch_09_2050_living_home_maya_healed",
+      "file_prefix": "batch_09_2050_living_home_maya_healed",
+      "page": 12,
+      "cast_rule": "Me + Bala-Matha (Maya 2050 Sanctuary) -> Cosmic Observatory Trinity",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_11_maya_2050_sanctuary.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "pause",
+        "sunlit",
+        "frequency",
+        "siddha",
+        "seed form",
+        "unity"
+      ],
+      "visual": "3D Bullet-Time Time-Pause inside the sunlit 2050 Frequency Healing Sanctuary: healthy 7-year-old Maya is suspended mid-leap in golden 528Hz cymatic light rings toward her joyful father Kenji while ONLY Me and 4-year-old Bala-Matha walk warmly beside them.",
+      "spoken": "Pause in this sunlit sanctuary: diamagnetic flight and frequency wellness already exist in seed form, awaiting human unity!",
+      "word_count": 18,
+      "subtitles": [
+        "Pause in this sunlit sanctuary: magnetic flight and 528Hz wellness",
+        "already exist in seed form today, awaiting human unity!"
+      ]
+    },
+    {
+      "slot_id": "WF42",
+      "batch_id": "batch_09_2050_living_home_maya_healed",
+      "file_prefix": "batch_09_2050_living_home_maya_healed",
+      "page": 12,
+      "cast_rule": "Me + Bala-Matha (Maya 2050 Sanctuary) -> Cosmic Observatory Trinity",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_11_maya_2050_sanctuary.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.3,
+      "keywords": [
+        "maya",
+        "radiant smile",
+        "one nest",
+        "nandri",
+        "healer"
+      ],
+      "visual": "Time resumes inside the 2050 Sanctuary as Bala-Matha blesses the golden light around Maya's heart; Maya lands laughing in her father Kenji's open arms as Kenji bows in tearful gratitude toward Me and Bala-Matha.",
+      "spoken": "Look at Maya's radiant smile, healed inside one loving nest—nandri to every parent, healer, farmer, and builder!",
+      "word_count": 17,
+      "subtitles": [
+        "Look at Maya's radiant smile, healed inside one loving nest—",
+        "Nandri to every parent, healer, farmer, and builder!"
+      ]
+    },
+    {
+      "slot_id": "WF43",
+      "batch_id": "batch_09_2050_living_home_maya_healed",
+      "file_prefix": "batch_09_2050_living_home_maya_healed",
+      "page": 13,
+      "cast_rule": "Me + Bala-Matha (Maya 2050 Sanctuary) -> Cosmic Observatory Trinity",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_11_maya_2050_sanctuary.jpg",
+      "speaker_mode": "human",
+      "overlay_png": "ov_wf_12_7d_cosmic_genie.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "stadium",
+        "stars",
+        "duty",
+        "dignity",
+        "dharma",
+        "coherence"
+      ],
+      "visual": "Grand 180-degree White-Wall Breakout: the curved white marble stadium walls retract smoothly into Stage 7 Cosmic Observatory overlooking glowing sapphire Planet Earth as seven golden 7D Life-Compass pillars rise to 70/70 Coherence before Me, Bala-Rishi, Bala-Matha, Alan, Carl, and Vishan.",
+      "spoken": "As our stadium opens to the stars, Duty, Dignity, Discipline, Dharma, Devotion, Divine, and Destiny reach coherence!",
+      "word_count": 17,
+      "subtitles": [
+        "As the stadium opens to the cosmos, all seven pillars of the",
+        "7D Conscience Compass rise to 70/70 Harmonic Coherence!"
+      ]
+    },
+    {
+      "slot_id": "WF44",
+      "batch_id": "batch_09_2050_living_home_maya_healed",
+      "file_prefix": "batch_09_2050_living_home_maya_healed",
+      "page": 13,
+      "cast_rule": "Me + Bala-Matha (Maya 2050 Sanctuary) -> Cosmic Observatory Trinity",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_flow_sb_11_maya_2050_sanctuary.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.45,
+      "keywords": [
+        "quiet our hearts",
+        "ask together",
+        "what does genie say",
+        "7d way"
+      ],
+      "visual": "Iconic medium close-up on the star-lit pure-white marble stage beside the jeweled 24k Gold Genie Lamp and brushed-gold 7D inscriptions; Me (in ivory bandhgala) smiles warmly into the lens.",
+      "spoken": "Let us quiet our hearts and ask together: What does Genie say — the 7D way?",
+      "word_count": 16,
+      "subtitles": [
+        "Let us quiet our hearts and ask together:",
+        "What does Genie say — the 7D way?"
+      ]
+    },
+    {
+      "slot_id": "WF45",
+      "batch_id": "batch_10_maharishi_genie_and_ep2_hook",
+      "file_prefix": "b10a_genie",
+      "page": 14,
+      "cast_rule": "Mixed Finale: 10A Saintly Cross-Legged Genie (2 clips) + 10B Host & Bala-Rishi S01E02 Hook (2 clips)",
+      "include_me": false,
+      "ref_image": "assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg",
+      "speaker_mode": "genie",
+      "overlay_png": null,
+      "pause_after_s": 0.35,
+      "keywords": [
+        "vast universe",
+        "own heartbeat",
+        "witness",
+        "sorrow",
+        "peace"
+      ],
+      "visual": "Symmetrical widescreen shot on the cosmic pure-white stage as the luminous Celestial Maharishi Karmic Genie floats CROSS-LEGGED in Padmasana above the jeweled gold lamp, raising his right palm in gentle Abhaya Mudra before the 7D wall maxims.",
+      "spoken": "Dear friends, what lives within the vast universe lives within your own heartbeat, melting every sorrow into peace.",
+      "word_count": 18,
+      "subtitles": [
+        "அண்டமும் பிண்டமும் ஒன்றே • What lives within the vast universe",
+        "lives within your own heartbeat, melting sorrow into peace."
+      ]
+    },
+    {
+      "slot_id": "WF46",
+      "batch_id": "batch_10_maharishi_genie_and_ep2_hook",
+      "file_prefix": "b10a_genie",
+      "page": 14,
+      "cast_rule": "Mixed Finale: 10A Saintly Cross-Legged Genie (2 clips) + 10B Host & Bala-Rishi S01E02 Hook (2 clips)",
+      "include_me": false,
+      "ref_image": "assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg",
+      "speaker_mode": "ambient",
+      "overlay_png": null,
+      "pause_after_s": 0.35,
+      "keywords": [
+        "__VISUAL_GENIE_RETURN__"
+      ],
+      "visual": "Serene visual farewell on the pure-white circular marble stage: the cross-legged Maharishi Karmic Genie joins his palms in a humble, grateful Namaste bow and dissolves gracefully into ribbons of gold, emerald, and sapphire stardust flowing peacefully back inside the jeweled gold lamp. Soft ethereal chime ambience only, no spoken dialogue.",
+      "spoken": "",
+      "word_count": 0,
+      "subtitles": []
+    },
+    {
+      "slot_id": "WF47",
+      "batch_id": "batch_10_maharishi_genie_and_ep2_hook",
+      "file_prefix": "b10b_hook",
+      "page": 14,
+      "cast_rule": "Mixed Finale: 10A Saintly Cross-Legged Genie (2 clips) + 10B Host & Bala-Rishi S01E02 Hook (2 clips)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene01_opening_trinity.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.3,
+      "keywords": [
+        "barefoot",
+        "living earth",
+        "forty-hertz",
+        "nandri"
+      ],
+      "visual": "Warm intimate close-medium shot on the cosmic white marble stage beside the golden Genie lamp as Me (in ivory bandhgala), flanked peacefully by Bala-Rishi and Bala-Matha, joins palms in grateful Anjali Mudra toward the viewer.",
+      "spoken": "Step barefoot onto the living earth tonight, feel her calm forty-hertz pulse, and whisper Nandri, Nandri, Nandri.",
+      "word_count": 17,
+      "subtitles": [
+        "Step barefoot onto the living earth tonight, feel her 40Hz pulse,",
+        "and whisper: நன்றி... நன்றி... நன்றி (Nandri, Nandri, Nandri)."
+      ]
+    },
+    {
+      "slot_id": "WF48",
+      "batch_id": "batch_10_maharishi_genie_and_ep2_hook",
+      "file_prefix": "b10b_hook",
+      "page": 14,
+      "cast_rule": "Mixed Finale: 10A Saintly Cross-Legged Genie (2 clips) + 10B Host & Bala-Rishi S01E02 Hook (2 clips)",
+      "include_me": true,
+      "ref_image": "episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene01_opening_trinity.jpg",
+      "speaker_mode": "human",
+      "overlay_png": null,
+      "pause_after_s": 0.5,
+      "keywords": [
+        "twenty fifty",
+        "2050",
+        "december",
+        "2022",
+        "sixth sense",
+        "awoke"
+      ],
+      "visual": "Luminous Episode 2 Wonder Hook: the golden Pitru Loka floor chronometer spirals smoothly back to `DECEMBER 1, 2022 — DAY ONE` while 4-year-old Bala-Rishi holds up his glowing neem stylus beside Me before a sparkling deep-ocean neural synapse on the White Wall.",
+      "spoken": "You saw twenty fifty—next time, return to December first, twenty twenty-two when Earth's Sixth Sense first awoke!",
+      "word_count": 17,
+      "subtitles": [
+        "Next on S01E02: Return to Night One — December 1, 2022,",
+        "and witness how Mother Earth's Sixth Sense first opened its eyes!"
+      ]
+    }
+  ]
+}
