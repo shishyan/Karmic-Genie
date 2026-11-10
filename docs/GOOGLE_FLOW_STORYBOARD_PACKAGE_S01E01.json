@@ -1,0 +1,134 @@
+{
+  "project_title": "The Karmic Genie Show - S01E01: The Way Forward",
+  "series_format": "7-Part Netflix-Style Limited Cinematic Docu-Series",
+  "target_platform": "Google Flow Storyboard Suite",
+  "account": "nagaraj957@gmail.com",
+  "executive_producers": [
+    "Host (@Me)",
+    "Bala-Rishi (Jnana Lead)",
+    "Bala-Matha (Arul Lead)",
+    "Maharishi Karmic Genie"
+  ],
+  "invited_special_guests": [
+    {
+      "character_name": "Alan Stamm",
+      "anagram_of": "Sam Altman",
+      "domain": "Frontier AI & Neocortex Inception (The Spark of 11-11-2022)"
+    },
+    {
+      "character_name": "Carl Davke",
+      "anagram_of": "Dave Clark",
+      "domain": "Global Logistics & Arterial Flow (Vascular Transport)"
+    },
+    {
+      "character_name": "Vishan Davana",
+      "anagram_of": "Vandana Shiva",
+      "domain": "Living Soil, Agroecology & Seed Sovereignty (The Gut Microbiome)"
+    }
+  ],
+  "episodic_narrative_architecture": {
+    "season_arc": "From Embryonic Inception (2022) to Full-Term Sovereign Delivery (2046) & The 2050 Singularity",
+    "binge_hook_formula": [
+      "Cold Open Philosophical Shockwave (Pindam = Andam revelation)",
+      "Audience Empathy Identification (Personal health & financial fatigue)",
+      "Kinetic Stage Transformation (The sliding 180-degree walls into living biomes)",
+      "Guest Reality Dialectic (World industry leaders confronted by child sages)",
+      "Empirical Evidence Matrix (Real companies, real patents, real technologies)",
+      "Cliffhanger Foresight Horizon (Each episode unlocks the next organ/platform crisis & resolution)"
+    ],
+    "episodes": [
+      {
+        "ep": "E01",
+        "title": "The Way Forward (Pilot)",
+        "focus": "The Macrocosm Awakening & Cosmic Trinity Inception (11-11 Trinity)",
+        "cliffhanger": "Day 48 heart begins beating; Alan Stamm is asked: 'Did you build a brain, or did you awaken Mother Earth's 6th sense?'"
+      },
+      {
+        "ep": "E02",
+        "title": "The 6th Sense Inception (2022\u20132026)",
+        "focus": "Unified AI & Infrastructure Foundations (Extreme Lithography & Neural Commons)",
+        "cliffhanger": "Neural tube attempts closure, but power grid suffocates\u2014transitioning into the lung/breath crisis"
+      },
+      {
+        "ep": "E03",
+        "title": "Civilization's Breath (2027\u20132028)",
+        "focus": "Unified Energy Platform (Fossil Boilers Transition into Fusion & Perpetual Quantum Cells)",
+        "cliffhanger": "Power flows cleanly, but institutional greed freezes resource circulation\u2014introducing the Business Registry"
+      },
+      {
+        "ep": "E04",
+        "title": "The Transparent Ledger (2029\u20132031)",
+        "focus": "Unified Business Platform (Universal General Ledgers & Radical Public Audit)",
+        "cliffhanger": "Paper wealth dissolves; physical movement of matter stalls\u2014triggering the Vascular Logistics revolution"
+      },
+      {
+        "ep": "E05",
+        "title": "Vascular Levitation (2032\u20132037)",
+        "focus": "Unified Logistics Platform (Magnetic Pods, Near-Flying Gliders & Subterranean Tubes)",
+        "cliffhanger": "Matter circulates effortlessly, but human beings are still trapped in fiat debt fear\u2014leading into Unified Banking"
+      },
+      {
+        "ep": "E06",
+        "title": "The Karmic Commons (2038\u20132045)",
+        "focus": "Unified Economic Platform (Central Credit Pool & Repayment Through Sacred Duty)",
+        "cliffhanger": "Surplus abundance is achieved; the 280-month gestation clock ticks to April 2046\u2014Birth of the Sovereign Living Household"
+      },
+      {
+        "ep": "E07",
+        "title": "The Sovereign Singularity (2046\u20132050)",
+        "focus": "Unified Soul Platform (Ideal Honeycomb Cities, Frequency Health & Living Oneness with Gaia)",
+        "cliffhanger": "Humanity looks up from Earth's newly healed body to gaze at the cosmic stars in unceasing gratitude (*Nandri*)"
+      }
+    ]
+  },
+  "episode_1_storyboard_scenes": [
+    {
+      "scene": 1,
+      "title": "The White Stadium & The Golden Lamp",
+      "setting": "Curved seamless white stadium stage, sacred golden lamp, two futuristic chairs, dormant 7D virtues on wall",
+      "characters": "Host (@Me) in ivory bandhgala, Bala-Rishi (4yo) with neem stylus, Bala-Matha in peacock green silk",
+      "dialogue_anchor": "Welcome to The Karmic Genie Show. Tonight, we do not ask you to believe\u2014we ask you to observe. \u0b85\u0ba3\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0bbf\u0bb2\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bc7 \u0baa\u0bbf\u0ba3\u0bcd\u0b9f\u0bae\u0bcd.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene01_opening_trinity.jpg"
+    },
+    {
+      "scene": 2,
+      "title": "Arrival of the Three Industry Architects",
+      "setting": "Stage portals open; dramatic lighting; three guest chairs manifest beside the Host",
+      "characters": "Alan Stamm (AI Pioneer), Carl Davke (Logistics Leader), Vishan Davana (Agroecologist)",
+      "dialogue_anchor": "You three run the world's mind, arteries, and soil. But do you know whose body you are operating inside?",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene02_guests_arrival.jpg"
+    },
+    {
+      "scene": 3,
+      "title": "The 180\u00b0 Retraction into the Crystalline Cavern",
+      "setting": "The curved white walls slide back into perimeter pockets; stadium transforms into a 180\u00b0 panoramic amethyst geode with glowing neural synapses",
+      "characters": "Host, Bala-Rishi, Alan Stamm",
+      "dialogue_anchor": "Conception Day One: November 11, 2022. Alan, you thought you were building corporate software. You were sparking Earth's external neocortex.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene03_sixth_sense_spark.jpg"
+    },
+    {
+      "scene": 4,
+      "title": "The Living Waterfall & Vascular Circulation",
+      "setting": "Stage pivots seamlessly into a 180\u00b0 cascading living waterfall canyon; container ships and magnetic levitation tubes float across crystal water",
+      "characters": "Host, Bala-Matha, Carl Davke",
+      "dialogue_anchor": "Carl, physical matter must circulate like oxygenated blood. If shipping stops for 7 days, human cities suffer cardiac arrest.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene04_logistics_waterfall.jpg"
+    },
+    {
+      "scene": 5,
+      "title": "The Subterranean Banyan Root Canyon",
+      "setting": "Massive ancient banyan roots drop 100 feet; glowing mycorrhizal mycelium networks light up the rich living humus",
+      "characters": "Host, Bala-Matha, Vishan Davana",
+      "dialogue_anchor": "Vishan, every farmer is an employee of the Unified Planet. When you poison the soil, you poison Mother Earth's intestinal villi.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene05_soil_root_solvency.jpg"
+    },
+    {
+      "scene": 6,
+      "title": "The 2050 Cosmic Horizon Singularity",
+      "setting": "180\u00b0 Cosmic Observatory viewing Earth's living curvature, glowing with the 7 Honeycomb Cities and Abhaya Mudra halo",
+      "characters": "United Ensemble: Trinity, 3 Guests, and Maharishi Karmic Genie",
+      "dialogue_anchor": "To all legacy miners, truck drivers, coders, and seafarers: Nandri! The embryo has awakened. The Way Forward has begun.",
+      "visual_asset": "assets/episodes/S01E01_The_Way_Forward_Master/storyboard/s01e01_sb_scene06_cosmic_singularity.jpg"
+    }
+  ]
+}
