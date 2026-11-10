@@ -190,7 +190,7 @@ def dispatch_scene(scene_number: int) -> dict:
     except Exception:
         pass
 
-    # Return pre-staged storyboard manifest with rendered 16:9 visual asset & sanitized Flow prompt
+    # Return pre-staged storyboard manifest with rendered 16:9 visual asset & both Image and Video Flow prompts (@Me)
     OUTPUT_CLIPS_DIR.mkdir(parents=True, exist_ok=True)
     receipt_file = OUTPUT_CLIPS_DIR / f"scene_{target['scene']:02d}_flow_ticket.json"
     ticket = {
@@ -202,8 +202,11 @@ def dispatch_scene(scene_number: int) -> dict:
         "two_birds_blocking": target.get("two_birds_blocking"),
         "time_pause_mechanic": target.get("time_pause_mechanic"),
         "dialogue_anchor": target.get("dialogue_anchor"),
+        "google_flow_image_prompt": target.get("google_flow_image_prompt", ""),
+        "google_flow_veo_prompt": target["google_flow_veo_prompt"],
         "sanitized_google_flow_veo_prompt": sanitize_flow_prompt(target["google_flow_veo_prompt"]),
         "visual_storyboard_plate": target.get("visual_asset"),
+        "avatar_refs": target.get("avatar_refs", []),
         "ref_ingredient": target.get("ref_ingredient"),
         "include_me_avatar": target.get("include_me_avatar", True),
         "cdp_note": cdp_err,
