@@ -157,18 +157,18 @@
       "overlay_png": null,
       "pause_after_s": 0.3,
       "keywords": [
-        "yesterday",
+        "tonight",
         "wife",
-        "nothing",
+        "cries",
         "helped him",
         "his duty"
       ],
-      "visual": "Under the warm amber bedside lamp, wife Ananya sits up earnestly gripping Raghav's shoulder ('You should have helped him!') while Bala-Matha (standing beside silent Me in ivory bandhgala) turns toward the camera and speaks clearly.",
-      "spoken": "Yesterday his wife said nothing. Tonight she cries, You should have helped him! Why? Because helping became HIS DUTY!",
-      "word_count": 19,
+      "visual": "Under the warm amber bedside lamp, wife Ananya sits up earnestly gripping Raghav's shoulder ('You should have helped him!') while Bala-Matha turns toward the camera and speaks clearly.",
+      "spoken": "Tonight his wife cries, You should have helped him! Helping became HIS duty!",
+      "word_count": 13,
       "subtitles": [
-        "Yesterday his wife said nothing. Tonight she cries: 'You should have helped him!'",
-        "Why? Because helping became HIS DUTY!"
+        "Tonight his wife cries: 'You should have helped him!'",
+        "Helping became HIS duty!"
       ]
     },
     {
@@ -178,7 +178,7 @@
       "page": 2,
       "cast_rule": "Me + Bala-Matha (Bedroom) -> Studio Trinity Portal",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": "ov_df_04_white_stage_d1.png",
       "pause_after_s": 0.25,
@@ -203,7 +203,7 @@
       "page": 2,
       "cast_rule": "Me + Bala-Matha (Bedroom) -> Studio Trinity Portal",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.3,
@@ -341,17 +341,17 @@
       "pause_after_s": 0.25,
       "keywords": [
         "twenty-four",
-        "honest mastery",
-        "first pure earnings",
+        "masters work",
+        "first earnings",
         "parents",
-        "gratitude"
+        "hands"
       ],
-      "visual": "Sunset courtyard threshold: a 22-year-old young craftsman returns home from honest work and places his first earnings reverently into his tearful parents' hands before bowing to touch their feet while ONLY Me (in ivory bandhgala) and Bala-Matha watch warmly.",
-      "spoken": "By twenty-four, youth forges honest mastery—and places its first pure earnings into parents' hands with gratitude!",
-      "word_count": 16,
+      "visual": "Sunset courtyard threshold: a 22-year-old young craftsman returns home from honest work and places his first earnings reverently into his parents' hands while Bala-Matha speaks warmly.",
+      "spoken": "At twenty-four, youth masters work and places first earnings in parents' hands!",
+      "word_count": 12,
       "subtitles": [
-        "By 24, youth forges honest skill—",
-        "placing its first pure earnings into parents' hands with gratitude!"
+        "At 24, youth masters honest work",
+        "and places first earnings in parents' hands!"
       ]
     },
     {
@@ -422,15 +422,15 @@
         "mother",
         "sacred arul",
         "pooja lamp",
-        "brick walls",
-        "living temple"
+        "home",
+        "temple"
       ],
-      "visual": "Heart of the twilight courtyard home matching our reference plate: a graceful mother in silk saree lights the tall brass Kuthuvilakku oil lamp in the Pooja sanctum beside her praying child while Bala-Matha (holding silent Me's hand) speaks luminously.",
-      "spoken": "And a mother's sacred Arul—nurturing life and lighting the daily Pooja lamp—turns four brick walls into a living temple!",
-      "word_count": 19,
+      "visual": "Heart of the twilight courtyard home matching our reference plate: a graceful mother in silk saree lights the tall brass Kuthuvilakku oil lamp in the Pooja sanctum while Bala-Matha speaks luminously.",
+      "spoken": "A mother's sacred Arul and daily Pooja lamp make home a temple!",
+      "word_count": 12,
       "subtitles": [
-        "And a mother's sacred Arul—nurturing life and lighting the daily Pooja lamp—",
-        "turns four brick walls into a living temple!"
+        "A mother's sacred Arul and daily Pooja lamp",
+        "make home a living temple!"
       ]
     },
     {
@@ -447,17 +447,16 @@
       "keywords": [
         "fifty-four",
         "nandri",
-        "fifty percent",
-        "thanking",
-        "grievance",
+        "gratitude",
+        "melts grievance",
         "soul"
       ],
-      "visual": "Golden dawn courtyard garden: a serene 55-year-old couple stands with folded palms in deep Nandri gratitude toward the rising sun while warmly passing household keys to their grown son; Me and Bala-Matha walk softly beside them.",
-      "spoken": "At fifty-four, duty ripens into Nandri—fifty percent pure thanking that melts every grievance and grows your Soul!",
-      "word_count": 17,
+      "visual": "Golden dawn courtyard garden: a serene 55-year-old couple stands with folded palms in deep Nandri gratitude toward the rising sun while Bala-Matha speaks softly.",
+      "spoken": "At fifty-four, duty ripens into Nandri—gratitude that melts grievance and grows Soul!",
+      "word_count": 12,
       "subtitles": [
-        "At Age 54, duty ripens into Nandri—",
-        "50% pure thanking that melts every grievance and grows your Soul!"
+        "At 54, duty ripens into Nandri—",
+        "gratitude that melts grievance and grows your Soul!"
       ]
     },
     {
@@ -474,17 +473,16 @@
       "keywords": [
         "elders",
         "banyan canopy",
-        "arul blessings",
-        "guarding",
-        "four-year-old",
-        "play"
+        "blessing",
+        "playing child",
+        "arul"
       ],
-      "visual": "Sunlit garden beneath a spreading Banyan canopy: a radiant 75-year-old grandfather and grandmother smile in peaceful blessing as their 4-year-old grandchild plays barefoot on the grass while Bala-Rishi beams beside silent Me (in ivory bandhgala).",
-      "spoken": "And elders become a living Banyan canopy—radiating Arul blessings while guarding the next four-year-old's barefoot play!",
-      "word_count": 16,
+      "visual": "Sunlit garden beneath a spreading Banyan canopy: a radiant 75-year-old grandfather and grandmother smile in peaceful blessing while Bala-Rishi beams joyfully into the lens.",
+      "spoken": "Elders become a Banyan canopy, blessing every playing child with Arul!",
+      "word_count": 11,
       "subtitles": [
-        "Elders become a living Banyan canopy—",
-        "radiating Arul blessings while guarding the next 4-year-old's play!"
+        "Elders become a living Banyan canopy,",
+        "blessing every playing child with Arul!"
       ]
     },
     {
@@ -505,7 +503,7 @@
         "arrogant",
         "father your child"
       ],
-      "visual": "Dynamic White-Wall Portal transition onto a sunlit tree-lined stone walkway: Me (in ivory bandhgala) walks briskly toward the camera with 4-year-old Bala-Rishi at his side, asking and answering the pivotal question with warm clarity.",
+      "visual": "Dynamic White-Wall Portal transition onto a sunlit tree-lined stone walkway: Me (in ivory bandhgala) walks briskly toward the camera asking and answering the pivotal question with warm clarity.",
       "spoken": "Once today's duty is done, what next? Do the things ONLY YOU can do! Arrogant? Never—can anyone else father your child?",
       "word_count": 21,
       "subtitles": [
@@ -525,16 +523,15 @@
       "overlay_png": null,
       "pause_after_s": 0.3,
       "keywords": [
-        "scene one",
         "ten thousand engineers",
         "office chair",
         "father to your child"
       ],
-      "visual": "Golden rain-washed cobblestone walkway matching our reference plate: a joyful 5-year-old boy with a small backpack runs past blurred commuters and leaps into his kneeling father's open arms while ONLY Me and 4-year-old Bala-Rishi walk warmly beside them.",
-      "spoken": "Scene One: Ten thousand engineers can replace your office chair—not one human on Earth can be father to your child!",
-      "word_count": 20,
+      "visual": "Golden rain-washed cobblestone walkway matching our reference plate: a joyful 5-year-old boy with a small backpack leaps into his kneeling father's open arms while Me narrates warmly.",
+      "spoken": "Ten thousand engineers can replace your office chair—not one human on Earth can be father to your child!",
+      "word_count": 18,
       "subtitles": [
-        "Scene 1 of 7: 10,000 engineers can replace your office chair—",
+        "10,000 engineers can replace your office chair—",
         "not one human on Earth can be father to YOUR child!"
       ]
     },
@@ -550,18 +547,17 @@
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
-        "scene two",
         "doctors",
         "medicine",
         "mother",
         "heartbeat",
         "prayer"
       ],
-      "visual": "Warm lamp-lit bedroom corner: a mother cradles her feverish toddler against her shoulder whispering a soothing prayer until the child relaxes into calm sleep, while Bala-Matha (standing beside silent Me in ivory bandhgala) speaks tenderly.",
-      "spoken": "Scene Two: Doctors give medicine, yet only a mother's heartbeat and whispered Arul prayer calm her child's trembling soul!",
-      "word_count": 19,
+      "visual": "Warm lamp-lit bedroom corner: a mother cradles her feverish toddler against her shoulder whispering a soothing prayer until the child relaxes into calm sleep, while Bala-Matha speaks tenderly.",
+      "spoken": "Doctors give medicine, yet only a mother's heartbeat and whispered Arul prayer calm her child's trembling soul!",
+      "word_count": 17,
       "subtitles": [
-        "Scene 2 of 7: Doctors give medicine, yet only a mother's heartbeat",
+        "Doctors give medicine, yet only a mother's heartbeat",
         "and whispered Arul prayer calm her child's trembling soul!"
       ]
     },
@@ -577,17 +573,16 @@
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
-        "scene three",
         "money hires nurses",
         "aging parents",
         "eyes wait",
         "their child"
       ],
-      "visual": "Pillared South Indian ancestral veranda at golden sunset matching our reference plate: a 40-year-old son kneels warmly holding the wrinkled hands of his joyful 78-year-old father and mother while ONLY Me and Bala-Matha walk softly beside the teak pillar.",
-      "spoken": "Scene Three: Money hires nurses, never kinship—your aging parents' eyes wait at the gate only for you, their child!",
-      "word_count": 19,
+      "visual": "Pillared South Indian ancestral veranda at golden sunset matching our reference plate: a 40-year-old son kneels warmly holding the wrinkled hands of his joyful 78-year-old father and mother while Me narrates warmly.",
+      "spoken": "Money hires nurses, never kinship—your aging parents' eyes wait at the gate only for you, their child!",
+      "word_count": 17,
       "subtitles": [
-        "Scene 3 of 7: Money hires nurses, never kinship—",
+        "Money hires nurses, never kinship—",
         "your aging parents' eyes wait at the gate only for YOU!"
       ]
     },
@@ -603,17 +598,16 @@
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
-        "scene four",
         "applause fades",
         "midnight",
         "life-partner",
         "husband or wife"
       ],
-      "visual": "Quiet lantern-lit home dining table late at night: a devoted husband gently holds both hands of his overwhelmed wife listening with complete tenderness while Bala-Matha (beside silent Me in ivory bandhgala) speaks softly.",
-      "spoken": "Scene Four: When applause fades at midnight, only you can hold your life-partner's hand as true husband or wife!",
-      "word_count": 19,
+      "visual": "Quiet lantern-lit home dining table late at night: a devoted husband gently holds both hands of his overwhelmed wife listening with complete tenderness while Bala-Matha speaks softly.",
+      "spoken": "When applause fades at midnight, only you can hold your life-partner's hand as true husband or wife!",
+      "word_count": 17,
       "subtitles": [
-        "Scene 4 of 7: When applause fades at midnight,",
+        "When applause fades at midnight,",
         "only YOU can hold your partner's hand as true husband or wife!"
       ]
     },
@@ -629,18 +623,17 @@
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
-        "scene five",
         "billionaire",
         "assistant",
         "exercise",
         "lungs",
         "sleep"
       ],
-      "visual": "Golden sunrise garden terrace: a healthy man breathes deeply in morning pranayama and stretches joyfully in sunlight while 4-year-old Bala-Rishi mirrors his stretch beside silent Me (in ivory bandhgala) and speaks brightly.",
-      "spoken": "Scene Five: No billionaire can hire an assistant to exercise his lungs, digest his food, or sleep on his behalf!",
-      "word_count": 20,
+      "visual": "Golden sunrise garden terrace: 4-year-old Bala-Rishi stretches joyfully in morning pranayama sunlight and speaks brightly.",
+      "spoken": "No billionaire can hire an assistant to exercise his lungs, digest his food, or sleep on his behalf!",
+      "word_count": 18,
       "subtitles": [
-        "Scene 5 of 7: No billionaire can hire an assistant",
+        "No billionaire can hire an assistant",
         "to exercise his lungs, digest his food, or sleep on his behalf!"
       ]
     },
@@ -656,19 +649,18 @@
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
-        "scene six",
         "no proxy",
         "apologize",
         "forgive",
         "brother",
-        "gratitude"
+        "thank god"
       ],
-      "visual": "Warm morning courtyard: two brothers embrace in tearful forgiveness before bowing with folded palms at a glowing brass oil lamp while ONLY Me (in ivory bandhgala) and 4-year-old Bala-Rishi stand beside them.",
-      "spoken": "Scene Six: No proxy can apologize for your mistake, forgive your brother, or bow your heart in gratitude before God!",
-      "word_count": 20,
+      "visual": "Warm morning courtyard: two brothers embrace in forgiveness before a glowing brass oil lamp while 4-year-old Bala-Rishi speaks warmly.",
+      "spoken": "No proxy can apologize for you, forgive your brother, or thank God!",
+      "word_count": 12,
       "subtitles": [
-        "Scene 6 of 7: No proxy can apologize for your mistake,",
-        "forgive your brother, or bow your heart before God!"
+        "No proxy can apologize for you,",
+        "forgive your brother, or thank God!"
       ]
     },
     {
@@ -683,18 +675,17 @@
       "overlay_png": "ov_df_09_daily_golden_rule.png",
       "pause_after_s": 0.25,
       "keywords": [
-        "scene seven",
         "swadharma",
         "every day",
         "duty first",
         "only you",
         "nothing else"
       ],
-      "visual": "Sunlit master artisan guiding a young apprentice's chisel before transitioning to the luminous White-Wall studio portal where Me (in ivory bandhgala) and 4-year-old Bala-Rishi proclaim the Iron Daily Time Rule.",
-      "spoken": "Scene Seven: Pour out your unique Swadharma! Every day: do your Duty first, then what ONLY YOU can do—nothing else!",
-      "word_count": 20,
+      "visual": "Luminous White-Wall studio portal where Me (in ivory bandhgala) proclaims the Iron Daily Time Rule directly into the camera.",
+      "spoken": "Pour out your unique Swadharma! Every day: do your Duty first, then what ONLY YOU can do—nothing else!",
+      "word_count": 18,
       "subtitles": [
-        "Scene 7 of 7: Pour out your unique Swadharma!",
+        "Pour out your unique Swadharma!",
         "Daily Rule: Duty first → What ONLY YOU can do → NOTHING ELSE!"
       ]
     },
@@ -736,18 +727,17 @@
       "pause_after_s": 0.25,
       "keywords": [
         "thiruvalluvar",
-        "inner torch",
         "buddha",
-        "six directions",
         "laozi",
-        "sacred"
+        "one truth",
+        "guard today"
       ],
-      "visual": "On the pure-white circular marble stage before the glowing White Wall portal, three subtle golden wisdom medallions shimmer behind silent Me and 4-year-old Bala-Rishi as Bala-Rishi speaks clearly.",
-      "spoken": "Thiruvalluvar's inner torch, Buddha's Six Directions, and Laozi's living Tao all teach one truth—guard today's duty as sacred!",
-      "word_count": 18,
+      "visual": "On the pure-white circular marble stage before the glowing White Wall portal, three subtle golden wisdom medallions shimmer behind 4-year-old Bala-Rishi as he speaks clearly.",
+      "spoken": "Thiruvalluvar, Buddha, and Laozi teach one truth: guard today's duty first!",
+      "word_count": 11,
       "subtitles": [
-        "Thiruvalluvar's inner torch, Buddha's Six Directions, and Laozi's Tao",
-        "all teach one truth—guard today's duty as sacred!"
+        "Thiruvalluvar, Buddha, and Laozi teach one truth:",
+        "guard today's duty first!"
       ]
     },
     {
@@ -842,18 +832,19 @@
       "overlay_png": null,
       "pause_after_s": 0.3,
       "keywords": [
-        "watch what happens",
+        "watch",
         "rainy road",
         "raghav",
+        "obeys",
         "conscience",
-        "running away"
+        "stays"
       ],
-      "visual": "Golden-streaked time-rewind back to the rain-slicked dusk suburban scooter accident matching our reference plate: raindrops freeze around Raghav's sedan door as 4-year-old Bala-Rishi (standing beside silent Me) points toward Raghav's awakened heart.",
-      "spoken": "Now watch what happens on that rainy road when Raghav listens to his Conscience instead of running away!",
-      "word_count": 18,
+      "visual": "Golden-streaked time-rewind back to the rain-slicked dusk suburban scooter accident matching our reference plate: raindrops freeze around Raghav's sedan door as 4-year-old Bala-Rishi points toward Raghav's awakened heart.",
+      "spoken": "Now watch that rainy road when Raghav obeys Conscience and stays!",
+      "word_count": 11,
       "subtitles": [
-        "Now watch what happens on that rainy road",
-        "when Raghav listens to his Conscience instead of running away!"
+        "Now watch that rainy road",
+        "when Raghav obeys Conscience and stays!"
       ]
     },
     {
@@ -967,7 +958,7 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -992,7 +983,7 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": false,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_12_celestial_karmic_genie_finale.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "genie",
       "overlay_png": "ov_df_12_genie_pillow_test.png",
       "pause_after_s": 0.25,
@@ -1000,15 +991,16 @@
         "blessed souls",
         "guilt",
         "enemy",
-        "divine bell",
-        "sorrow"
+        "conscience",
+        "waking",
+        "heart"
       ],
-      "visual": "Pure-white circular marble Karmic Genie Show stage matching our reference plate: golden-sapphire stardust rises from the jeweled gold lamp into the serene cross-legged Celestial Maharishi Karmic Genie raising his blessing palm and speaking with warm cosmic resonance.",
-      "spoken": "Blessed souls! Guilt is never your enemy—it is the Divine Bell waking you before karma hardens into sorrow!",
-      "word_count": 18,
+      "visual": "Pure-white circular marble Karmic Genie Show stage matching our reference plate: golden-rainbow luminescence rises from the jeweled gold lamp as adorable 4-year-old boy-genie Bala-Rishi raises a joyful blessing palm and speaks with bright divine child-sage wisdom.",
+      "spoken": "Blessed souls! Guilt is never your enemy—Conscience is waking your heart!",
+      "word_count": 11,
       "subtitles": [
         "Blessed souls! Guilt is never your enemy—",
-        "it is the Divine Bell waking you before karma hardens into sorrow!"
+        "Conscience is waking your heart!"
       ]
     },
     {
@@ -1018,23 +1010,23 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": false,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_12_celestial_karmic_genie_finale.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "genie",
       "overlay_png": null,
       "pause_after_s": 0.3,
       "keywords": [
         "each sunrise",
-        "rightful duty",
-        "only you can do",
-        "bow",
-        "honest worker"
+        "duty first",
+        "gift",
+        "honor",
+        "worker"
       ],
-      "visual": "Floating serenely cross-legged in golden-sapphire light above the circular white marble stage, the Celestial Maharishi Karmic Genie sweeps his luminous hand tracing three golden rings of Duty, Swadharma, and Mutual Reverence.",
-      "spoken": "Each sunrise, complete your rightful duty first, then do what only you can do, and bow to every honest worker!",
-      "word_count": 20,
+      "visual": "Medium close-up on the circular white marble stage matching our reference plate: young divine girl-genie Bala-Matha behind the glowing gold lamp sweeps a luminous hand tracing three golden rings.",
+      "spoken": "Each sunrise, do duty first, share your gift, and honor every worker!",
+      "word_count": 12,
       "subtitles": [
-        "Each sunrise: complete your rightful duty first,",
-        "do what only you can do, and bow to every honest worker!"
+        "Each sunrise: do your duty first,",
+        "share your gift, and honor every honest worker!"
       ]
     },
     {
@@ -1044,7 +1036,7 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -1070,7 +1062,7 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -1096,23 +1088,22 @@
       "page": 13,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
       "keywords": [
         "walking away",
         "guilt",
-        "exhale tonight",
-        "peaceful",
-        "unbroken sleep"
+        "peaceful sleep",
+        "tonight"
       ],
-      "visual": "On the pure-white circular marble stage beside silent Me, young girl Bala-Matha (in silk pattu pavadai with jasmine braid) folds her hands gently over her heart and asks the Pillow Test.",
-      "spoken": "Did you help where walking away would bring guilt—and can your heart exhale tonight into peaceful, unbroken sleep?",
-      "word_count": 18,
+      "visual": "On the pure-white circular marble stage beside the glowing gold lamp, young girl Bala-Matha folds her hands gently over her heart and asks the Pillow Test.",
+      "spoken": "Did you help where walking away brings guilt—earning peaceful sleep tonight?",
+      "word_count": 11,
       "subtitles": [
         "4–5 (The Pillow Test): Did you help where walking away brings guilt—",
-        "and can your heart exhale tonight into peaceful sleep?"
+        "earning peaceful sleep tonight?"
       ]
     },
     {
@@ -1122,7 +1113,7 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -1148,7 +1139,7 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -1174,23 +1165,22 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.2,
       "keywords": [
-        "play when young",
-        "think with truth",
-        "duty first",
-        "never waste",
-        "precious life"
+        "play young",
+        "think true",
+        "sacred duty",
+        "every day"
       ],
       "visual": "Medium close-up beside the gleaming gold Genie lamp on the white marble stage: 4-year-old Bala-Rishi folds his palms in joyful Namaste and speaks clearly.",
-      "spoken": "Play when young, think with truth, complete your duty first, and never waste one drop of your precious life!",
-      "word_count": 19,
+      "spoken": "Play young, think true, and fulfill your sacred duty every day!",
+      "word_count": 11,
       "subtitles": [
-        "Play when young, think with truth, complete your duty first,",
-        "and never waste one drop of your precious life!"
+        "Play young, think true,",
+        "and fulfill your sacred duty every day!"
       ]
     },
     {
@@ -1200,23 +1190,24 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.2,
       "keywords": [
-        "home lamp",
-        "shine with arul",
+        "arul",
+        "lamp",
         "nandri",
-        "peaceful sleep",
-        "pillow"
+        "breath",
+        "peace",
+        "sleep"
       ],
-      "visual": "Medium close-up on the white marble stage: young girl Bala-Matha (jasmine braid, silk pattu pavadai) folds her palms in serene Arul blessing and smiles warmly.",
-      "spoken": "May your home lamp shine with Arul, may Nandri fill your breath, and may peaceful sleep bless your pillow!",
-      "word_count": 19,
+      "visual": "Medium close-up on the white marble stage: young girl Bala-Matha folds her palms in serene Arul blessing and smiles warmly.",
+      "spoken": "May Arul light your lamp, Nandri fill breath, and peace bless sleep!",
+      "word_count": 12,
       "subtitles": [
-        "May your home lamp shine with Arul, may Nandri fill your breath,",
-        "and may peaceful sleep bless your pillow!"
+        "May Arul light your lamp, Nandri fill your breath,",
+        "and peace bless your sleep!"
       ]
     },
     {
@@ -1226,7 +1217,7 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.25,
@@ -1252,7 +1243,7 @@
       "page": 14,
       "cast_rule": "Studio Trinity + Celestial Maharishi Karmic Genie",
       "include_me": true,
-      "ref_image": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_image": "assets/stages_7d/s01e01_sb_scene01_opening_trinity.jpg",
       "speaker_mode": "human",
       "overlay_png": null,
       "pause_after_s": 0.45,
