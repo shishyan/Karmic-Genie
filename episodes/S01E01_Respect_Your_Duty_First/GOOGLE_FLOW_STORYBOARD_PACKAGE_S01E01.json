@@ -1,0 +1,237 @@
+{
+  "project_title": "The Karmic Genie Show — S01E01: Respect Your DUTY First. (Epic Movie Edition)",
+  "series_format": "The 7D Way — Virtues & Divinity Theatrical Movie Series (White-Wall Portals + Active Two-Birds In-Scene Narrators)",
+  "target_platform": "Google Flow Storyboard Suite (MCP + CDP Port 9225/9222)",
+  "account": "nagaraj957@gmail.com",
+  "mcp_server_command": "python3 pipeline/google_flow_mcp_s01e01_storyboard.py",
+  "master_character_avatars": {
+    "@Me": {
+      "avatar_tag": "Me",
+      "master_image": "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+      "canonical_look": "Exact likeness of @Me (swept-back dark hair, salt-and-pepper stubble, warm expressive eyes) wearing his tailored ivory-white bandhgala suit."
+    },
+    "Bala-Rishi": {
+      "avatar_tag": "Bala-Rishi",
+      "master_image": "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
+      "canonical_look": "4-year-old boy sage Bala-Rishi (top-knot bun, Urdhva Pundra tilak, Rudraksha mala, cream silk kurta & golden-bordered shawl)."
+    },
+    "Bala-Matha": {
+      "avatar_tag": "Bala-Matha",
+      "master_image": "assets/studio_v5_masters/bala_matha_master_portrait.jpg",
+      "canonical_look": "Young divine girl sage Bala-Matha (vibhuti/kumkum on forehead, magenta-green silk pattu pavadai with golden zari border, fresh white jasmine garlands)."
+    }
+  },
+  "signature_cinematic_mechanics": {
+    "two_birds_active_narrator_law": "Narrator (@Me) + ONE Child ONLY (Bala-Rishi OR Bala-Matha) live physically inside each movie scene—walking, kneeling, or riding beside characters to narrate inner conscience.",
+    "bullet_time_freeze_frame_walkthrough": "[SCENE TIME-PAUSE] freezes raindrops, traffic horns, and moral crossroads in 3D bullet-time while @Me + 1 Child walk calmly through the frozen frame.",
+    "white_wall_zoom_portal": "Pure-white circular marble Karmic Genie Show studio wall acts as a seamless zoom-in/zoom-out cinema portal."
+  },
+  "episode_1_storyboard_scenes": [
+    {
+      "scene": 1,
+      "act": "ACT I — COLD OPEN (Page 1)",
+      "title": "Day 1 vs. Day 2 Monsoon Scooter Accident (3D Bullet-Time Time-Pause)",
+      "setting": "Rain-slicked dusk suburban bend in South India; frozen raindrops & amber brake-light reflections.",
+      "characters": "Commuter driver Raghav, fallen scooter rider, Narrator @Me (ivory bandhgala) + 4yo Bala-Rishi.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Rishi): @Me and 4yo Bala-Rishi walk calmly through suspended raindrops beside the open sedan door and wounded scooter rider.",
+      "time_pause_mechanic": "[SCENE TIME-PAUSE] freezes the monsoon drizzle right as Raghav considers driving away after causing the minor clip.",
+      "dialogue_anchor": "Next evening—same minor accident. Except tonight, his car caused it, and nobody else is around.",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_01_accident_day2_pause.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_01_accident_day2_pause.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 2,
+      "act": "ACT I — CONSCIENCE AWAKENS (Page 2)",
+      "title": "2:30 AM Sleepless Guilt & The Wife's Mirror ('You Should Have Helped Him!')",
+      "setting": "Moonlit South Indian bedroom at 2:30 AM with warm amber bedside lamp.",
+      "characters": "Sleepless Raghav, his wife Ananya, Narrator @Me + Bala-Matha.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Matha): @Me and Bala-Matha stand quietly in soft golden conscience light by the bedpost as Ananya speaks the piercing truth.",
+      "time_pause_mechanic": "Intimate psychological stillness contrasting Day 1's effortless sleep with Day 2's burning guilt.",
+      "dialogue_anchor": "Yesterday his wife said nothing. Tonight she cries, 'You should have helped him!' Why? Because helping became HIS DUTY!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_02_sleepless_conscience.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_02_sleepless_conscience.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 3,
+      "act": "ACT I — STUDIO PORTAL (Page 2)",
+      "title": "White-Wall Zoom-Out to The Karmic Genie Show Circular Marble Stage",
+      "setting": "Pure-white circular marble amphitheater with brushed-gold '1. Respect Your DUTY First.' inscription & dormant gold Genie lamp.",
+      "characters": "@Me, 4yo Bala-Rishi, and Bala-Matha on the central marble stage.",
+      "two_birds_blocking": "The Sacred Trinity welcomes the audience and defines True Duty as the task whose neglect awakens guilt inside Conscience (Manasatchi).",
+      "time_pause_mechanic": "[WHITE-WALL ZOOM-OUT] from bedroom window straight onto the luminous circular marble stage.",
+      "dialogue_anchor": "True Duty is never an office contract. Duty is the sacred task whose neglect awakens guilt inside your Conscience!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_03_white_stage_duty_portal.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 4,
+      "act": "ACT II — NATURE & CHILDHOOD DUTY (Pages 3–4)",
+      "title": "Banyan, Bee & River (100% Duty) + Age 4 Barefoot Outdoor Play",
+      "setting": "Golden sunlit sacred Banyan tree with aerial roots, lotus honeybees, and crystal river puddles.",
+      "characters": "4-year-old child splashing barefoot in golden puddles, Narrator @Me + 4yo Bala-Rishi.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Rishi): @Me and Bala-Rishi walk barefoot along the sunlit riverbank right beside the playing 4-year-old child.",
+      "time_pause_mechanic": "[WHITE-WALL ZOOM-IN] into living nature showing 100% unapplauded duty across Banyan, Bee, River, and Childhood Play.",
+      "dialogue_anchor": "At age four, a child's one hundred percent duty is pure outdoor PLAY—building fearless lungs, bones, and vitality!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_04_banyan_age4_play.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_04_banyan_age4_play.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 5,
+      "act": "ACT II — HOUSEHOLDER ILLARAM (Page 5)",
+      "title": "Sacred Family Duty: Father's 50% Spotless Porul & Mother's 50% Arul Pooja Lamp",
+      "setting": "Traditional-modern South Indian courtyard home at twilight glowing with a brass Kuthuvilakku oil lamp.",
+      "characters": "Mother lighting the sacred Pooja lamp with child, Father arriving warmly with honest provision, Narrator @Me + Bala-Matha.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Matha): @Me and Bala-Matha walk gently through the courtyard beside the glowing Kuthuvilakku lamp.",
+      "time_pause_mechanic": "Warm golden oil-lamp illumination revealing why loving Family Life (Karma Margam / Illaram) is both safest and fastest for Soul Growth.",
+      "dialogue_anchor": "And a mother's sacred Arul—nurturing life and lighting the daily Pooja lamp—turns four brick walls into a living temple!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_05_porul_arul_home.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_05_porul_arul_home.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 6,
+      "act": "ACT III — ONLY YOU CAN DO #1 (Page 7)",
+      "title": "Things ONLY YOU Can Do (Scene 1 of 7): Being Father to Your Own Child",
+      "setting": "Rain-washed sunlit cobblestone tree-lined walkway in golden afternoon light.",
+      "characters": "5-year-old boy sprinting into his kneeling father's open arms, Narrator @Me + 4yo Bala-Rishi.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Rishi): @Me and Bala-Rishi walk in stride right beside the joyful reunion.",
+      "time_pause_mechanic": "Slow-motion emotional embrace proving 'Only You Can Do' is sacred responsibility, never arrogance.",
+      "dialogue_anchor": "Scene One: Ten thousand engineers can replace your office chair—not one human on Earth can be father to your child!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_06_only_you_father_hug.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_06_only_you_father_hug.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 7,
+      "act": "ACT III — ONLY YOU CAN DO #3 & ELDER NANDRI (Pages 6–7)",
+      "title": "Things ONLY YOU Can Do (Scene 3 of 7): Kneeling Before Your Aging Parents",
+      "setting": "Warm pillared ancestral veranda at golden sunset with brass lantern glow.",
+      "characters": "40-year-old son holding his 78-year-old father and mother's hands, Narrator @Me + Bala-Matha.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Matha): @Me and Bala-Matha walk softly beside the carved teak veranda pillars.",
+      "time_pause_mechanic": "Golden sunset glow illuminating tears of parental joy that bank transfers alone can never buy.",
+      "dialogue_anchor": "Scene Three: Money hires nurses, never kinship—your aging parents' eyes wait at the gate only for you, their child!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_07_only_you_elder_parents.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_07_only_you_elder_parents.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 8,
+      "act": "ACT III–IV — WHITE-WALL PORTAL & DAILY TIME LAW (Pages 7–9)",
+      "title": "White-Wall Portal Transition: Duty First -> What Only You Can Do -> Nothing Else",
+      "setting": "Luminous curved white marble Karmic Genie Show portal opening into lived human dharma.",
+      "characters": "@Me, 4yo Bala-Rishi, and Bala-Matha before the glowing White Wall aperture.",
+      "two_birds_blocking": "@Me proclaims the Iron Daily Law of Human Time before stepping back through the White Wall.",
+      "time_pause_mechanic": "[WHITE-WALL PORTAL] bridging the 7 'Only You Can Do' scenes with 'Respect Everyone Else's Duty'.",
+      "dialogue_anchor": "Every day: do your Duty first, then what ONLY YOU can do—nothing else! Anything outside those two wastes your priceless life!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_08_white_wall_portal_transition.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_08_white_wall_portal_transition.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 9,
+      "act": "ACT IV — RESPECT EVERYONE ELSE'S DUTY (Page 10)",
+      "title": "Dawn Boulevard Namaste: Honoring the Street Cleaner & Night Watchman",
+      "setting": "Golden sunrise tree-lined Indian avenue bathed in volumetric morning rays.",
+      "characters": "Car commuter bowing in respectful Namaste to an elderly municipal street cleaner, Narrator @Me + Bala-Matha.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Matha): @Me and Bala-Matha pause the honking hand, then smile beside the mutual Namaste bow.",
+      "time_pause_mechanic": "[SCENE TIME-PAUSE] freezes the impatient horn before transforming arrogance into mutual reverence.",
+      "dialogue_anchor": "Before the Divine, a street cleaner or night watchman fulfilling honest duty at ten-on-ten stands as noble as any king!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_09_respect_everyones_duty.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_09_respect_everyones_duty.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 10,
+      "act": "ACT V — PUBLIC DUTY & REDEMPTION IN THE RAIN (Pages 11–12)",
+      "title": "Day 2 Rewind: Stopping in the Rain to Bandage & Help the Wounded Stranger",
+      "setting": "Dusk rain-wet avenue as golden sunset rays break through parting monsoon clouds; hazard lights & ambulance arriving.",
+      "characters": "Raghav kneeling with umbrella and first-aid cloth tending the injured scooter rider, Narrator @Me + 4yo Bala-Rishi.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Rishi): @Me rests a warm hand on Bala-Rishi's shoulder right beside the redemptive roadside rescue.",
+      "time_pause_mechanic": "Golden storm-break rewind transforming Day 2's guilty flight into courageous public duty.",
+      "dialogue_anchor": "He parks, runs into the rain, bandages the stranger's knee, and stays beside him until medical hands take over!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_10_redemption_help_rider.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_10_redemption_help_rider.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 11,
+      "act": "ACT V — THE REWARD OF CONSCIENCE (Page 12)",
+      "title": "The Full-Chest Sigh of Relief & A Blissful Good Night's Sleep",
+      "setting": "Serene lamp-lit South Indian bedroom at night filled with tranquil peace.",
+      "characters": "Raghav and Ananya sleeping deeply and peacefully with gentle smiles, Narrator @Me + Bala-Matha.",
+      "two_birds_blocking": "NARRATOR + 1 CHILD (Bala-Matha): @Me and Bala-Matha smile softly in gentle golden conscience glow near the bedroom doorway.",
+      "time_pause_mechanic": "Warm lullaby glow illustrating how Conscience rewards completed duty with a sigh of relief and unbroken sleep.",
+      "dialogue_anchor": "No sleeping pill on Earth equals a clean conscience—tonight, fulfilled duty gifts him the sweetest good night's sleep!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_11_peaceful_sleep_relief.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_11_peaceful_sleep_relief.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 12,
+      "act": "ACT VI–VII — KARMIC GENIE SUMMONS & PILLOW TEST FINALE (Pages 13–14)",
+      "title": "Awakening the Celestial Maharishi Karmic Genie & The 35/70 Pillow Test",
+      "setting": "Grand pure-white circular marble stage with golden-sapphire stardust & Celestial Maharishi Karmic Genie.",
+      "characters": "Cross-legged Celestial Maharishi Karmic Genie, @Me, 4yo Bala-Rishi, and Bala-Matha.",
+      "two_birds_blocking": "Full Sacred Studio Finale locking '1. Respect Your DUTY First.' in radiant gold and previewing Virtue #2 ('Earn with DIGNITY Always').",
+      "time_pause_mechanic": "Golden-sapphire stardust emergence from the center lamp + 5-Question Tonight Pillow Test.",
+      "dialogue_anchor": "Respect your duty, honor every soul's duty, and sleep in divine peace. Nandri, Vanakkam—live the Seven-D Way!",
+      "visual_asset": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_12_celestial_karmic_genie_finale.jpg",
+      "ref_ingredient": "episodes/S01E01_Respect_Your_Duty_First/storyboard/sb_12_celestial_karmic_genie_finale.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg",
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    }
+  ]
+}

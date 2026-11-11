@@ -15,22 +15,23 @@
   },
   {
     "id": "S01E01",
-    "code": "S01E01_The_Way_Forward_Master",
-    "title": "The Way Forward: As in the Macrocosm, So in the Microcosm",
-    "subtitle": "Andathil Ullathe Pindam, Pindathil Ullathe Andam",
+    "code": "S01E01_Respect_Your_Duty_First",
+    "title": "1. Respect Your DUTY First. (The 7D Way — Epic Movie)",
+    "subtitle": "Conscience (Manasatchi), Lifecycle Duty, What Only You Can Do & The Two-Day Accident Parable",
     "cast": [
-      "Host (@Me)",
-      "4yo Bala-Rishi (Jnana)",
-      "Bala-Matha (Arul in Green/Rose Silk)"
+      "Host (@Me in Ivory Bandhgala)",
+      "4yo Bala-Rishi (Jnana — 1 Child Rule)",
+      "Bala-Matha (Arul — 1 Child Rule)",
+      "Celestial Maharishi Karmic Genie"
     ],
-    "core_concept": "The great awakening that Mother Earth is a living conscious mother, and all human organ systems mirror the 7 global industry sectors.",
-    "script_file": "docs/guides/THE_WAY_FORWARD_MASTER_GUIDE.md",
-    "duration": "14-Page Movie Screenplay"
+    "core_concept": "Virtue #1 of The 7D Way: True Duty is the task whose neglect triggers guilt in Conscience. Do your Duty first, then do what ONLY YOU can do (7 scenes), respect everyone else's duty, and earn a peaceful night's sleep.",
+    "script_file": "episodes/S01E01_Respect_Your_Duty_First/S01E01_14_Page_Master_Screenplay_Respect_Your_Duty_First.md",
+    "duration": "~7m 45s (48 Google Flow 16:9 Cinema Shots)"
   },
   {
     "id": "S01E02",
     "code": "S01E02_Technological_Singularity_2027_2100",
-    "title": "Technological Singularity (2027 \u2013 2100): The Sacred Timeline",
+    "title": "Technological Singularity (2027 – 2100): The Sacred Timeline",
     "subtitle": "Decoupling 7D Philosophy from Direct Yearly Eras",
     "cast": [
       "Host (@Me)",

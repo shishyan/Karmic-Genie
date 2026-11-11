@@ -1,34 +1,35 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Google Flow MCP Server & Full-Film Autonomous Engine (v3.0)
-The Karmic Genie Show — Season 1, Episode 1 (~08:05 Epic Theatrical Film):
-  "THE WAY FORWARD: AS IN THE MACROCOSM, SO IN THE MICROCOSM (Pindam in Andam)"
+Google Flow MCP Server & Full-Film Autonomous Engine (v3.1)
+The Karmic Genie Show — Season 1, Episode 1 (~07:45 Epic Theatrical Film):
+  "1. RESPECT YOUR DUTY FIRST." (The 7D Way — Virtues & Divinity Series)
 Account: nagaraj957@gmail.com (Google Flow Ultra Plan — Omni 1.1 Flash / Veo 3.1)
 
 Exposes 6 MCP Tools over JSON-RPC 2.0 stdio:
   1. `check_google_flow_connection`
      Inspects live Chrome CDP (`9225`, `9222`), ComfyUI Flow Bridge (`8190`), and clip download
-     progress (`X / 48` spoken 16:9 clips) across `episodes/S01E01_The_Way_Forward_Master/flow_16x9_clips/`.
+     progress (`X / 48` spoken 16:9 clips) across `episodes/S01E01_Respect_Your_Duty_First/flow_16x9_clips/`.
   2. `get_s01e01_storyboard_scenes`
      Returns the 12-scene S01E01 Epic Movie Storyboard (`GOOGLE_FLOW_STORYBOARD_PACKAGE_S01E01.json`).
   3. `get_s01e01_48_shot_ledger`
-     Exports & returns the canonical 48-shot (`WF01..WF48`), 10-batch shooting ledger aligned to the
+     Exports & returns the canonical 48-shot (`DF01..DF48`), 10-batch shooting ledger aligned to the
      14-page screenplay (`Narrator Me + 1 Child ONLY` in movie scenes, White-Wall Zoom-In/Zoom-Out
-     portals, Two-Birds active mirroring + 3D Bullet-Time Time-Pauses, zero real brand/person names).
+     portals, Two-Birds active mirroring + 3D Bullet-Time Time-Pauses, 7 'Only You Can Do' scenes,
+     Respect Everyone's Duty, and the Two-Day Car Accident Conscience Parable).
   4. `generate_google_flow_batch`
      Executes a specific batch (`batch_01`..`batch_10`) or `"all"` in Google Flow (`flow.google.com`)
      using `FlowFilmRunner`: opens fresh Flow project, sets `Never` + `16:9` + `x1`, uploads the 16:9
      storyboard reference plate, attaches the official `Me` Avatar chip (`Avatars -> Me -> Add to prompt`
      with ZERO literal `@` in ProseMirror), handles confirmation prompts, and downloads `.mp4` clips.
   5. `assemble_s01e01_master_film`
-     Runs `build_s01e01_way_forward_master_film.py` (`faster-whisper` speech-to-slot alignment,
+     Runs `build_s01e01_duty_first_master_film.py` (`faster-whisper` speech-to-slot alignment,
      `rubberband` `0.87x`/`0.84x` cinema pacing, 12 RGBA glass badges, borderless ASS subtitles,
      Official 7D Cold Open + `-14 LUFS` Logo Finale) to render the final 1080p MP4 film.
   6. `build_s01e01_full_epic_film_in_flow`
      End-to-end master tool: generates all 48 Google Flow 16:9 clips across batches 1..10 AND
-     immediately assembles `renders/Karmic_Genie_Show_S01E01_The_Way_Forward_Master_16x9.mp4` +
-     `docs/assets/videos/Karmic_Genie_Show_S01E01_The_Way_Forward_Master_16x9.mp4`.
+     immediately assembles `renders/Karmic_Genie_Show_S01E01_Respect_Your_Duty_First_Master_16x9.mp4` +
+     `docs/assets/videos/Karmic_Genie_Show_S01E01_Respect_Your_Duty_First_Master_16x9.mp4`.
 
 Direct CLI Modes:
   python3 pipeline/google_flow_mcp_s01e01_storyboard.py --status
@@ -53,7 +54,7 @@ REPO_DIR = PIPELINE_DIR.parent
 if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
-from generate_s01e01_way_forward_flow_clips import (  # noqa: E402
+from generate_s01e01_duty_first_flow_clips import (  # noqa: E402
     BATCH_SPECS,
     CDP_PORTS,
     EP_CLIPS_DIR,
@@ -66,9 +67,9 @@ from generate_s01e01_way_forward_flow_clips import (  # noqa: E402
 
 PACKAGE_JSON = REPO_DIR / "GOOGLE_FLOW_STORYBOARD_PACKAGE_S01E01.json"
 DOCS_PACKAGE_JSON = REPO_DIR / "docs" / "GOOGLE_FLOW_STORYBOARD_PACKAGE_S01E01.json"
-MASTER_ASSEMBLER_PY = PIPELINE_DIR / "build_s01e01_way_forward_master_film.py"
-OUT_MASTER_MP4 = REPO_DIR / "renders" / "Karmic_Genie_Show_S01E01_The_Way_Forward_Master_16x9.mp4"
-OUT_WEB_MP4 = REPO_DIR / "docs" / "assets" / "videos" / "Karmic_Genie_Show_S01E01_The_Way_Forward_Master_16x9.mp4"
+MASTER_ASSEMBLER_PY = PIPELINE_DIR / "build_s01e01_duty_first_master_film.py"
+OUT_MASTER_MP4 = REPO_DIR / "renders" / "Karmic_Genie_Show_S01E01_Respect_Your_Duty_First_Master_16x9.mp4"
+OUT_WEB_MP4 = REPO_DIR / "docs" / "assets" / "videos" / "Karmic_Genie_Show_S01E01_Respect_Your_Duty_First_Master_16x9.mp4"
 COMFYUI_URL = os.environ.get("COMFYUI_URL", "http://127.0.0.1:8190")
 GOOGLE_ACCOUNT = os.environ.get("GOOGLE_ACCOUNT", "nagaraj957@gmail.com")
 
@@ -201,7 +202,8 @@ def get_connection_status() -> dict:
     progress = count_clip_progress()
     return {
         "mcp_server": "karmic-genie-google-flow-mcp",
-        "version": "3.0.0",
+        "version": "3.1.0",
+        "episode": "S01E01 — 1. Respect Your DUTY First.",
         "account": GOOGLE_ACCOUNT,
         "environment_host": os.uname().nodename,
         "home_dir": str(Path.home()),
@@ -298,7 +300,7 @@ def execute_flow_batches(batch_filter: str = "all", auto_launch_chrome: bool = T
 
 
 def run_master_assembler(check_only: bool = False) -> dict:
-    """Invoke `build_s01e01_way_forward_master_film.py` and return structured JSON output."""
+    """Invoke `build_s01e01_duty_first_master_film.py` and return structured JSON output."""
     cmd = [sys.executable, str(MASTER_ASSEMBLER_PY)]
     if check_only:
         cmd.append("--check")
@@ -321,24 +323,23 @@ MCP_TOOLS = [
         "name": "check_google_flow_connection",
         "description": (
             "Check live Google Flow Chrome CDP connection (ports 9225/9222 for nagaraj957@gmail.com), "
-            "ComfyUI bridge status, and 48-shot S01E01 clip download progress."
+            "ComfyUI bridge status, and 48-shot S01E01 ('Respect Your DUTY First') clip download progress."
         ),
         "inputSchema": {"type": "object", "properties": {}},
     },
     {
         "name": "get_s01e01_storyboard_scenes",
         "description": (
-            "Retrieve all 12 Episode 1 (S01E01: The Way Forward — Epic Movie Edition) storyboard scenes, "
-            "Two-Birds active narrator blocking, 3D Bullet-Time Time-Pause notes, and visual asset paths."
+            "Retrieve all 12 Episode 1 (S01E01: Respect Your DUTY First — Epic Movie Edition) storyboard scenes, "
+            "Two-Birds active narrator blocking, 3D Bullet-Time Time-Pause notes, and @Me-referenced visual plates."
         ),
         "inputSchema": {"type": "object", "properties": {}},
     },
     {
         "name": "get_s01e01_48_shot_ledger",
         "description": (
-            "Export and return the canonical 48-shot (WF01..WF48), 10-batch Google Flow shooting ledger "
-            "for S01E01 aligned to the 14-page Epic Movie screenplay (Narrator Me + 1 Child rule, "
-            "White-Wall portals, Two-Birds active mirroring, Me Avatar attachment, 15-18 spoken words/shot)."
+            "Export and return the canonical 48-shot (DF01..DF48), 10-batch Google Flow shooting ledger "
+            "for S01E01 ('Respect Your DUTY First') aligned to the 14-page Epic Movie screenplay."
         ),
         "inputSchema": {"type": "object", "properties": {}},
     },
@@ -363,8 +364,8 @@ MCP_TOOLS = [
     {
         "name": "assemble_s01e01_master_film",
         "description": (
-            "Assemble the 48 downloaded Google Flow 16:9 clips into the finished ~8-minute 1080p -14 LUFS "
-            "theatrical film (Karmic_Genie_Show_S01E01_The_Way_Forward_Master_16x9.mp4) using faster-whisper "
+            "Assemble the 48 downloaded Google Flow 16:9 clips into the finished ~7:45 1080p -14 LUFS "
+            "theatrical film (Karmic_Genie_Show_S01E01_Respect_Your_Duty_First_Master_16x9.mp4) using faster-whisper "
             "alignment, rubberband cinema pacing, 12 RGBA glass badges, and ASS subtitles."
         ),
         "inputSchema": {
@@ -381,8 +382,8 @@ MCP_TOOLS = [
     {
         "name": "build_s01e01_full_epic_film_in_flow",
         "description": (
-            "End-to-end Episode 1 Film Builder via Google Flow MCP: executes all 10 batches (48 spoken 16:9 "
-            "clips with Me Avatar + storyboard plates) in Google Flow and assembles the final 1080p master MP4."
+            "End-to-end Episode 1 ('Respect Your DUTY First') Film Builder via Google Flow MCP: executes all 10 "
+            "batches (48 spoken 16:9 clips with Me Avatar + storyboard plates) and assembles the 1080p master MP4."
         ),
         "inputSchema": {"type": "object", "properties": {}},
     },
