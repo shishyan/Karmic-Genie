@@ -2,473 +2,473 @@
 ## Master 14-Page Theatrical Epic Movie Screenplay (The 7D Way — Virtues & Divinity Series)
 
 - **Episode Code & Full Inscription Title:** `S01E02` — **`2. Earn with DIGNITY Always.`** (Virtue #2 of *The 7D Way*)
-- **Core Wisdom & Moral Law:**
-  1. **True Dignity = Unbought Integrity:** Doing the **right thing** at the **right time** to the **right people** *always* wins over doing the **easy thing** at the moment when **no one is watching**.
-  2. **Conscience Rejection vs. Emperor-Level Peace:** Status titles, luxury badges, and stolen applause can be bought or faked; Dignity (*Maanam* / *Hiri-Ottappa* / *Junzi* Spine) is unbuyable inner uprightness. Betraying integrity in the dark triggers immediate **Conscience Rejection** (often drowned in late-night intoxicants or louder vanity), whereas guarding integrity when unseen floods the chest with **Immediate Relief** and royal sleep.
-- **Format:** Theatrical `16:9` Epic Featurette (`48` Google Flow 8-Second Cinema Shots `ED01`–`ED48` = `~7m 40s` Master Cut with `-14 LUFS` Broadcast Mix)
-- **IRONCLAD NARRATOR SEPARATION LAW (Strictly Enforced Across All 48 Shots):**
-  - **Narrators Stay Purely Narrators — NEVER Mixed Up as Story Characters!**
-  - **`@Me` (Host / Narrator in tailored ivory-white *bandhgala* suit)** and **ONE Child Companion per movie scene** (**`4yo Bala-Rishi`** *OR* **`Bala-Matha`**, never crowded) speak **exclusively to the camera/viewer** as unseen celestial *Two-Birds* (*Mundaka Upanishad*) witnesses.
-  - **Zero Crossover Rule:** Story characters **never** see, hear, speak to, touch, or interact with `@Me`, `Bala-Rishi`, or `Bala-Matha`; and `@Me`, `Bala-Rishi`, and `Bala-Matha` **never** handle story props, intervene physically in the plot, or act as friends/relatives/colleagues of the characters. On Google Flow prompts, prompts explicitly declare: *"Story characters are completely unaware of the unseen narrators."*
-- **Cast Separation:**
-  - **Unseen Narrator Witness Ensemble (Address Camera/Viewer Only):**
-    - **`@Me`** (`v9_host_adult_ivory_bandhgala_16x9.jpg` — Host / Narrator)
-    - **`4yo Bala-Rishi`** (`v9_genie_4yo_bala_rishi_16x9.jpg` — Jnana Child Witness: Truth, Unwatched Integrity, Play, Independent Spine)
-    - **`Bala-Matha`** (`bala_matha_master_portrait.jpg` — Arul Child Witness: Conscience Mirror, Sacred *Arul* Home Lamp, Shared Credit, Humble *Nandri*)
-    - **`Celestial Maharishi Karmic Genie`** (`v6_7d_saintly_genie_16x9.jpg` — Awakened Cross-Legged Sage on the Pure-White Circular Marble Stage)
-  - **Self-Contained Movie Story Characters (Live Entirely Inside Their Story World, Unaware of Narrators):**
-    - **KARTHIK (34):** Dedicated quality & bridge-safety structural lead engineer, father of a 4-year-old son, husband to **MEERA (31)**, son to a retired schoolmaster father.
-    - **ARJUN (25):** Bright young junior structural analyst whose late-night calculation uncovered a hidden hairline load flaw.
-    - **VIKRAM (46):** Flashy senior division head tempting Karthik at `11:45 PM` to quietly swap a test tolerance figure and claim Arjun's optimization as their own executive breakthrough.
+- **Core Wisdom, Karmic Law & Divine Invariant:**
+  1. **"Earn with Dignity, ALWAYS" — Never Sometimes, Never Once:** Wherever, whenever you earn *Porul* (money / livelihood), it **MUST** come strictly from an act of duty, genuine service, or virtuous action—nothing less! Earning by any other means (greed, deceit, sycophancy, or moral compromise) accrues heavy negative karma that contaminates your own soul growth and poisons your family lineage.
+  2. **The Sovereign Act of Dignity:** No matter how powerful the authority or boss, you **do what is morally right**—never what is corrupt! If a boss or client commands you to do something unethical, you refuse point-blank, **even if it means losing your job on the spot!**
+  3. **Unbought Integrity vs. The Easy Lie:** Doing the **right thing** at the **right time** to the **right people** *always* triumphs over doing the **easy thing** when **no one is watching**. Titles, bonuses, and stolen applause are temporary; an unbought conscience is eternal royal dignity.
+- **Format:** Theatrical `16:9` Epic Featurette (`48` Google Flow 8-Second Cinema Shots `ED01`–`ED48` = `~7m 45s` Master Cut with `-14 LUFS` Broadcast Mix)
+- **ACTIVE IN-SCENE "TWO BIRDS" NARRATOR LAW (Strictly Maintained):**
+  - **Narrators Stay Purely Narrators — NEVER Mixed Up as Characters in the Plot!**
+  - **Intimate In-Scene Presence:** Unlike detached observers, **`@Me` (Host / Narrator in tailored ivory-white *bandhgala* suit)** and **ONE Child Companion per movie scene** (**`4yo Bala-Rishi`** *OR* **`Bala-Matha`**) stand physically **right beside the characters and props inside the scene**—at the desk elbow, beside the washroom mirror, at the fruit cart, and beside the bedpost—speaking **directly to the camera lens** to narrate the characters' inner conscience to the viewer.
+  - **Zero Plot-Interference Boundary:** The characters remain completely immersed in their human drama, never seeing, hearing, speaking to, or touching `@Me` or the child sage. `@Me` never takes a job, signs papers, or plays a character in the story world; he remains the timeless *Two-Birds* witness (*Mundaka Upanishad*).
+- **Cast Breakdown:**
+  - **Intimate In-Scene Narrator Witness Ensemble (Address Camera/Viewer Directly):**
+    - **`@Me`** (`v9_host_adult_ivory_bandhgala_16x9.jpg` — Host / In-Scene Narrator)
+    - **`4yo Bala-Rishi`** (`v9_genie_4yo_bala_rishi_16x9.jpg` — 4yo Jnana Child Witness: Truth, Moral Spine, Unbought Play & Courage Against Power)
+    - **`Bala-Matha`** (`bala_matha_master_portrait.jpg` — Arul Child Witness: Sacred Family *Arul*, Clean *Porul*, Conscience Mirror & Grateful *Nandri*)
+    - **`Celestial Maharishi Karmic Genie`** (`v6_7d_saintly_genie_16x9.jpg` — Cross-Legged Luminous Sage on the Pure-White Circular Stage)
+  - **Living Movie Story Characters (Deep in Their Dramatic Crossroads):**
+    - **KARTHIK (34):** Lead bridge-safety structural engineer, husband to **MEERA (31)**, father of a 4-year-old son, facing an executive ultimatum.
+    - **ARJUN (25):** Talented junior structural analyst whose late-night discovery identified a hidden load micro-fracture.
+    - **VIKRAM (46):** Powerful division director wielding absolute corporate authority, demanding Karthik falsify the safety certificate or face immediate termination.
 
 ---
 
-## PAGE 1 — ACT I: `11:45 PM` WHEN NO ONE WATCHES — THE EASY SHORTCUT VS. UNSEEN INTEGRITY
+## PAGE 1 — ACT I: `11:45 PM` WHEN NO ONE WATCHES — THE EXECUTIVE ULTIMATUM
 
-### [SHOT ED01 — 11:45 PM EMPTY FLOOR: THE UNWATCHED TEMPTATION]
+### [SHOT ED01 — 11:45 PM EMPTY FLOOR: THE CORRUPT DEMAND AT THE DESK]
 - **Storyboard Reference:** `sb_e02_01_midnight_unwatched_test.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR — 11:45 PM (RAIN OUTSIDE)
-- **Narrator Separation Blocking:** Foreground left along the glass walkway: unseen narrators **`@Me`** (ivory *bandhgala*) and **`4yo Bala-Rishi`** walk calmly addressing ONLY the camera lens. Background inside the amber-lit room: story characters KARTHIK (34) and senior director VIKRAM (46) stand over a bridge-steel inspection dossier—completely unaware of the unseen narrators.
-- **Visual Action:** Security lights dim across rows of empty desks at `11:45 PM`. Every auditor and junior engineer has gone home. Vikram slides a gleaming promotion letter beside a red-flagged micro-fracture report—urging Karthik to delete one decimal warning and erase 25-year-old junior analyst Arjun's name from the design patent before tomorrow's 9:00 AM board sign-off.
-- **Dialogue (`@Me` — addressing the viewer calmly):**
-  > "Eleven-forty-five at night. Every camera is off, every desk is empty, and nobody on Earth is watching."
+- **Location:** INT. GLASS ENGINEERING DRAFTING OFFICE — 11:45 PM (RAIN OUTSIDE)
+- **Active In-Scene Blocking:** Inside the warm amber-lit drafting office right next to the blueprint desk: powerful division head VIKRAM (46) leans aggressively over the table pointing at a bridge-steel dossier, while lead engineer KARTHIK (34) freezes with his pen hovering. Standing **right beside the drafting table**, just inches from Karthik's elbow, are **`@Me`** (ivory *bandhgala*) and **`4yo Bala-Rishi`**, looking directly into the camera lens.
+- **Visual Action:** Rain streaks the dark floor-to-ceiling glass. Every desk is empty. Vikram demands Karthik delete a red-flagged micro-fracture decimal and erase 25-year-old junior analyst Arjun's name—offering a lucrative promotion bonus while threatening instant dismissal if he hesitates.
+- **Dialogue (`@Me` — standing right beside Karthik's frozen pen, addressing the viewer):**
+  > "Eleven-forty-five at night. His boss demands a lie—promising gold if he complies, and ruin if he refuses!"
 
-### [SHOT ED02 — THE SEDUCTIVE WHISPER OF THE EASY THING (`[SCENE TIME-PAUSE]`)]
+### [SHOT ED02 — THE SEDUCTIVE TRAP OF EASY COMPLIANCE (`[SCENE TIME-PAUSE]`)]
 - **Storyboard Reference:** `sb_e02_01_midnight_unwatched_test.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR — CONTINUOUS
-- **Narrator Separation Blocking:** **`[SCENE TIME-PAUSE]`**: Karthik's pen hovers frozen two millimeters above the signature line; rain streaks hang motionless on the dark glass. Unseen witnesses **`@Me`** and **`4yo Bala-Rishi`** step smoothly across the foreground framing, looking directly into the camera without touching the desk or being perceived by frozen Karthik or Vikram.
-- **Visual Action:** On the frozen screen glows the tempting shortcut: instant promotion bonus, zero public delay, and stolen credit for young Arjun's three months of sleepless math—all with one silent click in the dark.
-- **Dialogue (`Bala-Rishi` — clear, piercing wonder to the camera):**
-  > "One silent click hides the flaw, steals a junior's credit, and wins an easy bonus—since nobody sees!"
+- **Location:** INT. GLASS ENGINEERING DRAFTING OFFICE — CONTINUOUS
+- **Active In-Scene Blocking:** **`[SCENE TIME-PAUSE]`**: Vikram's pointing finger and Karthik's hovering pen freeze mid-motion; rain streaks hang motionless on the glass. Unseen by the frozen characters, **`@Me`** and **`4yo Bala-Rishi`** step around the front edge of the drafting desk, speaking intimately to the viewer.
+- **Visual Action:** The screen displays the tempting lie: an instant corporate promotion, a hefty salary bump, and zero friction—bought by burying a deadly flaw and stealing a junior's credit in the dark.
+- **Dialogue (`Bala-Rishi` — standing beside the blueprint, speaking with piercing wonder):**
+  > "Obeying a corrupt boss feels easy tonight—but money earned from a lie poisons your soul and your family!"
 
-### [SHOT ED03 — PATH A (THE COMPROMISED SPINE): SIGNING THE EASY LIE IN THE DARK]
+### [SHOT ED03 — PATH A (THE COMPROMISED SPINE): SIGNING THE EASY LIE]
 - **Storyboard Reference:** `sb_e02_01_midnight_unwatched_test.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR -> EXECUTIVE PARKING — MIDNIGHT
-- **Narrator Separation Blocking:** **`@Me`** and **`Bala-Rishi`** stand in the foreground shadows purely as unseen observers speaking to the lens while Karthik acts out the cautionary "Easy Thing" timeline behind them, completely unaware of their presence.
-- **Visual Action:** Time resumes in the cautionary shadow timeline! Telling himself *"Everyone takes shortcuts,"* Karthik clicks *Approve*, pockets the corner-office badge, and walks to his car—yet his shoulders visibly slump an inch, unable to meet his own reflection in the dark elevator steel.
-- **Dialogue (`@Me` — grave, compassionate clarity to the camera):**
-  > "Watch what happens when he chooses the easy thing in the dark—trading unbought integrity for a shiny badge."
+- **Location:** INT. ENGINEERING DRAFTING ROOM -> PARKING LOT — MIDNIGHT
+- **Active In-Scene Blocking:** Time resumes in the cautionary shadow timeline! Karthik signs the false safety certificate to save his job. **`@Me`** and **`Bala-Rishi`** walk right beside Karthik as he walks to his car through the rain, narrating his sinking heart as he clutches his tainted paycheck.
+- **Visual Action:** Karthik pockets the signed bonus voucher, telling himself *"I have a mortgage; I had no choice."* Yet his shoulders slump, his eyes dart evasively, and his heavy footsteps carry the crushing weight of negative karma.
+- **Dialogue (`@Me` — walking right beside the slumped engineer, speaking to the camera):**
+  > "He saved his job—yet the moment he traded truth for money, bad karma entered his home and hands."
 
-### [SHOT ED04 — THE MIDNIGHT BATHROOM MIRROR & THE FALSE ANESTHETIC]
+### [SHOT ED04 — THE MIDNIGHT BATHROOM MIRROR: CONSCIENCE REJECTION]
 - **Storyboard Reference:** `sb_e02_02_mirror_conscience_rejection.jpg`
-- **Location:** INT. KARTHIK'S APARTMENT WASHROOM & BALCONY — 1:30 AM
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** stand quietly outside the open balcony glass in soft golden conscience light, speaking strictly to the viewer while Karthik remains completely alone inside his washroom.
-- **Visual Action:** At `1:30 AM`, Karthik splashes cold water on his face and stares into the washroom mirror—his own **Conscience (*Manasatchi*)** recoils in burning self-disgust (*"You sold your spine for a coin"*). Reaching toward a crystal decanter on the sideboard to numb that secret shame, his hand trembles in hollow misery.
-- **Dialogue (`@Me` — quiet, surgical truth to the viewer):**
-  > "No witness saw him—yet at one-thirty A.M., his own mirror rejects him! Drowning lost dignity only rots the soul."
+- **Location:** INT. KARTHIK'S APARTMENT WASHROOM — 1:30 AM
+- **Active In-Scene Blocking:** Inside the dimly lit washroom, Karthik leans heavily over the marble sink, staring into the illuminated mirror in burning torment. Standing **right beside the sink counter**, inches from Karthik's trembling hand near a crystal whiskey decanter, are **`@Me`** and **`Bala-Matha`**, facing the camera lens.
+- **Visual Action:** At `1:30 AM`, no boss or auditor is present—yet Karthik's own **Conscience (*Manasatchi*)** rejects him with scorching self-loathing (*"You bought your bread with a coward's lie"*). Reaching for alcohol to drown his secret guilt, his trembling fingers reflect hollow agony.
+- **Dialogue (`@Me` — standing right beside the marble counter, speaking to the viewer):**
+  > "No boss is watching now—yet at one-thirty A.M., his own mirror rejects him! Tainted money burns the conscience."
 
 ---
 
-## PAGE 2 — THE SPOUSE'S MIRROR OF INTEGRITY & WHITE-WALL STUDIO PORTAL
+## PAGE 2 — THE SPOUSE'S MORAL MIRROR & WHITE-WALL STUDIO PORTAL
 
-### [SHOT ED05 — THE SILENT BREAKFAST TABLE: BOUGHT STATUS CANNOT BUY RESPECT]
+### [SHOT ED05 — BREAKFAST TABLE: TAINTED WEALTH DESTROYS FAMILY SOUL GROWTH]
 - **Storyboard Reference:** `sb_e02_02_mirror_conscience_rejection.jpg`
 - **Location:** INT. KARTHIK & MEERA'S DINING ROOM — 7:30 AM
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`Bala-Matha`** observe from the sunlit veranda arch, speaking only to the camera while Karthik and his wife MEERA (31) interact naturally inside their dining room, unaware of the narrators.
-- **Visual Action:** Karthik places the new gold executive title card on the breakfast table, expecting applause. Meera notices his bloodshot eyes, the erased credit of young Arjun on the printed brief, and his defensive irritability—her quiet, sorrowful gaze says everything without shouting a word.
-- **Dialogue (`Bala-Matha` — luminous *Arul* clarity to the camera):**
-  > "A corner-office badge fools strangers—never your own heart or home! Bought status collapses the moment truth looks close."
+- **Active In-Scene Blocking:** Karthik places the executive promotion letter on the table. His wife MEERA (31) looks at his bloodshot, troubled eyes and the erased name of young Arjun. Standing **right behind the dining chairs**, **`@Me`** and **`Bala-Matha`** speak intimately to the camera while the couple interacts.
+- **Visual Action:** Meera does not celebrate the money; she pushes the paper aside with quiet sadness: *"If this salary came from endangering innocent lives, this food will not nourish our child."* Bought status collapses before unbought truth.
+- **Dialogue (`Bala-Matha` — standing beside the table, luminous voice of *Arul*):**
+  > "Wealth born of deceit stains the family hearth! A true home hungers for honest rice, never tainted gold."
 
 ### [SHOT ED06 — WHITE-WALL ZOOM-OUT TO THE KARMIC GENIE STADIUM]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** TRANSITION -> INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** Studio stage host setting: **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** stand on the pure-white circular marble platform before the dormant jeweled gold Genie lamp.
-- **Visual Action:** `[WHITE-WALL ZOOM-OUT]`: Camera pulls seamlessly backward from the dining room window through a glowing pure-white portal onto the grand circular marble amphitheater! Inscribed in brushed gold beside Pillar #1 shines **`2. Earn with DIGNITY Always.`**
-- **Dialogue (`@Me` — warm, authoritative welcome):**
-  > "Welcome back to *The Karmic Genie Show*! After *Respect Your Duty First*, behold Virtue Two: *Earn with DIGNITY Always.*"
+- **Active In-Scene Blocking:** Studio host setting: `[WHITE-WALL ZOOM-OUT]` pulls backward from the dining room window onto the grand circular white marble amphitheater where **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** stand before the dormant gold Genie lamp.
+- **Visual Action:** Inscribed in radiant brushed champagne gold beside Pillar #1 shines **`2. Earn with DIGNITY Always.`**
+- **Dialogue (`@Me` — authoritative, magnetic welcome):**
+  > "Welcome to *The Karmic Genie Show*! After *Respect Your Duty First*, discover Virtue Two: *Earn with DIGNITY Always.*"
 
-### [SHOT ED07 — HOW VIRTUE 1 (DUTY) BIRTHS VIRTUE 2 (DIGNITY = INTEGRITY)]
+### [SHOT ED07 — THE INVARIANT: EARN WITH DIGNITY *ALWAYS*, NOT SOMETIMES]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** **`@Me`** walks gracefully along the champagne-gold concentric inlay ring on the white marble stage, addressing the viewer directly.
-- **Visual Action:** Behind `@Me`, two luminous golden emblems interlock: **Virtue 1 (`DUTY` — *What* Conscience Calls You To Do)** and **Virtue 2 (`DIGNITY` — *How* Unbought Integrity Keeps Every Drop Clean)**.
-- **Dialogue (`@Me` — defining golden law):**
-  > "Duty tells you *what* is yours to fulfill. Dignity is pure Integrity—*how* you fulfill it when nobody watches!"
+- **Active In-Scene Blocking:** **`@Me`** walks along the inner gold ring of the marble stage, speaking straight to the camera lens with absolute philosophical precision.
+- **Visual Action:** On the curved smart-glass studio barrier, the golden maxim blazes: **"Earn with Dignity ALWAYS — Not Sometimes, Not Once."** Behind it, twin scales contrast *Clean Porul from Duty* against *Accrued Bad Karma from Falsehood*.
+- **Dialogue (`@Me` — defining the eternal law):**
+  > "Notice the sacred law: earn with dignity *always*! Every rupee must flow purely from duty, service, or virtuous action."
 
-### [SHOT ED08 — THE GOLDEN AXIOM: RIGHT THING, RIGHT TIME, RIGHT PEOPLE]
+### [SHOT ED08 — DEFYING CORRUPT POWER: RIGHT OVER EASY]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** Medium close-up of **`@Me`** and **`4yo Bala-Rishi`** beside the dormant gold Genie lamp on the pure-white marble stage.
-- **Visual Action:** On the curved transparent smart-glass barrier, three radiant golden pillars ignite in sequence: **Right Thing • Right Time • Right People > Easy Thing Unwatched**.
-- **Dialogue (`Bala-Rishi` — radiant, unforgettable conviction):**
-  > "Doing the right thing, at the right time, to the right people ALWAYS beats the easy thing in the dark!"
+- **Active In-Scene Blocking:** Medium close-up of **`@Me`** and **`4yo Bala-Rishi`** standing beside the jeweled gold lamp.
+- **Visual Action:** Three golden pillars ignite on the studio display: **Right Thing • Right Time • Right People > Fear of Losing Position**.
+- **Dialogue (`Bala-Rishi` — fearless, radiant conviction):**
+  > "No matter how high the power, do what is right—even if defying an unjust boss costs your job!"
 
 ---
 
-## PAGE 3 — ACT II: NATURE'S UNBOUGHT INTEGRITY & THE SAFE FAMILY CRUCIBLE
+## PAGE 3 — ACT II: NATURE'S UNBOUGHT DIGNITY & THE SACRED CRUCIBLE
 
-### [SHOT ED09 — WHITE-WALL ZOOM-IN: LOTUS, MOUNTAIN BAMBOO & HONEYBEE (`100%` DIGNITY)]
+### [SHOT ED09 — WHITE-WALL ZOOM-IN: UNSTAINED LOTUS & MOUNTAIN BAMBOO]
 - **Storyboard Reference:** `sb_e02_04_lotus_bamboo_nature_dignity.jpg`
-- **Location:** TRANSITION -> EXT. MISTY SUNLIT LOTUS POND & MOUNTAIN BAMBOO GROVE — MORNING
-- **Narrator Separation Blocking:** `[WHITE-WALL ZOOM-IN]`: **`@Me`** and **`4yo Bala-Rishi`** walk along a stone garden path in the foreground speaking exclusively to the lens, observing untouched nature around them.
-- **Visual Action:** A pure white lotus rises out of dark pond mud without a single stain on its petals; tall green bamboo bends gracefully in mountain wind without cracking its upright spine; a golden honeybee gathers nectar (`50% Hive / 35% Pollination / 15% Brood`) without bruising a single blossom!
+- **Location:** TRANSITION -> EXT. MISTY LOTUS POND & MOUNTAIN BAMBOO GROVE — MORNING
+- **Active In-Scene Blocking:** `[WHITE-WALL ZOOM-IN]`: **`@Me`** and **`4yo Bala-Rishi`** walk along the stone pond path right beside blooming white lotuses and tall green mountain bamboo, speaking directly to the lens.
+- **Visual Action:** The pure lotus blooms spotless out of murky swamp water; the green bamboo sways under torrential gale winds without snapping its upright spine; the honeybee collects nectar without bruising a single blossom.
 - **Dialogue (`@Me` — serene wonder):**
-  > "Behold nature's unbought integrity: the lotus rises unstained, bamboo bends without breaking, and honeybees earn nectar without bruising petals!"
+  > "Nature teaches unbought dignity: the lotus remains unstained by mud, and mountain bamboo bends without ever breaking its upright spine!"
 
-### [SHOT ED10 — STATUS VANITY VS. UNBOUGHT *MAANAM* (THE NOBLE *KAVARI* DEER)]
+### [SHOT ED10 — THIRUVALLUVAR'S *MAANAM* (*KURAL* 969) & FAMILY COVENANT]
 - **Storyboard Reference:** `sb_e02_04_lotus_bamboo_nature_dignity.jpg`
 - **Location:** EXT. HIGHLAND MEADOW & SUNLIT COURTYARD OVERLOOK — MORNING
-- **Narrator Separation Blocking:** **`@Me`** and **`Bala-Rishi`** walk along the sunlit ridge addressing the viewer while down in the valley a peaceful three-generation courtyard home glows in morning light (story inhabitants inside their courtyard remain unaware of the ridge narrators).
-- **Visual Action:** Saint Thiruvalluvar's *Kural 969* (*Maanam*) shimmers softly in golden sunlight: status labels can be rented or stolen, whereas true Dignity is an unblemished spine guarded most fiercely inside loving **Family Life (*Illaram* / *Karma Margam*)**—where spouses and elders gently steady human stumbles before pride shatters!
-- **Dialogue (`@Me` — warm philosophical clarity):**
-  > "Status can be rented; Dignity is unbought self-respect—grown safest and fastest inside the loving accountability of family life!"
+- **Active In-Scene Blocking:** **`@Me`** and **`Bala-Rishi`** walk along the sunlit ridge overlooking a three-generation courtyard home where an honest family shares morning warmth.
+- **Visual Action:** Saint Thiruvalluvar's *Kural 969* (*Maanam* — like the *Kavari* deer guarding its honor) glows in the morning mist: power can force compliance, but true dignity is an unbuyable spine nurtured safest inside **Family Life (*Illaram*)**.
+- **Dialogue (`@Me` — warm philosophical depth):**
+  > "Titles can be rented, but dignity is unbought soul-worth—held upright inside family life where integrity protects your children's destiny!"
 
 ---
 
-## PAGE 4 — CHILDHOOD & YOUTH INTEGRITY: UNSHAMED PLAY & THE REFUSED CHEAT SHEET
+## PAGE 4 — CHILDHOOD & YOUTH INTEGRITY: UNSHAMED PLAY & THE REFUSED CHEAT NOTE
 
-### [SHOT ED11 — AGE 4 (`100%` UNSHAMED PLAY): NEVER TURN A CHILD INTO A TROPHY!]
+### [SHOT ED11 — AGE 4 (`100%` UNSHAMED PLAY): NEVER TURN A CHILD INTO A TROPHY]
 - **Storyboard Reference:** `sb_e02_05_age4_unshamed_play_youth_skill.jpg`
 - **Location:** EXT. SUNLIT COURTYARD GARDEN — MORNING
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** stand in the foreground corner by a flowering neem tree speaking only to the camera. Inside the garden, Karthik and Meera watch their 4-year-old son build a mud castle barefoot in joyful laughter—completely unaware of the narrators.
-- **Visual Action:** Nearby, a neighbor parent tries to force their exhausted toddler to pose for a flashy smartphone bragging video, instantly wilting the toddler's posture—while Meera pockets her phone and lets her 4-year-old splash and laugh freely (`100% Unshamed Play = Fearless Bodily Dignity`).
-- **Dialogue (`Bala-Rishi` — joyful, upright spirit):**
-  > "At age four, dignity means one hundred percent free play—never shaming a child into a status trophy for adult ego!"
+- **Active In-Scene Blocking:** Right inside the garden lawn, Karthik and Meera watch their 4-year-old son build mud castles barefoot. Standing **right beside the child's play area**, **`@Me`** and **`4yo Bala-Rishi`** speak intimately to the camera.
+- **Visual Action:** A nearby parent tries to force their exhausted toddler to perform for a vanity smartphone video, while Meera smiles and protects her child's pure, unscripted play (`100% Play = Unshamed Bodily Dignity`).
+- **Dialogue (`Bala-Rishi` — joyful, upright cadence):**
+  > "At age four, dignity is pure free play—never exploiting a child as a status trophy for adult vanity!"
 
-### [SHOT ED12 — AGES 8 TO 16 (`50% STUDY / 50% PLAY`): PREFERRING HONEST EFFORT OVER COPIED MARKS]
+### [SHOT ED12 — AGES 8 TO 16: PUSHING BACK THE EXAM CHEAT NOTE]
 - **Storyboard Reference:** `sb_e02_05_age4_unshamed_play_youth_skill.jpg`
-- **Location:** INT. SUNLIT SCHOOL EXAM HALL -> EXT. SPORTS FIELD — AFTERNOON
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Rishi`** walk slowly along the outer veranda corridor speaking strictly to the camera, invisible to the students inside the classroom.
-- **Visual Action:** During a quiet exam when the teacher turns toward the blackboard (`no one watching!`), a classmate slides a folded cheat note toward a 13-year-old girl. She calmly pushes the note back unopened, writes what *she* truly studied (`50% Study`), and sprints onto the afternoon playground (`50% Play`) with a radiant, secret-free smile!
-- **Dialogue (`@Me` — proud, resonant tone):**
-  > "In school years, an honest score earned by your own sweat shines brighter than a hundred copied victories!"
+- **Location:** INT. SUNLIT CLASSROOM EXAM HALL — AFTERNOON
+- **Active In-Scene Blocking:** Inside the classroom aisle **right beside a wooden desk**, **`@Me`** and **`4yo Bala-Rishi`** stand beside a 13-year-old schoolgirl while the teacher writes on the blackboard with back turned.
+- **Visual Action:** A classmate slides a folded cheat note toward her desk (`nobody is watching!`). Calmly and deliberately, she pushes the note back unopened, choosing an honest score earned by her own sweat over stolen marks.
+- **Dialogue (`@Me` — standing right beside her desk, speaking to the camera):**
+  > "When the teacher turns away, she refuses the cheat note—because true dignity never trades integrity for an unearned score!"
 
-### [SHOT ED13 — AGES 16 TO 24 (`65% SKILL`): HONEST PARENTS' CLOTHES & DEBT-FREE FIRST BREAD]
+### [SHOT ED13 — AGES 16 TO 24: HONEST PARENTS' SIMPLE CLOTHES & DEBT-FREE SKILL]
 - **Storyboard Reference:** `sb_e02_05_age4_unshamed_play_youth_skill.jpg`
 - **Location:** EXT. ENGINEERING COLLEGE GATE — GOLDEN SUNSET
-- **Narrator Separation Blocking:** **`@Me`** and **`Bala-Matha`** stand quietly across the sunlit pavement addressing the camera only, while 22-year-old ARJUN greets his father at the college gate—completely unaware of the unseen narrators.
-- **Visual Action:** While flashy peers show off borrowed luxury gadgets, young Arjun walks proudly across the crowded campus gate to embrace his father wearing simple, sweat-worn tailor clothes, bowing to touch his father's feet and handing him his very first debt-free apprenticeship stipend!
-- **Dialogue (`Bala-Matha` — deeply moved grace):**
-  > "True youth dignity masters real craft, lives debt-free, and bows with pride to hard-working parents in simple clothes!"
+- **Active In-Scene Blocking:** Right at the college gate beside the crowded sidewalk, 22-year-old ARJUN bows to touch his father's feet, holding his first modest apprenticeship stipend. Standing **right beside the father and son**, **`@Me`** and **`Bala-Matha`** address the viewer.
+- **Visual Action:** While peers show off flashy gadgets bought on debt, Arjun stands proud of his father's sweat-worn tailor clothes, honoring honest bread earned without deceit.
+- **Dialogue (`Bala-Matha` — standing right beside the embrace, voice of *Arul*):**
+  > "Youth dignity masters real craft, lives debt-free, and honors hard-working parents who earned every single coin with spotless hands!"
 
 ---
 
-## PAGE 5 — ADULTHOOD INTEGRITY: AGE 24 UNBOUGHT SPINE, CLEAN *PORUL* & ROYAL *ARUL*
+## PAGE 5 — ADULTHOOD INTEGRITY: AGE 24 SPINE, SPOTLESS *PORUL* & ROYAL *ARUL*
 
 ### [SHOT ED14 — AGE 24 (*JNANA BUDDHI*): INDEPENDENT THINKING CREATES AN UNBUYABLE SPINE]
 - **Storyboard Reference:** `sb_e02_06_age24_spine_porul_arul.jpg`
-- **Location:** INT. BRIGHT DESIGN REVIEW ROOM — MORNING
-- **Narrator Separation Blocking:** Foreground right outside the acoustic glass partition: unseen narrators **`@Me`** and **`4yo Bala-Rishi`** speak straight to the camera lens while 25-year-old Arjun presents inside the meeting room, unaware of them.
-- **Visual Action:** Inside the review room, while three sycophantic peers nod mechanically to please Vikram, 25-year-old Arjun stands calm and polite (`Jnana Buddhi` blended into family accountability), pointing clearly to the load-safety data without fear or rudeness—because he carries zero vanity debt, nobody owns his spine!
-- **Dialogue (`@Me` — crisp intellectual fire):**
-  > "At twenty-four, think independently! Without *Jnana* clarity and debt-free discipline, herd pressure easily buys a young adult's spine."
+- **Location:** INT. DESIGN REVIEW ROOM — MORNING
+- **Active In-Scene Blocking:** Inside the meeting room **right beside the presentation podium**, **`@Me`** and **`4yo Bala-Rishi`** stand beside 25-year-old Arjun as he presents structural data before a skeptical board.
+- **Visual Action:** While two sycophants agree with Vikram's flawed timeline, young Arjun stands firm and polite, explaining the load mathematics without fear or flattery—because he owes falsehood nothing!
+- **Dialogue (`@Me` — crisp conviction to the camera):**
+  > "At twenty-four, think freely! When your craft is honest and debt-free, no boss or boardroom can ever purchase your spine."
 
-### [SHOT ED15 — HOUSEHOLDER MAN'S `100%` DIGNITY (`50%` SPOTLESS *PORUL* + `50%` FAMILY COVENANT)]
+### [SHOT ED15 — HOUSEHOLDER MAN'S `100%` DIGNITY: SPOTLESS *PORUL* (*SAMMA AJIVA*)]
 - **Storyboard Reference:** `sb_e02_06_age24_spine_porul_arul.jpg`
-- **Location:** INT. COURTYARD HOME HEARTH — EVENING
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`Bala-Matha`** walk past the outer courtyard pillars speaking solely to the viewer, while inside the warm living area a householder father shares an honest evening meal with his wife, child, and elderly parents.
-- **Visual Action:** Every rupee of his `50%` *Porul* (*Thirukkural* 754 & Buddha's *Samma Ajiva* Right Livelihood) comes from real value built without sin—and because he refuses flashy ego loans, his `50%` *Porul* never bloats to `95%` to starve his `15%` Husband, `15%` Father, `10%` Son, and `10%` Citizen dignity!
-- **Dialogue (`@Me` — balanced, grounded warmth):**
-  > "A father earns fifty percent spotless *Porul* through Right Livelihood—never letting vanity debt enslave his family covenant!"
+- **Location:** INT. COURTYARD HOME DINING HEARTH — EVENING
+- **Active In-Scene Blocking:** Inside the home, a father shares a peaceful meal with his family. Standing **right beside the dining table**, **`@Me`** and **`Bala-Matha`** speak directly to the viewer.
+- **Visual Action:** Every rupee of his `50%` *Porul* (*Thirukkural* 754 & Buddha's Right Livelihood) comes from real service. Because he refuses corrupt shortcuts, his bread brings divine blessing (*Punya*) to his children's future.
+- **Dialogue (`@Me` — grounded warmth to the viewer):**
+  > "A householder earns spotless *Porul* through Right Livelihood—knowing corrupt gains only bring bad karma upon his children's growth!"
 
-### [SHOT ED16 — HOUSEHOLDER WOMAN'S `100%` SOVEREIGN DIGNITY (`50%` SACRED *ARUL* — *KURAL* 241)]
+### [SHOT ED16 — HOUSEHOLDER WOMAN'S `100%` SOVEREIGN DIGNITY: SACRED *ARUL* (*KURAL* 241)]
 - **Storyboard Reference:** `sb_e02_06_age24_spine_porul_arul.jpg`
 - **Location:** INT. HOME POOJA SANCTUM — TWILIGHT
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** stand serenely in the outer doorway arch addressing the camera lens, while inside the sanctum Meera lights the tall brass *Kuthuvilakku* lamp beside her husband and child, unaware of the narrators.
-- **Visual Action:** Radiant golden lamp-light illuminates Meera's calm brow as she shapes her child's moral spine and fills the household with Divine protection (`50% Arul` + `20% Wise Wife` + `15% Nurturer` + `10% Daughter` + `5% Hospitality` = `100%`). Her husband folds his palms in royal reverence toward the sacred grace anchoring their home (*Kural* 241).
-- **Dialogue (`Bala-Matha` — sovereign, reverent warmth):**
-  > "Thiruvalluvar crowns *Arul* the wealth of all wealths! A mother's sacred lamp and moral nurture hold royal dignity!"
+- **Active In-Scene Blocking:** Inside the quiet sanctum **right beside the tall brass *Kuthuvilakku* oil lamp**, Meera lights the wick while her husband and son fold their hands. Standing **right beside the sacred lamp**, **`@Me`** and **`Bala-Matha`** face the camera lens.
+- **Visual Action:** Golden lamplight illuminates Meera's calm brow as she fills the home with divine protection (`50% Arul` + `20% Wise Wife` + `15% Mother` + `10% Daughter` + `5% Hospitality` = `100%`). Her husband bows in reverence to the moral anchor of their home (*Kural* 241).
+- **Dialogue (`Bala-Matha` — standing beside the sacred flame, reverent grace):**
+  > "Thiruvalluvar crowns *Arul* the greatest wealth! A mother's sacred lamp and unbought virtue guard the family's spiritual destiny."
 
 ---
 
 ## PAGE 6 — LEADERSHIP & ELDER DIGNITY: SHARED CREDIT AT 40 & HUMBLE *NANDRI* AT 54
 
-### [SHOT ED17 — AGES 36 TO 48 (THE UPRIGHT BAMBOO LEADER): PUTTING JUNIORS' NAMES FIRST!]
+### [SHOT ED17 — AGES 36 TO 48: THE UPRIGHT LEADER PUTS JUNIORS' NAMES FIRST]
 - **Storyboard Reference:** `sb_e02_07_shared_credit_elder_nandri.jpg`
-- **Location:** INT. AUDITORIUM PROJECT REVIEW — MORNING
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`Bala-Rishi`** stand high in the rear aisle addressing only the camera lens while on the presentation floor below, a noble 42-year-old chief architect presents before senior board members—unaware of the narrators.
-- **Visual Action:** Instead of claiming solo glory, the 42-year-old leader highlights his 26-year-old junior engineer's name in bold at the very top of the breakthrough slide and invites her to stand and receive the applause—standing behind his team in triumph and in front of them during storms!
-- **Dialogue (`@Me` — noble, inspiring):**
-  > "Between thirty-six and forty-eight, true leadership dignity puts junior teammates' names first in victory—and shields them in storms!"
+- **Location:** INT. AUDITORIUM STAGE — MORNING
+- **Active In-Scene Blocking:** On the auditorium stage **right beside the podium**, a 42-year-old lead architect presents a breakthrough design. Standing **right beside him at the screen**, **`@Me`** and **`Bala-Rishi`** address the camera.
+- **Visual Action:** Instead of claiming solo triumph, the leader highlights his 26-year-old junior engineer's name at the very top of the slide and asks her to take the bow—shielding the team in storms and honoring their sweat in victory!
+- **Dialogue (`@Me` — noble, inspiring tone):**
+  > "Between thirty-six and forty-eight, true leadership dignity puts juniors' names first—refusing to steal credit for another's sweat!"
 
-### [SHOT ED18 — AGE 54 (`50%` *NANDRI* THANKING) & AGES 60–84+ (CROWN OF WHITE HAIR)]
+### [SHOT ED18 — AGE 54 (`50%` *NANDRI*) & AGES 60–84+: CROWN OF UNSTAINED CONSCIENCE]
 - **Storyboard Reference:** `sb_e02_07_shared_credit_elder_nandri.jpg`
-- **Location:** EXT. SUNLIT COMMUNITY COURTYARD & BANYAN VERANDA — GOLDEN MORNING
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** walk slowly along the garden stone border speaking strictly to the camera while a 55-year-old mentor and a 76-year-old silver-haired grandfather live out the scene naturally behind them.
-- **Visual Action:** At a milestone gathering, the 55-year-old mentor refuses self-made boasting (*Kural* 978), folding his palms in `50%` *Nandri* to thank unseen workers and mentors (`Bhakti Margam` inside family life); beside the Banyan tree, the 76-year-old elder plays joyfully with his 4-year-old grandchild (`70% Arul` + `20% Play`) needing zero "Former VIP" business card!
-- **Dialogue (`Bala-Matha` — serene, glowing grace):**
-  > "At fifty-four, boasting melts into grateful *Nandri*—and past sixty, an unstained conscience becomes your royal silver crown!"
+- **Location:** EXT. SUNLIT BANYAN COURTYARD — GOLDEN MORNING
+- **Active In-Scene Blocking:** In the sunlit courtyard **right beside an elderly craftsman and grandfather**, a 55-year-old mentor folds his palms in grateful *Namaste*. Standing **right beside the Banyan trunk**, **`@Me`** and **`Bala-Matha`** speak to the camera.
+- **Visual Action:** The mentor thanks the workers with zero ego (*Kural* 978); beside him, a 76-year-old grandfather plays joyfully with his grandchild, needing no corporate title because an unstained conscience is his royal silver crown!
+- **Dialogue (`Bala-Matha` — serene, radiant grace):**
+  > "At fifty-four, pride dissolves into humble *Nandri*—and past sixty, a lifetime of honest duty becomes your eternal crown!"
 
 ---
 
-## PAGE 7 — ACT III: THE FOUR GREAT INTEGRITY TESTS (RIGHT THING • RIGHT TIME • RIGHT PEOPLE)
+## PAGE 7 — ACT III: FOUR UNWATCHED INTEGRITY TESTS (RIGHT THING • RIGHT TIME • RIGHT PEOPLE)
 
-### [SHOT ED19 — STUDIO PORTAL IGNITION: WHY EASY SHORTCUTS ALWAYS COLLAPSE]
+### [SHOT ED19 — STUDIO PORTAL IGNITION: INTEGRITY ENDURES WHEN TITLES VANISH]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
-- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE -> PORTAL WALL
-- **Narrator Separation Blocking:** **`@Me`** and **`4yo Bala-Rishi`** stand center stage before the sweeping pure-white portal wall as four golden cinema windows shimmer open behind them.
-- **Visual Action:** Transparent curved smart-glass barriers display verified global reality metrics: **`200,000+` Workforce Shifts • `$720B` Automation Era — Titles Vanish Overnight; Unbought Integrity Endures Forever**.
+- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
+- **Active In-Scene Blocking:** **`@Me`** and **`4yo Bala-Rishi`** stand center stage before the white portal wall as four golden windows open behind them.
+- **Visual Action:** Curved smart-glass displays show global workforce shifts: corporate titles vanish in corporate waves, but unbought integrity endures across lifetimes.
 - **Dialogue (`@Me` — electrifying clarity):**
-  > "Titles vanish in a single restructuring—only integrity endures! Watch four moments where unseen integrity beats the easy shortcut:"
+  > "Titles vanish in an instant—only integrity endures! Watch four everyday tests where doing right wins over the easy shortcut:"
 
-### [SHOT ED20 — INTEGRITY SCENE 1: RETURNING OVERPAID CHANGE TO A WEARY STREET VENDOR]
+### [SHOT ED20 — TEST 1: RETURNING THE EXTRA ₹500 NOTE TO A WEARY STREET VENDOR]
 - **Storyboard Reference:** `sb_e02_08_unwatched_integrity_parables.jpg`
-- **Location:** EXT. RAIN-WASHED EVENING FRUIT CART — DUSK
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** walk along the opposite curb speaking exclusively to the lens. At the wooden lantern-lit cart, a young commuter and an elderly mango vendor interact naturally, completely unaware of the narrators.
-- **Visual Action:** In the dusk rush (`nobody watching!`), the tired half-blind vendor accidentally hands back an extra five-hundred-rupee note. Halfway down the lane, the commuter stops, walks right back (`Right Time`), and places the note gently into the vendor's calloused palm (`Right Person`)—lighting up the old man's tearful smile!
-- **Dialogue (`@Me` — warm, immediate resonance):**
-  > "Test One: Returning an extra currency note to a tired vendor at dusk—nobody saw, yet Conscience smiled!"
+- **Location:** EXT. RAIN-WASHED STREET FRUIT CART — DUSK
+- **Active In-Scene Blocking:** On the wet cobblestones **right next to the wooden mango cart**, a young commuter hands back an extra 500-rupee note mistakenly given by an elderly bearded vendor. Standing **right beside the cart under the lantern glow**, **`@Me`** and **`4yo Bala-Rishi`** address the camera.
+- **Visual Action:** In the rain-soaked rush, nobody saw the error. Walking back immediately (`Right Time`), the young man places the note in the old man's calloused palm (`Right Person`), lighting up a tearful, grateful smile.
+- **Dialogue (`@Me` — standing right beside the cart, warm resonance):**
+  > "Test One: Returning an extra banknote to a tired vendor at dusk—nobody saw, yet Conscience smiled with joy!"
 
-### [SHOT ED21 — INTEGRITY SCENE 2: SPEAKING UP FOR AN ABSENT COLLEAGUE'S TRUTH]
+### [SHOT ED21 — TEST 2: SPEAKING UP FOR AN ABSENT COLLEAGUE'S TRUTH]
 - **Storyboard Reference:** `sb_e02_08_unwatched_integrity_parables.jpg`
 - **Location:** INT. GLASS CONFERENCE ROOM — AFTERNOON
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** stand quietly outside the glass hallway speaking only to the camera while five colleagues talk inside the conference room, unaware of the narrators.
-- **Visual Action:** When an absent teammate is unfairly blamed for a shipping delay (`the easy thing is staying silent!`), one upright woman calmly opens the timestamped log (`Right Time`) and restores her absent colleague's spotless name before leadership (`Right People`)!
-- **Dialogue (`Bala-Matha` — clear, fearless grace):**
-  > "Test Two: When silence is easy, defending an absent colleague's honest work guards both their name and your spine!"
+- **Active In-Scene Blocking:** Inside the meeting room **right behind the seated colleagues**, an upright engineer opens the audit log to defend an absent teammate. Standing **right beside her chair**, **`@Me`** and **`Bala-Matha`** face the lens.
+- **Visual Action:** When peers unfairly blame an absent colleague for a delay, she refuses the easy comfort of silence—showing the timestamped log (`Right Time`) to restore her colleague's spotless name before leadership!
+- **Dialogue (`Bala-Matha` — standing right beside the desk, crystal grace):**
+  > "Test Two: Defending an absent colleague when silence is easy—guarding their honest name and protecting your own moral spine!"
 
 ---
 
-## PAGE 8 — INTEGRITY TESTS 3 & 4 + REALITY OVER DIGITAL VANITY
+## PAGE 8 — UNWATCHED CRAFT & REALITY OVER DIGITAL VANITY
 
-### [SHOT ED22 — INTEGRITY SCENE 3: REFUSING TO HIDE A TINY DEFECT IN UNSEEN CRAFT]
+### [SHOT ED22 — TEST 3: REBUILDING THE HIDDEN CRADLE JOINT AT 9 PM]
 - **Storyboard Reference:** `sb_e02_08_unwatched_integrity_parables.jpg`
-- **Location:** INT. ARTISAN CARPENTRY & PRECISION WORKSHOP — LATE EVENING
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** stand in the foreground doorway speaking directly to the lens while a master craftsman works alone at his bench behind them, completely unaware of their presence.
-- **Visual Action:** Alone at `9:00 PM`, a craftsman notices a hidden internal joint crack on the back of a baby cradle—invisible once painted (`easy to cover with putty!`). Instead, he discards the cracked timber and carves a solid, flawless beam from scratch so an unknown mother's infant sleeps safely!
-- **Dialogue (`Bala-Rishi` — bright, unmistakable truth):**
-  > "Test Three: Rebuilding the hidden back joint of a cradle when nobody looks—because integrity crafts for Conscience, not applause!"
+- **Location:** INT. ARTISAN WOODEN WORKSHOP — LATE EVENING
+- **Active In-Scene Blocking:** Inside the sawdust workshop **right beside the workbench**, a master carpenter works alone under an amber lamp. Standing **right beside his vise**, **`@Me`** and **`4yo Bala-Rishi`** speak to the camera.
+- **Visual Action:** Finding a hairline crack in the hidden back joint of a baby cradle—invisible once painted—he rejects quick putty and carves a fresh solid beam from scratch at `9:00 PM` so an unknown infant sleeps safely!
+- **Dialogue (`Bala-Rishi` — standing beside the shavings, bright conviction):**
+  > "Test Three: Rebuilding a cradle's hidden joint when nobody watches—because true craft works for God and conscience, not applause!"
 
-### [SHOT ED23 — INTEGRITY SCENE 4: HONORING HELPERS & ELDERS WHEN DOORS CLOSE]
+### [SHOT ED23 — TEST 4: HONORING HELPERS & ELDERS BEHIND CLOSED DOORS]
 - **Storyboard Reference:** `sb_e02_07_shared_credit_elder_nandri.jpg`
-- **Location:** INT. HOME KITCHEN & ENTRANCE FOYER — MORNING
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** stand softly near the sunlit window speaking exclusively to the camera while a husband and wife interact with their elderly domestic helper and aging parent inside the home.
-- **Visual Action:** Contrast to the **Digital Persona Paradox** (posting noble quotes to ten thousand strangers online while snapping at helpers offline): behind closed doors with zero cameras, the couple serves warm morning tea respectfully in a clean steel tumbler to their elderly household helper and listens patiently to their 78-year-old mother!
-- **Dialogue (`@Me` — piercing, humane warmth):**
-  > "Test Four: Online filters fool ten thousand strangers—true dignity is how gently you treat helpers and elders behind closed doors!"
+- **Location:** INT. HOME KITCHEN & FOYER — MORNING
+- **Active In-Scene Blocking:** In the kitchen **right beside the counter**, a couple serves warm morning tea in a clean tumbler to their elderly helper and listens patiently to their 78-year-old mother. Standing **right beside the stove**, **`@Me`** and **`Bala-Matha`** address the viewer.
+- **Visual Action:** Unlike the *Digital Persona Paradox* (preaching kindness online while snapping at helpers offline), they practice genuine reverence where zero cameras watch.
+- **Dialogue (`@Me` — standing right beside the counter, piercing warmth):**
+  > "Test Four: Social media filters fool thousands—true dignity is how gently you treat helpers and elders behind closed doors!"
 
-### [SHOT ED24 — HIGHWAY VS. DESTINATION & FRUIT-BEARING BANYAN VS. BARREN THICKET]
+### [SHOT ED24 — HIGHWAY VS. DESTINATION: NEVER SELL YOUR ETERNAL SPINE]
 - **Storyboard Reference:** `sb_e02_04_lotus_bamboo_nature_dignity.jpg`
-- **Location:** EXT. OVERPASS HIGHWAY LEADING TO SUNLIT BANYAN HOME — GOLDEN HOUR
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** stand on a quiet hillside overlook addressing only the camera lens above a busy commuter highway curving toward a warm, fruit-laden Banyan homestead.
-- **Visual Action:** Cars stream past highway toll-booths toward peaceful homes: a job title or quarterly bonus is merely an asphalt **Highway**, never your soul's **Destination**—nobody builds a bed on a toll-booth lane, and stolen credit grows only a barren thorny thicket instead of sweet Banyan fruit!
+- **Location:** EXT. OVERPASS HIGHWAY OVERLOOKING BANYAN HOME — GOLDEN DUSK
+- **Active In-Scene Blocking:** **`@Me`** and **`4yo Bala-Rishi`** walk along the highway verge looking out over commuters streaming toward peaceful village homes.
+- **Visual Action:** Cars pass toll-booths into the sunset: a job title or salary is merely an asphalt **Highway**, never your soul's **Destination**—nobody pitches a tent at a toll booth, and tainted money builds only a thorny prison!
 - **Dialogue (`@Me` — unforgettable metaphor):**
-  > "A career badge is merely a highway, never your home—never sell your eternal spine for a temporary toll-booth coin!"
+  > "A corporate salary is merely a highway, never your destination—never sell your eternal soul for a temporary toll-booth coin!"
 
 ---
 
-## PAGE 9 — ACT IV: EASTERN SAGES UNITE & RETURNING TO KARTHIK'S `11:45 PM` CROSSROADS
+## PAGE 9 — ACT IV: EASTERN SAGES CONVERGE & RETURNING TO THE 11:45 PM CROSSROADS
 
 ### [SHOT ED25 — STUDIO SYNTHESIS: THIRUVALLUVAR, BUDDHA, CONFUCIUS & LAOZI]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** `[WHITE-WALL ZOOM-OUT]`: **`@Me`** and **`4yo Bala-Rishi`** stand on the pure-white circular marble stage as three luminous golden parchment medallions shimmer on the curved white wall behind them.
-- **Visual Action:** Left medallion: **Thiruvalluvar's *Kural* 969 & 978** (*Maanam* & Humble Greatness); Center medallion: **Buddha's *Samma Ajiva* & *Hiri-Ottappa*** (Self-Respect + Conscience as Twin World Guardians); Right medallion: **Confucius (*Analects* 7.16 Floating Clouds) & Laozi's Upright Bamboo**.
-- **Dialogue (`Bala-Rishi` — crystal sage-child voice):**
-  > "Thiruvalluvar's *Maanam*, Buddha's Right Livelihood, and Confucius's floating clouds agree: coarse rice with integrity beats dishonest gold!"
+- **Active In-Scene Blocking:** `[WHITE-WALL ZOOM-OUT]`: **`@Me`** and **`4yo Bala-Rishi`** stand center stage as three radiant golden medallions illuminate on the curved white amphitheater wall.
+- **Visual Action:** Left: **Thiruvalluvar's *Maanam* (*Kural* 969)**; Center: **Buddha's *Samma Ajiva* & *Hiri-Ottappa*** (twin moral guardians); Right: **Confucius (*Analects* 7.16 — coarse rice with integrity beats dishonest gold) & Laozi's Bamboo**.
+- **Dialogue (`Bala-Rishi` — crystal sage-child clarity):**
+  > "Thiruvalluvar, the Buddha, and Confucius unite: coarse rice with unbought integrity outshines mountains of dishonest gold!"
 
-### [SHOT ED26 — REWINDING TIME TO `11:45 PM` (`[SCENE TIME-PAUSE]` AT THE SIGNATURE LINE)]
+### [SHOT ED26 — REWINDING TIME TO `11:45 PM`: THE MOMENT OF TRUTH]
 - **Storyboard Reference:** `sb_e02_01_midnight_unwatched_test.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR — 11:45 PM REWIND
-- **Narrator Separation Blocking:** `[WHITE-WALL ZOOM-IN]`: Golden light rewinds the clock back to `11:45 PM`! Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** walk across the foreground speaking strictly to the camera while Karthik and Vikram remain frozen mid-frame behind them, completely unaware of the narrators.
-- **Visual Action:** Once again, Karthik's pen hovers two millimeters above the compromised approval form while young Arjun's erased name flickers on the monitor.
-- **Dialogue (`@Me` — calm, electric anticipation to the viewer):**
-  > "Now rewind to eleven-forty-five P.M.—and watch what happens when Karthik chooses unbought dignity over the easy lie!"
+- **Location:** INT. GLASS ENGINEERING OFFICE — 11:45 PM REWIND
+- **Active In-Scene Blocking:** `[WHITE-WALL ZOOM-IN]`: Golden time-flow rewinds the clock to `11:45 PM`! Karthik and Vikram stand frozen beside the blueprint table once again. Standing **right between them at the desk**, **`@Me`** and **`4yo Bala-Rishi`** address the camera.
+- **Visual Action:** The hovering pen freezes two millimeters above the false certificate. The choice returns: comply and keep the tainted job, or stand tall and face the consequences.
+- **Dialogue (`@Me` — electric anticipation to the viewer):**
+  > "Now rewind to eleven-forty-five P.M.—and watch what happens when an honest engineer stands tall against corrupt power!"
 
 ---
 
-## PAGE 10 — ACT V: THE UPRIGHT CHOICE — RIGHT THING • RIGHT TIME • RIGHT PEOPLE!
+## PAGE 10 — ACT V: THE UPRIGHT REFUSAL — STANDING TALL AGAINST CORRUPT POWER
 
-### [SHOT ED27 — REFUSING THE UNWATCHED COMPROMISE WITH CALM BAMBOO GRACE]
+### [SHOT ED27 — PUTTING THE BADGE DOWN: REFUSING AN UNJUST BOSS]
 - **Storyboard Reference:** `sb_e02_09_karthik_stands_tall_redemption.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR — 11:46 PM (REDEMPTION TIMELINE)
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`4yo Bala-Rishi`** stand calmly at the foreground glass edge facing the camera only; inside the room, Karthik addresses Vikram face-to-face with zero awareness of the narrators.
-- **Visual Action:** Time resumes! Karthik sets the pen down firmly, straightens his spine like mountain bamboo, and speaks to Vikram with calm, polite, unshakeable clarity—refusing to hide the bridge load-flaw (`Right Thing`, protecting thousands of unseen commuters) and sliding the unethical bonus offer back across the desk!
-- **Dialogue (`@Me` — triumphant, steady resonance):**
-  > "Without anger or fear, he sets the pen down—refusing to endanger unseen families for any promotion on Earth!"
+- **Location:** INT. EXECUTIVE OFFICE — 11:46 PM (REDEMPTION TIMELINE)
+- **Active In-Scene Blocking:** Inside the office under sharp spotlight, Vikram slams his fist on the desk, furiously threatening termination. Across the table, Karthik straightens his spine like mountain bamboo, placing his company ID badge and pen down on the desk. Standing **right beside Karthik's shoulder at the desk**, **`@Me`** and **`4yo Bala-Rishi`** face the camera lens.
+- **Visual Action:** Time resumes! With calm, polite, unshakeable bamboo courage, Karthik speaks: *"I cannot falsify this report. Thousands ride that bridge every morning. If doing my duty means I am fired, then fire me tonight."*
+- **Dialogue (`@Me` — standing right beside Karthik's resolute shoulder, triumphant resonance):**
+  > "No matter the power, he does what is right—laying down his badge rather than earning one rupee from a lie!"
 
 ### [SHOT ED28 — RESTORING JUNIOR ARJUN'S NAME AT `11:48 PM` (`RIGHT TIME • RIGHT PEOPLE`)]
 - **Storyboard Reference:** `sb_e02_09_karthik_stands_tall_redemption.jpg`
-- **Location:** INT. GLASS ENGINEERING DESIGN FLOOR — 11:48 PM
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`Bala-Matha`** observe from the foreground corridor speaking strictly to the lens while Karthik types at his workstation inside the room, unaware of them.
-- **Visual Action:** Right there at `11:48 PM` (`Right Time`), Karthik logs the verified safety reinforcement fix into the permanent safety ledger and places **25-year-old Arjun's name as Lead Discoverer** at the very top of the morning board report (`Right People`), CC'ing the chief safety council transparently!
-- **Dialogue (`Bala-Matha` — radiant pride to the camera):**
-  > "Right then, he logs the safety fix and puts young Arjun's name first on the report—credit where sweat belongs!"
+- **Location:** INT. ENGINEERING DRAFTING WORKSTATION — 11:48 PM
+- **Active In-Scene Blocking:** At the glowing workstation monitor **right beside Karthik's keyboard**, **`@Me`** and **`Bala-Matha`** stand watching as Karthik logs the verified safety fix into the permanent safety portal.
+- **Visual Action:** Right there at `11:48 PM` (`Right Time`), before leaving, Karthik logs the structural reinforcement calculation, naming **25-year-old Arjun as Lead Discoverer** at the top of the board filing (`Right People`) and CC'ing the independent safety board!
+- **Dialogue (`Bala-Matha` — standing beside the screen, radiant pride):**
+  > "He logs the safety fix and puts young Arjun's name first—guarding human lives and honoring the junior engineer's sweat!"
 
 ---
 
-## PAGE 11 — PUBLIC VINDICATION: INTEGRITY WINS IN DAYLIGHT TOO!
+## PAGE 11 — PUBLIC VINDICATION: INTEGRITY TRIUMPHS IN DAYLIGHT
 
-### [SHOT ED29 — 9:00 AM BOARDROOM: TRUTH PROTECTS LIVES & ELEVATES THE YOUNG ENGINEER]
+### [SHOT ED29 — 9:00 AM BOARDROOM: TRUTH PROTECTS LIVES & ELEVATES THE UPRIGHT]
 - **Storyboard Reference:** `sb_e02_10_boardroom_truth_wins.jpg`
-- **Location:** INT. SUNLIT EXECUTIVE BOARDROOM — 9:00 AM NEXT MORNING
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`4yo Bala-Rishi`** stand quietly in the foreground corner by the sunlit window speaking exclusively to the viewer, while the boardroom scene unfolds naturally behind them with zero awareness of their presence.
-- **Visual Action:** Morning sunlight floods the boardroom! Reviewing the transparent safety log, the gray-haired Chief Safety Chairman commends the prevented bridge hazard, shakes stunned 25-year-old Arjun's hand warmly as Karthik steps gracefully half a pace back in bamboo humility (*Tao Te Ching* Ch. 9), and entrusts Karthik with full ethical oversight!
-- **Dialogue (`@Me` — warm, uplifting conviction):**
-  > "By morning light, truth protects ten thousand commuters, lifts young Arjun sky-high, and crowns Karthik with unbought trust!"
+- **Location:** INT. EXECUTIVE BOARDROOM — 9:00 AM NEXT MORNING
+- **Active In-Scene Blocking:** Inside the sunlit boardroom **right beside the long conference table**, the Chief Safety Chairman shakes Arjun's hand while the board applauds. Standing **right beside Karthik and Arjun at the table**, **`@Me`** and **`4yo Bala-Rishi`** address the camera.
+- **Visual Action:** The independent safety audit verified Arjun and Karthik's findings, averting a catastrophic structural collapse. Vikram is removed from authority, while the board entrusts Karthik with full ethical leadership—proving that moral courage wins!
+- **Dialogue (`@Me` — standing right beside the handshake, uplifting fire):**
+  > "By morning light, truth protects thousands of lives, lifts young Arjun high, and crowns Karthik with unshakeable honor!"
 
-### [SHOT ED30 — EVEN BEFORE APPLAUSE ARRIVES, THE REAL VICTORY HAPPENED AT MIDNIGHT]
+### [SHOT ED30 — THE REAL VICTORY HAPPENED AT MIDNIGHT]
 - **Storyboard Reference:** `sb_e02_10_boardroom_truth_wins.jpg`
 - **Location:** EXT. SUNLIT COURTYARD WALKWAY — EVENING
-- **Narrator Separation Blocking:** **`@Me`** and **`4yo Bala-Rishi`** walk parallel in the foreground garden path speaking directly into the lens while Karthik walks homeward with a light, buoyant stride along the sunlit avenue behind them.
-- **Visual Action:** Karthik breathes the crisp evening air—even if the boardroom had tested him harder, nobody on Earth owns his spine! Passing the elderly street fruit vendor, Karthik greets him with a warm, equal *Namaste*.
-- **Dialogue (`Bala-Rishi` — beaming sage-child clarity):**
-  > "External praise is just a bonus! His real victory happened at midnight—the instant he refused to sell his spine!"
+- **Active In-Scene Blocking:** As Karthik walks home along the tree-lined avenue, **`@Me`** and **`4yo Bala-Rishi`** walk **right beside him in rhythm**, looking directly into the camera lens.
+- **Visual Action:** Evening sunlight filters through the leaves. Karthik's stride is light and buoyant. Even if the board had not recognized him today, he knows his greatest victory was won at midnight when he refused to sell his soul!
+- **Dialogue (`Bala-Rishi` — walking right beside Karthik, joyful sage clarity):**
+  > "Boardroom praise is just a bonus! The real victory happened at midnight—the second he chose to lose his job over his spine!"
 
 ---
 
-## PAGE 12 — THE UNBOUGHT MIRROR, SIMPLE RICE & EMPEROR-LEVEL SLEEP
+## PAGE 12 — THE CLEAN MIRROR, SIMPLE RICE & EMPEROR-LEVEL SLEEP
 
-### [SHOT ED31 — HOME TO ROYAL *ARUL*, SIMPLE RICE & THE CLEAN MIRROR SIGH OF RELIEF]
+### [SHOT ED31 — CLEAN MIRROR SIGH OF RELIEF & MEERA'S SACRED *ARUL*]
 - **Storyboard Reference:** `sb_e02_11_emperor_peace_sleep.jpg`
 - **Location:** INT. KARTHIK & MEERA'S COURTYARD HOME — NIGHT
-- **Narrator Separation Blocking:** Unseen witnesses **`@Me`** and **`Bala-Matha`** stand softly outside the warm lamp-lit courtyard arch speaking strictly to the camera while Karthik, Meera, and their 4-year-old son share evening warmth inside, unaware of the narrators.
-- **Visual Action:** Washing his hands before the washroom mirror, Karthik meets his own eyes with crystal-clear pride and exhales a **deep, full-chest sigh of relief**! At the dining mat beside the glowing *Pooja* lamp, Meera serves warm simple rice and pure water (*Confucius Analects 7.16*) as their 4-year-old laughs on Karthik's knee—zero alcohol needed, `10/10` *Porul* & *Arul* harmony!
-- **Dialogue (`@Me` — deeply soothing, resonant):**
-  > "Look into the midnight mirror with an unbought spine—even simple rice and pure water taste like royal nectar!"
+- **Active In-Scene Blocking:** In the bathroom **right beside the mirror sink**, Karthik washes his face, looks into his eyes, and exhales a **deep, full-chest sigh of relief**. Standing **right beside him at the counter**, **`@Me`** and **`Bala-Matha`** speak to the viewer.
+- **Visual Action:** Entering the warm dining room, Meera serves simple rice and water beside the glowing *Pooja* lamp as their 4-year-old child laughs happily—spotless *Porul* and sacred *Arul* harmonized in pure domestic peace!
+- **Dialogue (`@Me` — standing right beside the table, deeply soothing warmth):**
+  > "Look into your midnight mirror with an unbought spine—and even simple rice tastes like the nectar of heaven!"
 
-### [SHOT ED32 — SLEEPING LIKE AN EMPEROR (`10 / 10` PEACE OF MIND)]
+### [SHOT ED32 — EMPEROR-LEVEL SLEEP (`10 / 10` CONSCIENCE PEACE)]
 - **Storyboard Reference:** `sb_e02_11_emperor_peace_sleep.jpg`
-- **Location:** INT. KARTHIK & MEERA'S BEDROOM — 10:30 PM
-- **Narrator Separation Blocking:** Unseen narrators **`@Me`** and **`Bala-Matha`** stand serenely near the moonlit balcony curtain addressing only the viewer while Karthik and Meera sleep peacefully behind them.
-- **Visual Action:** Soft moonlight rests over the quiet home. Within seconds of touching his pillow, Karthik sleeps in deep, unbroken, emperor-level peace (`Shanti`)—zero fear of tomorrow's audit, zero hidden shame!
-- **Dialogue (`Bala-Matha` — gentle lullaby of grace):**
-  > "When nobody owns your conscience, no storm can steal your rest—tonight, unbought dignity sleeps like an emperor!"
+- **Location:** INT. BEDROOM — 10:30 PM
+- **Active In-Scene Blocking:** Inside the quiet bedroom **right beside the wooden bedpost**, Karthik and Meera sleep in unbroken serenity under soft moonlight. Standing **right beside the bed**, **`@Me`** and **`Bala-Matha`** look directly into the camera lens.
+- **Visual Action:** Soft moonlight rests across the room. Within seconds of touching his pillow, Karthik sleeps in deep, fearless peace (`Shanti`)—untouchable by fear, guilt, or regret.
+- **Dialogue (`Bala-Matha` — standing beside the bedpost, gentle lullaby of grace):**
+  > "When money comes purely from duty, no power can disturb your rest—tonight, unbought dignity sleeps like an emperor!"
 
 ---
 
-## PAGE 13 — ACT VI: SUMMONING THE KARMIC GENIE & THE `35 / 70` MIRROR SCORECARD
+## PAGE 13 — ACT VI: SUMMONING THE KARMIC GENIE & THE `35 / 70` SCORECARD
 
 ### [SHOT ED33 — WHITE-WALL ZOOM-OUT: *"WHAT DOES GENIE SAY — THE 7D WAY?"*]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** TRANSITION -> INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** `[WHITE-WALL ZOOM-OUT]`: Camera pulls smoothly from the moonlit balcony back onto the hushed pure-white circular marble amphitheater where **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** stand beside the pulsing gold Genie lamp!
-- **Visual Action:** Thousands of stadium listeners lean forward in quiet reflection as emerald, warm gold, and royal-sapphire light begins swirling inside the jeweled lamp spout.
+- **Active In-Scene Blocking:** `[WHITE-WALL ZOOM-OUT]`: Camera pulls smoothly from the bedroom window back onto the hushed pure-white circular marble amphitheater where **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** stand beside the pulsing gold Genie lamp.
+- **Visual Action:** Emerald, warm gold, and sapphire stardust swirl out of the lamp spout as the arena fills with quiet anticipation.
 - **Dialogue (`@Me` — iconic stadium invocation):**
-  > "Integrity in the dark outshines every borrowed crown! Now ask with me: *What does Genie say — the Seven-D way?*"
+  > "Unbought dignity outshines all corrupt power! Now ask with me: *What does Genie say — the Seven-D way?*"
 
 ### [SHOT ED34 — AWAKENING OF THE CELESTIAL MAHARISHI KARMIC GENIE]
 - **Storyboard Reference:** `sb_e02_12_celestial_genie_dignity_finale.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** Cross-legged in emerald, gold, and sapphire stardust above the glass table, the **Celestial Maharishi Karmic Genie** rises serenely above **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`**.
-- **Visual Action:** With courteous, saintly stillness—never booming or scolding—the luminous *Maharishi* Genie raises a gentle palm of blessing over the hushed arena.
-- **Dialogue (`Celestial Karmic Genie` — soft, serene, courteous saintly voice):**
-  > "Dear seekers, ask your quiet heart: what good is a golden crown if you must bow to falsehood when unseen?"
+- **Active In-Scene Blocking:** The **Celestial Maharishi Karmic Genie** floats cross-legged in radiant stardust above the glass table, blessing the amphitheater as **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`** stand respectfully beside the lamp.
+- **Visual Action:** Luminous, courteous, and serene, the Saintly Genie raises a gentle palm of truth over the assembled seekers.
+- **Dialogue (`Celestial Karmic Genie` — soft, courteous, unhurried saintly voice):**
+  > "Dear seekers, remember: whenever you earn *Porul*, it must be from pure duty—never trade your soul for bread!"
 
-### [SHOT ED35 — THE GENIE'S OPEN-ENDED COMPASS OF UNBOUGHT INTEGRITY]
+### [SHOT ED35 — THE GENIE'S LAW OF KARMIC PURITY]
 - **Storyboard Reference:** `sb_e02_12_celestial_genie_dignity_finale.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** Close celestial medium shot of the **Celestial Maharishi Karmic Genie** floating cross-legged above the golden lamp.
-- **Visual Action:** Four gentle golden rings shimmer in the air around the lamp: **Age 4 Unshamed Play • Age 24 Unbought Spine • Age 40 Shared Credit • Age 54 Grateful *Nandri***.
-- **Dialogue (`Celestial Karmic Genie` — gentle, unhurried wisdom):**
-  > "Let children play unshamed, think freely at twenty-four, share credit generously, bow in gratitude at fifty-four—and walk owned by none!"
+- **Active In-Scene Blocking:** Close medium shot of the Celestial Maharishi Genie floating above the golden lamp.
+- **Visual Action:** Four luminous golden seals glow in the air: **Duty-Born Porul • Zero Corrupt Gain • Sacred Family Protection • Unshakeable Soul Growth**.
+- **Dialogue (`Celestial Karmic Genie` — gentle divine compass):**
+  > "Tainted wealth contaminates your family's spiritual growth; duty-born bread blesses seven generations and carries your soul toward liberation!"
 
-### [SHOT ED36 — LIVE `7D` CONSCIENCE SCORECARD (`DIGNITY: 1–10` & `< 35 / 70` COURSE-CORRECTION)]
+### [SHOT ED36 — LIVE `7D` CONSCIENCE SCORECARD: `< 35 / 70` COURSE-CORRECTION]
 - **Storyboard Reference:** `sb_e02_12_celestial_genie_dignity_finale.jpg`
 - **Location:** INT. KARMIC GENIE SHOW SCOREBOARD ARENA
-- **Narrator Separation Blocking:** **`@Me`** steps along the glowing champagne-gold ring of the circular marble stage, speaking directly to the viewer beside the translucent curved-glass 7D Scorecard.
-- **Visual Action:** Pillar #1 (`1. Respect Your DUTY First.`) and Pillar #2 (`2. Earn with DIGNITY Always.`) glow side-by-side (`1–10` points each; `< 35 / 70` = *Do not drown shame; change course uprightly!*).
-- **Dialogue (`@Me` — empowering, non-preachy invitation):**
-  > "Score your Dignity honestly from one to ten tonight! If any role forces your spine below five, change course uprightly."
+- **Active In-Scene Blocking:** **`@Me`** steps along the champagne-gold circular inlay beside the translucent curved-glass 7D Scorecard, speaking straight to the viewer.
+- **Visual Action:** Pillar #1 (`1. Respect Your DUTY First.`) and Pillar #2 (`2. Earn with DIGNITY Always.`) illuminate side-by-side (`1–10` points each; `< 35 / 70` = *Change course uprightly immediately!*).
+- **Dialogue (`@Me` — empowering invitation to the viewer):**
+  > "Score your Dignity honestly from one to ten tonight! If any authority demands moral compromise, walk away and reclaim your spine."
 
-### [SHOT ED37 — QUESTIONS 1 & 2 OF THE TONIGHT MIRROR AUDIT: UNSEEN TRUTH & CLEAN BREAD]
+### [SHOT ED37 — TONIGHT MIRROR AUDIT: UNSEEN TRUTH & CLEAN BREAD]
 - **Storyboard Reference:** `sb_e02_06_age24_spine_porul_arul.jpg`
-- **Location:** INT. KARMIC GENIE STAGE WITH TRANSLUCENT MEMORY PORTALS
-- **Narrator Separation Blocking:** **`4yo Bala-Rishi`** stands beside **`@Me`** on the pure-white circular marble stage, counting clearly on small fingers toward the lens.
-- **Visual Action:** Two subtle golden memory portals glow behind them: (1) choosing the right thing when unwatched (`0–2 pts`), and (2) earning every coin by building real value (`0–2 pts`).
-- **Dialogue (`Bala-Rishi` — clear, bright cadence):**
-  > "First: did you choose the right thing when nobody watched? Second: did every coin today come from clean, helpful value?"
+- **Location:** INT. KARMIC GENIE STAGE WITH MEMORY PORTALS
+- **Active In-Scene Blocking:** **`4yo Bala-Rishi`** stands beside **`@Me`** on the pure-white stage, counting on small fingers toward the lens.
+- **Visual Action:** Memory portals show: (1) doing right when unwatched (`0–2 pts`), and (2) earning every rupee purely from honest service (`0–2 pts`).
+- **Dialogue (`Bala-Rishi` — clear, bright sage-child cadence):**
+  > "First: did you choose right when nobody saw? Second: did every coin you earned today flow from clean, honest duty?"
 
-### [SHOT ED38 — QUESTIONS 3, 4 & 5: SHARED SWEAT, *NANDRI* HUMILITY & THE MIRROR TEST]
+### [SHOT ED38 — QUESTIONS 3, 4 & 5: SHARED CREDIT, *NANDRI* & THE MIDNIGHT MIRROR]
 - **Storyboard Reference:** `sb_e02_11_emperor_peace_sleep.jpg`
-- **Location:** INT. KARMIC GENIE STAGE -> SERENE MIRROR & PILLOW PORTAL
-- **Narrator Separation Blocking:** **`Bala-Matha`** steps forward beside **`@Me`** on the pure-white stage as the final three golden rings illuminate.
-- **Visual Action:** Portals show: (3) giving generous credit to juniors and honouring household *Arul* (`0–2 pts`), (4) thanking unseen helpers without boasting (`0–2 pts`), and (5) **The Midnight Mirror Test** (`0–2 pts`).
-- **Dialogue (`Bala-Matha` — crystalline grace):**
-  > "Did you share credit, thank unseen hands without boasting, and can you meet your midnight mirror in spotless peace?"
+- **Location:** INT. KARMIC GENIE STAGE -> TRANSLUCENT SERENE PORTAL
+- **Active In-Scene Blocking:** **`Bala-Matha`** steps forward beside **`@Me`** on the circular stage as the final three golden rings glow.
+- **Visual Action:** Portals show: (3) putting juniors' names first and honoring household *Arul*, (4) thanking unseen helpers, and (5) meeting the midnight mirror in spotless peace (`0–2 pts` each).
+- **Dialogue (`Bala-Matha` — crystalline, loving grace):**
+  > "Did you share credit, thank unseen hands with humility, and can you meet your midnight mirror with zero fear?"
 
 ---
 
-## PAGE 14 — ACT VII: TOMORROW MORNING'S UPRIGHT STEP & GRAND FINALE BLESSING
+## PAGE 14 — ACT VII: TOMORROW'S UPRIGHT STEP & GRAND FINALE BLESSING
 
-### [SHOT ED39 — MONTAGE OF QUIET INTEGRITY AWAKENING ACROSS HOMES]
+### [SHOT ED39 — MONTAGE OF MORAL COURAGE ACROSS WORKPLACES]
 - **Storyboard Reference:** `sb_e02_08_unwatched_integrity_parables.jpg`
-- **Location:** MONTAGE ACROSS EVENING HOMES -> WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** **`@Me`** narrates from the circular pure-white marble stage while three silent, self-contained home vignettes play across the portal wall behind him (vignette characters remain inside their worlds, completely separate from the stage narrators).
-- **Visual Action:** Across warm lamp-lit homes: a manager adds a young teammate's name to tomorrow's presentation slide; a youth deletes a plagiarized shortcut and opens his textbook; a husband bows gratefully to his wife lighting the evening *Pooja* lamp!
-- **Dialogue (`@Me` — warm, encouraging):**
-  > "Wherever Conscience whispers tonight, restore one rightful credit, decline one easy shortcut, and reclaim your unbought spine immediately!"
+- **Location:** VIGNETTES ACROSS OFFICES & WORKSHOPS -> WHITE STAGE
+- **Active In-Scene Blocking:** **`@Me`** narrates from the circular white marble platform as real-world vignettes play on the translucent wall behind him.
+- **Visual Action:** A young accountant refuses to alter a tax ledger; an apprentice hands back borrowed tools in perfect condition; a supervisor signs a safety report with pride.
+- **Dialogue (`@Me` — warm, galvanizing strength):**
+  > "Wherever corrupt shortcuts tempt you tomorrow, speak the truth, put the badge down if needed, and protect your dignity always!"
 
-### [SHOT ED40 — THE INTERLOCKED FOUNDATION: DUTY (`D1`) + DIGNITY (`D2`)]
+### [SHOT ED40 — THE TWIN FOUNDATION: DUTY (`D1`) + DIGNITY (`D2`)]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** **`@Me`** stands at the center of the pure-white marble platform as the Celestial Genie smiles serenely and dissolves back into golden stardust inside the lamp.
-- **Visual Action:** On the sweeping pure-white back wall, **`1. Respect Your DUTY First.`** and **`2. Earn with DIGNITY Always.`** lock together in radiant brushed gold on the left column beside the generous padded `[ Logo ]`!
+- **Active In-Scene Blocking:** **`@Me`** stands at the center of the circular marble platform as the Celestial Genie dissolves back into golden light inside the lamp.
+- **Visual Action:** On the sweeping pure-white studio wall, **`1. Respect Your DUTY First.`** and **`2. Earn with DIGNITY Always.`** lock together in permanent brushed champagne gold.
 - **Dialogue (`@Me` — resonant synthesis):**
-  > "Behold how Virtue One and Virtue Two lock together: fulfill your rightful Duty, and guard every step with unbought Integrity!"
+  > "Behold how Virtue One and Virtue Two lock together: fulfill your rightful Duty, and earn every single breath with unbought Dignity!"
 
-### [SHOT ED41 — REVERING EVERY HONEST LIVELIHOOD WITHOUT RANK VANITY]
+### [SHOT ED41 — REVERING EVERY HONEST LIVELIHOOD]
 - **Storyboard Reference:** `sb_e02_07_shared_credit_elder_nandri.jpg`
-- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — WIDE ARENA VIEW
-- **Narrator Separation Blocking:** Camera glides smoothly across the circular pure-white stage featuring **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`** framed by the elevated stadium rows behind waist-high glass barriers.
-- **Visual Action:** Diverse audience members—craftspeople, engineers, mothers, teachers, elders—smile with quiet dignity, united at one shared human table.
-- **Dialogue (`@Me` — inclusive, noble warmth):**
-  > "Whether sweeping a dawn street, lighting the home lamp, or designing a bridge—honest work done right is royal!"
+- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — WIDE VIEW
+- **Active In-Scene Blocking:** Camera glides smoothly across the circular pure-white stage featuring **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`** framed by the elevated amphitheater audience.
+- **Visual Action:** Diverse workers—street sweepers, teachers, farmers, engineers, and mothers—smile with equal nobility.
+- **Dialogue (`@Me` — inclusive, noble reverence):**
+  > "Whether sweeping a street, running an enterprise, or lighting the home lamp—any bread earned through honest duty is royal!"
 
-### [SHOT ED42 — FREEDOM FROM THE DEBT & FLATTERY TRAP]
+### [SHOT ED42 — FREEDOM FROM CORRUPT ENTANGLEMENT]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP
-- **Narrator Separation Blocking:** **`@Me`** speaks warmly straight into the lens with calm, unhurried stillness.
-- **Visual Action:** Soft golden halo light reflects off the concentric marble floor inlays around `@Me`.
+- **Active In-Scene Blocking:** **`@Me`** speaks warmly straight into the camera lens with unhurried stillness.
+- **Visual Action:** Concentric champagne-gold marble floor rings reflect soft studio light around `@Me`.
 - **Dialogue (`@Me` — quiet strength):**
-  > "Live simply within clean means, owe falsehood nothing, and no power on Earth can ever purchase your voice!"
+  > "Live cleanly within honest means, owe falsehood nothing, and no authority on Earth can ever force your knees to bend!"
 
-### [SHOT ED43 — BALA-RISHI'S BLESSING OF *JNANA* INTEGRITY]
+### [SHOT ED43 — BALA-RISHI'S BLESSING OF *JNANA* COURAGE]
 - **Storyboard Reference:** `sb_e02_05_age4_unshamed_play_youth_skill.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP
-- **Narrator Separation Blocking:** **`4yo Bala-Rishi`** stands beside the gleaming gold Genie lamp on the pure-white stage, folding his small palms in joyful *Namaste*.
-- **Visual Action:** Golden light catches his *rudraksha mala* and bright, fearless eyes.
+- **Active In-Scene Blocking:** **`4yo Bala-Rishi`** stands beside the gold Genie lamp on the pure-white stage, folding his small palms in joyful *Namaste*.
+- **Visual Action:** Golden radiance catches his *rudraksha mala* and bright, fearless eyes.
 - **Dialogue (`Bala-Rishi` — joyful sage-child blessing):**
-  > "Play without shame, think for yourself at twenty-four, do right when nobody watches, and stand tall like green bamboo!"
+  > "Play with joy, think freely, stand tall against unjust power, and guard your unbought spine like green mountain bamboo!"
 
-### [SHOT ED44 — BALA-MATHA'S BLESSING OF *ARUL* & *NANDRI* NOBILITY]
+### [SHOT ED44 — BALA-MATHA'S BLESSING OF *ARUL* & CLEAN *PORUL*]
 - **Storyboard Reference:** `sb_e02_06_age24_spine_porul_arul.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP
-- **Narrator Separation Blocking:** **`Bala-Matha`** stands beside the gold Genie lamp on the pure-white stage, palms folded in radiant *Arul* grace.
-- **Visual Action:** Fresh white jasmine *malli* and silk *zari* glow softly against the pure-white architectural backdrop.
-- **Dialogue (`Bala-Matha` — serene, loving blessing):**
-  > "May spotless *Porul* and sacred *Arul* bless your home, and may humble *Nandri* crown your heart with peace!"
+- **Active In-Scene Blocking:** **`Bala-Matha`** stands beside the gold Genie lamp on the pure-white stage, palms folded in radiant *Arul* grace.
+- **Visual Action:** Fresh white jasmine flowers and silk *zari* glow softly in sacred studio light.
+- **Dialogue (`Bala-Matha` — loving, serene blessing):**
+  > "May spotless *Porul* earned from duty nourish your home, and may sacred *Arul* bless your family with eternal peace!"
 
 ### [SHOT ED45 — LOCKING PILLAR #2 AT `10 / 10` IN PERMANENT GOLD]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE
-- **Narrator Separation Blocking:** **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`** turn slightly toward the grand white back wall before facing the camera together.
-- **Visual Action:** **`2. Earn with DIGNITY Always.`** pulses with warm champagne-gold brilliance (`10 / 10` Conscience Peace), harmonizing with Pillar #1 above it.
+- **Active In-Scene Blocking:** **`@Me`**, **`Bala-Rishi`**, and **`Bala-Matha`** turn toward the grand white back wall before facing the camera together.
+- **Visual Action:** **`2. Earn with DIGNITY Always.`** pulses with brilliant champagne-gold luminescence, locking at `10 / 10` beside Pillar #1.
 - **Dialogue (`@Me` — uplifting affirmation):**
-  > "Pillar Two now shines beside Pillar One: *Earn with DIGNITY Always*—doing right, on time, to every soul you meet!"
+  > "Pillar Two now stands eternal: *Earn with DIGNITY Always*—earning purely from duty, refusing corrupt power, and walking tall!"
 
 ### [SHOT ED46 — EPISODE 3 WONDER HOOK (*"PRACTICE LIFE DISCIPLINE."*)]
 - **Storyboard Reference:** `sb_e02_03_white_stage_dignity_portal.jpg`
 - **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — CRANE GLIDE
-- **Narrator Separation Blocking:** **`@Me`** gestures gently toward the third inscription line on the pure-white back wall while **`Bala-Rishi`** and **`Bala-Matha`** smile beside him.
-- **Visual Action:** Beneath *Duty* and *Dignity*, a subtle golden shimmer touches **`3. Practice Life DISCIPLINE.`**—promising how daily rhythm turns noble intention into effortless mastery!
+- **Active In-Scene Blocking:** **`@Me`** gestures gently toward the third inscription line on the pure-white back wall as **`Bala-Rishi`** and **`Bala-Matha`** smile beside him.
+- **Visual Action:** Beneath *Duty* and *Dignity*, a subtle golden shimmer touches **`3. Practice Life DISCIPLINE.`**
 - **Dialogue (`@Me` — warm forward invitation):**
-  > "Next in Episode Three, discover the daily rhythm that keeps Duty and Dignity unshakeable: *Practice Life DISCIPLINE!*"
+  > "Next in Episode Three, discover the daily rhythm that keeps Duty and Dignity effortless: *Practice Life DISCIPLINE!*"
 
-### [SHOT ED47 — THE GOLDEN MEMORY SENTENCE TO CARRY INTO TOMORROW]
+### [SHOT ED47 — THE GOLDEN MEMORY SENTENCE FOR TOMORROW MORNING]
 - **Storyboard Reference:** `sb_e02_12_celestial_genie_dignity_finale.jpg`
-- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — INTIMATE MEDIUM SHOT
-- **Narrator Separation Blocking:** **`@Me`** places his right hand gently over his heart on the pure-white marble stage, speaking with unhurried intimacy to every viewer.
-- **Visual Action:** The jeweled gold Genie lamp gleams peacefully on the center glass table in warm sanctuary light.
+- **Location:** INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — INTIMATE SHOT
+- **Active In-Scene Blocking:** **`@Me`** places his right hand gently over his heart on the pure-white stage, speaking with unhurried intimacy to the viewer.
+- **Visual Action:** The jeweled gold Genie lamp gleams warmly on the center glass table.
 - **Dialogue (`@Me` — heart-to-heart anchor):**
-  > "Remember tomorrow morning: doing the right thing at the right time to the right people always wins!"
+  > "Carry this truth tomorrow: earn only from duty, defy corrupt commands, and sleep in royal peace every night!"
 
 ### [SHOT ED48 — SACRED *NAMASKARAM* & GOLDEN LAMP SIGNATURE FINALE]
 - **Storyboard Reference:** `sb_e02_12_celestial_genie_dignity_finale.jpg`
 - **Location:** INT. KARMIC GENIE SHOW GRAND AMPHITHEATER — RISING CRANE FINALE
-- **Narrator Separation Blocking:** **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** bow together in a deep, synchronized *Namaskaram* on the pure-white circular marble stage before the glowing gold Karmic Genie Lamp.
-- **Visual Action:** Grand rising symphonic crane shot over the pure-white marble rings and hushed amphitheater (`-14 LUFS` sacred *veena*, *flute*, and warm orchestral resolve into the official pure-white *Karmic Genie Show* crest).
-- **Dialogue (`@Me` — serene, timeless sign-off):**
-  > "Guard your unbought spine, honor every honest hand, and sleep in royal peace. *Nandri, Vanakkam*—live the Seven-D Way!"
+- **Active In-Scene Blocking:** **`@Me`**, **`4yo Bala-Rishi`**, and **`Bala-Matha`** bow together in a deep, synchronized *Namaskaram* on the pure-white circular marble stage before the glowing gold Karmic Genie Lamp.
+- **Visual Action:** Grand rising symphonic crane shot over the circular marble amphitheater (`-14 LUFS` sacred *veena*, *flute*, and warm orchestral resolve into the official pure-white *Karmic Genie Show* crest).
+- **Dialogue (`@Me` — timeless sign-off):**
+  > "Guard your unbought spine, honor every honest hand, and walk in dignity. *Nandri, Vanakkam*—live the Seven-D Way!"
 
 ---
 
-## PRODUCTION & NARRATOR-SEPARATION COMPLIANCE SUMMARY (`S01E02`)
+## PRODUCTION & IN-SCENE TWO-BIRDS NARRATOR COMPLIANCE SUMMARY (`S01E02`)
 - **Total Readable Pages:** `14 Pages` (`## PAGE 1` through `## PAGE 14`)
 - **Total Google Flow 16:9 Cinema Shots:** `48 Shots` (`ED01`–`ED48`, `10` Resumable Batches)
-- **Spoken Cadence Guarantee:** Every single shot (`ED01`–`ED48`) is crafted at `14–19` natural spoken words (`~5.5s–6.8s` inside an `8.0s` Veo 3.1 clip for unhurried contemplative delivery).
-- **Strict Narrator Separation Verified (`0%` Role Confusion):**
-  1. In **every movie scene** (`ED01`–`ED05`, `ED09`–`ED18`, `ED20`–`ED24`, `ED26`–`ED32`), **`@Me` + ONE Child (`Bala-Rishi` OR `Bala-Matha`)** remain strictly **unseen witness narrators** framed in the foreground/periphery addressing **only the camera/viewer**.
-  2. Story characters (`Karthik`, `Meera`, `Arjun`, `Vikram`, the street vendor, the schoolgirl, the cradle craftsman, elders) live 100% inside their self-contained dramatic world and **never** look at, speak to, or mix with the narrators.
-  3. Studio portals (`ED06`–`ED08`, `ED19`, `ED25`, `ED33`–`ED48`) take place on the canonical pure-white circular marble stage (`SHOW_BIBLE_AND_7D_ARCHITECTURE.md` `v6` standard).
-- **Core Moral Arc Verified:** Doing the **right thing** at the **right time** (`11:48 PM` before sign-off / dusk street return / exam hall) to the **right people** (unseen bridge commuters, junior engineer Arjun, weary street vendor, absent colleague, elders & helpers at home) triumphs over doing the **easy thing when no one watches**—aligning **Dignity (`D2`)** directly with **Unbought Integrity**.
+- **Spoken Cadence Guarantee:** Every single shot is crafted at `15–20` natural spoken words (`~5.5s–6.8s` inside an `8.0s` Veo 3.1 clip for contemplative delivery).
+- **In-Scene "Two Birds" Narration (`0%` Role Confusion, `100%` Intimate Proximity):**
+  1. **Intimate Physical Proximity:** In every movie scene (`ED01`–`ED05`, `ED11`–`ED18`, `ED20`–`ED23`, `ED27`–`ED32`), **`@Me` + ONE Child (`Bala-Rishi` OR `Bala-Matha`)** stand physically right beside the characters—at the desk elbow, beside the washroom mirror, in the classroom aisle, at the fruit cart, and beside the bedpost—narrating the inner moral conflict intimately to the camera lens.
+  2. **Role Integrity Preserved:** The narrators **NEVER switch roles to become characters in the story**. They never take a job, sign papers, or handle props in the plot; and the characters never look at, speak to, or interact with them.
+  3. **The Core Moral Principle Enforced ("Earn with Dignity, ALWAYS"):** Earning *Porul* must strictly arise from duty, service, or virtue. Earning through corrupt obedience or deceit accrues bad karma and poisons family soul growth. If an employer or authority commands an immoral act, true dignity demands refusing the command, **even at the cost of losing one's job on the spot!**

@@ -6,9 +6,11 @@ Exports & validates the complete Google Flow Production Package for:
   - episodes/S01E02_Earn_With_Dignity_Always/GOOGLE_FLOW_STORYBOARD_PACKAGE_S01E02.json (12 scenes)
   - episodes/S01E02_Earn_With_Dignity_Always/s01e02_48_shot_flow_ledger.json (48 cinema shots ED01..ED48)
 
-Enforces Ironclad Narrator Separation:
-  Narrators (@Me, 4yo Bala-Rishi, Bala-Matha) stay strictly unseen foreground/stage narrators
-  addressing ONLY the camera/viewer—NEVER mixed up or perceived as characters inside the story.
+Enforces In-Scene "Two Birds" Narrator Proximity Law:
+  Narrators (@Me, 4yo Bala-Rishi, Bala-Matha) stand physically inside the scene right beside
+  the characters—at the desk elbow, beside the washroom mirror, at the fruit cart, and beside the bedpost—
+  speaking intimately to the camera lens. They NEVER switch roles to become characters in the plot,
+  and story characters never interact with them.
 """
 
 import json
@@ -23,12 +25,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 1,
         "act": "ACT I — 11:45 PM UNWATCHED CROSSROADS (Page 1)",
-        "title": "11:45 PM Empty Engineering Floor: The Easy Shortcut When No One Watches",
-        "setting": "Foreground glass walkway outside an amber-lit engineering floor at 11:45 PM with rain streaks on windows.",
-        "characters": "Story world: Engineer Karthik (34) & Division Head Vikram (46). Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and 4yo Bala-Rishi stand outside the acoustic glass partition facing ONLY the camera; Karthik and Vikram remain inside their room completely unaware of the narrators.",
+        "title": "11:45 PM Empty Engineering Floor: Corrupt Boss Demand at the Desk",
+        "setting": "Inside amber-lit drafting office at 11:45 PM with rain glistening on dark windows.",
+        "characters": "Story world: Engineer Karthik (34) & Division Head Vikram (46). In-scene narrators: @Me + 4yo Bala-Rishi.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and 4yo Bala-Rishi stand right beside the drafting table, inches from Karthik's elbow, looking directly into the camera lens while Vikram and Karthik confront each other over the false certificate.",
         "time_pause_mechanic": "[SCENE TIME-PAUSE] freezes Karthik's pen two millimeters above the compromised signature line.",
-        "dialogue_anchor": "One silent click hides the flaw, steals a junior's credit, and wins an easy bonus—since nobody sees!",
+        "dialogue_anchor": "Obeying a corrupt boss feels easy tonight—but money earned from a lie poisons your soul and your family!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
         "avatar_refs": [
@@ -40,12 +42,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 2,
         "act": "ACT I — CONSCIENCE REJECTION (Pages 1–2)",
-        "title": "1:30 AM Washroom Mirror Rejection & Bought Status at Breakfast",
-        "setting": "Moonlit apartment balcony outside a warm-lit washroom mirror & crystal decanter.",
-        "characters": "Story world: Lone Karthik (and wife Meera at breakfast). Foreground unseen narrators: @Me + Bala-Matha.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand outside on the moonlit balcony facing ONLY the camera; Karthik faces his washroom mirror inside, 100% unaware of the narrators.",
-        "time_pause_mechanic": "Psychological mirror recoil showing how betraying integrity when unwatched triggers immediate self-rejection.",
-        "dialogue_anchor": "No witness saw him—yet at one-thirty A.M., his own mirror rejects him! Drowning lost dignity only rots the soul.",
+        "title": "1:30 AM Washroom Mirror Rejection: Tainted Money Accrues Bad Karma",
+        "setting": "Dim modern apartment washroom at 1:30 AM before an illuminated mirror and crystal decanter.",
+        "characters": "Story world: Lone Karthik in shirt sleeves. In-scene narrators: @Me + Bala-Matha.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and Bala-Matha stand right beside the washroom counter, physically close inside the room, facing the camera with piercing compassion while Karthik stares into his mirror in torment.",
+        "time_pause_mechanic": "Conscience recoil showing how money earned outside of duty accrues heavy negative karma and poisons family soul growth.",
+        "dialogue_anchor": "No boss is watching now—yet at one-thirty A.M., his own mirror rejects him! Tainted money burns the conscience.",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
         "avatar_refs": [
@@ -57,12 +59,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 3,
         "act": "ACT I — STUDIO PORTAL (Page 2)",
-        "title": "White-Wall Zoom-Out: Duty (What) + Dignity (Integrity of How)",
+        "title": "White-Wall Zoom-Out: 'Earn with Dignity ALWAYS — Not Sometimes, Not Once'",
         "setting": "Pure-white circular marble Karmic Genie Show amphitheater with brushed-gold '2. Earn with DIGNITY Always.'",
         "characters": "@Me, 4yo Bala-Rishi, and Bala-Matha on the central marble stage.",
-        "narrator_separation_blocking": "Canonical studio host setting beside the dormant jeweled gold Genie lamp.",
-        "time_pause_mechanic": "[WHITE-WALL ZOOM-OUT] onto the circular marble stage unveiling the Golden Axiom.",
-        "dialogue_anchor": "Doing the right thing, at the right time, to the right people ALWAYS beats the easy thing in the dark!",
+        "in_scene_narrator_blocking": "Canonical studio host setting beside the dormant jeweled gold Genie lamp.",
+        "time_pause_mechanic": "[WHITE-WALL ZOOM-OUT] onto the circular marble stage defining the invariant: Porul must flow purely from duty, service, or virtuous action.",
+        "dialogue_anchor": "Notice the sacred law: earn with dignity always! Every rupee must flow purely from duty, service, or virtuous action.",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
         "avatar_refs": [
@@ -77,10 +79,10 @@ STORYBOARD_SCENES = [
         "act": "ACT II — NATURE'S UNBOUGHT DIGNITY (Page 3)",
         "title": "Unstained Lotus, Upright Mountain Bamboo & Gentle Honeybee (100% Dignity)",
         "setting": "Sunlit morning stone path beside a white lotus pond and tall green mountain bamboo grove.",
-        "characters": "Unseen narrators @Me + 4yo Bala-Rishi observing untouched nature.",
-        "narrator_separation_blocking": "@Me and Bala-Rishi walk along the foreground stone path speaking exclusively to the lens.",
+        "characters": "In-scene narrators @Me + 4yo Bala-Rishi walking through untouched nature.",
+        "in_scene_narrator_blocking": "@Me and Bala-Rishi walk right beside the lotus blossoms and bamboo canes speaking directly to the lens.",
         "time_pause_mechanic": "[WHITE-WALL ZOOM-IN] into living nature demonstrating Thiruvalluvar's Maanam (Kural 969).",
-        "dialogue_anchor": "Behold nature's unbought integrity: the lotus rises unstained, bamboo bends without breaking, and honeybees earn nectar without bruising petals!",
+        "dialogue_anchor": "Nature teaches unbought dignity: the lotus remains unstained by mud, and mountain bamboo bends without ever breaking its upright spine!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
         "avatar_refs": [
@@ -92,12 +94,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 5,
         "act": "ACT II — CHILDHOOD & YOUTH INTEGRITY (Page 4)",
-        "title": "Age 4 Unshamed Play, Refusing an Exam Cheat Note & Proud of Honest Parents",
-        "setting": "Open school veranda outside an arched classroom window where the teacher faces the blackboard.",
-        "characters": "Story world: 13yo girl refusing cheat note; 22yo Arjun embracing tailor father. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand on the outer veranda facing ONLY the camera; students inside the classroom look only at their desks, 100% unaware of the narrators.",
-        "time_pause_mechanic": "Unwatched classroom integrity test when the teacher turns toward the blackboard.",
-        "dialogue_anchor": "In school years, an honest score earned by your own sweat shines brighter than a hundred copied victories!",
+        "title": "Age 4 Free Play, Classroom Aisle Exam Integrity & Honest Parents' Simple Clothes",
+        "setting": "Sunlit classroom exam hall with wooden desks and teacher writing at blackboard.",
+        "characters": "Story world: 13yo schoolgirl refusing folded cheat note. In-scene narrators: @Me + 4yo Bala-Rishi.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and Bala-Rishi stand right beside the student's wooden desk in the classroom aisle, looking straight into the camera while she pushes back the cheat note.",
+        "time_pause_mechanic": "Classroom integrity test when the teacher's back is turned.",
+        "dialogue_anchor": "When the teacher turns away, she refuses the cheat note—because true dignity never trades integrity for an unearned score!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
         "avatar_refs": [
@@ -109,12 +111,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 6,
         "act": "ACT II — ADULTHOOD PORUL & ARUL DIGNITY (Page 5)",
-        "title": "Age 24 Unbuyable Spine, Spotless Porul (Samma Ajiva) & Sovereign Arul (Kural 241)",
-        "setting": "Carved wooden courtyard arch outside a warm twilight South Indian Pooja sanctum.",
-        "characters": "Story world: Mother lighting brass Kuthuvilakku lamp with husband and son. Foreground unseen narrators: @Me + Bala-Matha.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand outside the carved pillar arch facing ONLY the camera; the family inside folds palms toward the lamp, unaware of the narrators.",
-        "time_pause_mechanic": "Golden Kuthuvilakku sanctuary glow illuminating 50% Clean Porul + 50% Sacred Arul.",
-        "dialogue_anchor": "Thiruvalluvar crowns Arul the wealth of all wealths! A mother's sacred lamp and moral nurture hold royal dignity!",
+        "title": "Age 24 Unbuyable Spine, Spotless Porul (Samma Ajiva) & Sacred Arul (Kural 241)",
+        "setting": "Warm twilight sanctum of traditional South Indian courtyard home beside brass Kuthuvilakku lamp.",
+        "characters": "Story world: Mother lighting Kuthuvilakku lamp with husband and son praying. In-scene narrators: @Me + Bala-Matha.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and Bala-Matha stand right beside the brass lamp inside the sanctum, physically present beside the praying family, facing the camera with luminous warmth.",
+        "time_pause_mechanic": "Golden Kuthuvilakku flame illuminating how spotless Porul earned purely from duty protects family soul growth.",
+        "dialogue_anchor": "Thiruvalluvar crowns Arul the greatest wealth! A mother's sacred lamp and unbought virtue guard the family's spiritual destiny.",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
         "avatar_refs": [
@@ -127,11 +129,11 @@ STORYBOARD_SCENES = [
         "scene": 7,
         "act": "ACT II — LEADERSHIP & ELDER DIGNITY (Page 6)",
         "title": "Age 40 Putting Juniors' Names First, Age 54 Grateful Nandri & 60+ Silver Crown",
-        "setting": "Garden stone border overlooking a sunlit Banyan courtyard.",
-        "characters": "Story world: 55yo mentor thanking workers in Namaste & 76yo elder laughing with grandchild. Foreground unseen narrators: @Me + Bala-Matha.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha sit/stand along the foreground stone wall facing ONLY the camera; mentor, workers, and elder interact naturally behind them.",
-        "time_pause_mechanic": "Warm golden morning continuity from upright bamboo leadership to humble Nandri.",
-        "dialogue_anchor": "At fifty-four, boasting melts into grateful Nandri—and past sixty, an unstained conscience becomes your royal silver crown!",
+        "setting": "Sunlit Banyan courtyard with elderly artisans and grandfather.",
+        "characters": "Story world: 55yo mentor thanking workers in Namaste & 76yo grandfather laughing with grandchild. In-scene narrators: @Me + Bala-Matha.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and Bala-Matha sit/stand right beside the Banyan trunk and workers, looking into the camera lens with serene reverence.",
+        "time_pause_mechanic": "Golden morning continuity from upright leadership to humble Nandri.",
+        "dialogue_anchor": "At fifty-four, pride dissolves into humble Nandri—and past sixty, a lifetime of honest duty becomes your eternal crown!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
         "avatar_refs": [
@@ -143,12 +145,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 8,
         "act": "ACT III — FOUR UNWATCHED INTEGRITY PARABLES (Pages 7–8)",
-        "title": "Returning Extra ₹500 Note at Dusk, Defending Absent Peer & Hidden Cradle Craft",
-        "setting": "Rain-washed cobblestone lane at dusk opposite a lantern-lit elderly mango vendor's cart.",
-        "characters": "Story world: Young commuter returning extra note to elderly vendor. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand across the quiet curb facing ONLY the camera; commuter and elderly vendor interact under lantern glow, 100% unaware of the narrators.",
-        "time_pause_mechanic": "Four real-world tests proving Right Thing + Right Time + Right People beats easy shortcuts.",
-        "dialogue_anchor": "Test One: Returning an extra currency note to a tired vendor at dusk—nobody saw, yet Conscience smiled!",
+        "title": "Returning Extra ₹500 Note at Dusk Fruit Cart, Defending Absent Colleague & Cradle Craft",
+        "setting": "Rain-washed dusk street right beside a lantern-lit wooden fruit cart.",
+        "characters": "Story world: Young commuter handing back extra note to elderly bearded mango vendor. In-scene narrators: @Me + 4yo Bala-Rishi.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and 4yo Bala-Rishi stand right next to the fruit cart under the lantern glow, physically present in the rainy street, narrating to the camera lens with soulful reverence.",
+        "time_pause_mechanic": "Four everyday tests proving Right Thing + Right Time + Right People triumphs over easy shortcuts.",
+        "dialogue_anchor": "Test One: Returning an extra banknote to a tired vendor at dusk—nobody saw, yet Conscience smiled with joy!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
         "avatar_refs": [
@@ -160,12 +162,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 9,
         "act": "ACT V — 11:46 PM REDEMPTION STAND (Page 10)",
-        "title": "Karthik Refuses the Unwatched Shortcut & Puts Junior Arjun's Name First",
-        "setting": "Foreground dark-blue glass walkway outside the 11:46 PM amber-lit engineering room.",
-        "characters": "Story world: Upright Karthik returning promotion offer to Vikram & logging Arjun's credit. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand outside the glass corridor facing ONLY the camera; Karthik stands tall inside the office completely unaware of the narrators.",
-        "time_pause_mechanic": "[TIME RESUMES FROM REWIND] Karthik chooses unbought bamboo integrity at 11:46 PM.",
-        "dialogue_anchor": "Without anger or fear, he sets the pen down—refusing to endanger unseen families for any promotion on Earth!",
+        "title": "Putting the Badge Down: Refusing an Unjust Boss Even If It Means Losing Your Job",
+        "setting": "Executive office at 11:46 PM under dramatic warm spotlight.",
+        "characters": "Story world: Furious Division Head Vikram pointing toward the door & Lead Engineer Karthik placing down his badge. In-scene narrators: @Me + 4yo Bala-Rishi.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and 4yo Bala-Rishi stand right beside the executive desk right next to Karthik's shoulder, facing the camera with triumphant resonance while Karthik refuses the corrupt command.",
+        "time_pause_mechanic": "The ultimate test of dignity: refusing to earn money from an immoral act, choosing unemployment over a compromised soul.",
+        "dialogue_anchor": "No matter the power, he does what is right—laying down his badge rather than earning one rupee from a lie!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
         "avatar_refs": [
@@ -177,12 +179,12 @@ STORYBOARD_SCENES = [
     {
         "scene": 10,
         "act": "ACT V — 9:00 AM BOARDROOM VINDICATION (Page 11)",
-        "title": "Truth Protects Commuters, Lifts Young Arjun & Crowns Karthik with Unbought Trust",
-        "setting": "Sunlit glass atrium balcony outside a bright 9:00 AM executive boardroom.",
-        "characters": "Story world: Chief Safety Chairman shaking 25yo Arjun's hand while Karthik smiles half a step back. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand on the outer atrium balcony facing ONLY the camera; Chairman, Arjun, and Karthik interact inside the glass boardroom unaware of the narrators.",
-        "time_pause_mechanic": "Daylight vindication paired with the insight that the true victory already happened at midnight.",
-        "dialogue_anchor": "External praise is just a bonus! His real victory happened at midnight—the instant he refused to sell his spine!",
+        "title": "Boardroom Vindication: Truth Protects Lives, Lifts Young Arjun & Crowns the Upright",
+        "setting": "Sunlit 9:00 AM corporate boardroom with long conference table.",
+        "characters": "Story world: Chief Safety Chairman shaking 25yo Arjun's hand with board applauding Karthik. In-scene narrators: @Me + 4yo Bala-Rishi.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and 4yo Bala-Rishi stand right beside the conference table right next to Karthik and Arjun, addressing the camera with uplifting joy.",
+        "time_pause_mechanic": "Public vindication paired with the truth that the real victory was already won at midnight when the pen was set down.",
+        "dialogue_anchor": "By morning light, truth protects thousands of lives, lifts young Arjun high, and crowns Karthik with unshakeable honor!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
         "avatar_refs": [
@@ -195,11 +197,11 @@ STORYBOARD_SCENES = [
         "scene": 11,
         "act": "ACT V — CLEAN MIRROR & EMPEROR-LEVEL SLEEP (Page 12)",
         "title": "Simple Rice, Clean Midnight Mirror Sigh of Relief & Emperor-Level Sleep",
-        "setting": "Open moonlit balcony veranda outside Karthik & Meera's serene bedroom.",
-        "characters": "Story world: Karthik & Meera sleeping in deep unbroken peace. Foreground unseen narrators: @Me + Bala-Matha.",
-        "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand on the outer veranda facing ONLY the camera; Karthik and Meera sleep peacefully inside the arched bedroom unaware of the narrators.",
-        "time_pause_mechanic": "10/10 Conscience Peace contrasting Act I's 1:30 AM mirror torment.",
-        "dialogue_anchor": "When nobody owns your conscience, no storm can steal your rest—tonight, unbought dignity sleeps like an emperor!",
+        "setting": "Quiet moonlit bedroom at night beside a wooden bed.",
+        "characters": "Story world: Karthik & Meera sleeping in unbroken peace. In-scene narrators: @Me + Bala-Matha.",
+        "in_scene_narrator_blocking": "IN-SCENE PROXIMITY: @Me and Bala-Matha stand right beside the wooden bedpost inside the quiet bedroom, facing the camera with soothing grace as the couple sleeps.",
+        "time_pause_mechanic": "10/10 Conscience Peace: money earned purely from duty brings divine sleep that corrupt wealth can never buy.",
+        "dialogue_anchor": "When money comes purely from duty, no power can disturb your rest—tonight, unbought dignity sleeps like an emperor!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
         "avatar_refs": [
@@ -214,9 +216,9 @@ STORYBOARD_SCENES = [
         "title": "Awakening of the Celestial Maharishi Karmic Genie & Pillar #2 Locked in Gold",
         "setting": "Grand pure-white circular marble Karmic Genie Show amphitheater.",
         "characters": "Celestial Maharishi Karmic Genie floating cross-legged above the gold lamp + @Me, Bala-Rishi & Bala-Matha.",
-        "narrator_separation_blocking": "Sacred studio finale with Pillar #1 (Duty) and Pillar #2 (Dignity) shining together on the pure-white wall.",
+        "in_scene_narrator_blocking": "Sacred studio finale with Pillar #1 (Duty) and Pillar #2 (Dignity) shining together on the pure-white wall.",
         "time_pause_mechanic": "Courteous Maharishi Genie blessing + 5-Question Tonight Mirror Audit (< 35/70 rule) + Episode 3 Discipline hook.",
-        "dialogue_anchor": "Remember tomorrow morning: doing the right thing at the right time to the right people always wins!",
+        "dialogue_anchor": "Carry this truth tomorrow: earn only from duty, defy corrupt commands, and sleep in royal peace every night!",
         "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
         "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
         "avatar_refs": [
@@ -294,29 +296,29 @@ def export_all():
 
     storyboard_pkg = {
         "project_title": "The Karmic Genie Show — S01E02: Earn with DIGNITY Always. (Epic Movie Edition)",
-        "series_format": "The 7D Way — Virtues & Divinity Theatrical Movie Series (White-Wall Portals + Strict Foreground Unseen Witness Narrators)",
+        "series_format": "The 7D Way — Virtues & Divinity Theatrical Movie Series (White-Wall Portals + Intimate In-Scene Two-Birds Narrators)",
         "target_platform": "Google Flow Storyboard Suite (MCP + CDP Port 9225/9222)",
         "account": "nagaraj957@gmail.com",
         "master_character_avatars": {
             "@Me": {
                 "avatar_tag": "Me",
                 "master_image": "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
-                "canonical_look": "Exact likeness of @Me (swept-back dark hair, salt-and-pepper stubble, warm expressive eyes) wearing his tailored ivory-white bandhgala suit. STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; never mixed up as a character inside the story.",
+                "canonical_look": "Exact likeness of @Me (swept-back dark hair, salt-and-pepper stubble, warm expressive eyes) wearing his tailored ivory-white bandhgala suit. IN-SCENE NARRATOR ROLE: Stands physically right beside the characters inside the scene, speaking directly to the camera lens. Never becomes a character in the plot.",
             },
             "Bala-Rishi": {
                 "avatar_tag": "Bala-Rishi",
                 "master_image": "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
-                "canonical_look": "4-year-old boy sage Bala-Rishi (top-knot bun, Urdhva Pundra tilak, Rudraksha mala, cream silk kurta & golden-bordered shawl). STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; unseen by story characters.",
+                "canonical_look": "4-year-old boy sage Bala-Rishi (top-knot bun, Urdhva Pundra tilak, Rudraksha mala, cream silk kurta & golden-bordered shawl). IN-SCENE NARRATOR ROLE: Stands right beside @Me and the characters, speaking intimately to the camera lens.",
             },
             "Bala-Matha": {
                 "avatar_tag": "Bala-Matha",
                 "master_image": "assets/studio_v5_masters/bala_matha_master_portrait.jpg",
-                "canonical_look": "Young divine girl sage Bala-Matha (vibhuti/kumkum on forehead, magenta-green silk pattu pavadai with golden zari border, fresh white jasmine garlands). STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; unseen by story characters.",
+                "canonical_look": "Young divine girl sage Bala-Matha (vibhuti/kumkum on forehead, magenta-green silk pattu pavadai with golden zari border, fresh white jasmine garlands). IN-SCENE NARRATOR ROLE: Stands right beside @Me and the characters, speaking intimately to the camera lens.",
             },
         },
         "signature_cinematic_mechanics": {
-            "strict_narrator_separation_law": "Narrator (@Me) + ONE Child ONLY (Bala-Rishi OR Bala-Matha) stay strictly in an architecturally separated foreground/veranda witness zone addressing ONLY the camera/viewer—NEVER mixed up as story characters, never touching story props, and 100% unseen by story characters.",
-            "bullet_time_freeze_frame_walkthrough": "[SCENE TIME-PAUSE] freezes the 11:45 PM signature line in 3D bullet-time while unseen foreground narrators @Me + 1 Child address the viewer.",
+            "in_scene_two_birds_narrator_law": "Narrator (@Me) + ONE Child ONLY (Bala-Rishi OR Bala-Matha) stand physically inside the scene right beside the living characters—at the blueprint desk, washroom mirror, classroom desk, fruit cart, and bedpost—speaking directly to the viewer. Characters remain completely absorbed in their story and never interact with the narrators.",
+            "bullet_time_freeze_frame_walkthrough": "[SCENE TIME-PAUSE] freezes the 11:45 PM signature line in 3D bullet-time while narrators @Me + 1 Child step around the desk to address the viewer.",
             "white_wall_zoom_portal": "Pure-white circular marble Karmic Genie Show studio wall acts as a seamless zoom-in/zoom-out cinema portal.",
         },
         "episode_2_storyboard_scenes": STORYBOARD_SCENES,
@@ -335,7 +337,7 @@ def export_all():
             snum = int(sid[2:])
             sb_ref = re.search(r"- \*\*Storyboard Reference:\*\* `(.*?)`", sb).group(1)
             loc = re.search(r"- \*\*Location:\*\* (.*)", sb).group(1).strip()
-            nb = re.search(r"- \*\*Narrator Separation Blocking:\*\* (.*)", sb).group(1).strip()
+            nb = re.search(r"- \*\*Active In-Scene Blocking:\*\* (.*)", sb).group(1).strip()
             vis = re.search(r"- \*\*Visual Action:\*\* (.*)", sb).group(1).strip()
             m_dlg = re.search(r"- \*\*Dialogue \((.*?)\):\*\*\n\s*> \"(.*?)\"", sb)
             sp_raw, spoken_raw = m_dlg.group(1), m_dlg.group(2)
@@ -351,20 +353,20 @@ def export_all():
             elif "Bala-Rishi" in sp_raw:
                 speaker_mode = "human"
                 speaker_voice = "bala_rishi"
-                cast_rule = "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)"
+                cast_rule = "Me + 4yo Bala-Rishi (Intimate In-Scene Two-Birds Narrators)"
                 include_me = True
             elif "Bala-Matha" in sp_raw:
                 speaker_mode = "human"
                 speaker_voice = "bala_matha"
-                cast_rule = "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)"
+                cast_rule = "Me + Bala-Matha (Intimate In-Scene Two-Birds Narrators)"
                 include_me = True
             else:
                 speaker_mode = "human"
                 speaker_voice = "host_me"
                 if "Bala-Matha" in nb and "Bala-Rishi" not in nb:
-                    cast_rule = "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)"
+                    cast_rule = "Me + Bala-Matha (Intimate In-Scene Two-Birds Narrators)"
                 elif "Bala-Rishi" in nb and "Bala-Matha" not in nb:
-                    cast_rule = "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)"
+                    cast_rule = "Me + 4yo Bala-Rishi (Intimate In-Scene Two-Birds Narrators)"
                 else:
                     cast_rule = "Me + Studio Trinity (Pure-White Circular Marble Stage)"
                 include_me = True
@@ -373,9 +375,9 @@ def export_all():
             vis_clean = sanitize_for_flow(vis)
             flow_visual = (
                 f"65mm photorealistic 16:9 cinema shot ({loc}). "
-                f"STRICT NARRATOR SEPARATION: {nb_clean} "
+                f"IN-SCENE NARRATOR PROXIMITY: {nb_clean} "
                 f"STORY ACTION: {vis_clean} "
-                f"Story characters never look at or interact with the foreground narrators."
+                f"Characters are absorbed in their scene; narrators address camera directly."
             )
             assert "@" not in flow_visual, f"Literal @ found in {sid}"
 
@@ -396,6 +398,7 @@ def export_all():
                     "page": p_num,
                     "cast_rule": cast_rule,
                     "narrator_separation_verified": True,
+                    "in_scene_proximity": True,
                     "include_me": include_me,
                     "ref_image": ref_rel,
                     "speaker_mode": speaker_mode,
@@ -423,11 +426,10 @@ def export_all():
         "clip_duration_seconds": 8,
         "estimated_master_runtime": "~07:45 (17.6s 7D Cold Open + 48 cinema shots ED01..ED48 + 14.5s Finale Card)",
         "rules_enforced": [
-            "Virtue #2 Focus: '2. Earn with DIGNITY Always.' (Dignity = Unbought Integrity)",
-            "Golden Moral Law: Doing the right thing at the right time to the right people ALWAYS wins over doing the easy thing when no one watches",
-            "IRONCLAD NARRATOR SEPARATION: Narrators (Me, 4yo Bala-Rishi, Bala-Matha) stay strictly unseen foreground/stage narrators addressing ONLY the camera—never mixed up as characters in the story",
-            "11:45 PM Unwatched Bridge-Safety Crossroads (Shadow Timeline 1:30 AM Mirror Conscience Rejection vs. 11:46 PM Upright Bamboo Stand & Putting Junior Arjun's Name First -> Emperor-Level Sleep)",
-            "Lifecycle Integrity across Nature (Lotus, Bamboo, Honeybee) & Human Stages (Age 4 Unshamed Play -> Honest Exams -> Age 24 Unbuyable Spine -> Clean Porul & Royal Arul -> Age 40 Shared Credit -> Age 54 Grateful Nandri -> 60+ Silver Crown)",
+            "Virtue #2 Invariant: 'Earn with Dignity, ALWAYS' — Never sometimes, never once. Wherever/whenever you earn Porul (money), it MUST come strictly from an act of duty, service, or virtuous action, nothing less.",
+            "Karmic Law: Earning by any other means accrues bad karma and contaminates soul growth for yourself and your family.",
+            "Defying Corrupt Power: Dignity means no matter how powerful the authority or boss, you do what is right. If a boss commands an immoral act, you refuse point-blank, even if it means losing your job on the spot!",
+            "In-Scene 'Two Birds' Proximity: Narrators (Me + 1 Child) stand physically inside the scene right beside characters and props, speaking intimately to the camera lens without ever switching roles to become characters.",
             "Zero literal @ symbol inside Google Flow visual prompts + Official Me/Bala-Rishi/Bala-Matha reference ingredients",
         ],
         "shots": shots_list,
