@@ -1,0 +1,236 @@
+{
+  "project_title": "The Karmic Genie Show — S01E02: Earn with DIGNITY Always. (Epic Movie Edition)",
+  "series_format": "The 7D Way — Virtues & Divinity Theatrical Movie Series (White-Wall Portals + Strict Foreground Unseen Witness Narrators)",
+  "target_platform": "Google Flow Storyboard Suite (MCP + CDP Port 9225/9222)",
+  "account": "nagaraj957@gmail.com",
+  "master_character_avatars": {
+    "@Me": {
+      "avatar_tag": "Me",
+      "master_image": "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+      "canonical_look": "Exact likeness of @Me (swept-back dark hair, salt-and-pepper stubble, warm expressive eyes) wearing his tailored ivory-white bandhgala suit. STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; never mixed up as a character inside the story."
+    },
+    "Bala-Rishi": {
+      "avatar_tag": "Bala-Rishi",
+      "master_image": "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
+      "canonical_look": "4-year-old boy sage Bala-Rishi (top-knot bun, Urdhva Pundra tilak, Rudraksha mala, cream silk kurta & golden-bordered shawl). STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; unseen by story characters."
+    },
+    "Bala-Matha": {
+      "avatar_tag": "Bala-Matha",
+      "master_image": "assets/studio_v5_masters/bala_matha_master_portrait.jpg",
+      "canonical_look": "Young divine girl sage Bala-Matha (vibhuti/kumkum on forehead, magenta-green silk pattu pavadai with golden zari border, fresh white jasmine garlands). STRICT NARRATOR ROLE: Speaks ONLY to the camera lens; unseen by story characters."
+    }
+  },
+  "signature_cinematic_mechanics": {
+    "strict_narrator_separation_law": "Narrator (@Me) + ONE Child ONLY (Bala-Rishi OR Bala-Matha) stay strictly in an architecturally separated foreground/veranda witness zone addressing ONLY the camera/viewer—NEVER mixed up as story characters, never touching story props, and 100% unseen by story characters.",
+    "bullet_time_freeze_frame_walkthrough": "[SCENE TIME-PAUSE] freezes the 11:45 PM signature line in 3D bullet-time while unseen foreground narrators @Me + 1 Child address the viewer.",
+    "white_wall_zoom_portal": "Pure-white circular marble Karmic Genie Show studio wall acts as a seamless zoom-in/zoom-out cinema portal."
+  },
+  "episode_2_storyboard_scenes": [
+    {
+      "scene": 1,
+      "act": "ACT I — 11:45 PM UNWATCHED CROSSROADS (Page 1)",
+      "title": "11:45 PM Empty Engineering Floor: The Easy Shortcut When No One Watches",
+      "setting": "Foreground glass walkway outside an amber-lit engineering floor at 11:45 PM with rain streaks on windows.",
+      "characters": "Story world: Engineer Karthik (34) & Division Head Vikram (46). Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and 4yo Bala-Rishi stand outside the acoustic glass partition facing ONLY the camera; Karthik and Vikram remain inside their room completely unaware of the narrators.",
+      "time_pause_mechanic": "[SCENE TIME-PAUSE] freezes Karthik's pen two millimeters above the compromised signature line.",
+      "dialogue_anchor": "One silent click hides the flaw, steals a junior's credit, and wins an easy bonus—since nobody sees!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 2,
+      "act": "ACT I — CONSCIENCE REJECTION (Pages 1–2)",
+      "title": "1:30 AM Washroom Mirror Rejection & Bought Status at Breakfast",
+      "setting": "Moonlit apartment balcony outside a warm-lit washroom mirror & crystal decanter.",
+      "characters": "Story world: Lone Karthik (and wife Meera at breakfast). Foreground unseen narrators: @Me + Bala-Matha.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand outside on the moonlit balcony facing ONLY the camera; Karthik faces his washroom mirror inside, 100% unaware of the narrators.",
+      "time_pause_mechanic": "Psychological mirror recoil showing how betraying integrity when unwatched triggers immediate self-rejection.",
+      "dialogue_anchor": "No witness saw him—yet at one-thirty A.M., his own mirror rejects him! Drowning lost dignity only rots the soul.",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 3,
+      "act": "ACT I — STUDIO PORTAL (Page 2)",
+      "title": "White-Wall Zoom-Out: Duty (What) + Dignity (Integrity of How)",
+      "setting": "Pure-white circular marble Karmic Genie Show amphitheater with brushed-gold '2. Earn with DIGNITY Always.'",
+      "characters": "@Me, 4yo Bala-Rishi, and Bala-Matha on the central marble stage.",
+      "narrator_separation_blocking": "Canonical studio host setting beside the dormant jeweled gold Genie lamp.",
+      "time_pause_mechanic": "[WHITE-WALL ZOOM-OUT] onto the circular marble stage unveiling the Golden Axiom.",
+      "dialogue_anchor": "Doing the right thing, at the right time, to the right people ALWAYS beats the easy thing in the dark!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 4,
+      "act": "ACT II — NATURE'S UNBOUGHT DIGNITY (Page 3)",
+      "title": "Unstained Lotus, Upright Mountain Bamboo & Gentle Honeybee (100% Dignity)",
+      "setting": "Sunlit morning stone path beside a white lotus pond and tall green mountain bamboo grove.",
+      "characters": "Unseen narrators @Me + 4yo Bala-Rishi observing untouched nature.",
+      "narrator_separation_blocking": "@Me and Bala-Rishi walk along the foreground stone path speaking exclusively to the lens.",
+      "time_pause_mechanic": "[WHITE-WALL ZOOM-IN] into living nature demonstrating Thiruvalluvar's Maanam (Kural 969).",
+      "dialogue_anchor": "Behold nature's unbought integrity: the lotus rises unstained, bamboo bends without breaking, and honeybees earn nectar without bruising petals!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 5,
+      "act": "ACT II — CHILDHOOD & YOUTH INTEGRITY (Page 4)",
+      "title": "Age 4 Unshamed Play, Refusing an Exam Cheat Note & Proud of Honest Parents",
+      "setting": "Open school veranda outside an arched classroom window where the teacher faces the blackboard.",
+      "characters": "Story world: 13yo girl refusing cheat note; 22yo Arjun embracing tailor father. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand on the outer veranda facing ONLY the camera; students inside the classroom look only at their desks, 100% unaware of the narrators.",
+      "time_pause_mechanic": "Unwatched classroom integrity test when the teacher turns toward the blackboard.",
+      "dialogue_anchor": "In school years, an honest score earned by your own sweat shines brighter than a hundred copied victories!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 6,
+      "act": "ACT II — ADULTHOOD PORUL & ARUL DIGNITY (Page 5)",
+      "title": "Age 24 Unbuyable Spine, Spotless Porul (Samma Ajiva) & Sovereign Arul (Kural 241)",
+      "setting": "Carved wooden courtyard arch outside a warm twilight South Indian Pooja sanctum.",
+      "characters": "Story world: Mother lighting brass Kuthuvilakku lamp with husband and son. Foreground unseen narrators: @Me + Bala-Matha.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand outside the carved pillar arch facing ONLY the camera; the family inside folds palms toward the lamp, unaware of the narrators.",
+      "time_pause_mechanic": "Golden Kuthuvilakku sanctuary glow illuminating 50% Clean Porul + 50% Sacred Arul.",
+      "dialogue_anchor": "Thiruvalluvar crowns Arul the wealth of all wealths! A mother's sacred lamp and moral nurture hold royal dignity!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 7,
+      "act": "ACT II — LEADERSHIP & ELDER DIGNITY (Page 6)",
+      "title": "Age 40 Putting Juniors' Names First, Age 54 Grateful Nandri & 60+ Silver Crown",
+      "setting": "Garden stone border overlooking a sunlit Banyan courtyard.",
+      "characters": "Story world: 55yo mentor thanking workers in Namaste & 76yo elder laughing with grandchild. Foreground unseen narrators: @Me + Bala-Matha.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha sit/stand along the foreground stone wall facing ONLY the camera; mentor, workers, and elder interact naturally behind them.",
+      "time_pause_mechanic": "Warm golden morning continuity from upright bamboo leadership to humble Nandri.",
+      "dialogue_anchor": "At fifty-four, boasting melts into grateful Nandri—and past sixty, an unstained conscience becomes your royal silver crown!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 8,
+      "act": "ACT III — FOUR UNWATCHED INTEGRITY PARABLES (Pages 7–8)",
+      "title": "Returning Extra ₹500 Note at Dusk, Defending Absent Peer & Hidden Cradle Craft",
+      "setting": "Rain-washed cobblestone lane at dusk opposite a lantern-lit elderly mango vendor's cart.",
+      "characters": "Story world: Young commuter returning extra note to elderly vendor. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand across the quiet curb facing ONLY the camera; commuter and elderly vendor interact under lantern glow, 100% unaware of the narrators.",
+      "time_pause_mechanic": "Four real-world tests proving Right Thing + Right Time + Right People beats easy shortcuts.",
+      "dialogue_anchor": "Test One: Returning an extra currency note to a tired vendor at dusk—nobody saw, yet Conscience smiled!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 9,
+      "act": "ACT V — 11:46 PM REDEMPTION STAND (Page 10)",
+      "title": "Karthik Refuses the Unwatched Shortcut & Puts Junior Arjun's Name First",
+      "setting": "Foreground dark-blue glass walkway outside the 11:46 PM amber-lit engineering room.",
+      "characters": "Story world: Upright Karthik returning promotion offer to Vikram & logging Arjun's credit. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand outside the glass corridor facing ONLY the camera; Karthik stands tall inside the office completely unaware of the narrators.",
+      "time_pause_mechanic": "[TIME RESUMES FROM REWIND] Karthik chooses unbought bamboo integrity at 11:46 PM.",
+      "dialogue_anchor": "Without anger or fear, he sets the pen down—refusing to endanger unseen families for any promotion on Earth!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 10,
+      "act": "ACT V — 9:00 AM BOARDROOM VINDICATION (Page 11)",
+      "title": "Truth Protects Commuters, Lifts Young Arjun & Crowns Karthik with Unbought Trust",
+      "setting": "Sunlit glass atrium balcony outside a bright 9:00 AM executive boardroom.",
+      "characters": "Story world: Chief Safety Chairman shaking 25yo Arjun's hand while Karthik smiles half a step back. Foreground unseen narrators: @Me + 4yo Bala-Rishi.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Rishi stand on the outer atrium balcony facing ONLY the camera; Chairman, Arjun, and Karthik interact inside the glass boardroom unaware of the narrators.",
+      "time_pause_mechanic": "Daylight vindication paired with the insight that the true victory already happened at midnight.",
+      "dialogue_anchor": "External praise is just a bonus! His real victory happened at midnight—the instant he refused to sell his spine!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/v9_genie_4yo_bala_rishi_16x9.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 11,
+      "act": "ACT V — CLEAN MIRROR & EMPEROR-LEVEL SLEEP (Page 12)",
+      "title": "Simple Rice, Clean Midnight Mirror Sigh of Relief & Emperor-Level Sleep",
+      "setting": "Open moonlit balcony veranda outside Karthik & Meera's serene bedroom.",
+      "characters": "Story world: Karthik & Meera sleeping in deep unbroken peace. Foreground unseen narrators: @Me + Bala-Matha.",
+      "narrator_separation_blocking": "STRICT SEPARATION: @Me and Bala-Matha stand on the outer veranda facing ONLY the camera; Karthik and Meera sleep peacefully inside the arched bedroom unaware of the narrators.",
+      "time_pause_mechanic": "10/10 Conscience Peace contrasting Act I's 1:30 AM mirror torment.",
+      "dialogue_anchor": "When nobody owns your conscience, no storm can steal your rest—tonight, unbought dignity sleeps like an emperor!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    },
+    {
+      "scene": 12,
+      "act": "ACT VI & VII — CELESTIAL KARMIC GENIE & 35/70 MIRROR FINALE (Pages 13–14)",
+      "title": "Awakening of the Celestial Maharishi Karmic Genie & Pillar #2 Locked in Gold",
+      "setting": "Grand pure-white circular marble Karmic Genie Show amphitheater.",
+      "characters": "Celestial Maharishi Karmic Genie floating cross-legged above the gold lamp + @Me, Bala-Rishi & Bala-Matha.",
+      "narrator_separation_blocking": "Sacred studio finale with Pillar #1 (Duty) and Pillar #2 (Dignity) shining together on the pure-white wall.",
+      "time_pause_mechanic": "Courteous Maharishi Genie blessing + 5-Question Tonight Mirror Audit (< 35/70 rule) + Episode 3 Discipline hook.",
+      "dialogue_anchor": "Remember tomorrow morning: doing the right thing at the right time to the right people always wins!",
+      "visual_asset": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "ref_ingredient": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "avatar_refs": [
+        "assets/studio_v5_masters/v6_7d_saintly_genie_16x9.jpg",
+        "assets/studio_v5_masters/v9_host_adult_ivory_bandhgala_16x9.jpg",
+        "assets/studio_v5_masters/bala_matha_master_portrait.jpg"
+      ],
+      "include_me_avatar": true
+    }
+  ]
+}

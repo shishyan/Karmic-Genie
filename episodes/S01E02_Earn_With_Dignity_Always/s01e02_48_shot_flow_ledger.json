@@ -1,0 +1,1365 @@
+{
+  "episode": "S01E02",
+  "series": "The Karmic Genie Show — The 7D Way (Virtues & Divinity)",
+  "title": "2. Earn with DIGNITY Always.",
+  "screenplay_path": "episodes/S01E02_Earn_With_Dignity_Always/S01E02_14_Page_Master_Screenplay_Earn_With_Dignity_Always.md",
+  "total_batches": 10,
+  "total_shots": 48,
+  "target_aspect_ratio": "16:9",
+  "clip_duration_seconds": 8,
+  "estimated_master_runtime": "~07:45 (17.6s 7D Cold Open + 48 cinema shots ED01..ED48 + 14.5s Finale Card)",
+  "rules_enforced": [
+    "Virtue #2 Focus: '2. Earn with DIGNITY Always.' (Dignity = Unbought Integrity)",
+    "Golden Moral Law: Doing the right thing at the right time to the right people ALWAYS wins over doing the easy thing when no one watches",
+    "IRONCLAD NARRATOR SEPARATION: Narrators (Me, 4yo Bala-Rishi, Bala-Matha) stay strictly unseen foreground/stage narrators addressing ONLY the camera—never mixed up as characters in the story",
+    "11:45 PM Unwatched Bridge-Safety Crossroads (Shadow Timeline 1:30 AM Mirror Conscience Rejection vs. 11:46 PM Upright Bamboo Stand & Putting Junior Arjun's Name First -> Emperor-Level Sleep)",
+    "Lifecycle Integrity across Nature (Lotus, Bamboo, Honeybee) & Human Stages (Age 4 Unshamed Play -> Honest Exams -> Age 24 Unbuyable Spine -> Clean Porul & Royal Arul -> Age 40 Shared Credit -> Age 54 Grateful Nandri -> 60+ Silver Crown)",
+    "Zero literal @ symbol inside Google Flow visual prompts + Official Me/Bala-Rishi/Bala-Matha reference ingredients"
+  ],
+  "shots": [
+    {
+      "slot_id": "ED01",
+      "batch_id": "batch_01_midnight_shortcut_mirror_hook",
+      "file_prefix": "batch_01_midnight_shortcut_mirror_hook",
+      "page": 1,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_01_midnight_unwatched.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "eleven-forty-five",
+        "night",
+        "every",
+        "camera",
+        "every"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR — 11:45 PM (RAIN OUTSIDE)). STRICT NARRATOR SEPARATION: Foreground left along the glass walkway: unseen narrators Me (ivory *bandhgala*) and 4yo Bala-Rishi walk calmly addressing ONLY the camera lens. Background inside the amber-lit room: story characters KARTHIK (34) and senior director VIKRAM (46) stand over a bridge-steel inspection dossier—completely unaware of the unseen narrators. STORY ACTION: Security lights dim across rows of empty desks at 11:45 PM. Every auditor and junior engineer has gone home. Vikram slides a gleaming promotion letter beside a red-flagged micro-fracture report—urging Karthik to delete one decimal warning and erase 25-year-old junior analyst Arjun's name from the design patent before tomorrow's 9:00 AM board sign-off. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Eleven-forty-five at night. Every camera is off, every desk is empty, and nobody on Earth is watching.",
+      "word_count": 17,
+      "subtitles": [
+        "Eleven-forty-five at night. Every camera is off,",
+        "every desk is empty, and nobody on Earth is watching."
+      ]
+    },
+    {
+      "slot_id": "ED02",
+      "batch_id": "batch_01_midnight_shortcut_mirror_hook",
+      "file_prefix": "batch_01_midnight_shortcut_mirror_hook",
+      "page": 1,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "silent",
+        "click",
+        "hides",
+        "steals",
+        "junior's"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR — CONTINUOUS). STRICT NARRATOR SEPARATION: [SCENE TIME-PAUSE]: Karthik's pen hovers frozen two millimeters above the signature line; rain streaks hang motionless on the dark glass. Unseen witnesses Me and 4yo Bala-Rishi step smoothly across the foreground framing, looking directly into the camera without touching the desk or being perceived by frozen Karthik or Vikram. STORY ACTION: On the frozen screen glows the tempting shortcut: instant promotion bonus, zero public delay, and stolen credit for young Arjun's three months of sleepless math—all with one silent click in the dark. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "One silent click hides the flaw, steals a junior's credit, and wins an easy bonus—since nobody sees!",
+      "word_count": 18,
+      "subtitles": [
+        "One silent click hides the flaw, steals a junior's credit,",
+        "and wins an easy bonus—since nobody sees!"
+      ]
+    },
+    {
+      "slot_id": "ED03",
+      "batch_id": "batch_01_midnight_shortcut_mirror_hook",
+      "file_prefix": "batch_01_midnight_shortcut_mirror_hook",
+      "page": 1,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "watch",
+        "happens",
+        "chooses",
+        "thing",
+        "dark—trading"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR -> EXECUTIVE PARKING — MIDNIGHT). STRICT NARRATOR SEPARATION: Me and Bala-Rishi stand in the foreground shadows purely as unseen observers speaking to the lens while Karthik acts out the cautionary \"Easy Thing\" timeline behind them, completely unaware of their presence. STORY ACTION: Time resumes in the cautionary shadow timeline! Telling himself *\"Everyone takes shortcuts,\"* Karthik clicks *Approve*, pockets the corner-office badge, and walks to his car—yet his shoulders visibly slump an inch, unable to meet his own reflection in the dark elevator steel. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Watch what happens when he chooses the easy thing in the dark—trading unbought integrity for a shiny badge.",
+      "word_count": 19,
+      "subtitles": [
+        "Watch what happens when he chooses the easy thing",
+        "in the dark—trading unbought integrity for a shiny badge."
+      ]
+    },
+    {
+      "slot_id": "ED04",
+      "batch_id": "batch_01_midnight_shortcut_mirror_hook",
+      "file_prefix": "batch_01_midnight_shortcut_mirror_hook",
+      "page": 1,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_02_mirror_conscience.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "witness",
+        "him—yet",
+        "one-thirty",
+        "mirror",
+        "rejects"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARTHIK'S APARTMENT WASHROOM & BALCONY — 1:30 AM). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha stand quietly outside the open balcony glass in soft golden conscience light, speaking strictly to the viewer while Karthik remains completely alone inside his washroom. STORY ACTION: At 1:30 AM, Karthik splashes cold water on his face and stares into the washroom mirror—his own Conscience (*Manasatchi*) recoils in burning self-disgust (*\"You sold your spine for a coin\"*). Reaching toward a crystal decanter on the sideboard to numb that secret shame, his hand trembles in hollow misery. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "No witness saw him—yet at one-thirty A.M., his own mirror rejects him! Drowning lost dignity only rots the soul.",
+      "word_count": 21,
+      "subtitles": [
+        "No witness saw him—yet at one-thirty A.M.,",
+        "his own mirror rejects him! Drowning lost dignity only rots the soul."
+      ]
+    },
+    {
+      "slot_id": "ED05",
+      "batch_id": "batch_01_midnight_shortcut_mirror_hook",
+      "file_prefix": "batch_01_midnight_shortcut_mirror_hook",
+      "page": 2,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_02_mirror_conscience_rejection.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "corner-office",
+        "badge",
+        "fools",
+        "strangers—never",
+        "heart"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARTHIK & MEERA'S DINING ROOM — 7:30 AM). STRICT NARRATOR SEPARATION: Unseen narrators Me and Bala-Matha observe from the sunlit veranda arch, speaking only to the camera while Karthik and his wife MEERA (31) interact naturally inside their dining room, unaware of the narrators. STORY ACTION: Karthik places the new gold executive title card on the breakfast table, expecting applause. Meera notices his bloodshot eyes, the erased credit of young Arjun on the printed brief, and his defensive irritability—her quiet, sorrowful gaze says everything without shouting a word. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "A corner-office badge fools strangers—never your own heart or home! Bought status collapses the moment truth looks close.",
+      "word_count": 19,
+      "subtitles": [
+        "A corner-office badge fools strangers—never your own heart or home!",
+        "Bought status collapses the moment truth looks close."
+      ]
+    },
+    {
+      "slot_id": "ED06",
+      "batch_id": "batch_02_white_stage_lotus_bamboo",
+      "file_prefix": "batch_02_white_stage_lotus_bamboo",
+      "page": 2,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_03_white_stage_d2.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "welcome",
+        "karmic",
+        "genie",
+        "after",
+        "respect"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (TRANSITION -> INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Studio stage host setting: Me, 4yo Bala-Rishi, and Bala-Matha stand on the pure-white circular marble platform before the dormant jeweled gold Genie lamp. STORY ACTION: [WHITE-WALL ZOOM-OUT]: Camera pulls seamlessly backward from the dining room window through a glowing pure-white portal onto the grand circular marble amphitheater! Inscribed in brushed gold beside Pillar #1 shines 2. Earn with DIGNITY Always. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Welcome back to The Karmic Genie Show! After Respect Your Duty First, behold Virtue Two: Earn with DIGNITY Always.",
+      "word_count": 19,
+      "subtitles": [
+        "Welcome back to The Karmic Genie Show!",
+        "After Respect Your Duty First, behold Virtue Two: Earn with DIGNITY Always."
+      ]
+    },
+    {
+      "slot_id": "ED07",
+      "batch_id": "batch_02_white_stage_lotus_bamboo",
+      "file_prefix": "batch_02_white_stage_lotus_bamboo",
+      "page": 2,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "tells",
+        "yours",
+        "fulfill",
+        "dignity",
+        "integrity—how"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Me walks gracefully along the champagne-gold concentric inlay ring on the white marble stage, addressing the viewer directly. STORY ACTION: Behind Me, two luminous golden emblems interlock: Virtue 1 (DUTY — *What* Conscience Calls You To Do) and Virtue 2 (DIGNITY — *How* Unbought Integrity Keeps Every Drop Clean). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Duty tells you what is yours to fulfill. Dignity is pure Integrity—how you fulfill it when nobody watches!",
+      "word_count": 19,
+      "subtitles": [
+        "Duty tells you what is yours to fulfill. Dignity",
+        "is pure Integrity—how you fulfill it when nobody watches!"
+      ]
+    },
+    {
+      "slot_id": "ED08",
+      "batch_id": "batch_02_white_stage_lotus_bamboo",
+      "file_prefix": "batch_02_white_stage_lotus_bamboo",
+      "page": 2,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": "ov_ed_03_white_stage_d2.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "doing",
+        "right",
+        "thing",
+        "right",
+        "right"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Medium close-up of Me and 4yo Bala-Rishi beside the dormant gold Genie lamp on the pure-white marble stage. STORY ACTION: On the curved transparent smart-glass barrier, three radiant golden pillars ignite in sequence: Right Thing • Right Time • Right People > Easy Thing Unwatched. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Doing the right thing, at the right time, to the right people ALWAYS beats the easy thing in the dark!",
+      "word_count": 20,
+      "subtitles": [
+        "Doing the right thing, at the right time,",
+        "to the right people ALWAYS beats the easy thing in the dark!"
+      ]
+    },
+    {
+      "slot_id": "ED09",
+      "batch_id": "batch_02_white_stage_lotus_bamboo",
+      "file_prefix": "batch_02_white_stage_lotus_bamboo",
+      "page": 3,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_04_nature_integrity.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "behold",
+        "nature's",
+        "unbought",
+        "integrity",
+        "lotus"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (TRANSITION -> EXT. MISTY SUNLIT LOTUS POND & MOUNTAIN BAMBOO GROVE — MORNING). STRICT NARRATOR SEPARATION: [WHITE-WALL ZOOM-IN]: Me and 4yo Bala-Rishi walk along a stone garden path in the foreground speaking exclusively to the lens, observing untouched nature around them. STORY ACTION: A pure white lotus rises out of dark pond mud without a single stain on its petals; tall green bamboo bends gracefully in mountain wind without cracking its upright spine; a golden honeybee gathers nectar (50% Hive / 35% Pollination / 15% Brood) without bruising a single blossom! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Behold nature's unbought integrity: the lotus rises unstained, bamboo bends without breaking, and honeybees earn nectar without bruising petals!",
+      "word_count": 19,
+      "subtitles": [
+        "Behold nature's unbought integrity: the lotus rises unstained,",
+        "bamboo bends without breaking, and honeybees earn nectar without bruising petals!"
+      ]
+    },
+    {
+      "slot_id": "ED10",
+      "batch_id": "batch_02_white_stage_lotus_bamboo",
+      "file_prefix": "batch_02_white_stage_lotus_bamboo",
+      "page": 3,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "status",
+        "rented",
+        "dignity",
+        "unbought",
+        "self-respect—grown"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. HIGHLAND MEADOW & SUNLIT COURTYARD OVERLOOK — MORNING). STRICT NARRATOR SEPARATION: Me and Bala-Rishi walk along the sunlit ridge addressing the viewer while down in the valley a peaceful three-generation courtyard home glows in morning light (story inhabitants inside their courtyard remain unaware of the ridge narrators). STORY ACTION: Saint Thiruvalluvar's *Kural 969* (*Maanam*) shimmers softly in golden sunlight: status labels can be rented or stolen, whereas true Dignity is an unblemished spine guarded most fiercely inside loving Family Life (*Illaram* / *Karma Margam*)—where spouses and elders gently steady human stumbles before pride shatters! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Status can be rented; Dignity is unbought self-respect—grown safest and fastest inside the loving accountability of family life!",
+      "word_count": 19,
+      "subtitles": [
+        "Status can be rented; Dignity is unbought self-respect—grown safest",
+        "and fastest inside the loving accountability of family life!"
+      ]
+    },
+    {
+      "slot_id": "ED11",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 4,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": "ov_ed_05_youth_integrity.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "dignity",
+        "means",
+        "hundred",
+        "percent",
+        "play—never"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. SUNLIT COURTYARD GARDEN — MORNING). STRICT NARRATOR SEPARATION: Unseen narrators Me and 4yo Bala-Rishi stand in the foreground corner by a flowering neem tree speaking only to the camera. Inside the garden, Karthik and Meera watch their 4-year-old son build a mud castle barefoot in joyful laughter—completely unaware of the narrators. STORY ACTION: Nearby, a neighbor parent tries to force their exhausted toddler to pose for a flashy smartphone bragging video, instantly wilting the toddler's posture—while Meera pockets her phone and lets her 4-year-old splash and laugh freely (100% Unshamed Play = Fearless Bodily Dignity). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "At age four, dignity means one hundred percent free play—never shaming a child into a status trophy for adult ego!",
+      "word_count": 21,
+      "subtitles": [
+        "At age four, dignity means one hundred percent free play—never",
+        "shaming a child into a status trophy for adult ego!"
+      ]
+    },
+    {
+      "slot_id": "ED12",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 4,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "school",
+        "years",
+        "honest",
+        "score",
+        "earned"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. SUNLIT SCHOOL EXAM HALL -> EXT. SPORTS FIELD — AFTERNOON). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Rishi walk slowly along the outer veranda corridor speaking strictly to the camera, invisible to the students inside the classroom. STORY ACTION: During a quiet exam when the teacher turns toward the blackboard (no one watching!), a classmate slides a folded cheat note toward a 13-year-old girl. She calmly pushes the note back unopened, writes what *she* truly studied (50% Study), and sprints onto the afternoon playground (50% Play) with a radiant, secret-free smile! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "In school years, an honest score earned by your own sweat shines brighter than a hundred copied victories!",
+      "word_count": 18,
+      "subtitles": [
+        "In school years, an honest score earned by your",
+        "own sweat shines brighter than a hundred copied victories!"
+      ]
+    },
+    {
+      "slot_id": "ED13",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 4,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "youth",
+        "dignity",
+        "masters",
+        "craft",
+        "lives"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. ENGINEERING COLLEGE GATE — GOLDEN SUNSET). STRICT NARRATOR SEPARATION: Me and Bala-Matha stand quietly across the sunlit pavement addressing the camera only, while 22-year-old ARJUN greets his father at the college gate—completely unaware of the unseen narrators. STORY ACTION: While flashy peers show off borrowed luxury gadgets, young Arjun walks proudly across the crowded campus gate to embrace his father wearing simple, sweat-worn tailor clothes, bowing to touch his father's feet and handing him his very first debt-free apprenticeship stipend! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "True youth dignity masters real craft, lives debt-free, and bows with pride to hard-working parents in simple clothes!",
+      "word_count": 18,
+      "subtitles": [
+        "True youth dignity masters real craft, lives debt-free,",
+        "and bows with pride to hard-working parents in simple clothes!"
+      ]
+    },
+    {
+      "slot_id": "ED14",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 5,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_06_spine_porul_arul.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "twenty-four",
+        "think",
+        "independently",
+        "without",
+        "jnana"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. BRIGHT DESIGN REVIEW ROOM — MORNING). STRICT NARRATOR SEPARATION: Foreground right outside the acoustic glass partition: unseen narrators Me and 4yo Bala-Rishi speak straight to the camera lens while 25-year-old Arjun presents inside the meeting room, unaware of them. STORY ACTION: Inside the review room, while three sycophantic peers nod mechanically to please Vikram, 25-year-old Arjun stands calm and polite (Jnana Buddhi blended into family accountability), pointing clearly to the load-safety data without fear or rudeness—because he carries zero vanity debt, nobody owns his spine! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "At twenty-four, think independently! Without Jnana clarity and debt-free discipline, herd pressure easily buys a young adult's spine.",
+      "word_count": 18,
+      "subtitles": [
+        "At twenty-four, think independently! Without Jnana clarity and debt-free discipline,",
+        "herd pressure easily buys a young adult's spine."
+      ]
+    },
+    {
+      "slot_id": "ED15",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 5,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "father",
+        "earns",
+        "fifty",
+        "percent",
+        "spotless"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. COURTYARD HOME HEARTH — EVENING). STRICT NARRATOR SEPARATION: Unseen narrators Me and Bala-Matha walk past the outer courtyard pillars speaking solely to the viewer, while inside the warm living area a householder father shares an honest evening meal with his wife, child, and elderly parents. STORY ACTION: Every rupee of his 50% *Porul* (*Thirukkural* 754 & Buddha's *Samma Ajiva* Right Livelihood) comes from real value built without sin—and because he refuses flashy ego loans, his 50% *Porul* never bloats to 95% to starve his 15% Husband, 15% Father, 10% Son, and 10% Citizen dignity! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "A father earns fifty percent spotless Porul through Right Livelihood—never letting vanity debt enslave his family covenant!",
+      "word_count": 18,
+      "subtitles": [
+        "A father earns fifty percent spotless Porul through",
+        "Right Livelihood—never letting vanity debt enslave his family covenant!"
+      ]
+    },
+    {
+      "slot_id": "ED16",
+      "batch_id": "batch_03_youth_spine_porul_arul",
+      "file_prefix": "batch_03_youth_spine_porul_arul",
+      "page": 5,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": "ov_ed_06_spine_porul_arul.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "thiruvalluvar",
+        "crowns",
+        "wealth",
+        "wealths",
+        "mother's"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. HOME POOJA SANCTUM — TWILIGHT). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha stand serenely in the outer doorway arch addressing the camera lens, while inside the sanctum Meera lights the tall brass *Kuthuvilakku* lamp beside her husband and child, unaware of the narrators. STORY ACTION: Radiant golden lamp-light illuminates Meera's calm brow as she shapes her child's moral spine and fills the household with Divine protection (50% Arul + 20% Wise Wife + 15% Nurturer + 10% Daughter + 5% Hospitality = 100%). Her husband folds his palms in royal reverence toward the sacred grace anchoring their home (*Kural* 241). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Thiruvalluvar crowns Arul the wealth of all wealths! A mother's sacred lamp and moral nurture hold royal dignity!",
+      "word_count": 18,
+      "subtitles": [
+        "Thiruvalluvar crowns Arul the wealth of all wealths!",
+        "A mother's sacred lamp and moral nurture hold royal dignity!"
+      ]
+    },
+    {
+      "slot_id": "ED17",
+      "batch_id": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "file_prefix": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "page": 6,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_07_shared_credit_nandri.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "between",
+        "thirty-six",
+        "forty-eight",
+        "leadership",
+        "dignity"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. AUDITORIUM PROJECT REVIEW — MORNING). STRICT NARRATOR SEPARATION: Unseen narrators Me and Bala-Rishi stand high in the rear aisle addressing only the camera lens while on the presentation floor below, a noble 42-year-old chief architect presents before senior board members—unaware of the narrators. STORY ACTION: Instead of claiming solo glory, the 42-year-old leader highlights his 26-year-old junior engineer's name in bold at the very top of the breakthrough slide and invites her to stand and receive the applause—standing behind his team in triumph and in front of them during storms! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Between thirty-six and forty-eight, true leadership dignity puts junior teammates' names first in victory—and shields them in storms!",
+      "word_count": 19,
+      "subtitles": [
+        "Between thirty-six and forty-eight, true leadership dignity puts junior",
+        "teammates' names first in victory—and shields them in storms!"
+      ]
+    },
+    {
+      "slot_id": "ED18",
+      "batch_id": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "file_prefix": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "page": 6,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": "ov_ed_07_shared_credit_nandri.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "fifty-four",
+        "boasting",
+        "melts",
+        "grateful",
+        "nandri—and"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. SUNLIT COMMUNITY COURTYARD & BANYAN VERANDA — GOLDEN MORNING). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha walk slowly along the garden stone border speaking strictly to the camera while a 55-year-old mentor and a 76-year-old silver-haired grandfather live out the scene naturally behind them. STORY ACTION: At a milestone gathering, the 55-year-old mentor refuses self-made boasting (*Kural* 978), folding his palms in 50% *Nandri* to thank unseen workers and mentors (Bhakti Margam inside family life); beside the Banyan tree, the 76-year-old elder plays joyfully with his 4-year-old grandchild (70% Arul + 20% Play) needing zero \"Former VIP\" business card! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "At fifty-four, boasting melts into grateful Nandri—and past sixty, an unstained conscience becomes your royal silver crown!",
+      "word_count": 18,
+      "subtitles": [
+        "At fifty-four, boasting melts into grateful Nandri—and past sixty,",
+        "an unstained conscience becomes your royal silver crown!"
+      ]
+    },
+    {
+      "slot_id": "ED19",
+      "batch_id": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "file_prefix": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "page": 7,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "titles",
+        "vanish",
+        "single",
+        "restructuring—only",
+        "integrity"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE -> PORTAL WALL). STRICT NARRATOR SEPARATION: Me and 4yo Bala-Rishi stand center stage before the sweeping pure-white portal wall as four golden cinema windows shimmer open behind them. STORY ACTION: Transparent curved smart-glass barriers display verified global reality metrics: 200,000+ Workforce Shifts • $720B Automation Era — Titles Vanish Overnight; Unbought Integrity Endures Forever. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Titles vanish in a single restructuring—only integrity endures! Watch four moments where unseen integrity beats the easy shortcut:",
+      "word_count": 19,
+      "subtitles": [
+        "Titles vanish in a single restructuring—only integrity endures!",
+        "Watch four moments where unseen integrity beats the easy shortcut:"
+      ]
+    },
+    {
+      "slot_id": "ED20",
+      "batch_id": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "file_prefix": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "page": 7,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_08_four_unwatched_tests.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "returning",
+        "extra",
+        "currency",
+        "tired",
+        "vendor"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. RAIN-WASHED EVENING FRUIT CART — DUSK). STRICT NARRATOR SEPARATION: Unseen narrators Me and 4yo Bala-Rishi walk along the opposite curb speaking exclusively to the lens. At the wooden lantern-lit cart, a young commuter and an elderly mango vendor interact naturally, completely unaware of the narrators. STORY ACTION: In the dusk rush (nobody watching!), the tired half-blind vendor accidentally hands back an extra five-hundred-rupee note. Halfway down the lane, the commuter stops, walks right back (Right Time), and places the note gently into the vendor's calloused palm (Right Person)—lighting up the old man's tearful smile! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Test One: Returning an extra currency note to a tired vendor at dusk—nobody saw, yet Conscience smiled!",
+      "word_count": 18,
+      "subtitles": [
+        "Test One: Returning an extra currency note to",
+        "a tired vendor at dusk—nobody saw, yet Conscience smiled!"
+      ]
+    },
+    {
+      "slot_id": "ED21",
+      "batch_id": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "file_prefix": "batch_04_leadership_nandri_unwatched_tests_1_2",
+      "page": 7,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "silence",
+        "defending",
+        "absent",
+        "colleague's",
+        "honest"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS CONFERENCE ROOM — AFTERNOON). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha stand quietly outside the glass hallway speaking only to the camera while five colleagues talk inside the conference room, unaware of the narrators. STORY ACTION: When an absent teammate is unfairly blamed for a shipping delay (the easy thing is staying silent!), one upright woman calmly opens the timestamped log (Right Time) and restores her absent colleague's spotless name before leadership (Right People)! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Test Two: When silence is easy, defending an absent colleague's honest work guards both their name and your spine!",
+      "word_count": 19,
+      "subtitles": [
+        "Test Two: When silence is easy,",
+        "defending an absent colleague's honest work guards both their name and your spine!"
+      ]
+    },
+    {
+      "slot_id": "ED22",
+      "batch_id": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "file_prefix": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "page": 8,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": "ov_ed_08_four_unwatched_tests.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "three",
+        "rebuilding",
+        "hidden",
+        "joint",
+        "cradle"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. ARTISAN CARPENTRY & PRECISION WORKSHOP — LATE EVENING). STRICT NARRATOR SEPARATION: Unseen narrators Me and 4yo Bala-Rishi stand in the foreground doorway speaking directly to the lens while a master craftsman works alone at his bench behind them, completely unaware of their presence. STORY ACTION: Alone at 9:00 PM, a craftsman notices a hidden internal joint crack on the back of a baby cradle—invisible once painted (easy to cover with putty!). Instead, he discards the cracked timber and carves a solid, flawless beam from scratch so an unknown mother's infant sleeps safely! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Test Three: Rebuilding the hidden back joint of a cradle when nobody looks—because integrity crafts for Conscience, not applause!",
+      "word_count": 20,
+      "subtitles": [
+        "Test Three: Rebuilding the hidden back joint of a",
+        "cradle when nobody looks—because integrity crafts for Conscience, not applause!"
+      ]
+    },
+    {
+      "slot_id": "ED23",
+      "batch_id": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "file_prefix": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "page": 8,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "online",
+        "filters",
+        "thousand",
+        "strangers—true",
+        "dignity"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. HOME KITCHEN & ENTRANCE FOYER — MORNING). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha stand softly near the sunlit window speaking exclusively to the camera while a husband and wife interact with their elderly domestic helper and aging parent inside the home. STORY ACTION: Contrast to the Digital Persona Paradox (posting noble quotes to ten thousand strangers online while snapping at helpers offline): behind closed doors with zero cameras, the couple serves warm morning tea respectfully in a clean steel tumbler to their elderly household helper and listens patiently to their 78-year-old mother! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Test Four: Online filters fool ten thousand strangers—true dignity is how gently you treat helpers and elders behind closed doors!",
+      "word_count": 21,
+      "subtitles": [
+        "Test Four: Online filters fool ten thousand strangers—true dignity is",
+        "how gently you treat helpers and elders behind closed doors!"
+      ]
+    },
+    {
+      "slot_id": "ED24",
+      "batch_id": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "file_prefix": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "page": 8,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_04_lotus_bamboo_nature_dignity.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "career",
+        "badge",
+        "merely",
+        "highway",
+        "never"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. OVERPASS HIGHWAY LEADING TO SUNLIT BANYAN HOME — GOLDEN HOUR). STRICT NARRATOR SEPARATION: Unseen narrators Me and 4yo Bala-Rishi stand on a quiet hillside overlook addressing only the camera lens above a busy commuter highway curving toward a warm, fruit-laden Banyan homestead. STORY ACTION: Cars stream past highway toll-booths toward peaceful homes: a job title or quarterly bonus is merely an asphalt Highway, never your soul's Destination—nobody builds a bed on a toll-booth lane, and stolen credit grows only a barren thorny thicket instead of sweet Banyan fruit! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "A career badge is merely a highway, never your home—never sell your eternal spine for a temporary toll-booth coin!",
+      "word_count": 20,
+      "subtitles": [
+        "A career badge is merely a highway,",
+        "never your home—never sell your eternal spine for a temporary toll-booth coin!"
+      ]
+    },
+    {
+      "slot_id": "ED25",
+      "batch_id": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "file_prefix": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "page": 9,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": "ov_ed_09_eastern_sages_unite.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "thiruvalluvar's",
+        "maanam",
+        "buddha's",
+        "right",
+        "livelihood"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: [WHITE-WALL ZOOM-OUT]: Me and 4yo Bala-Rishi stand on the pure-white circular marble stage as three luminous golden parchment medallions shimmer on the curved white wall behind them. STORY ACTION: Left medallion: Thiruvalluvar's *Kural* 969 & 978 (*Maanam* & Humble Greatness); Center medallion: Buddha's *Samma Ajiva* & *Hiri-Ottappa* (Self-Respect + Conscience as Twin World Guardians); Right medallion: Confucius (*Analects* 7.16 Floating Clouds) & Laozi's Upright Bamboo. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Thiruvalluvar's Maanam, Buddha's Right Livelihood, and Confucius's floating clouds agree: coarse rice with integrity beats dishonest gold!",
+      "word_count": 17,
+      "subtitles": [
+        "Thiruvalluvar's Maanam, Buddha's Right Livelihood, and Confucius's floating clouds agree:",
+        "coarse rice with integrity beats dishonest gold!"
+      ]
+    },
+    {
+      "slot_id": "ED26",
+      "batch_id": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "file_prefix": "batch_05_unwatched_tests_3_4_sages_rewind",
+      "page": 9,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_01_midnight_unwatched_test.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "rewind",
+        "eleven-forty-five",
+        "p.m.—and",
+        "watch",
+        "happens"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR — 11:45 PM REWIND). STRICT NARRATOR SEPARATION: [WHITE-WALL ZOOM-IN]: Golden light rewinds the clock back to 11:45 PM! Unseen narrators Me and 4yo Bala-Rishi walk across the foreground speaking strictly to the camera while Karthik and Vikram remain frozen mid-frame behind them, completely unaware of the narrators. STORY ACTION: Once again, Karthik's pen hovers two millimeters above the compromised approval form while young Arjun's erased name flickers on the monitor. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Now rewind to eleven-forty-five P.M.—and watch what happens when Karthik chooses unbought dignity over the easy lie!",
+      "word_count": 19,
+      "subtitles": [
+        "Now rewind to eleven-forty-five P.M.—and watch what happens",
+        "when Karthik chooses unbought dignity over the easy lie!"
+      ]
+    },
+    {
+      "slot_id": "ED27",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 10,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_10_karthik_bamboo_stand.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "without",
+        "anger",
+        "down—refusing",
+        "endanger",
+        "unseen"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR — 11:46 PM (REDEMPTION TIMELINE)). STRICT NARRATOR SEPARATION: Unseen witnesses Me and 4yo Bala-Rishi stand calmly at the foreground glass edge facing the camera only; inside the room, Karthik addresses Vikram face-to-face with zero awareness of the narrators. STORY ACTION: Time resumes! Karthik sets the pen down firmly, straightens his spine like mountain bamboo, and speaks to Vikram with calm, polite, unshakeable clarity—refusing to hide the bridge load-flaw (Right Thing, protecting thousands of unseen commuters) and sliding the unethical bonus offer back across the desk! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Without anger or fear, he sets the pen down—refusing to endanger unseen families for any promotion on Earth!",
+      "word_count": 19,
+      "subtitles": [
+        "Without anger or fear, he sets the pen down—refusing",
+        "to endanger unseen families for any promotion on Earth!"
+      ]
+    },
+    {
+      "slot_id": "ED28",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 10,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_09_karthik_stands_tall_redemption.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": "ov_ed_10_karthik_bamboo_stand.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "right",
+        "safety",
+        "young",
+        "arjun's",
+        "first"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. GLASS ENGINEERING DESIGN FLOOR — 11:48 PM). STRICT NARRATOR SEPARATION: Unseen narrators Me and Bala-Matha observe from the foreground corridor speaking strictly to the lens while Karthik types at his workstation inside the room, unaware of them. STORY ACTION: Right there at 11:48 PM (Right Time), Karthik logs the verified safety reinforcement fix into the permanent safety ledger and places 25-year-old Arjun's name as Lead Discoverer at the very top of the morning board report (Right People), CC'ing the chief safety council transparently! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Right then, he logs the safety fix and puts young Arjun's name first on the report—credit where sweat belongs!",
+      "word_count": 20,
+      "subtitles": [
+        "Right then, he logs the safety fix and puts",
+        "young Arjun's name first on the report—credit where sweat belongs!"
+      ]
+    },
+    {
+      "slot_id": "ED29",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 11,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "morning",
+        "light",
+        "truth",
+        "protects",
+        "thousand"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. SUNLIT EXECUTIVE BOARDROOM — 9:00 AM NEXT MORNING). STRICT NARRATOR SEPARATION: Unseen narrators Me and 4yo Bala-Rishi stand quietly in the foreground corner by the sunlit window speaking exclusively to the viewer, while the boardroom scene unfolds naturally behind them with zero awareness of their presence. STORY ACTION: Morning sunlight floods the boardroom! Reviewing the transparent safety log, the gray-haired Chief Safety Chairman commends the prevented bridge hazard, shakes stunned 25-year-old Arjun's hand warmly as Karthik steps gracefully half a pace back in bamboo humility (*Tao Te Ching* Ch. 9), and entrusts Karthik with full ethical oversight! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "By morning light, truth protects ten thousand commuters, lifts young Arjun sky-high, and crowns Karthik with unbought trust!",
+      "word_count": 18,
+      "subtitles": [
+        "By morning light, truth protects ten thousand commuters,",
+        "lifts young Arjun sky-high, and crowns Karthik with unbought trust!"
+      ]
+    },
+    {
+      "slot_id": "ED30",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 11,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_10_boardroom_truth_wins.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "external",
+        "praise",
+        "bonus",
+        "victory",
+        "happened"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (EXT. SUNLIT COURTYARD WALKWAY — EVENING). STRICT NARRATOR SEPARATION: Me and 4yo Bala-Rishi walk parallel in the foreground garden path speaking directly into the lens while Karthik walks homeward with a light, buoyant stride along the sunlit avenue behind them. STORY ACTION: Karthik breathes the crisp evening air—even if the boardroom had tested him harder, nobody on Earth owns his spine! Passing the elderly street fruit vendor, Karthik greets him with a warm, equal *Namaste*. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "External praise is just a bonus! His real victory happened at midnight—the instant he refused to sell his spine!",
+      "word_count": 20,
+      "subtitles": [
+        "External praise is just a bonus!",
+        "His real victory happened at midnight—the instant he refused to sell his spine!"
+      ]
+    },
+    {
+      "slot_id": "ED31",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 12,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_11_emperor_peace_sleep.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "midnight",
+        "mirror",
+        "unbought",
+        "spine—even",
+        "simple"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARTHIK & MEERA'S COURTYARD HOME — NIGHT). STRICT NARRATOR SEPARATION: Unseen witnesses Me and Bala-Matha stand softly outside the warm lamp-lit courtyard arch speaking strictly to the camera while Karthik, Meera, and their 4-year-old son share evening warmth inside, unaware of the narrators. STORY ACTION: Washing his hands before the washroom mirror, Karthik meets his own eyes with crystal-clear pride and exhales a deep, full-chest sigh of relief! At the dining mat beside the glowing *Pooja* lamp, Meera serves warm simple rice and pure water (*Confucius Analects 7.16*) as their 4-year-old laughs on Karthik's knee—zero alcohol needed, 10/10 *Porul* & *Arul* harmony! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Look into the midnight mirror with an unbought spine—even simple rice and pure water taste like royal nectar!",
+      "word_count": 19,
+      "subtitles": [
+        "Look into the midnight mirror with an unbought spine—even",
+        "simple rice and pure water taste like royal nectar!"
+      ]
+    },
+    {
+      "slot_id": "ED32",
+      "batch_id": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "file_prefix": "batch_06_karthik_bamboo_stand_emperor_sleep",
+      "page": 12,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": "ov_ed_11_emperor_peace_sleep.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "nobody",
+        "conscience",
+        "storm",
+        "steal",
+        "rest—tonight"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARTHIK & MEERA'S BEDROOM — 10:30 PM). STRICT NARRATOR SEPARATION: Unseen narrators Me and Bala-Matha stand serenely near the moonlit balcony curtain addressing only the viewer while Karthik and Meera sleep peacefully behind them. STORY ACTION: Soft moonlight rests over the quiet home. Within seconds of touching his pillow, Karthik sleeps in deep, unbroken, emperor-level peace (Shanti)—zero fear of tomorrow's audit, zero hidden shame! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "When nobody owns your conscience, no storm can steal your rest—tonight, unbought dignity sleeps like an emperor!",
+      "word_count": 18,
+      "subtitles": [
+        "When nobody owns your conscience, no storm can steal your rest—tonight,",
+        "unbought dignity sleeps like an emperor!"
+      ]
+    },
+    {
+      "slot_id": "ED33",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "integrity",
+        "outshines",
+        "every",
+        "borrowed",
+        "crown"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (TRANSITION -> INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: [WHITE-WALL ZOOM-OUT]: Camera pulls smoothly from the moonlit balcony back onto the hushed pure-white circular marble amphitheater where Me, 4yo Bala-Rishi, and Bala-Matha stand beside the pulsing gold Genie lamp! STORY ACTION: Thousands of stadium listeners lean forward in quiet reflection as emerald, warm gold, and royal-sapphire light begins swirling inside the jeweled lamp spout. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Integrity in the dark outshines every borrowed crown! Now ask with me: What does Genie say — the Seven-D way?",
+      "word_count": 19,
+      "subtitles": [
+        "Integrity in the dark outshines every borrowed crown! Now ask with me:",
+        "What does Genie say — the Seven-D way?"
+      ]
+    },
+    {
+      "slot_id": "ED34",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Celestial Maharishi Karmic Genie + Studio Trinity",
+      "narrator_separation_verified": true,
+      "include_me": false,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "speaker_mode": "genie",
+      "speaker_voice": "celestial_genie",
+      "overlay_png": "ov_ed_12_genie_mirror_audit.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "seekers",
+        "quiet",
+        "heart",
+        "golden",
+        "crown"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Cross-legged in emerald, gold, and sapphire stardust above the glass table, the Celestial Maharishi Karmic Genie rises serenely above Me, Bala-Rishi, and Bala-Matha. STORY ACTION: With courteous, saintly stillness—never booming or scolding—the luminous *Maharishi* Genie raises a gentle palm of blessing over the hushed arena. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Dear seekers, ask your quiet heart: what good is a golden crown if you must bow to falsehood when unseen?",
+      "word_count": 20,
+      "subtitles": [
+        "Dear seekers, ask your quiet heart: what good is a",
+        "golden crown if you must bow to falsehood when unseen?"
+      ]
+    },
+    {
+      "slot_id": "ED35",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Celestial Maharishi Karmic Genie + Studio Trinity",
+      "narrator_separation_verified": true,
+      "include_me": false,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "speaker_mode": "genie",
+      "speaker_voice": "celestial_genie",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "children",
+        "unshamed",
+        "think",
+        "freely",
+        "twenty-four"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Close celestial medium shot of the Celestial Maharishi Karmic Genie floating cross-legged above the golden lamp. STORY ACTION: Four gentle golden rings shimmer in the air around the lamp: Age 4 Unshamed Play • Age 24 Unbought Spine • Age 40 Shared Credit • Age 54 Grateful *Nandri*. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Let children play unshamed, think freely at twenty-four, share credit generously, bow in gratitude at fifty-four—and walk owned by none!",
+      "word_count": 21,
+      "subtitles": [
+        "Let children play unshamed, think freely at twenty-four, share credit generously,",
+        "bow in gratitude at fifty-four—and walk owned by none!"
+      ]
+    },
+    {
+      "slot_id": "ED36",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_12_genie_mirror_audit.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "score",
+        "dignity",
+        "honestly",
+        "tonight",
+        "forces"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW SCOREBOARD ARENA). STRICT NARRATOR SEPARATION: Me steps along the glowing champagne-gold ring of the circular marble stage, speaking directly to the viewer beside the translucent curved-glass 7D Scorecard. STORY ACTION: Pillar #1 (1. Respect Your DUTY First.) and Pillar #2 (2. Earn with DIGNITY Always.) glow side-by-side (1–10 points each; < 35 / 70 = *Do not drown shame; change course uprightly!*). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Score your Dignity honestly from one to ten tonight! If any role forces your spine below five, change course uprightly.",
+      "word_count": 20,
+      "subtitles": [
+        "Score your Dignity honestly from one to ten tonight!",
+        "If any role forces your spine below five, change course uprightly."
+      ]
+    },
+    {
+      "slot_id": "ED37",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "first",
+        "choose",
+        "right",
+        "thing",
+        "nobody"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE STAGE WITH TRANSLUCENT MEMORY PORTALS). STRICT NARRATOR SEPARATION: 4yo Bala-Rishi stands beside Me on the pure-white circular marble stage, counting clearly on small fingers toward the lens. STORY ACTION: Two subtle golden memory portals glow behind them: (1) choosing the right thing when unwatched (0–2 pts), and (2) earning every coin by building real value (0–2 pts). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "First: did you choose the right thing when nobody watched? Second: did every coin today come from clean, helpful value?",
+      "word_count": 20,
+      "subtitles": [
+        "First: did you choose the right thing when nobody watched?",
+        "Second: did every coin today come from clean, helpful value?"
+      ]
+    },
+    {
+      "slot_id": "ED38",
+      "batch_id": "batch_07_genie_awakening_mirror_audit",
+      "file_prefix": "batch_07_genie_awakening_mirror_audit",
+      "page": 13,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_11_emperor_peace_sleep.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "share",
+        "credit",
+        "thank",
+        "unseen",
+        "hands"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE STAGE -> SERENE MIRROR & PILLOW PORTAL). STRICT NARRATOR SEPARATION: Bala-Matha steps forward beside Me on the pure-white stage as the final three golden rings illuminate. STORY ACTION: Portals show: (3) giving generous credit to juniors and honouring household *Arul* (0–2 pts), (4) thanking unseen helpers without boasting (0–2 pts), and (5) The Midnight Mirror Test (0–2 pts). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Did you share credit, thank unseen hands without boasting, and can you meet your midnight mirror in spotless peace?",
+      "word_count": 19,
+      "subtitles": [
+        "Did you share credit, thank unseen hands without boasting,",
+        "and can you meet your midnight mirror in spotless peace?"
+      ]
+    },
+    {
+      "slot_id": "ED39",
+      "batch_id": "batch_08_homes_awakening_duty_dignity_lock",
+      "file_prefix": "batch_08_homes_awakening_duty_dignity_lock",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_08_unwatched_integrity_parables.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "wherever",
+        "conscience",
+        "whispers",
+        "tonight",
+        "restore"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (MONTAGE ACROSS EVENING HOMES -> WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Me narrates from the circular pure-white marble stage while three silent, self-contained home vignettes play across the portal wall behind him (vignette characters remain inside their worlds, completely separate from the stage narrators). STORY ACTION: Across warm lamp-lit homes: a manager adds a young teammate's name to tomorrow's presentation slide; a youth deletes a plagiarized shortcut and opens his textbook; a husband bows gratefully to his wife lighting the evening *Pooja* lamp! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Wherever Conscience whispers tonight, restore one rightful credit, decline one easy shortcut, and reclaim your unbought spine immediately!",
+      "word_count": 18,
+      "subtitles": [
+        "Wherever Conscience whispers tonight, restore one rightful credit,",
+        "decline one easy shortcut, and reclaim your unbought spine immediately!"
+      ]
+    },
+    {
+      "slot_id": "ED40",
+      "batch_id": "batch_08_homes_awakening_duty_dignity_lock",
+      "file_prefix": "batch_08_homes_awakening_duty_dignity_lock",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "behold",
+        "virtue",
+        "virtue",
+        "together",
+        "fulfill"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Me stands at the center of the pure-white marble platform as the Celestial Genie smiles serenely and dissolves back into golden stardust inside the lamp. STORY ACTION: On the sweeping pure-white back wall, 1. Respect Your DUTY First. and 2. Earn with DIGNITY Always. lock together in radiant brushed gold on the left column beside the generous padded [ Logo ]! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Behold how Virtue One and Virtue Two lock together: fulfill your rightful Duty, and guard every step with unbought Integrity!",
+      "word_count": 20,
+      "subtitles": [
+        "Behold how Virtue One and Virtue Two lock together:",
+        "fulfill your rightful Duty, and guard every step with unbought Integrity!"
+      ]
+    },
+    {
+      "slot_id": "ED41",
+      "batch_id": "batch_08_homes_awakening_duty_dignity_lock",
+      "file_prefix": "batch_08_homes_awakening_duty_dignity_lock",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_07_shared_credit_elder_nandri.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "whether",
+        "sweeping",
+        "street",
+        "lighting",
+        "designing"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — WIDE ARENA VIEW). STRICT NARRATOR SEPARATION: Camera glides smoothly across the circular pure-white stage featuring Me, Bala-Rishi, and Bala-Matha framed by the elevated stadium rows behind waist-high glass barriers. STORY ACTION: Diverse audience members—craftspeople, engineers, mothers, teachers, elders—smile with quiet dignity, united at one shared human table. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Whether sweeping a dawn street, lighting the home lamp, or designing a bridge—honest work done right is royal!",
+      "word_count": 19,
+      "subtitles": [
+        "Whether sweeping a dawn street, lighting the home lamp,",
+        "or designing a bridge—honest work done right is royal!"
+      ]
+    },
+    {
+      "slot_id": "ED42",
+      "batch_id": "batch_08_homes_awakening_duty_dignity_lock",
+      "file_prefix": "batch_08_homes_awakening_duty_dignity_lock",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "simply",
+        "within",
+        "clean",
+        "means",
+        "falsehood"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP). STRICT NARRATOR SEPARATION: Me speaks warmly straight into the lens with calm, unhurried stillness. STORY ACTION: Soft golden halo light reflects off the concentric marble floor inlays around Me. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Live simply within clean means, owe falsehood nothing, and no power on Earth can ever purchase your voice!",
+      "word_count": 18,
+      "subtitles": [
+        "Live simply within clean means, owe falsehood nothing,",
+        "and no power on Earth can ever purchase your voice!"
+      ]
+    },
+    {
+      "slot_id": "ED43",
+      "batch_id": "batch_08_homes_awakening_duty_dignity_lock",
+      "file_prefix": "batch_08_homes_awakening_duty_dignity_lock",
+      "page": 14,
+      "cast_rule": "Me + 4yo Bala-Rishi (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_05_age4_unshamed_play_youth_skill.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_rishi",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "without",
+        "shame",
+        "think",
+        "yourself",
+        "twenty-four"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP). STRICT NARRATOR SEPARATION: 4yo Bala-Rishi stands beside the gleaming gold Genie lamp on the pure-white stage, folding his small palms in joyful *Namaste*. STORY ACTION: Golden light catches his *rudraksha mala* and bright, fearless eyes. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Play without shame, think for yourself at twenty-four, do right when nobody watches, and stand tall like green bamboo!",
+      "word_count": 19,
+      "subtitles": [
+        "Play without shame, think for yourself at twenty-four,",
+        "do right when nobody watches, and stand tall like green bamboo!"
+      ]
+    },
+    {
+      "slot_id": "ED44",
+      "batch_id": "batch_09_arul_blessing_discipline_hook",
+      "file_prefix": "batch_09_arul_blessing_discipline_hook",
+      "page": 14,
+      "cast_rule": "Me + Bala-Matha (Strictly Unseen Foreground Narrators — Never Story Characters)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_06_age24_spine_porul_arul.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "bala_matha",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "spotless",
+        "porul",
+        "sacred",
+        "bless",
+        "humble"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — MEDIUM CLOSE-UP). STRICT NARRATOR SEPARATION: Bala-Matha stands beside the gold Genie lamp on the pure-white stage, palms folded in radiant *Arul* grace. STORY ACTION: Fresh white jasmine *malli* and silk *zari* glow softly against the pure-white architectural backdrop. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "May spotless Porul and sacred Arul bless your home, and may humble Nandri crown your heart with peace!",
+      "word_count": 18,
+      "subtitles": [
+        "May spotless Porul and sacred Arul bless your home,",
+        "and may humble Nandri crown your heart with peace!"
+      ]
+    },
+    {
+      "slot_id": "ED45",
+      "batch_id": "batch_09_arul_blessing_discipline_hook",
+      "file_prefix": "batch_09_arul_blessing_discipline_hook",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": "ov_ed_03_white_stage_d2.png",
+      "pause_after_s": 0.25,
+      "keywords": [
+        "pillar",
+        "shines",
+        "beside",
+        "pillar",
+        "dignity"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE). STRICT NARRATOR SEPARATION: Me, Bala-Rishi, and Bala-Matha turn slightly toward the grand white back wall before facing the camera together. STORY ACTION: 2. Earn with DIGNITY Always. pulses with warm champagne-gold brilliance (10 / 10 Conscience Peace), harmonizing with Pillar #1 above it. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Pillar Two now shines beside Pillar One: Earn with DIGNITY Always—doing right, on time, to every soul you meet!",
+      "word_count": 20,
+      "subtitles": [
+        "Pillar Two now shines beside Pillar One:",
+        "Earn with DIGNITY Always—doing right, on time, to every soul you meet!"
+      ]
+    },
+    {
+      "slot_id": "ED46",
+      "batch_id": "batch_09_arul_blessing_discipline_hook",
+      "file_prefix": "batch_09_arul_blessing_discipline_hook",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_03_white_stage_dignity_portal.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "episode",
+        "three",
+        "discover",
+        "daily",
+        "rhythm"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — CRANE GLIDE). STRICT NARRATOR SEPARATION: Me gestures gently toward the third inscription line on the pure-white back wall while Bala-Rishi and Bala-Matha smile beside him. STORY ACTION: Beneath *Duty* and *Dignity*, a subtle golden shimmer touches 3. Practice Life DISCIPLINE.—promising how daily rhythm turns noble intention into effortless mastery! Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Next in Episode Three, discover the daily rhythm that keeps Duty and Dignity unshakeable: Practice Life DISCIPLINE!",
+      "word_count": 17,
+      "subtitles": [
+        "Next in Episode Three, discover the daily rhythm",
+        "that keeps Duty and Dignity unshakeable: Practice Life DISCIPLINE!"
+      ]
+    },
+    {
+      "slot_id": "ED47",
+      "batch_id": "batch_10_golden_memory_namaskaram_finale",
+      "file_prefix": "batch_10_golden_memory_namaskaram_finale",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "remember",
+        "tomorrow",
+        "morning",
+        "doing",
+        "right"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW CIRCULAR WHITE MARBLE STAGE — INTIMATE MEDIUM SHOT). STRICT NARRATOR SEPARATION: Me places his right hand gently over his heart on the pure-white marble stage, speaking with unhurried intimacy to every viewer. STORY ACTION: The jeweled gold Genie lamp gleams peacefully on the center glass table in warm sanctuary light. Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Remember tomorrow morning: doing the right thing at the right time to the right people always wins!",
+      "word_count": 17,
+      "subtitles": [
+        "Remember tomorrow morning: doing the right thing at",
+        "the right time to the right people always wins!"
+      ]
+    },
+    {
+      "slot_id": "ED48",
+      "batch_id": "batch_10_golden_memory_namaskaram_finale",
+      "file_prefix": "batch_10_golden_memory_namaskaram_finale",
+      "page": 14,
+      "cast_rule": "Me + Studio Trinity (Pure-White Circular Marble Stage)",
+      "narrator_separation_verified": true,
+      "include_me": true,
+      "ref_image": "episodes/S01E02_Earn_With_Dignity_Always/storyboard/sb_e02_12_celestial_genie_dignity_finale.jpg",
+      "speaker_mode": "human",
+      "speaker_voice": "host_me",
+      "overlay_png": null,
+      "pause_after_s": 0.25,
+      "keywords": [
+        "guard",
+        "unbought",
+        "spine",
+        "honor",
+        "every"
+      ],
+      "visual": "65mm photorealistic 16:9 cinema shot (INT. KARMIC GENIE SHOW GRAND AMPHITHEATER — RISING CRANE FINALE). STRICT NARRATOR SEPARATION: Me, 4yo Bala-Rishi, and Bala-Matha bow together in a deep, synchronized *Namaskaram* on the pure-white circular marble stage before the glowing gold Karmic Genie Lamp. STORY ACTION: Grand rising symphonic crane shot over the pure-white marble rings and hushed amphitheater (-14 LUFS sacred *veena*, *flute*, and warm orchestral resolve into the official pure-white *Karmic Genie Show* crest). Story characters never look at or interact with the foreground narrators.",
+      "spoken": "Guard your unbought spine, honor every honest hand, and sleep in royal peace. Nandri, Vanakkam—live the Seven-D Way!",
+      "word_count": 19,
+      "subtitles": [
+        "Guard your unbought spine, honor every honest hand,",
+        "and sleep in royal peace. Nandri, Vanakkam—live the Seven-D Way!"
+      ]
+    }
+  ]
+}
