@@ -113,10 +113,11 @@ def has_nvenc() -> bool:
 
 USE_NVENC = has_nvenc()
 V_CODEC_SEG = (
-    ["-c:v", "h264_nvenc", "-preset", "p4", "-cq", "19"]
+    ["-c:v", "h264_nvenc", "-preset", "p5", "-cq", "18", "-pix_fmt", "yuv420p"]
     if USE_NVENC
-    else ["-c:v", "libx264", "-preset", "veryfast", "-crf", "19"]
+    else ["-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p"]
 )
+RENDER_WORKERS = 6 if USE_NVENC else 4
 
 
 def probe_duration(path: Path) -> float:
@@ -416,9 +417,9 @@ def main():
         list(ex.map(lambda pair: synthesize_shot_audio(pair[0], pair[1]), enumerate(shots)))
 
     # Step 2: Render all 48 HD video segments in parallel
-    print("2️⃣ Rendering 48 1080p widescreen cinema segments with Google Flow motion & RGBA glass overlays...", flush=True)
+    print(f"2️⃣ Rendering 48 1080p widescreen cinema segments ({RENDER_WORKERS} workers) with Google Flow motion & RGBA glass overlays...", flush=True)
     results = []
-    with ThreadPoolExecutor(max_workers=4) as ex:
+    with ThreadPoolExecutor(max_workers=RENDER_WORKERS) as ex:
         futs = [ex.submit(render_single_shot, idx, sh, mask_png, border_png) for idx, sh in enumerate(shots)]
         for fut in futs:
             idx, seg_p, dur = fut.result()
@@ -474,10 +475,12 @@ def main():
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     print("5️⃣ Exporting 720p Web Portal Edition & 360p Fast Preview...", flush=True)
+    v720 = ["-c:v", "h264_nvenc", "-preset", "p5", "-cq", "24"] if USE_NVENC else ["-c:v", "libx264", "-profile:v", "high", "-preset", "fast", "-crf", "26"]
+    v360 = ["-c:v", "h264_nvenc", "-preset", "p5", "-cq", "24"] if USE_NVENC else ["-c:v", "libx264", "-profile:v", "main", "-preset", "fast", "-crf", "25"]
     subprocess.run([
         "ffmpeg", "-nostdin", "-y", "-i", str(OUT_MASTER_1080P),
         "-vf", "scale=1280:720,format=yuv420p",
-        "-c:v", "libx264", "-profile:v", "high", "-preset", "fast", "-crf", "26",
+        *v720,
         "-c:a", "aac", "-b:a", "128k", "-ar", "48000",
         "-movflags", "+faststart",
         str(OUT_WEB_720P),
@@ -486,7 +489,7 @@ def main():
     subprocess.run([
         "ffmpeg", "-nostdin", "-y", "-i", str(OUT_MASTER_1080P),
         "-vf", "scale=640:360,format=yuv420p",
-        "-c:v", "libx264", "-profile:v", "main", "-preset", "fast", "-crf", "25",
+        *v360,
         "-c:a", "aac", "-b:a", "96k", "-ar", "48000",
         "-movflags", "+faststart",
         str(OUT_PREVIEW_360P),
